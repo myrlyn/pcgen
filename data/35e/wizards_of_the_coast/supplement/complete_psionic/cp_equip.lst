@@ -2,7 +2,7 @@
 Warhammer.COPY=Earth hammer		
 Sword (Bastard).COPY=Lifequencher		
 Chain (Spiked).COPY=Chain of convolution	
-Longsowrd.COPY=Ethereal reaver		
+Longsword.COPY=Ethereal reaver		
 Kukri.COPY=Quietus stiletto		
 Greatsword.COPY=Soul in iron		
 Flail (Heavy).COPY=Flayer			
@@ -10,7 +10,7 @@ Flail (Heavy).COPY=Flayer
 
 #Weapons Cost
 Chain of convolution.MOD	SOURCELONG:Complete Psionic	SOURCESHORT:CP	SOURCEPAGE:p.106	COST:30705	EQMOD:PLUS2W
-Earth hammer.MOD			SOURCELONG:Complete Psionic	SOURCESHORT:CP	SOURCEPAGE:p.106	COST:12300	EQMOD:PLUS1W.Thundering
+Earth hammer.MOD			SOURCELONG:Complete Psionic	SOURCESHORT:CP	SOURCEPAGE:p.106	COST:12300	EQMOD:PLUS1W.THNDR_M
 Ethereal reaver.MOD		SOURCELONG:Complete Psionic	SOURCESHORT:CP	SOURCEPAGE:p.106	COST:40000	EQMOD:PLUS2W
 Flayer.MOD				SOURCELONG:Complete Psionic	SOURCESHORT:CP	SOURCEPAGE:p.106	COST:98315	EQMOD:PLUS2W.Adamantine (Weapon)
 Lifequencher.MOD			SOURCELONG:Complete Psionic	SOURCESHORT:CP	SOURCEPAGE:p.107	COST:14800	EQMOD:PLUS1W.Sundering
@@ -21,7 +21,8 @@ Stygian diabolist		TYPE:Psicrown	COST:75900
 Gossamer assailant	TYPE:Psicrown	COST:80438
 #Crystal Masks Cost
 Crystal mask of terror			TYPE:Crystal Mask	COST:5400
-Crystal mask of visual insight	TYPE:Crystal Mask	COST:10800
+#Present in Magic Item Compendium
+#Crystal mask of visual insight	TYPE:Crystal Mask	COST:10800
 Crystal mask of otherworldly gaze	TYPE:Crystal Mask	COST:16200
 Crystal mask of psychometry		TYPE:Crystal Mask	COST:23760
 Crystal mask of deluded perception	TYPE:Crystal Mask	COST:120000
@@ -54,10 +55,10 @@ Bands of ethereal abduction	TYPE:Psionic Bands	COST:47530
 #Other Universal Items Cost
 Crystalline spider bead	TYPE:Universal Item	COST:1400
 Saddle of the inspired mount	TYPE:Universal Item	COST:5400
-Sandals of springing	TYPE:Universal Item	COST:6000
-Crystal anchor of alertness	TYPE:Universal Item	COST:10000
-Quiver of energy	TYPE:Universal Item	COST:15750
+Sandals of springing (Psionic)	TYPE:Universal Item	COST:6000
+#Crystal anchor of alertness	TYPE:Universal Item	COST:10000
+Quiver of energy (Psionic)	TYPE:Universal Item	COST:15750
 Quiver of etherealness	TYPE:Universal Item	COST:15750
 Shroud of oblivion	TYPE:Universal Item	COST:23700
 Elemental effigy	TYPE:Universal Item	COST:25000
-
+Mind Blade, Longbow			KEY:Mind Blade (Longbow)					COST:0					PROFICIENCY:WEAPON|Mind Blade	TYPE:Weapon.Container.Martial.Ranged.Martial Ranged.Standard.Piercing.Container.Projectile.Bow.Longbow.Composite.MindBlade						CONTAINS:UNLIM|Weapon Crystal=1	CONTAINS:UNLIM|Arrow|SpecificArrow					COST:100	WT:3		SLOTS:2				CRITMULT:x3	CRITRANGE:1							DAMAGE:1d8				EQMOD:WOOD						WIELD:TwoHanded	MODS:REQUIRED		RANGE:110								SOURCEPAGE:p.119																																																			DEFINE:LongbowCompositeDamage|0	BONUS:WEAPON|DAMAGE|LongbowCompositeDamage	BONUS:WEAPON|DAMAGE|WIS	BONUS:WEAPON|TOHIT,DAMAGE|Mind_Blade_Enhancement_Bonus|TYPE=Enhancement	
