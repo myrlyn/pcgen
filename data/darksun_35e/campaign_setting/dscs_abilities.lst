@@ -114,6 +114,8 @@ CATEGORY=Internal|Base Size ~ Colossal.MOD		BONUS:STAT|STR|-4|PREVARGTEQ:SizeDec
 CATEGORY=Internal|Base Size ~ Colossal.MOD		BONUS:STAT|STR|-2|PREVARGTEQ:SizeDecrease,7|PREVAREQ:BypassSizeMods,0	BONUS:STAT|DEX|2|PREVARGTEQ:SizeDecrease,7|PREVAREQ:BypassSizeMods,0
 CATEGORY=Internal|Base Size ~ Colossal.MOD														BONUS:STAT|DEX|2|PREVARGTEQ:SizeDecrease,8|PREVAREQ:BypassSizeMods,0
 
+###Block: Domain Abilities
+Pass without trace		CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural	DESC:Continually pass without trace as the spell.  		
 
 ###Block: Race Traits
 # Ability Name				Unique Key						Category of Ability
