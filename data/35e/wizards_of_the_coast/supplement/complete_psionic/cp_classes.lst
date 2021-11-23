@@ -337,7 +337,9 @@ CLASS:Soulbow	STARTSKILLPTS:4	CSKILL:Autohypnosis|Climb|Concentration|TYPE=Craft
 1	ABILITY:Soulbow Class Feature|AUTOMATIC|Soulbow ~ Mind Arrow
 1	ABILITY:Soulbow Class Feature|AUTOMATIC|Soulbow ~ Bonus Feat
 2	ABILITY:Soulbow Class Feature|AUTOMATIC|Soulbow ~ Mind Arrow Enhancement
+3	ABILITY:Soulbow Class Feature|AUTOMATIC|Soulbow ~ Mind Arrow Plus 1
 4	ABILITY:Soulbow Class Feature|AUTOMATIC|Soulbow ~ Close Combat Shot
+7	ABILITY:Soulbow Class Feature|AUTOMATIC|Soulbow ~ Mind Arrow Plus 2
 8	ABILITY:Soulbow Class Feature|AUTOMATIC|Soulbow ~ Phase Arrow
 ###Block
 11	PREPCLEVEL:MIN=20

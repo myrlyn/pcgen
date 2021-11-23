@@ -100,7 +100,7 @@ CLASS:Soulknife	HD:10		TYPE:Base.Psionic.PC	FACT:ClassType|PC	SOURCEPAGE:p.26	DE
 # Class Name	Skill Pts/Lvl	Class Skill
 CLASS:Soulknife	STARTSKILLPTS:4	CSKILL:Autohypnosis|Climb|Concentration|TYPE=Craft|Hide|Jump|Knowledge (psionics)|Listen|Move Silently|TYPE=Profession|Spot|Tumble
 ###Block:Proficiency
-1	ABILITY:Soulknife Class Feature|AUTOMATIC|Soulknife ~ Weapon and Armor Proficiency
+1	ABILITY:Soulknife Class Feature|AUTOMATIC|Soulknife ~ Weapon and Armor Proficiency	BONUS:VAR|Mind_Blade_LVL|CL
 1	ABILITY:Soulknife Class Feature|AUTOMATIC|Soulknife ~ Mind Blade
 1	ABILITY:Soulknife Class Feature|AUTOMATIC|Soulknife ~ Weapon Focus (Mind Blade)
 1	ABILITY:Soulknife Class Feature|AUTOMATIC|Soulknife ~ Wild Talent
