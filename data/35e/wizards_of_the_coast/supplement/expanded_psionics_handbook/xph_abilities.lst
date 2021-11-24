@@ -259,13 +259,13 @@ Uncarnate									CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality.Extr
 
 ###Block: Pyrokineticist abilities
 # Ability Name		Category of Ability		Type								Visible	Define				Description
-Fire Lash			CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality.PsiLike		VISIBLE:YES
+Fire Lash			CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality.PsiLike		VISIBLE:YES				DESC:A pyrokineticist gains the ability to fashion a 15-foot-long whip of fire from unstable ectoplasm as a move-equivalent action. She takes no damage from a fire lash she creates, and if she releases her hold, it immediately dissipates. The lash deals 1d8 points of fire damage to a target within 15 feet on a successful ranged touch attack. A pyro can take Weapon Focus and Weapon Specialization (if she otherwise meets the prerequisites) in conjunction with the fire lash, as well as any feats that apply to the use of a standard whip. The whip remains in existence as long as the pyrokineticist holds it. 
 Hand Afire			CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality.PsiLike		VISIBLE:YES						DESC:+2d6 Fire damage on unarmed attacks
 Fire Adaptation		CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality.Extraordinary	VISIBLE:YES						DESC:+4 vs fire,heat effects
 Bolt of Fire		CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality.PsiLike		VISIBLE:YES	DEFINE:BoltFire|0			DESC:60' Ranged Touch; %1d6 damage|BoltFire
 Weapon Afire		CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality.PsiLike		VISIBLE:YES						DESC:+2d6 Fire damage with weapon
 Nimbus			CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality.PsiLike		VISIBLE:YES	DEFINE:NimbusDuration|0		DESC:1x/day for up to %1 minutes|NimbusDuration
-Firewalk			CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality.Supernatural	VISIBLE:YES
+Firewalk			CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality.Supernatural	VISIBLE:YES					DESC:Beginning at 6th level, as a free action a pyrokineticist can expend her psionic focus to literally walk on air. She moves at her normal speed in all directions, including vertically, but cannot move more than double her speed in a round. A firewalking pyro leaves footprints of flame in the air that disperse in 2 rounds, but her tread does not deal damage. She must pay 1 power point per round spent traveling in this fashion. 
 Fear No Fire		CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality.Extraordinary	VISIBLE:YES						DESC:+8 vs fire,heat effects
 Greater Weapon Afire	CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality.PsiLike		VISIBLE:YES						DESC:+2d6 additional with Afire abilities
 Heat Death			CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality.PsiLike		VISIBLE:YES	DEFINE:HeatDeathDC|0		DESC:1 creature within 30'; Fortitude save (DC %1), die if fail, 4d8 fire if save|HeatDeathDC
