@@ -378,8 +378,8 @@ Item Familiar Bonus Skill Selection	MULT:YES	STACK:YES	CHOOSE:SKILL|TYPE=Standar
 Item Familiar Features	VISIBLE:NO	CATEGORY:Special Ability	TYPE:ItemFamiliar
 
 ###Block - Weapon Group Feat Support
-Weapon Group (Exotic Double Weapons)		CATEGORY:Internal																			
-Weapon Group (Exotic Weapons)				CATEGORY:Internal																			
+Weapon Group (Exotic Double Weapons)		CATEGORY:Internal		AUTO:WEAPONPROF|TYPE.Exotic.Double																	
+Weapon Group (Exotic Weapons)				CATEGORY:Internal		AUTO:WEAPONPROF|TYPE.Exotic																			
 #
 CATEGORY=Internal|Weapon Group (Exotic Double Weapons).MOD	ABILITY:Internal|AUTOMATIC|Weapon Group Exotic Double (Axes)|PREABILITY:1,CATEGORY=Internal,Weapon Group (Axes)			
 CATEGORY=Internal|Weapon Group (Exotic Double Weapons).MOD	ABILITY:Internal|AUTOMATIC|Weapon Group Exotic Double (Druid Weapons)|PREABILITY:1,CATEGORY=Internal,Weapon Group (Druid Weapons)				
