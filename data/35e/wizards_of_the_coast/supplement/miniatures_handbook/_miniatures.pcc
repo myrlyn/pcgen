@@ -29,7 +29,8 @@ ABILITYCATEGORY:mh_abilitycategories.lst
 SPELL:mh_spells.lst
 CLASS:mh_classes.lst
 COMPANIONMOD:mh_companionmods.lst
-
+WEAPONPROF:mh_weaponprof.lst
+EQUIPMENT:mh_equip.lst
 FORWARDREF:CLASSSPELLLIST|Healer
 
 INFOTEXT:Supports 6.4.1
