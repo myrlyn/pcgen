@@ -1421,3 +1421,18 @@ CLASS:Grig Monster Class	STARTSKILLPTS:6	CSKILL:TYPE.Craft|Escape Artist|Hide|Ju
 
 
 
+CLASS:Slaad Brooder	HD:8	TYPE:PC.Monster.Prestige	FACT:Abb|SldBr	MAXLEVEL:10		SOURCEPAGE:87	PREALIGN:CG,CE,CN
+CLASS:Slaad Brooder	PRESKILL:1,Concentration=10		PREABILITY:2,CATEGORY=Feat,Great Fortitude,Improved Multiattack
+CLASS:Slaad Brooder		PREMULT:1,[PRERACE:1,%Slaad%],[PRERACE:1,RACESUBTYPE=%Slaad%],[PRETEMPLATE:1,%Slaad%]
+CLASS:Slaad Brooder		STARTSKILLPTS:2		BONUS:SAVE|BASE.Fortitude|(CL/2)+2	BONUS:SAVE|BASE.Will|(CL/2)+2	BONUS:SAVE|BASE.Reflex|(CL/3)	
+CLASS:Slaad Brooder		BONUS:COMBAT|BASEAB|CL|TYPE=BASE.REPLACE	DEFINE:SlaadBrooderLVL|0	BONUS:VAR|SlaadBrooderLVL|CL
+1	ABILITY:Slaad Brooder Class Feature|AUTOMATIC|Slaad Brooder ~ Implant	ABILITY:Slaad Brooder Class Feature|AUTOMATIC|Slaad Brooder ~ Improved Grab
+2	ABILITY:Slaad Brooder Class Feature|AUTOMATIC|Slaad Brooder ~ Imbue Pellet
+3	ABILITY:Slaad Brooder Class Feature|AUTOMATIC|Slaad Brooder ~ Deep Implant
+4	ABILITY:Slaad Brooder Class Feature|AUTOMATIC|Slaad Brooder ~ Rapid Hatching
+5	ABILITY:Slaad Brooder Class Feature|AUTOMATIC|Slaad Brooder ~ Chaos Focus
+6	ABILITY:Slaad Brooder Class Feature|AUTOMATIC|Slaad Brooder ~ Multiple Implant
+7	ABILITY:Slaad Brooder Class Feature|AUTOMATIC|Slaad Brooder ~ Color Choice
+8	ABILITY:Slaad Brooder Class Feature|AUTOMATIC|Slaad Brooder ~ Heighten Chaos
+9	ABILITY:Slaad Brooder Class Feature|AUTOMATIC|Slaad Brooder ~ Corporeal Instability		ABILITY:Slaad Brooder Class Feature|AUTOMATIC|Slaad Brooder ~ Death Spawn
+10	ABILITY:Slaad Brooder Class Feature|AUTOMATIC|Slaad Brooder ~ Dominate Spawn
