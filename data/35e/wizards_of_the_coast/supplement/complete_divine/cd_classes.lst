@@ -621,14 +621,16 @@ CLASS:Sacred Fist	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2
 CLASS:Sacred Fist	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3
 CLASS:Sacred Fist	PRETEXT:Base Attack Bonus: +4. Skill: Knowledge (religion) 8 ranks. Feats: Combat Casting, Combat Reflexes, Improved Unarmed Strike, Stunning Fist. Spells: Able to cast 1st-level divine spells.	PRETOTALAB:4	PRESKILL:1,Knowledge (Religion)=4	PREABILITY:4,CATEGORY=Feat,Combat Casting,Combat Reflexes,Improved Unarmed Strike,Stunning Fist	PRESPELLTYPE:1,Divine=1
 CLASS:Sacred Fist	STARTSKILLPTS:4	CSKILL:Balance|Concentration|Escape Artist|Heal|Jump|TYPE=Profession|Spellcraft|Tumble
-1	ADD:SPELLCASTER|Divine
-2	ADD:SPELLCASTER|Divine
-3	ADD:SPELLCASTER|Divine
-5	ADD:SPELLCASTER|Divine
-6	ADD:SPELLCASTER|Divine
-7	ADD:SPELLCASTER|Divine
-9	ADD:SPELLCASTER|Divine
-10	ADD:SPELLCASTER|Divine
+1:REPEATLEVEL:1	ADD:SPELLCASTER|Divine
+#2	ADD:SPELLCASTER|Divine
+#3	ADD:SPELLCASTER|Divine
+#4	ADD:SPELLCASTER|Divine
+#5	ADD:SPELLCASTER|Divine
+#6	ADD:SPELLCASTER|Divine
+#7	ADD:SPELLCASTER|Divine
+#8	ADD:SPELLCASTER|Divine
+#9	ADD:SPELLCASTER|Divine
+#10	ADD:SPELLCASTER|Divine
 ###Block
 11	PREPCLEVEL:MIN=20
 ###Block
