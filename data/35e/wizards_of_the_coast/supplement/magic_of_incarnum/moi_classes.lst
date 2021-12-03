@@ -201,6 +201,7 @@ CLASS:Soulcaster	STARTSKILLPTS:2	CSKILL:Concentration|TYPE=Craft|Knowledge (arca
 1	ABILITY:Soulcaster Class Feature|AUTOMATIC|Soulcaster ~ Arcane Investment
 3	ABILITY:Soulcaster Class Feature|AUTOMATIC|Soulcaster ~ Chakra Binds
 10	ABILITY:Soulcaster Class Feature|AUTOMATIC|Soulcaster ~ Magical Distillation
+1:REPEATLEVEL:1	ADD:SPELLCASTER|Arcane
 ###Block
 11	PREPCLEVEL:MIN=20
 
