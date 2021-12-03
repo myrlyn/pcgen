@@ -18,18 +18,19 @@ CLASS:Incarnate	STARTSKILLPTS:2	CSKILL:Concentration|TYPE=Craft|Knowledge (arcan
 ###Block:
 1	ABILITY:Incarnate Class Feature|AUTOMATIC|Incarnate ~ Aligned Soulmelds|Incarnate ~ Meldshaping|Incarnate ~ Weapon and Armor Proficiency
 1	ABILITY:Incarnate Class Feature|AUTOMATIC|Incarnate ~ Aura|Incarnate ~ Detect Opposition
-2	ABILITY:Incarnate Class Feature|AUTOMATIC|Incarnate ~ Chakra Binds
-3	ABILITY:Incarnate Class Feature|AUTOMATIC|Incarnate ~ Expanded Soulmeld Capacity|Incarnate ~ Incarnum Radiance
+1	ABILITY:Incarnate Class Feature|AUTOMATIC|Incarnate ~ Chakra Binds|PREVARGTEQ:IncarnateLevel,2
+1	ABILITY:Incarnate Class Feature|AUTOMATIC|Incarnate ~ Expanded Soulmeld Capacity|PREVARGTEQ:IncarnateLevel,3
+3	ABILITY:Incarnate Class Feature|AUTOMATIC|Incarnate ~ Incarnum Radiance
 5	ABILITY:Incarnate Class Feature|AUTOMATIC|Incarnate ~ Rapid Meldshaping
 7	ABILITY:Incarnate Class Feature|AUTOMATIC|Incarnate ~ Share Incarnum Radiance
 20	ABILITY:Incarnate Class Feature|AUTOMATIC|Incarnate ~ Perfect Meldshaper|Incarnate ~ True Incarnation
 ###Block:
 1	BONUS:VAR|EssentiaPool|IncarnateLevel				DEFINE:EssentiaPool|0	DEFINE:IncarnateLevel|0	BONUS:VAR|IncarnateLevel|CL
-15	BONUS:VAR|EssentiaPool|(IncarnateLevel-14)
+1	BONUS:VAR|EssentiaPool|(IncarnateLevel-14)|PREVARGTEQ:IncarnateLevel,15
 1	BONUS:VAR|IncarnateSoulmeldsCount|2			DEFINE:IncarnateSoulmeldsCount|0
 1	BONUS:VAR|IncarnateSoulmeldsCount|1|PREVARGTEQ:IncarnateLevel,2
 1	BONUS:VAR|IncarnateSoulmeldsCount|(IncarnateLevel-1)/3|PREVARGTEQ:IncarnateLevel,4
-1	BONUS:VAR|IncarnateChakraBinds|(IncarnateLevel+2)/4|PREVARGTEQ:IncarnateLevel,2		DEFINE:IncarnateChakraBinds|0|PREVARGTEQ:IncarnateLevel,2
+1	BONUS:VAR|IncarnateChakraBinds|(IncarnateLevel+2)/4|PREVARGTEQ:IncarnateLevel,2		DEFINE:IncarnateChakraBinds|0
 1	BONUS:VAR|IncarnumRadianceTimes|IncarnateLevel+2/5|PREVARGTEQ:IncarnateLevel,3
 1	BONUS:VAR|ExpandedSoulmelds|1PREVARGTEQ:IncarnateLevel,3
 1	BONUS:VAR|ExpandedSoulmelds|1PREVARGTEQ:IncarnateLevel,15
@@ -194,7 +195,7 @@ CLASS:Soulcaster	HD:4		TYPE:PC.Prestige.Incarnum	SOURCEPAGE:p.142	BONUS:COMBAT|B
 CLASS:Soulcaster	PREABILITY:1,CATEGORY=FEAT,Incarnum Spellshaping	PRESKILL:1,Knowledge (Arcana)=8	PRESPELLTYPE:1,Arcane=2	PRETEXT:Skills: Knowledge (arcana) 8 ranks. Feats: Incarnum Spellshaping. Spellcasting: Ability to cast 2nd-level arcane spells. Meldshaping: Ability to shape three soulmelds; ability to bind a soulmeld to a chakra.
 # Class Name	Skill Pts/Lvl	Class Skill
 CLASS:Soulcaster	STARTSKILLPTS:2	CSKILL:Concentration|TYPE=Craft|Knowledge (arcana)|Knowledge (Religion)|Knowledge (The Planes)|TYPE=Profession|Spellcraft
-1	ABILITY:Soulcaster Class Feature|AUTOMATIC|Soulcaster ~ Weapon and Armor Proficiency	BONUS:VAR|PREVARGTEQ:IncarnateLevel,CL
+1	ABILITY:Soulcaster Class Feature|AUTOMATIC|Soulcaster ~ Weapon and Armor Proficiency
 1	ABILITY:Soulcaster Class Feature|AUTOMATIC|Soulcaster ~ Meldshaping
 1	ABILITY:Soulcaster Class Feature|AUTOMATIC|Soulcaster ~ Spellcasting
 1	ABILITY:Soulcaster Class Feature|AUTOMATIC|Soulcaster ~ Arcane Investment
