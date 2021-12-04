@@ -254,7 +254,7 @@ CLASS:Church Inquisitor	STARTSKILLPTS:4	CSKILL:Bluff|Concentration|Decipher Scri
 ###Block	
 1	ABILITY:Church Inquisitor Class Feature|AUTOMATIC|Church Inquisitor ~ Weapon and Armor Proficiency
 1	ABILITY:Church Inquisitor Class Feature|AUTOMATIC|Church Inquisitor ~ Detect Evil
-1	ABILITY:Church Inquisitor Class Feature|AUTOMATIC|Church Inquisitor ~ Inquisition Domain
+1	ABILITY:Church Inquisitor Class Feature|AUTOMATIC|Church Inquisitor ~ Inquisition Domain		DOMAIN:Inquisition
 1	ABILITY:Church Inquisitor Class Feature|AUTOMATIC|Church Inquisitor ~ Spells per Day/Spells Known
 2	ABILITY:Church Inquisitor Class Feature|AUTOMATIC|Church Inquisitor ~ Immune to Charms
 3	ABILITY:Church Inquisitor Class Feature|AUTOMATIC|Church Inquisitor ~ Pierce Illusion
@@ -308,9 +308,10 @@ CLASS:Consecrated Harrier	BONUS:VAR|Caster_Level_Highest__Divine|Caster_Level_Co
 # Class Name		Hit Dice	Type			Abbreviation	Max Level	Source Page		Combat bonus															Modify VAR													Bonus
 CLASS:Contemplative	HD:6		TYPE:PC.Prestige	FACT:Abb|Com	DEFINE:ContemplativeLVL|0	BONUS:VAR|ContemplativeLVL|CL		BONUS:DOMAIN|NUMBER|1+(ContemplativeLVL>=6)	MAXLEVEL:10	SOURCEPAGE:p.30	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*1/2|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalBAB,1	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex,BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3
 # Class Name		Required Feat						Required Skill				Req. Spell Type
-CLASS:Contemplative	PREABILITY:1,CATEGORY=FEAT,Skill Focus (Knowledge (Religion))	PRESKILL:1,Knowledge (Religion)=13	PRESPELLTYPE:1,Divine=1
+CLASS:Contemplative		PRESKILL:1,Knowledge (Religion)=13	PRESPELLTYPE:1,Divine=1
 # Class Name		Skill Pts/Lvl	Class Skill
 CLASS:Contemplative	STARTSKILLPTS:2	CSKILL:Concentration|TYPE=Craft|Diplomacy|Heal|Intimidate|Knowledge (Religion)|TYPE=Profession|Sense Motive|Spellcraft
+#CLASS:Contemplative	PREABILITY:1,CATEGORY=FEAT,Skill Focus (Knowledge (Religion))
 1:REPEATLEVEL:1	ADD:SPELLCASTER|ANY
 ###Block
 1	ABILITY:Contemplative Class Feature|AUTOMATIC|Contemplative ~ Divine Health
@@ -369,7 +370,7 @@ CLASS:Divine Oracle	STARTSKILLPTS:2	CSKILL:Concentration|TYPE=Craft|Heal|Intimid
 ###Block
 1	DOMAIN:Oracle
 ###Block
-1	ABILITY:Divine Oracle Class Feature|AUTOMATIC|Divine Oracle ~ Scry Bonus
+1	ABILITY:Divine Oracle Class Feature|AUTOMATIC|Divine Oracle ~ Scry Bonus		DOMAIN:Oracle
 2	ABILITY:Divine Oracle Class Feature|AUTOMATIC|Divine Oracle ~ Prescient Sense|Divine Oracle ~ Trap Sense
 3	ABILITY:Divine Oracle Class Feature|AUTOMATIC|Divine Oracle ~ Divination Enhancement
 4	ABILITY:Divine Oracle Class Feature|AUTOMATIC|Divine Oracle ~ Uncanny Dodge
