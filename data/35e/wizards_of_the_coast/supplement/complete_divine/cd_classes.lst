@@ -252,6 +252,7 @@ CLASS:Church Inquisitor	STARTSKILLPTS:4	CSKILL:Bluff|Concentration|Decipher Scri
 ###Block
 11	PREPCLEVEL:MIN=20	PRECAMPAIGN:1,INCLUDES=Epic Level Handbook
 ###Block	
+1	DOMAIN:Inquisition
 1	ABILITY:Church Inquisitor Class Feature|AUTOMATIC|Church Inquisitor ~ Weapon and Armor Proficiency
 1	ABILITY:Church Inquisitor Class Feature|AUTOMATIC|Church Inquisitor ~ Detect Evil
 1	ABILITY:Church Inquisitor Class Feature|AUTOMATIC|Church Inquisitor ~ Inquisition Domain		DOMAIN:Inquisition
@@ -314,7 +315,7 @@ CLASS:Contemplative	STARTSKILLPTS:2	CSKILL:Concentration|TYPE=Craft|Diplomacy|He
 #CLASS:Contemplative	PREABILITY:1,CATEGORY=FEAT,Skill Focus (Knowledge (Religion))
 1:REPEATLEVEL:1	ADD:SPELLCASTER|ANY
 ###Block
-1	ABILITY:Contemplative Class Feature|AUTOMATIC|Contemplative ~ Divine Health
+1	ABILITY:Contemplative Class Feature|AUTOMATIC|Contemplative ~ Divine Health		BONUS:DOMAIN|1
 2	ABILITY:Contemplative Class Feature|AUTOMATIC|Contemplative ~ Slippery Mind
 3	ABILITY:Contemplative Class Feature|AUTOMATIC|Contemplative ~ Divine Wholeness
 5	ABILITY:Contemplative Class Feature|AUTOMATIC|Contemplative ~ Divine Body
