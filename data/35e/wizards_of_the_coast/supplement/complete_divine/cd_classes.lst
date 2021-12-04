@@ -58,8 +58,9 @@ SUBCLASS:Water Shugenja	COST:0	CHOICE:DESCRIPTOR|Water Shugenja	PROHIBITSPELL:DE
 # Class Name		Hit Dice	Type			Abbreviation	Max Level	Source Page		Combat bonus															Modify VAR													Bonus
 CLASS:Contemplative	HD:6		TYPE:PC.Prestige	FACT:Abb|Com		MAXLEVEL:10	SOURCEPAGE:p.30	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*1/2|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalBAB,1	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex,BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3
 # Class Name		Required Feat						Required Skill				Req. Spell Type
-CLASS:Contemplative	PREABILITY:1,CATEGORY=FEAT,Skill Focus (Knowledge (Religion))	PRESKILL:1,Knowledge (Religion)=13	PRESPELLTYPE:1,Divine=1
+CLASS:Contemplative		PRESKILL:1,Knowledge (Religion)=13	PRESPELLTYPE:1,Divine=1
 # Class Name		Skill Pts/Lvl	Class Skill
+#PREABILITY:1,CATEGORY=FEAT,Skill Focus (Knowledge (Religion))
 CLASS:Contemplative	STARTSKILLPTS:2	CSKILL:Concentration|TYPE=Craft|Diplomacy|Heal|Intimidate|Knowledge (Religion)|TYPE=Profession|Sense Motive|Spellcraft
 1	BONUS:DOMAIN|NUMBER|1								ADD:SPELLCASTER|Divine	ABILITY:Contemplative Class Feature|AUTOMATIC|Contemplative ~ Divine Health
 2												ADD:SPELLCASTER|Divine	ABILITY:Contemplative Class Feature|AUTOMATIC|Contemplative ~ Slippery Mind
@@ -248,14 +249,14 @@ CLASS:Church Inquisitor	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3
 CLASS:Church Inquisitor	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2
 CLASS:Church Inquisitor	PRETEXT:Alignment: Lawful good or lawful neutral. Base Save Bonus: Will +3. Skills: Knowledge (arcana) 4 ranks, Knowledge (religion) 4 ranks, Spellcraft 4 ranks. Spells: Able to cast zone of truth as a divine spell. Special: Must be a member of a lawful good church or religious order, and must have already uncovered some corruption within that organization.	PREALIGN:LG,LN	PRECHECKBASE:1,Will=3	PRESKILL:3,Knowledge (arcana)=4,Knowledge (religion)=4,Spellcraft=4
 CLASS:Church Inquisitor	STARTSKILLPTS:4	CSKILL:Bluff|Concentration|Decipher Script|Diplomacy|Gather Information|Intimidate|Knowledge (arcana)|Knowledge (Local)|Knowledge (The Planes)|Knowledge (Religion)|Search|Sense Motive|Spellcraft|Spot
+1	DOMAIN:Inquisition
 1:REPEATLEVEL:1	ADD:SPELLCASTER|Divine
 ###Block
 11	PREPCLEVEL:MIN=20	PRECAMPAIGN:1,INCLUDES=Epic Level Handbook
 ###Block	
-1	DOMAIN:Inquisition
-1	ABILITY:Church Inquisitor Class Feature|AUTOMATIC|Church Inquisitor ~ Weapon and Armor Proficiency
+1	ABILITY:Church Inquisitor Class Feature|AUTOMATIC|Church Inquisitor ~ Weapon and Armor Proficiency	DOMAIN:Inquisition
 1	ABILITY:Church Inquisitor Class Feature|AUTOMATIC|Church Inquisitor ~ Detect Evil
-1	ABILITY:Church Inquisitor Class Feature|AUTOMATIC|Church Inquisitor ~ Inquisition Domain		DOMAIN:Inquisition
+1	ABILITY:Church Inquisitor Class Feature|AUTOMATIC|Church Inquisitor ~ Inquisition Domain
 1	ABILITY:Church Inquisitor Class Feature|AUTOMATIC|Church Inquisitor ~ Spells per Day/Spells Known
 2	ABILITY:Church Inquisitor Class Feature|AUTOMATIC|Church Inquisitor ~ Immune to Charms
 3	ABILITY:Church Inquisitor Class Feature|AUTOMATIC|Church Inquisitor ~ Pierce Illusion
@@ -315,7 +316,7 @@ CLASS:Contemplative	STARTSKILLPTS:2	CSKILL:Concentration|TYPE=Craft|Diplomacy|He
 #CLASS:Contemplative	PREABILITY:1,CATEGORY=FEAT,Skill Focus (Knowledge (Religion))
 1:REPEATLEVEL:1	ADD:SPELLCASTER|ANY
 ###Block
-1	ABILITY:Contemplative Class Feature|AUTOMATIC|Contemplative ~ Divine Health		BONUS:DOMAIN|1
+1	ABILITY:Contemplative Class Feature|AUTOMATIC|Contemplative ~ Divine Health		BONUS:DOMAIN|NUMBER|1
 2	ABILITY:Contemplative Class Feature|AUTOMATIC|Contemplative ~ Slippery Mind
 3	ABILITY:Contemplative Class Feature|AUTOMATIC|Contemplative ~ Divine Wholeness
 5	ABILITY:Contemplative Class Feature|AUTOMATIC|Contemplative ~ Divine Body
