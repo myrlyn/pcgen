@@ -154,6 +154,28 @@ Seething Eyebane														TYPE:Arcane.Divine	CLASSES:Corrupted=1|TYPE.Arcane
 Serpent of Theggeron													TYPE:Arcane.Divine	CLASSES:Corrupted=3|TYPE.Arcane,TYPE.Divine=3							SCHOOL:Transmutation					DESCRIPTOR:Evil				COMPS:S, Corrupt			CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:You																			DURATION:1 minute/level					SAVEINFO:None					SPELLRES:No				TEMPVALUE:MIN=1|MAX=6|TITLE=Choose INT damage.	SOURCEPAGE:p.	DESC:Caster's arms become serpents with 10-ft reach, +10 attack and 1d8 damage plus poison. Corrupt:1d6 INT damage.							TEMPDESC:Corrupt&colon; 1d6 points of INT damage.				TEMPBONUS:PC|STAT|INT|-1*(%CHOICE)|TYPE=Temporary
 Touch of Juiblex														TYPE:Arcane.Divine	CLASSES:Corrupted=3|TYPE.Arcane,TYPE.Divine=3							SCHOOL:Transmutation					DESCRIPTOR:Evil				COMPS:V, S, Corrupt		CASTTIME:1 standard action	RANGE:Touch		TARGETAREA:creature touched																	DURATION:Instantaneous					SAVEINFO:Fortitude negates			SPELLRES:Yes			TEMPVALUE:MIN=1|MAX=6|TITLE=Choose STR damage.	SOURCEPAGE:p.	DESC:Subject turns to green slime in 4 rounds. Corrupt:1d6 STR damage.															TEMPDESC:Corrupt&colon; 1d6 points of STR damage.				TEMPBONUS:PC|STAT|STR|-1*(%CHOICE)|TYPE=Temporary
 
+###Block: Corrupt Spells
+Absorb Mind.MOD		CLASSES:Wizard,Cleric,Sorcerer,Bard,Assassin=3
+Absorb Strength.MOD		CLASSES:Wizard,Cleric,Sorcerer,Bard,Assassin=4
+Apocalypse from the Sky.MOD		CLASSES:Wizard,Cleric,Sorcerer,Bard,Assassin=9
+Befoul.MOD	CLASSES:Wizard,Cleric,Sorcerer,Bard,Assassin=8
+Claws of the Bebilith.MOD	CLASSES:Wizard,Cleric,Sorcerer,Bard,Assassin=5
+Consume Likeness.MOD	CLASSES:Wizard,Cleric,Sorcerer,Bard,Assassin=6
+Death by Thorns.MOD		CLASSES:Wizard,Cleric,Sorcerer,Bard,Assassin=7
+Devil's Tongue.MOD		CLASSES:Wizard,Cleric,Sorcerer,Bard,Assassin=2
+Evil Weather.MOD		CLASSES:Wizard,Cleric,Sorcerer,Bard,Assassin=8
+Fangs of the Vampire King (Corrupt).MOD			CLASSES:Wizard,Cleric,Sorcerer,Bard,Assassin=2
+Forbidden Speech.MOD	CLASSES:Wizard,Cleric,Sorcerer,Bard,Assassin=5
+Lahm's Finger Darts.MOD		CLASSES:Wizard,Cleric,Sorcerer,Bard,Assassin=2
+Love's Pain.MOD	CLASSES:Wizard,Cleric,Sorcerer,Bard,Assassin=3
+Plague of Nightmares.MOD	CLASSES:Wizard,Cleric,Sorcerer,Bard,Assassin=8
+Power Leech (BoVD).MOD	CLASSES:Wizard,Cleric,Sorcerer,Bard,Assassin=5
+Rapture of Rupture.MOD		CLASSES:Wizard,Cleric,Sorcerer,Bard,Assassin=7
+Red Fester.MOD	CLASSES:Wizard,Cleric,Sorcerer,Bard,Assassin=3
+Rotting Curse of Urfestra.MOD	CLASSES:Wizard,Cleric,Sorcerer,Bard,Assassin=3
+Seething Eyebane.MOD	CLASSES:Wizard,Cleric,Sorcerer,Bard,Assassin=1
+Serpent of Theggeron.MOD	CLASSES:Wizard,Cleric,Sorcerer,Bard,Assassin=3
+Touch of Juiblex.MOD	CLASSES:Wizard,Cleric,Sorcerer,Bard,Assassin=3
 
 ###Block: Special Components
 # Corrupt spells cause ability damage

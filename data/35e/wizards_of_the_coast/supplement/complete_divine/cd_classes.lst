@@ -249,8 +249,8 @@ CLASS:Church Inquisitor	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3
 CLASS:Church Inquisitor	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2
 CLASS:Church Inquisitor	PRETEXT:Alignment: Lawful good or lawful neutral. Base Save Bonus: Will +3. Skills: Knowledge (arcana) 4 ranks, Knowledge (religion) 4 ranks, Spellcraft 4 ranks. Spells: Able to cast zone of truth as a divine spell. Special: Must be a member of a lawful good church or religious order, and must have already uncovered some corruption within that organization.	PREALIGN:LG,LN	PRECHECKBASE:1,Will=3	PRESKILL:3,Knowledge (arcana)=4,Knowledge (religion)=4,Spellcraft=4
 CLASS:Church Inquisitor	STARTSKILLPTS:4	CSKILL:Bluff|Concentration|Decipher Script|Diplomacy|Gather Information|Intimidate|Knowledge (arcana)|Knowledge (Local)|Knowledge (The Planes)|Knowledge (Religion)|Search|Sense Motive|Spellcraft|Spot
-1	DOMAIN:Inquisition
 1:REPEATLEVEL:1	ADD:SPELLCASTER|Divine
+1	DOMAIN:Inquisition
 ###Block
 11	PREPCLEVEL:MIN=20	PRECAMPAIGN:1,INCLUDES=Epic Level Handbook
 ###Block	
