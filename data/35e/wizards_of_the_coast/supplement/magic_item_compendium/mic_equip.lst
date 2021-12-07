@@ -421,7 +421,7 @@ Robe of the Inferno						TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Body.Bodywe
 Robe of Mysterious Conjuration				TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Body.Bodywear		COST:10000	WT:2										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:130
 Robe of Retaliation						TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Body.Bodywear		COST:6500	WT:2										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:130
 Rock Boots								TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Feet.Footwear		COST:2000	WT:1										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:130
-Rogue's Vest							TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Torso.Shirt		COST:18000	WT:1										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:130		BONUS:SAVE|Reflex|2|TYPE=Competence		BONUS:SKILL|Hide,Move Silently|2|TYPE=Competence	BONUS:VAR|SneakAttackDice|1		
+Rogue's Vest							TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Torso.Shirt		COST:18000	WT:1										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:130		BONUS:SAVE|Reflex|2|TYPE=Competence		BONUS:SKILL|Hide,Move Silently|2|TYPE=Competence	BONUS:VAR|SneakAttackDice|1		BONUS:VAR|SuddenStrikeDice|1		
 Ruby Cincture of Immutability					TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Waist.Belt		COST:12000	WT:0										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:131
 Safewing Emblem							TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Throat.Neckwear		COST:250	WT:0										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:131
 Sandals of Springing						TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Feet.Footwear		COST:10000	WT:1										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:131
