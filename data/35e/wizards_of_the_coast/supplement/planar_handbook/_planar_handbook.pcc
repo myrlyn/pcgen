@@ -3,9 +3,8 @@ CAMPAIGN:Planar Handbook
 KEY:Planar Handbook
 
 PRECAMPAIGN:1,INCLUDESBOOKTYPE=Core35e
-BOOKTYPE:Supplemenmt|CampaignCore
+BOOKTYPE:Supplemenmt
 SETTING:Fantasy
-#!PRECAMPAIGN:1,BOOKTYPE=CampaignCore,[Oriental Adventures v.3.5]
 TYPE:Wizards of the Coast.Supplement.Supplement
 GENRE:Fantasy
 ISMATURE:NO

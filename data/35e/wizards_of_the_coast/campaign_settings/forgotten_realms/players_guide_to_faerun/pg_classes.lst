@@ -592,8 +592,8 @@ CLASS:Shadow Thief of Amn	STARTSKILLPTS:6	CSKILL:Appraise|Bluff|Climb|TYPE=Craft
 1	ABILITY:Shadow Thief of Amn Class Feature|AUTOMATIC|Shadow Thief of Amn ~ Sneak Attack
 2	ABILITY:Shadow Thief of Amn Class Feature|AUTOMATIC|Shadow Thief of Amn ~ Bonus Feat
 2	ABILITY:Shadow Thief of Amn Class Feature|AUTOMATIC|Shadow Thief of Amn ~ Uncanny Dodge
-3	ABILITY:Shadow Thief of Amn Class Feature|AUTOMATIC|Shadow Thief of Amn ~ Reputation
-5	ABILITY:Shadow Thief of Amn Class Feature|AUTOMATIC|Shadow Thief of Amn ~ Improved Uncanny Dodge
+3	ABILITY:Shadow Thief of Amn Class Feature|AUTOMATIC|Shadow Thief of Amn ~ Reputation	BONUS:VAR|SneakAttackDice|1
+5	ABILITY:Shadow Thief of Amn Class Feature|AUTOMATIC|Shadow Thief of Amn ~ Improved Uncanny Dodge	BONUS:VAR|SneakAttackDice|1
 
 # Spellguard of Silverymoon
 
