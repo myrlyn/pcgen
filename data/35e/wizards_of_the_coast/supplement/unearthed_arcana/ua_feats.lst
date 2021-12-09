@@ -4,7 +4,7 @@
 # Feat Name		Type			Description																Source Page
 Urban Tracking	CATEGORY:FEAT	TYPE:General	DESC:You can track down the location of missing persons or wanted individuals within communities.	SOURCEPAGE:p.56
 
-
+Additional Favored Class	CATEGORY:FEAT	TYPE:General		GENERAL:Choose a character class, such as ranger. The chosen class is treated as a favored class for the purpose of determining whether your character takes an experience point penalty for multiclassing.		BENEFIT:Without this feat, if any class other than your race’s favored class is two or more levels lower than your highest-level class, you take a –20% penalty to XP earned for each class that is not within one level of your highest-level class.  NORMAL:Without this feat, if any class other than your race’s favored class is two or more levels lower than your highest-level class, you take a –20% penalty to XP earned for each class that is not within one level of  your highest-level class.		MULT:YES	STACK:NO	CHOOSE:CLASS|ANY	
 ###Block: Reputation based Feats
 # Feat Name		Type			Prohibited Feat		Required Non-Monster Lvl	Description																								Modify VAR				Allow Follower			Allowed Companions				Source Page		Benefits
 Low Profile		CATEGORY:FEAT	TYPE:General	!PREABILITY:1,CATEGORY=FEAT,Renown							DESC:You are less famous than others of your class and level, or you wish to maintain a less visible presence than others of your station.		BONUS:VAR|ReputationScore|-3													SOURCEPAGE:p.182	BENEFIT: Reduce your reputation bonus by 3 points. Special: You can't select both the Low Profile feat and the Renown feat. You're either famous or you're not.
