@@ -681,8 +681,8 @@ CLASS:Order of the Bow Initiate	HD:8		TYPE:Prestige	FACT:Abb|Obi		SOURCEPAGE:p.6
 CLASS:Order of the Bow Initiate	PREABILITY:3,CATEGORY=FEAT,Point Blank Shot,Precise Shot,Rapid Shot	PREABILITY:1,CATEGORY=FEAT,Weapon Focus (TYPE=Bow)	PRESKILL:1,Knowledge (Religion)=2	PRESKILL:1,Craft (Bowmaking)=5	PRETOTALAB:5
 # Class Name				Skill Pts/Lvl	Class Skill
 CLASS:Order of the Bow Initiate	STARTSKILLPTS:2	CSKILL:Climb|TYPE=Craft|Knowledge (Religion)|Ride|Spot|Swim
-1	ABILITY:Order of the Bow Initiate Class Feature|AUTOMATIC|Order of the Bow Initiate ~ Weapon and Armor Proficiency
-1	ABILITY:Order of the Bow Initiate Class Feature|AUTOMATIC|Order of the Bow Initiate ~ Ranged Precision
+1	ABILITY:Order of the Bow Initiate Class Feature|AUTOMATIC|Order of the Bow Initiate ~ Weapon and Armor Proficiency	
+1	ABILITY:Order of the Bow Initiate Class Feature|AUTOMATIC|Order of the Bow Initiate ~ Ranged Precision	BONUS:VAR|RangePrecisionDice|(CL+1)/2
 2	ABILITY:Order of the Bow Initiate Class Feature|AUTOMATIC|Order of the Bow Initiate ~ Close Combat Shot
 6	ABILITY:Order of the Bow Initiate Class Feature|AUTOMATIC|Order of the Bow Initiate ~ Sharp-Shooting
 10	ABILITY:Order of the Bow Initiate Class Feature|AUTOMATIC|Order of the Bow Initiate ~ Extended Precision
