@@ -857,9 +857,11 @@ CLASS:Tattooed Monk	STARTSKILLPTS:4	CSKILL:Balance|Climb|Concentration|TYPE=Craf
 1	ABILITY:Tattooed Monk Class Feature|AUTOMATIC|Tattooed Monk ~ Monk Abilities
 1	ABILITY:Tattooed Monk Class Feature|AUTOMATIC|Tattooed Monk ~ Tattoo
 ###Block:
-1	BONUS:UDAM|CLASS.Monk|CL
+1	BONUS:UDAM|CLASS.Monk|CL	ABILITY:Monk Class Feature|AUTOMATIC|Monk ~ AC Bonus|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkACBonus	
+1	ABILITY:Monk Class Feature|AUTOMATIC|Monk ~ Fast Movement|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkFastMovement	
+1	ABILITY:Monk Class Feature|AUTOMATIC|Monk ~ AC Bonus|!PREABILITY:1,CATEGORY=ACF,TYPE.MonkACBonus	
 ###Block:
-1	BONUS:ABILITYPOOL|Tatoo Power|(CL+1)/2
+1	BONUS:ABILITYPOOL|Tattoo Power|(CL+1)/2
 ###Block:
 1	BONUS:VAR|MonkACLVL,MonkMoveLVL,MonkUnarmedDamageLVL|CL
 1	BONUS:VAR|TatooedMonkTatooPowerLVL|CL
