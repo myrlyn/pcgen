@@ -13,6 +13,28 @@ Stamina ~ Lesser			OUTPUTNAME:Lesser Stamina		CATEGORY:Special Ability	TYPE:Magi
 Stamina ~ Greater			OUTPUTNAME:Greater Stamina		CATEGORY:Special Ability	TYPE:MagicItem.SpecialQuality	SOURCEPAGE:25	ASPECT:SaveBonus|+5 bonus on saves vs. poison or disease causing spells or effects
 
 
+Spell Attuned Gauntlet Of The Talon		KEY:Gauntlet Of the Talon ~ Spell Attuned	CATEGORY:Special Ability		ABILITY:Special Ability|AUTOMATIC|Attuned Gauntlet Of The Talon		TYPE:GauntletOfTheTalonAttunement	PRESPELLTYPE:1,Divine=3		BONUS:SPELLCAST|TYPE=Divine;LEVEL=3|-1
+
+Feat Attuned Gauntlet Of The Talon		KEY:Gauntlet Of the Talon ~ Feat Attuned	CATEGORY:Special Ability		ABILITY:Special Ability|AUTOMATIC|Attuned Gauntlet Of The Talon	PREABILITY:1,CATEGORY=FEAT,True Believer	TYPE:GauntletOfTheTalonAttunement	PRELEVEL:MIN=5	ABILITY:Special Ability|AUTOMATIC|Greater Gauntlet Of The Talon Attunement|PRELEVEL:MIN=9
+
+Unattuned Gauntlet Of The Talon		CATEGORY:Special Ability	TYPE:GauntletOfTheTalonAttunement
+
+Attuned Gauntlet Of The Talon		CATEGORY:Special Ability	BONUS:UDAM|CLASS.Monk|5	BONUS:COMBAT|AC|1	
+
+Greater Spell Attuned Gauntlet Of The Talon	KEY:Gauntlet Of The Talon Attuned	CATEGORY:Special Ability		PRESPELLTYPE:1,Divine=5		BONUS:SPELLCAST|TYPE=Divine;LEVEL=5|-1	TYPE:GauntletOfTheTalonAttunement	ABILITY:Special Ability|AUTOMATIC|Greater Gauntlet Of The Talon Attunement
+
+Greater Gauntlet Of The Talon Attunement		CATEGORY:Special Ability		SAB:Your Claw Attacks function as Ghost Touch weapons.		SAB:+4 on grapple checks.
+Gauntlet Of The Talon Claws ~ Fine		CATEGORY:Special Ability		TEMPLATE:Gauntlets Of The Talon F
+Gauntlet Of The Talon Claws ~ Tiny		CATEGORY:Special Ability		TEMPLATE:Gauntlets Of The Talon T
+Gauntlet Of The Talon Claws ~ Diminuitive		CATEGORY:Special Ability		TEMPLATE:Gauntlets Of The Talon D
+Gauntlet Of The Talon Claws ~ Small		CATEGORY:Special Ability		TEMPLATE:Gauntlets Of The Talon S
+Gauntlet Of The Talon Claws ~ Medium		CATEGORY:Special Ability		TEMPLATE:Gauntlets Of The Talon M
+Gauntlet Of The Talon Claws ~ Large		CATEGORY:Special Ability		TEMPLATE:Gauntlets Of The Talon L
+Gauntlet Of The Talon Claws ~ Huge		CATEGORY:Special Ability		TEMPLATE:Gauntlets Of The Talon G
+Gauntlet Of The Talon Claws ~ Gargantuan		CATEGORY:Special Ability		TEMPLATE:Gauntlets Of The Talon G
+Gauntlet Of The Talon Claws ~ Collossal		CATEGORY:Special Ability		TEMPLATE:Gauntlets Of The Talon C
+Gauntlet Of The Talon Claws ~ Plus		CATEGORY:Special Ability		TEMPLATE:Gauntlets Of The Talon P
+
 
 
 

@@ -4,3 +4,13 @@
 # actually, this seems to fire repeatedly at character load/display
 #Pearl of Speech	CHOOSE:LANG|!PC,TYPE=Spoken	AUTO:LANG|%LIST
 Pearl of Speech	VISIBLE:NO	DESC:TODO - choose a specific language
+Gauntlets Of The Talon M	VISIBLE:NO	NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing.Magic.Magical.Primary,*2,1d6
+Gauntlets Of The Talon S	VISIBLE:NO	NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing.Magic.Magical.Primary,*2,1d4
+Gauntlets Of The Talon T	VISIBLE:NO	NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing.Magic.Magical.Primary,*2,1d3
+Gauntlets Of The Talon D	VISIBLE:NO	NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing.Magic.Magical.Primary,*2,1d2
+Gauntlets Of The Talon F	VISIBLE:NO	NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing.Magic.Magical.Primary,*2,1
+Gauntlets Of The Talon L	VISIBLE:NO	NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing.Magic.Magical.Primary,*2,1d8		
+Gauntlets Of The Talon H	VISIBLE:NO	NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing.Magic.Magical.Primary,*2,1d10	
+Gauntlets Of The Talon G	VISIBLE:NO	NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing.Magic.Magical.Primary,*2,1d12	
+Gauntlets Of The Talon C	VISIBLE:NO	NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing.Magic.Magical.Primary,*2,2d8		
+Gauntlets Of The Talon P	VISIBLE:NO	NATURALATTACKS:Claw,Weapon.Natural.Melee.Piercing.Slashing.Magic.Magical.Primary,*2,2d10
