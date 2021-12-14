@@ -425,6 +425,7 @@ S			SIZE:S
 M			SIZE:M
 L			SIZE:L
 H			SIZE:H
+G			SIZE:G
 C			SIZE:C
 C+			SIZE:P
 
