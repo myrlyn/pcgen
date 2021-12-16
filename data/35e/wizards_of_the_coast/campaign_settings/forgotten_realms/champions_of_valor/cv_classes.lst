@@ -76,7 +76,7 @@ SUBSTITUTIONLEVEL:7	ABILITY:Special Ability|AUTOMATIC|Fangshield Druid ~ Wild Sh
 
 # Class Name
 CLASS:Ranger.MOD
-SUBSTITUTIONCLASS:Fangshield Druid	SOURCEPAGE:41	PRERACETYPE:Animal,Fey,Giant,Magical Beast,Monstrous Humanoid
+SUBSTITUTIONCLASS:Fangshield Ranger	SOURCEPAGE:41	PRERACETYPE:Animal,Fey,Giant,Magical Beast,Monstrous Humanoid
 SUBSTITUTIONLEVEL:2								ABILITY:Special Ability|AUTOMATIC|Fangshield Ranger ~ Combat Style
 SUBSTITUTIONLEVEL:4	BONUS:VAR|AnimalCompanionLVL|(CL/2)+2	ABILITY:Special Ability|AUTOMATIC|Animal Companion|Fangshield Ranger ~ Animal Companion	ADD:SPELLCASTER|Ranger
 SUBSTITUTIONLEVEL:5								ABILITY:Special Ability|AUTOMATIC|Fangshield Ranger ~ Lion and the Unicorn			ADD:SPELLCASTER|Ranger
