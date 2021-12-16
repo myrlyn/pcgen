@@ -70,7 +70,7 @@ SUBSTITUTIONLEVEL:7	ABILITY:Special Ability|AUTOMATIC|Fangshield Barbarian ~ Rag
 CLASS:Druid.MOD
 SUBSTITUTIONCLASS:Fangshield Druid	SOURCEPAGE:40	PRERACETYPE:Animal,Fey,Giant,Magical Beast,Monstrous Humanoid
 SUBSTITUTIONLEVEL:4	ABILITY:Special Ability|AUTOMATIC|Fangshield Druid ~ Spontaneous Curing		ADD:SPELLCASTER|Druid
-SUBSTITUTIONLEVEL:5	ABILITY:Special Ability|AUTOMATIC|Fangshield Druid ~ Wild Shape			ADD:SPELLCASTER|Druid
+SUBSTITUTIONLEVEL:5	ABILITY:Special Ability|AUTOMATIC|Fangshield Druid ~ Wild Shape			ADD:SPELLCASTER|Druid	ABILITY:Druid Class Feature|AUTOMATIC|Druid ~ Wild Shape|!PREABILITY:1,CATEGORY=ACF,TYPE.DruidWildShape
 SUBSTITUTIONLEVEL:7	ABILITY:Special Ability|AUTOMATIC|Fangshield Druid ~ Wild Shape (Humanoid)	ADD:SPELLCASTER|Druid
 #
 
