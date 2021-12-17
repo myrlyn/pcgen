@@ -126,7 +126,7 @@ CLASS:Divine Mind	SPELLSTAT:WIS	FACT:SpellType|Psionic	MEMORIZE:NO	BONUS:CASTERL
 20	KNOWN:0,2,2,2,2,2,1
 
 # Class Name	Type				Source Page		Define		Combat bonus																															Modify VAR																		Bonus
-CLASS:Lurk		TYPE:Base.PC.Psionic	SOURCEPAGE:p.13	DEFINE:LurkLVL|0	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:COMBAT|BASEAB|ClassBABModerate*3/4|TYPE=ClassBABModerate|PREVAREQ:UseFractionalBAB,1	BONUS:VAR|LurkLVL|CL	BONUS:VAR|ClassBABModerate|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalBAB,1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex,BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2
+CLASS:Lurk		HD:6	TYPE:Base.PC.Psionic	SOURCEPAGE:p.13	DEFINE:LurkLVL|0	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:COMBAT|BASEAB|ClassBABModerate*3/4|TYPE=ClassBABModerate|PREVAREQ:UseFractionalBAB,1	BONUS:VAR|LurkLVL|CL	BONUS:VAR|ClassBABModerate|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalBAB,1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex,BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2
 # Class Name	Skill Pts/Lvl	Class Skill
 CLASS:Lurk		STARTSKILLPTS:4	CSKILL:Autohypnosis|Bluff|Climb|Concentration|TYPE=Craft|Disguise|Escape Artist|Hide|Jump|Knowledge (psionics)|Listen|Move Silently|TYPE=Profession|Psicraft|Sleight of Hand|Spot|Swim|Tumble|Use Psionic Device
 # Class Name	Spell Stat		Caster level			Use Spell List
