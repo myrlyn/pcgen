@@ -346,7 +346,7 @@ CLASS:Highland Stalker	PREABILITY:1,CATEGORY=Special Ability,TYPE.Skirmish,TYPE.
 # Class Name		Skill Pts/Lvl	Class Skill
 CLASS:Highland Stalker	STARTSKILLPTS:4	CSKILL:Balance|Climb|TYPE=Craft|Hide|Jump|Knowledge (Geography)|Knowledge (Nature)|Listen|Move Silently|Search|Spot|Survival
 ###Block
-1	ABILITY:Highland Stalker Class Feature|AUTOMATIC|Highland Stalker ~ Weapon and Armor Proficiency
+1	ABILITY:Highland Stalker Class Feature|AUTOMATIC|Highland Stalker ~ Weapon and Armor Proficiency	DEFINE:HighlandStalkerLVL|0	BONUS:VAR|HighlandStalkerLVL|CL
 1	ABILITY:Highland Stalker Class Feature|AUTOMATIC|Highland Stalker ~ Mountain Stride
 2	ABILITY:Highland Stalker Class Feature|AUTOMATIC|Highland Stalker ~ Skirmish
 3	ABILITY:Highland Stalker Class Feature|AUTOMATIC|Highland Stalker ~ Swift Tracker
