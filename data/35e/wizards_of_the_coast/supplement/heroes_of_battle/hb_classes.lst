@@ -16,3 +16,11 @@ CLASS:War Weaver	STARTSKILLPTS:2	CSKILL:Concentration|TYPE=Craft|Knowledge (Arca
 2	ABILITY:War Weaver Class Feature|AUTOMATIC|War Weaver ~ Quiescent weaving
 5	ABILITY:War Weaver Class Feature|AUTOMATIC|War Weaver ~ Enlarged tapestry
 
+CLASS:Dread Commando	HD:8	TYPE:PC.Prestige	FACT:Abb|DrCm	MAXLEVEL:5	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0
+CLASS:Dread Commando		BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|(classlevel("APPLIEDAS=NONEPIC")/2)+2	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3
+CLASS:Dread Commando	PRESKILL:1,Hide=6	PRESKILL:1,Move Silently=6		PREABILITY:1,CATEGORY=FEAT,Dodge	PREABILITY:1,CATEGORY=FEAT,Mobility
+CLASS:Dread Commando	STARTSKILLPTS:6		PREATT:5	CSKILL:Climb|TYPE=Craft|Disable Device|Disguise|Escape Artist|Hide|Jump|Knowledge (Geography)|Listen|Move Silently|Open Lock|TYPE=Profession|Search|Spot|Swim|Use Rope	DEFINE:DreadCommandoLVL|0	BONUS:VAR|DreadCommandoLVL|CL
+###Block
+1	ABILITY:Special Ability|AUTOMATIC|Dread Commando ~ Sudden Strike	ABILITY:Special Ability|AUTOMATIC|Dread Commando ~ Team Initiative Bonus
+2	ABILITY:Special Ability|AUTOMATIC|Dread Commando ~ Armored Ease		BONUS:VAR|ArmoredEase|2
+4	BONUS:VAR|ArmoredEase|2		ABILITY:Special Ability|AUTOMATIC|Dread Commando ~ Stealthy Movement

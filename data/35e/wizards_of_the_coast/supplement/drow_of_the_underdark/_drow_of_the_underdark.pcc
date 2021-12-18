@@ -38,7 +38,7 @@ ABILITYCATEGORY:dru_abilitycategories.lst
 
 #CLASS:dru_classes.lst
 
-#EQUIPMENT:dru_equip.lst
+EQUIPMENT:du_equip.lst
 #EQUIPMOD:dru_equipmods.lst
 ABILITY:dru_feats.lst
 SPELL:dru_spells.lst
