@@ -231,7 +231,7 @@ Dimension Stride Boots						TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Feet.Foo
 Dispelling Cord							TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Torso.Shirt		COST:1000	WT:0										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:94
 Dragon Mask								TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Face.Facewear		COST:4000	WT:2										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:94
 Dragon Spirit Amulet						TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Throat.Neckwear		COST:2000	WT:0										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:95
-Dragon Spirit Cincture						TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Waist.Belt		COST:2000	WT:0										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:95
+Dragon Spirit Cincture						TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Waist.Belt		COST:2000	WT:0										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:95	BONUS:VAR|DFABreathDice|1
 Dragonfang Gauntlets						TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Hands.Handwear		COST:8610	WT:1										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:95
 Dragon's-Eye Amulet						TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Throat.Neckwear		COST:55000	WT:1										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:95
 Dragonscale Cloak							TYPE:Relic.Wondrous.Magic.Group_Clothing.BodySlot_Shoulders.Cape	COST:5000	WT:2										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:95

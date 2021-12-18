@@ -185,3 +185,363 @@ Dominate Spawn	KEY:Slaad Brooder ~ Dominate Spawn		TYPE:SpecialQuality.SpellLike
 
 Blindsight		CATEGORY:Special Ability	KEY:Anthropomorphic Baleen Whale ~ Blindsight	TYPE:SpecialQuality.Extraordinary.Blindsight	DESC: 60' on land, 120' in water.  Negated by silence.  
 Hold Breath			CATEGORY:Special Ability	KEY:Anthropomorphic Baleen Whale ~ Hold Breath	TYPE:SpecialQuality.Extraordinary.Hold Breath	DESC:A Whale can hold its breath for 8x it's constitution score rounds before it risks drowning.  
+
+1 Additional Head		CATEGORY:Special Ability	TYPE:Number Of Heads.Extraordinary.Special Quality		BENEFIT:SAB:You make make %1 additional Bite, Gore, or Tongue attacks.|AdditionalHeads	TEMPLATE:Multiheaded HD			BONUS:VAR|AdditionalHeads|1		PREVARGTEQ:MaxAdditionalHeads,1	TEMPLATE:MH LA 2
+2 Additional Head		CATEGORY:Special Ability	TYPE:Number Of Heads.Extraordinary.Special Quality		BENEFIT:SAB:You make make %1 additional Bite, Gore, or Tongue attacks.|AdditionalHeads	TEMPLATE:Multiheaded HD			BONUS:VAR|AdditionalHeads|2		PREVARGTEQ:MaxAdditionalHeads,2		TEMPLATE:MH LA 3
+3 Additional Head		CATEGORY:Special Ability	TYPE:Number Of Heads.Extraordinary.Special Quality		BENEFIT:SAB:You make make %1 additional Bite, Gore, or Tongue attacks.|AdditionalHeads	TEMPLATE:Multiheaded HD			BONUS:VAR|AdditionalHeads|3		PREVARGTEQ:MaxAdditionalHeads,3		TEMPLATE:MH LA 3
+4 Additional Head		CATEGORY:Special Ability	TYPE:Number Of Heads.Extraordinary.Special Quality		BENEFIT:SAB:You make make %1 additional Bite, Gore, or Tongue attacks.|AdditionalHeads	TEMPLATE:Multiheaded HD			BONUS:VAR|AdditionalHeads|4		PREVARGTEQ:MaxAdditionalHeads,4		TEMPLATE:MH LA 3
+5 Additional Head		CATEGORY:Special Ability	TYPE:Number Of Heads.Extraordinary.Special Quality		BENEFIT:SAB:You make make %1 additional Bite, Gore, or Tongue attacks.|AdditionalHeads	TEMPLATE:Multiheaded HD			BONUS:VAR|AdditionalHeads|5		PREVARGTEQ:MaxAdditionalHeads,5		TEMPLATE:MH LA 4
+6 Additional Head		CATEGORY:Special Ability	TYPE:Number Of Heads.Extraordinary.Special Quality		BENEFIT:SAB:You make make %1 additional Bite, Gore, or Tongue attacks.|AdditionalHeads	TEMPLATE:Multiheaded HD			BONUS:VAR|AdditionalHeads|6		PREVARGTEQ:MaxAdditionalHeads,6		TEMPLATE:MH LA 4
+7 Additional Head		CATEGORY:Special Ability	TYPE:Number Of Heads.Extraordinary.Special Quality		BENEFIT:SAB:You make make %1 additional Bite, Gore, or Tongue attacks.|AdditionalHeads	TEMPLATE:Multiheaded HD			BONUS:VAR|AdditionalHeads|7		PREVARGTEQ:MaxAdditionalHeads,7		TEMPLATE:MH LA 4
+8 Additional Head		CATEGORY:Special Ability	TYPE:Number Of Heads.Extraordinary.Special Quality		BENEFIT:SAB:You make make %1 additional Bite, Gore, or Tongue attacks.|AdditionalHeads	TEMPLATE:Multiheaded HD			BONUS:VAR|AdditionalHeads|8		PREVARGTEQ:MaxAdditionalHeads,8		TEMPLATE:MH LA 5
+9 Additional Head		CATEGORY:Special Ability	TYPE:Number Of Heads.Extraordinary.Special Quality		BENEFIT:SAB:You make make %1 additional Bite, Gore, or Tongue attacks.|AdditionalHeads	TEMPLATE:Multiheaded HD			BONUS:VAR|AdditionalHeads|9		PREVARGTEQ:MaxAdditionalHeads,9		TEMPLATE:MH LA 5
+10 Additional Head		CATEGORY:Special Ability	TYPE:Number Of Heads.Extraordinary.Special Quality		BENEFIT:SAB:You make make %1 additional Bite, Gore, or Tongue attacks.|AdditionalHeads	TEMPLATE:Multiheaded HD			BONUS:VAR|AdditionalHeads|10		PREVARGTEQ:MaxAdditionalHeads,10		TEMPLATE:MH LA 5
+11 Additional Head		CATEGORY:Special Ability	TYPE:Number Of Heads.Extraordinary.Special Quality		BENEFIT:SAB:You make make %1 additional Bite, Gore, or Tongue attacks.|AdditionalHeads	TEMPLATE:Multiheaded HD			BONUS:VAR|AdditionalHeads|11		PREVARGTEQ:MaxAdditionalHeads,11		TEMPLATE:MH LA 6
+12 Additional Head		CATEGORY:Special Ability	TYPE:Number Of Heads.Extraordinary.Special Quality		BENEFIT:SAB:You make make %1 additional Bite, Gore, or Tongue attacks.|AdditionalHeads	TEMPLATE:Multiheaded HD			BONUS:VAR|AdditionalHeads|12		PREVARGTEQ:MaxAdditionalHeads,12		TEMPLATE:MH LA 6
+13 Additional Head		CATEGORY:Special Ability	TYPE:Number Of Heads.Extraordinary.Special Quality		BENEFIT:SAB:You make make %1 additional Bite, Gore, or Tongue attacks.|AdditionalHeads	TEMPLATE:Multiheaded HD			BONUS:VAR|AdditionalHeads|13		PREVARGTEQ:MaxAdditionalHeads,13		TEMPLATE:MH LA 6
+14 Additional Head		CATEGORY:Special Ability	TYPE:Number Of Heads.Extraordinary.Special Quality		BENEFIT:SAB:You make make %1 additional Bite, Gore, or Tongue attacks.|AdditionalHeads	TEMPLATE:Multiheaded HD			BONUS:VAR|AdditionalHeads|14		PREVARGTEQ:MaxAdditionalHeads,14		TEMPLATE:MH LA 6
+15 Additional Head		CATEGORY:Special Ability	TYPE:Number Of Heads.Extraordinary.Special Quality		BENEFIT:SAB:You make make %1 additional Bite, Gore, or Tongue attacks.|AdditionalHeads	TEMPLATE:Multiheaded HD			BONUS:VAR|AdditionalHeads|15		PREVARGTEQ:MaxAdditionalHeads,15		TEMPLATE:MH LA 6
+16 Additional Head		CATEGORY:Special Ability	TYPE:Number Of Heads.Extraordinary.Special Quality		BENEFIT:SAB:You make make %1 additional Bite, Gore, or Tongue attacks.|AdditionalHeads	TEMPLATE:Multiheaded HD			BONUS:VAR|AdditionalHeads|16		PREVARGTEQ:MaxAdditionalHeads,16		TEMPLATE:MH LA 7
+17 Additional Head		CATEGORY:Special Ability	TYPE:Number Of Heads.Extraordinary.Special Quality		BENEFIT:SAB:You make make %1 additional Bite, Gore, or Tongue attacks.|AdditionalHeads	TEMPLATE:Multiheaded HD			BONUS:VAR|AdditionalHeads|17		PREVARGTEQ:MaxAdditionalHeads,17		TEMPLATE:MH LA 7
+18 Additional Head		CATEGORY:Special Ability	TYPE:Number Of Heads.Extraordinary.Special Quality		BENEFIT:SAB:You make make %1 additional Bite, Gore, or Tongue attacks.|AdditionalHeads	TEMPLATE:Multiheaded HD			BONUS:VAR|AdditionalHeads|18		PREVARGTEQ:MaxAdditionalHeads,18		TEMPLATE:MH LA 7
+19 Additional Head		CATEGORY:Special Ability	TYPE:Number Of Heads.Extraordinary.Special Quality		BENEFIT:SAB:You make make %1 additional Bite, Gore, or Tongue attacks.|AdditionalHeads	TEMPLATE:Multiheaded HD			BONUS:VAR|AdditionalHeads|19		PREVARGTEQ:MaxAdditionalHeads,19		TEMPLATE:MH LA 7
+20 Additional Head		CATEGORY:Special Ability	TYPE:Number Of Heads.Extraordinary.Special Quality		BENEFIT:SAB:You make make %1 additional Bite, Gore, or Tongue attacks.|AdditionalHeads	TEMPLATE:Multiheaded HD			BONUS:VAR|AdditionalHeads|20		PREVARGTEQ:MaxAdditionalHeads,20		TEMPLATE:MH LA 7
+21 Additional Head		CATEGORY:Special Ability	TYPE:Number Of Heads.Extraordinary.Special Quality		BENEFIT:SAB:You make make %1 additional Bite, Gore, or Tongue attacks.|AdditionalHeads	TEMPLATE:Multiheaded HD			BONUS:VAR|AdditionalHeads|21		PREVARGTEQ:MaxAdditionalHeads,21		TEMPLATE:MH LA 8
+22 Additional Head		CATEGORY:Special Ability	TYPE:Number Of Heads.Extraordinary.Special Quality		BENEFIT:SAB:You make make %1 additional Bite, Gore, or Tongue attacks.|AdditionalHeads	TEMPLATE:Multiheaded HD			BONUS:VAR|AdditionalHeads|22		PREVARGTEQ:MaxAdditionalHeads,22		TEMPLATE:MH LA 8
+23 Additional Head		CATEGORY:Special Ability	TYPE:Number Of Heads.Extraordinary.Special Quality		BENEFIT:SAB:You make make %1 additional Bite, Gore, or Tongue attacks.|AdditionalHeads	TEMPLATE:Multiheaded HD			BONUS:VAR|AdditionalHeads|23		PREVARGTEQ:MaxAdditionalHeads,23		TEMPLATE:MH LA 8
+24 Additional Head		CATEGORY:Special Ability	TYPE:Number Of Heads.Extraordinary.Special Quality		BENEFIT:SAB:You make make %1 additional Bite, Gore, or Tongue attacks.|AdditionalHeads	TEMPLATE:Multiheaded HD			BONUS:VAR|AdditionalHeads|24		PREVARGTEQ:MaxAdditionalHeads,24		TEMPLATE:MH LA 8
+25 Additional Head		CATEGORY:Special Ability	TYPE:Number Of Heads.Extraordinary.Special Quality		BENEFIT:SAB:You make make %1 additional Bite, Gore, or Tongue attacks.|AdditionalHeads	TEMPLATE:Multiheaded HD			BONUS:VAR|AdditionalHeads|25		PREVARGTEQ:MaxAdditionalHeads,25		TEMPLATE:MH LA 8
+#26 Additional Head		CATEGORY:Special Ability	TYPE:Number Of Heads.Extraordinary.Special Quality		BENEFIT:SAB:You make make %1 additional Bite, Gore, or Tongue attacks.|AdditionalHeads	TEMPLATE:Multiheaded HD			BONUS:VAR|AdditionalHeads|26		PREVARGTEQ:MaxAdditionalHeads,26	TEMPLATE:MMH LA 9
+#27 Additional Head		CATEGORY:Special Ability	TYPE:Number Of Heads.Extraordinary.Special Quality		BENEFIT:SAB:You make make %1 additional Bite, Gore, or Tongue attacks.|AdditionalHeads	TEMPLATE:Multiheaded HD			BONUS:VAR|AdditionalHeads|27		PREVARGTEQ:MaxAdditionalHeads,27	TEMPLATE:MMH LA 9
+#28 Additional Head		CATEGORY:Special Ability	TYPE:Number Of Heads.Extraordinary.Special Quality		BENEFIT:SAB:You make make %1 additional Bite, Gore, or Tongue attacks.|AdditionalHeads	TEMPLATE:Multiheaded HD			BONUS:VAR|AdditionalHeads|28		PREVARGTEQ:MaxAdditionalHeads,28	TEMPLATE:MMH LA 9
+#29 Additional Head		CATEGORY:Special Ability	TYPE:Number Of Heads.Extraordinary.Special Quality		BENEFIT:SAB:You make make %1 additional Bite, Gore, or Tongue attacks.|AdditionalHeads	TEMPLATE:Multiheaded HD			BONUS:VAR|AdditionalHeads|29		PREVARGTEQ:MaxAdditionalHeads,29	TEMPLATE:MMMH LA 9
+Multiheaded Attacks		KEY:Multiheaded ~ Attacks		CATEGORY:Special Ability		TYPE:SpecialAttack		BENEFIT:If you have a breath weapon, or a spit, spray, ray, or cone attack that originates from your head, each head has this attack.  
+
+Can Use Weapons				KEY:Multiheaded ~ Can Use Weapons	CATEGORY:Special Ability	TYPE:Multiheaded Fighting Style		ABILITY:Special Ability|AUTOMATIC|Multiheaded ~ Superior Multiweapon Fighting			
+Has Only Natural Attacks	KEY:Multiheaded ~ Only Natural Attacks	CATEGORY:Special Ability	TYPE:Multiheaded Fighting Style		ABILITY:Special Ability|AUTOMATIC|Multiheaded ~ Superior Multiattack					
+
+Superior Multiweapon Fighting	CATEGORY:Special Ability	TYPE:Extraordinary	KEY:Multiheaded ~ Superior Multiweapon Fighting		BENEFIT:You do not suffer the normal penalties for wielding multiple weapons.	BONUS:COMBAT|TOHIT-PRIMARY|6|TYPE=Base	BONUS:COMBAT|TOHIT-SECONDARY|10|TYPE=Base	SERVESAS:ABILITY=FEAT|Two-Weapon Fighting	SERVESAS:ABILITY=FEAT|Multiweapon Fighting
+
+Superior Multiattack	CATEGORY:Special Ability	TYPE:Extraordinary			KEY:Multiheaded ~ Superior Multiattack				SERVESAS:ABILITY=FEAT|Multiattack	SERVESAS:ABILITY=FEAT|Improved Multiattack	BONUS:COMBAT|TOHIT-SECONDARY|5		BONUS:COMBAT|DAMAGE-SECONDARY|STR/2		BENEFIT:You do not suffer the normal penalties for your secondary attacks.
+
+###BLOCK - Improve Monstrous Humanoid with Multiheaded
+
+Multiheaded HD ~ Monstrous Humanoid		CATEGORY:Special Ability		TYPE:Hidden		ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Monstrous Humanoid 1|PREVARGTEQ:AdditionalHeads,1	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Monstrous Humanoid 2|PREVARGTEQ:AdditionalHeads,2	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Monstrous Humanoid 3|PREVARGTEQ:AdditionalHeads,3	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Monstrous Humanoid 4|PREVARGTEQ:AdditionalHeads,4	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Monstrous Humanoid 5|PREVARGTEQ:AdditionalHeads,5	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Monstrous Humanoid 6|PREVARGTEQ:AdditionalHeads,6	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Monstrous Humanoid 7|PREVARGTEQ:AdditionalHeads,7	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Monstrous Humanoid 8|PREVARGTEQ:AdditionalHeads,8	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Monstrous Humanoid 9|PREVARGTEQ:AdditionalHeads,9	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Monstrous Humanoid 10|PREVARGTEQ:AdditionalHeads,10	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Monstrous Humanoid 11|PREVARGTEQ:AdditionalHeads,11	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Monstrous Humanoid 12|PREVARGTEQ:AdditionalHeads,12	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Monstrous Humanoid 13|PREVARGTEQ:AdditionalHeads,13	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Monstrous Humanoid 14|PREVARGTEQ:AdditionalHeads,14	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Monstrous Humanoid 15|PREVARGTEQ:AdditionalHeads,15	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Monstrous Humanoid 16|PREVARGTEQ:AdditionalHeads,16	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Monstrous Humanoid 17|PREVARGTEQ:AdditionalHeads,17	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Monstrous Humanoid 18|PREVARGTEQ:AdditionalHeads,18	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Monstrous Humanoid 19|PREVARGTEQ:AdditionalHeads,19	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Monstrous Humanoid 20|PREVARGTEQ:AdditionalHeads,20	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Monstrous Humanoid 21|PREVARGTEQ:AdditionalHeads,21	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Monstrous Humanoid 22|PREVARGTEQ:AdditionalHeads,22	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Monstrous Humanoid 23|PREVARGTEQ:AdditionalHeads,23	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Monstrous Humanoid 24|PREVARGTEQ:AdditionalHeads,24	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Monstrous Humanoid 25|PREVARGTEQ:AdditionalHeads,25	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Monstrous Humanoid 26|PREVARGTEQ:AdditionalHeads,26	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Monstrous Humanoid 27|PREVARGTEQ:AdditionalHeads,27	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Monstrous Humanoid 28|PREVARGTEQ:AdditionalHeads,28	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Monstrous Humanoid 29|PREVARGTEQ:AdditionalHeads,29
+
+
+Multiheaded HD Monstrous Humanoid 1	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Monstrous Humanoid Head 1
+Multiheaded HD Monstrous Humanoid 2	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Monstrous Humanoid Head 2
+Multiheaded HD Monstrous Humanoid 3	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Monstrous Humanoid Head 3
+Multiheaded HD Monstrous Humanoid 4	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Monstrous Humanoid Head 4
+Multiheaded HD Monstrous Humanoid 5	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Monstrous Humanoid Head 5
+Multiheaded HD Monstrous Humanoid 6	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Monstrous Humanoid Head 6
+Multiheaded HD Monstrous Humanoid 7	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Monstrous Humanoid Head 7
+Multiheaded HD Monstrous Humanoid 8	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Monstrous Humanoid Head 8
+Multiheaded HD Monstrous Humanoid 9	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Monstrous Humanoid Head 9
+Multiheaded HD Monstrous Humanoid 10	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Monstrous Humanoid Head 10
+Multiheaded HD Monstrous Humanoid 11	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Monstrous Humanoid Head 11
+Multiheaded HD Monstrous Humanoid 12	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Monstrous Humanoid Head 12
+Multiheaded HD Monstrous Humanoid 13	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Monstrous Humanoid Head 13
+Multiheaded HD Monstrous Humanoid 14	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Monstrous Humanoid Head 14
+Multiheaded HD Monstrous Humanoid 15	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Monstrous Humanoid Head 15
+Multiheaded HD Monstrous Humanoid 16	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Monstrous Humanoid Head 16
+Multiheaded HD Monstrous Humanoid 17	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Monstrous Humanoid Head 17
+Multiheaded HD Monstrous Humanoid 18	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Monstrous Humanoid Head 18
+Multiheaded HD Monstrous Humanoid 19	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Monstrous Humanoid Head 19
+Multiheaded HD Monstrous Humanoid 20	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Monstrous Humanoid Head 20
+Multiheaded HD Monstrous Humanoid 21	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Monstrous Humanoid Head 21
+Multiheaded HD Monstrous Humanoid 22	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Monstrous Humanoid Head 22
+Multiheaded HD Monstrous Humanoid 23	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Monstrous Humanoid Head 23
+Multiheaded HD Monstrous Humanoid 24	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Monstrous Humanoid Head 24
+Multiheaded HD Monstrous Humanoid 25	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Monstrous Humanoid Head 25
+Multiheaded HD Monstrous Humanoid 26	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Monstrous Humanoid Head 26
+Multiheaded HD Monstrous Humanoid 27	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Monstrous Humanoid Head 27
+Multiheaded HD Monstrous Humanoid 28	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Monstrous Humanoid Head 28
+Multiheaded HD Monstrous Humanoid 29	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Monstrous Humanoid Head 29
+
+###BLOCK - Improve Giant with Multiheaded
+
+Multiheaded HD ~ Giant		CATEGORY:Special Ability		TYPE:Hidden		ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Giant 1|PREVARGTEQ:AdditionalHeads,1	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Giant 2|PREVARGTEQ:AdditionalHeads,2	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Giant 3|PREVARGTEQ:AdditionalHeads,3	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Giant 4|PREVARGTEQ:AdditionalHeads,4	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Giant 5|PREVARGTEQ:AdditionalHeads,5	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Giant 6|PREVARGTEQ:AdditionalHeads,6	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Giant 7|PREVARGTEQ:AdditionalHeads,7	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Giant 8|PREVARGTEQ:AdditionalHeads,8	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Giant 9|PREVARGTEQ:AdditionalHeads,9	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Giant 10|PREVARGTEQ:AdditionalHeads,10	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Giant 11|PREVARGTEQ:AdditionalHeads,11	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Giant 12|PREVARGTEQ:AdditionalHeads,12	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Giant 13|PREVARGTEQ:AdditionalHeads,13	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Giant 14|PREVARGTEQ:AdditionalHeads,14	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Giant 15|PREVARGTEQ:AdditionalHeads,15	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Giant 16|PREVARGTEQ:AdditionalHeads,16	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Giant 17|PREVARGTEQ:AdditionalHeads,17	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Giant 18|PREVARGTEQ:AdditionalHeads,18	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Giant 19|PREVARGTEQ:AdditionalHeads,19	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Giant 20|PREVARGTEQ:AdditionalHeads,20	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Giant 21|PREVARGTEQ:AdditionalHeads,21	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Giant 22|PREVARGTEQ:AdditionalHeads,22	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Giant 23|PREVARGTEQ:AdditionalHeads,23	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Giant 24|PREVARGTEQ:AdditionalHeads,24	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Giant 25|PREVARGTEQ:AdditionalHeads,25	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Giant 26|PREVARGTEQ:AdditionalHeads,26	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Giant 27|PREVARGTEQ:AdditionalHeads,27	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Giant 28|PREVARGTEQ:AdditionalHeads,28	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Giant 29|PREVARGTEQ:AdditionalHeads,29
+
+
+Multiheaded HD Giant 1	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Giant Head 1
+Multiheaded HD Giant 2	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Giant Head 2
+Multiheaded HD Giant 3	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Giant Head 3
+Multiheaded HD Giant 4	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Giant Head 4
+Multiheaded HD Giant 5	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Giant Head 5
+Multiheaded HD Giant 6	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Giant Head 6
+Multiheaded HD Giant 7	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Giant Head 7
+Multiheaded HD Giant 8	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Giant Head 8
+Multiheaded HD Giant 9	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Giant Head 9
+Multiheaded HD Giant 10	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Giant Head 10
+Multiheaded HD Giant 11	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Giant Head 11
+Multiheaded HD Giant 12	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Giant Head 12
+Multiheaded HD Giant 13	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Giant Head 13
+Multiheaded HD Giant 14	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Giant Head 14
+Multiheaded HD Giant 15	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Giant Head 15
+Multiheaded HD Giant 16	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Giant Head 16
+Multiheaded HD Giant 17	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Giant Head 17
+Multiheaded HD Giant 18	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Giant Head 18
+Multiheaded HD Giant 19	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Giant Head 19
+Multiheaded HD Giant 20	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Giant Head 20
+Multiheaded HD Giant 21	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Giant Head 21
+Multiheaded HD Giant 22	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Giant Head 22
+Multiheaded HD Giant 23	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Giant Head 23
+Multiheaded HD Giant 24	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Giant Head 24
+Multiheaded HD Giant 25	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Giant Head 25
+Multiheaded HD Giant 26	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Giant Head 26
+Multiheaded HD Giant 27	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Giant Head 27
+Multiheaded HD Giant 28	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Giant Head 28
+Multiheaded HD Giant 29	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Giant Head 29
+
+
+###BLOCK - Improve Magical Beast with Multiheaded
+
+Multiheaded HD ~ Magical Beast		CATEGORY:Special Ability		TYPE:Hidden		ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Magical Beast 1|PREVARGTEQ:AdditionalHeads,1	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Magical Beast 2|PREVARGTEQ:AdditionalHeads,2	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Magical Beast 3|PREVARGTEQ:AdditionalHeads,3	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Magical Beast 4|PREVARGTEQ:AdditionalHeads,4	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Magical Beast 5|PREVARGTEQ:AdditionalHeads,5	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Magical Beast 6|PREVARGTEQ:AdditionalHeads,6	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Magical Beast 7|PREVARGTEQ:AdditionalHeads,7	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Magical Beast 8|PREVARGTEQ:AdditionalHeads,8	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Magical Beast 9|PREVARGTEQ:AdditionalHeads,9	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Magical Beast 10|PREVARGTEQ:AdditionalHeads,10	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Magical Beast 11|PREVARGTEQ:AdditionalHeads,11	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Magical Beast 12|PREVARGTEQ:AdditionalHeads,12	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Magical Beast 13|PREVARGTEQ:AdditionalHeads,13	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Magical Beast 14|PREVARGTEQ:AdditionalHeads,14	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Magical Beast 15|PREVARGTEQ:AdditionalHeads,15	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Magical Beast 16|PREVARGTEQ:AdditionalHeads,16	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Magical Beast 17|PREVARGTEQ:AdditionalHeads,17	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Magical Beast 18|PREVARGTEQ:AdditionalHeads,18	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Magical Beast 19|PREVARGTEQ:AdditionalHeads,19	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Magical Beast 20|PREVARGTEQ:AdditionalHeads,20	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Magical Beast 21|PREVARGTEQ:AdditionalHeads,21	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Magical Beast 22|PREVARGTEQ:AdditionalHeads,22	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Magical Beast 23|PREVARGTEQ:AdditionalHeads,23	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Magical Beast 24|PREVARGTEQ:AdditionalHeads,24	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Magical Beast 25|PREVARGTEQ:AdditionalHeads,25	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Magical Beast 26|PREVARGTEQ:AdditionalHeads,26	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Magical Beast 27|PREVARGTEQ:AdditionalHeads,27	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Magical Beast 28|PREVARGTEQ:AdditionalHeads,28	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Magical Beast 29|PREVARGTEQ:AdditionalHeads,29
+
+
+Multiheaded HD Magical Beast 1	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Magical Beast Head 1
+Multiheaded HD Magical Beast 2	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Magical Beast Head 2
+Multiheaded HD Magical Beast 3	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Magical Beast Head 3
+Multiheaded HD Magical Beast 4	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Magical Beast Head 4
+Multiheaded HD Magical Beast 5	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Magical Beast Head 5
+Multiheaded HD Magical Beast 6	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Magical Beast Head 6
+Multiheaded HD Magical Beast 7	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Magical Beast Head 7
+Multiheaded HD Magical Beast 8	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Magical Beast Head 8
+Multiheaded HD Magical Beast 9	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Magical Beast Head 9
+Multiheaded HD Magical Beast 10	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Magical Beast Head 10
+Multiheaded HD Magical Beast 11	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Magical Beast Head 11
+Multiheaded HD Magical Beast 12	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Magical Beast Head 12
+Multiheaded HD Magical Beast 13	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Magical Beast Head 13
+Multiheaded HD Magical Beast 14	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Magical Beast Head 14
+Multiheaded HD Magical Beast 15	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Magical Beast Head 15
+Multiheaded HD Magical Beast 16	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Magical Beast Head 16
+Multiheaded HD Magical Beast 17	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Magical Beast Head 17
+Multiheaded HD Magical Beast 18	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Magical Beast Head 18
+Multiheaded HD Magical Beast 19	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Magical Beast Head 19
+Multiheaded HD Magical Beast 20	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Magical Beast Head 20
+Multiheaded HD Magical Beast 21	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Magical Beast Head 21
+Multiheaded HD Magical Beast 22	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Magical Beast Head 22
+Multiheaded HD Magical Beast 23	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Magical Beast Head 23
+Multiheaded HD Magical Beast 24	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Magical Beast Head 24
+Multiheaded HD Magical Beast 25	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Magical Beast Head 25
+Multiheaded HD Magical Beast 26	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Magical Beast Head 26
+Multiheaded HD Magical Beast 27	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Magical Beast Head 27
+Multiheaded HD Magical Beast 28	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Magical Beast Head 28
+Multiheaded HD Magical Beast 29	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Magical Beast Head 29
+
+
+###BLOCK - Improve Aberration with Multiheaded
+
+Multiheaded HD ~ Aberration		CATEGORY:Special Ability		TYPE:Hidden		ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Aberration 1|PREVARGTEQ:AdditionalHeads,1	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Aberration 2|PREVARGTEQ:AdditionalHeads,2	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Aberration 3|PREVARGTEQ:AdditionalHeads,3	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Aberration 4|PREVARGTEQ:AdditionalHeads,4	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Aberration 5|PREVARGTEQ:AdditionalHeads,5	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Aberration 6|PREVARGTEQ:AdditionalHeads,6	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Aberration 7|PREVARGTEQ:AdditionalHeads,7	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Aberration 8|PREVARGTEQ:AdditionalHeads,8	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Aberration 9|PREVARGTEQ:AdditionalHeads,9	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Aberration 10|PREVARGTEQ:AdditionalHeads,10	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Aberration 11|PREVARGTEQ:AdditionalHeads,11	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Aberration 12|PREVARGTEQ:AdditionalHeads,12	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Aberration 13|PREVARGTEQ:AdditionalHeads,13	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Aberration 14|PREVARGTEQ:AdditionalHeads,14	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Aberration 15|PREVARGTEQ:AdditionalHeads,15	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Aberration 16|PREVARGTEQ:AdditionalHeads,16	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Aberration 17|PREVARGTEQ:AdditionalHeads,17	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Aberration 18|PREVARGTEQ:AdditionalHeads,18	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Aberration 19|PREVARGTEQ:AdditionalHeads,19	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Aberration 20|PREVARGTEQ:AdditionalHeads,20	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Aberration 21|PREVARGTEQ:AdditionalHeads,21	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Aberration 22|PREVARGTEQ:AdditionalHeads,22	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Aberration 23|PREVARGTEQ:AdditionalHeads,23	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Aberration 24|PREVARGTEQ:AdditionalHeads,24	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Aberration 25|PREVARGTEQ:AdditionalHeads,25	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Aberration 26|PREVARGTEQ:AdditionalHeads,26	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Aberration 27|PREVARGTEQ:AdditionalHeads,27	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Aberration 28|PREVARGTEQ:AdditionalHeads,28	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Aberration 29|PREVARGTEQ:AdditionalHeads,29
+
+
+Multiheaded HD Aberration 1	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Aberration Head 1
+Multiheaded HD Aberration 2	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Aberration Head 2
+Multiheaded HD Aberration 3	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Aberration Head 3
+Multiheaded HD Aberration 4	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Aberration Head 4
+Multiheaded HD Aberration 5	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Aberration Head 5
+Multiheaded HD Aberration 6	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Aberration Head 6
+Multiheaded HD Aberration 7	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Aberration Head 7
+Multiheaded HD Aberration 8	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Aberration Head 8
+Multiheaded HD Aberration 9	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Aberration Head 9
+Multiheaded HD Aberration 10	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Aberration Head 10
+Multiheaded HD Aberration 11	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Aberration Head 11
+Multiheaded HD Aberration 12	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Aberration Head 12
+Multiheaded HD Aberration 13	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Aberration Head 13
+Multiheaded HD Aberration 14	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Aberration Head 14
+Multiheaded HD Aberration 15	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Aberration Head 15
+Multiheaded HD Aberration 16	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Aberration Head 16
+Multiheaded HD Aberration 17	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Aberration Head 17
+Multiheaded HD Aberration 18	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Aberration Head 18
+Multiheaded HD Aberration 19	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Aberration Head 19
+Multiheaded HD Aberration 20	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Aberration Head 20
+Multiheaded HD Aberration 21	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Aberration Head 21
+Multiheaded HD Aberration 22	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Aberration Head 22
+Multiheaded HD Aberration 23	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Aberration Head 23
+Multiheaded HD Aberration 24	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Aberration Head 24
+Multiheaded HD Aberration 25	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Aberration Head 25
+Multiheaded HD Aberration 26	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Aberration Head 26
+Multiheaded HD Aberration 27	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Aberration Head 27
+Multiheaded HD Aberration 28	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Aberration Head 28
+Multiheaded HD Aberration 29	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Aberration Head 29
+
+
+###BLOCK - Improve Undead with Multiheaded
+
+Multiheaded HD ~ Undead		CATEGORY:Special Ability		TYPE:Hidden		ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Undead 1|PREVARGTEQ:AdditionalHeads,1	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Undead 2|PREVARGTEQ:AdditionalHeads,2	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Undead 3|PREVARGTEQ:AdditionalHeads,3	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Undead 4|PREVARGTEQ:AdditionalHeads,4	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Undead 5|PREVARGTEQ:AdditionalHeads,5	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Undead 6|PREVARGTEQ:AdditionalHeads,6	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Undead 7|PREVARGTEQ:AdditionalHeads,7	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Undead 8|PREVARGTEQ:AdditionalHeads,8	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Undead 9|PREVARGTEQ:AdditionalHeads,9	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Undead 10|PREVARGTEQ:AdditionalHeads,10	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Undead 11|PREVARGTEQ:AdditionalHeads,11	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Undead 12|PREVARGTEQ:AdditionalHeads,12	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Undead 13|PREVARGTEQ:AdditionalHeads,13	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Undead 14|PREVARGTEQ:AdditionalHeads,14	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Undead 15|PREVARGTEQ:AdditionalHeads,15	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Undead 16|PREVARGTEQ:AdditionalHeads,16	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Undead 17|PREVARGTEQ:AdditionalHeads,17	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Undead 18|PREVARGTEQ:AdditionalHeads,18	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Undead 19|PREVARGTEQ:AdditionalHeads,19	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Undead 20|PREVARGTEQ:AdditionalHeads,20	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Undead 21|PREVARGTEQ:AdditionalHeads,21	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Undead 22|PREVARGTEQ:AdditionalHeads,22	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Undead 23|PREVARGTEQ:AdditionalHeads,23	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Undead 24|PREVARGTEQ:AdditionalHeads,24	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Undead 25|PREVARGTEQ:AdditionalHeads,25	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Undead 26|PREVARGTEQ:AdditionalHeads,26	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Undead 27|PREVARGTEQ:AdditionalHeads,27	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Undead 28|PREVARGTEQ:AdditionalHeads,28	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Undead 29|PREVARGTEQ:AdditionalHeads,29
+
+
+Multiheaded HD Undead 1	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Undead Head 1
+Multiheaded HD Undead 2	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Undead Head 2
+Multiheaded HD Undead 3	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Undead Head 3
+Multiheaded HD Undead 4	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Undead Head 4
+Multiheaded HD Undead 5	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Undead Head 5
+Multiheaded HD Undead 6	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Undead Head 6
+Multiheaded HD Undead 7	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Undead Head 7
+Multiheaded HD Undead 8	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Undead Head 8
+Multiheaded HD Undead 9	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Undead Head 9
+Multiheaded HD Undead 10	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Undead Head 10
+Multiheaded HD Undead 11	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Undead Head 11
+Multiheaded HD Undead 12	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Undead Head 12
+Multiheaded HD Undead 13	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Undead Head 13
+Multiheaded HD Undead 14	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Undead Head 14
+Multiheaded HD Undead 15	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Undead Head 15
+Multiheaded HD Undead 16	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Undead Head 16
+Multiheaded HD Undead 17	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Undead Head 17
+Multiheaded HD Undead 18	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Undead Head 18
+Multiheaded HD Undead 19	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Undead Head 19
+Multiheaded HD Undead 20	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Undead Head 20
+Multiheaded HD Undead 21	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Undead Head 21
+Multiheaded HD Undead 22	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Undead Head 22
+Multiheaded HD Undead 23	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Undead Head 23
+Multiheaded HD Undead 24	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Undead Head 24
+Multiheaded HD Undead 25	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Undead Head 25
+Multiheaded HD Undead 26	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Undead Head 26
+Multiheaded HD Undead 27	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Undead Head 27
+Multiheaded HD Undead 28	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Undead Head 28
+Multiheaded HD Undead 29	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Undead Head 29
+
+
+###BLOCK - Improve Outsider with Multiheaded
+
+Multiheaded HD ~ Outsider		CATEGORY:Special Ability		TYPE:Hidden		ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Outsider 1|PREVARGTEQ:AdditionalHeads,1	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Outsider 2|PREVARGTEQ:AdditionalHeads,2	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Outsider 3|PREVARGTEQ:AdditionalHeads,3	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Outsider 4|PREVARGTEQ:AdditionalHeads,4	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Outsider 5|PREVARGTEQ:AdditionalHeads,5	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Outsider 6|PREVARGTEQ:AdditionalHeads,6	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Outsider 7|PREVARGTEQ:AdditionalHeads,7	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Outsider 8|PREVARGTEQ:AdditionalHeads,8	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Outsider 9|PREVARGTEQ:AdditionalHeads,9	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Outsider 10|PREVARGTEQ:AdditionalHeads,10	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Outsider 11|PREVARGTEQ:AdditionalHeads,11	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Outsider 12|PREVARGTEQ:AdditionalHeads,12	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Outsider 13|PREVARGTEQ:AdditionalHeads,13	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Outsider 14|PREVARGTEQ:AdditionalHeads,14	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Outsider 15|PREVARGTEQ:AdditionalHeads,15	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Outsider 16|PREVARGTEQ:AdditionalHeads,16	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Outsider 17|PREVARGTEQ:AdditionalHeads,17	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Outsider 18|PREVARGTEQ:AdditionalHeads,18	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Outsider 19|PREVARGTEQ:AdditionalHeads,19	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Outsider 20|PREVARGTEQ:AdditionalHeads,20	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Outsider 21|PREVARGTEQ:AdditionalHeads,21	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Outsider 22|PREVARGTEQ:AdditionalHeads,22	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Outsider 23|PREVARGTEQ:AdditionalHeads,23	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Outsider 24|PREVARGTEQ:AdditionalHeads,24	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Outsider 25|PREVARGTEQ:AdditionalHeads,25	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Outsider 26|PREVARGTEQ:AdditionalHeads,26	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Outsider 27|PREVARGTEQ:AdditionalHeads,27	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Outsider 28|PREVARGTEQ:AdditionalHeads,28	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Outsider 29|PREVARGTEQ:AdditionalHeads,29
+
+
+Multiheaded HD Outsider 1	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Outsider Head 1
+Multiheaded HD Outsider 2	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Outsider Head 2
+Multiheaded HD Outsider 3	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Outsider Head 3
+Multiheaded HD Outsider 4	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Outsider Head 4
+Multiheaded HD Outsider 5	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Outsider Head 5
+Multiheaded HD Outsider 6	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Outsider Head 6
+Multiheaded HD Outsider 7	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Outsider Head 7
+Multiheaded HD Outsider 8	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Outsider Head 8
+Multiheaded HD Outsider 9	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Outsider Head 9
+Multiheaded HD Outsider 10	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Outsider Head 10
+Multiheaded HD Outsider 11	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Outsider Head 11
+Multiheaded HD Outsider 12	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Outsider Head 12
+Multiheaded HD Outsider 13	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Outsider Head 13
+Multiheaded HD Outsider 14	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Outsider Head 14
+Multiheaded HD Outsider 15	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Outsider Head 15
+Multiheaded HD Outsider 16	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Outsider Head 16
+Multiheaded HD Outsider 17	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Outsider Head 17
+Multiheaded HD Outsider 18	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Outsider Head 18
+Multiheaded HD Outsider 19	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Outsider Head 19
+Multiheaded HD Outsider 20	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Outsider Head 20
+Multiheaded HD Outsider 21	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Outsider Head 21
+Multiheaded HD Outsider 22	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Outsider Head 22
+Multiheaded HD Outsider 23	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Outsider Head 23
+Multiheaded HD Outsider 24	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Outsider Head 24
+Multiheaded HD Outsider 25	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Outsider Head 25
+Multiheaded HD Outsider 26	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Outsider Head 26
+Multiheaded HD Outsider 27	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Outsider Head 27
+Multiheaded HD Outsider 28	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Outsider Head 28
+Multiheaded HD Outsider 29	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Outsider Head 29
+
+
+###BLOCK - Improve Fey with Multiheaded
+
+Multiheaded HD ~ Fey		CATEGORY:Special Ability		TYPE:Hidden		ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Fey 1|PREVARGTEQ:AdditionalHeads,1	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Fey 2|PREVARGTEQ:AdditionalHeads,2	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Fey 3|PREVARGTEQ:AdditionalHeads,3	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Fey 4|PREVARGTEQ:AdditionalHeads,4	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Fey 5|PREVARGTEQ:AdditionalHeads,5	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Fey 6|PREVARGTEQ:AdditionalHeads,6	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Fey 7|PREVARGTEQ:AdditionalHeads,7	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Fey 8|PREVARGTEQ:AdditionalHeads,8	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Fey 9|PREVARGTEQ:AdditionalHeads,9	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Fey 10|PREVARGTEQ:AdditionalHeads,10	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Fey 11|PREVARGTEQ:AdditionalHeads,11	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Fey 12|PREVARGTEQ:AdditionalHeads,12	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Fey 13|PREVARGTEQ:AdditionalHeads,13	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Fey 14|PREVARGTEQ:AdditionalHeads,14	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Fey 15|PREVARGTEQ:AdditionalHeads,15	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Fey 16|PREVARGTEQ:AdditionalHeads,16	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Fey 17|PREVARGTEQ:AdditionalHeads,17	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Fey 18|PREVARGTEQ:AdditionalHeads,18	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Fey 19|PREVARGTEQ:AdditionalHeads,19	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Fey 20|PREVARGTEQ:AdditionalHeads,20	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Fey 21|PREVARGTEQ:AdditionalHeads,21	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Fey 22|PREVARGTEQ:AdditionalHeads,22	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Fey 23|PREVARGTEQ:AdditionalHeads,23	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Fey 24|PREVARGTEQ:AdditionalHeads,24	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Fey 25|PREVARGTEQ:AdditionalHeads,25	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Fey 26|PREVARGTEQ:AdditionalHeads,26	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Fey 27|PREVARGTEQ:AdditionalHeads,27	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Fey 28|PREVARGTEQ:AdditionalHeads,28	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Fey 29|PREVARGTEQ:AdditionalHeads,29
+
+
+Multiheaded HD Fey 1	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Fey Head 1
+Multiheaded HD Fey 2	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Fey Head 2
+Multiheaded HD Fey 3	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Fey Head 3
+Multiheaded HD Fey 4	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Fey Head 4
+Multiheaded HD Fey 5	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Fey Head 5
+Multiheaded HD Fey 6	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Fey Head 6
+Multiheaded HD Fey 7	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Fey Head 7
+Multiheaded HD Fey 8	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Fey Head 8
+Multiheaded HD Fey 9	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Fey Head 9
+Multiheaded HD Fey 10	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Fey Head 10
+Multiheaded HD Fey 11	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Fey Head 11
+Multiheaded HD Fey 12	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Fey Head 12
+Multiheaded HD Fey 13	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Fey Head 13
+Multiheaded HD Fey 14	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Fey Head 14
+Multiheaded HD Fey 15	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Fey Head 15
+Multiheaded HD Fey 16	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Fey Head 16
+Multiheaded HD Fey 17	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Fey Head 17
+Multiheaded HD Fey 18	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Fey Head 18
+Multiheaded HD Fey 19	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Fey Head 19
+Multiheaded HD Fey 20	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Fey Head 20
+Multiheaded HD Fey 21	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Fey Head 21
+Multiheaded HD Fey 22	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Fey Head 22
+Multiheaded HD Fey 23	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Fey Head 23
+Multiheaded HD Fey 24	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Fey Head 24
+Multiheaded HD Fey 25	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Fey Head 25
+Multiheaded HD Fey 26	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Fey Head 26
+Multiheaded HD Fey 27	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Fey Head 27
+Multiheaded HD Fey 28	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Fey Head 28
+Multiheaded HD Fey 29	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Fey Head 29
+
+
+###BLOCK - Improve Dragon with Multiheaded
+
+Multiheaded HD ~ Dragon		CATEGORY:Special Ability		TYPE:Hidden		ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Dragon 1|PREVARGTEQ:AdditionalHeads,1	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Dragon 2|PREVARGTEQ:AdditionalHeads,2	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Dragon 3|PREVARGTEQ:AdditionalHeads,3	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Dragon 4|PREVARGTEQ:AdditionalHeads,4	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Dragon 5|PREVARGTEQ:AdditionalHeads,5	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Dragon 6|PREVARGTEQ:AdditionalHeads,6	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Dragon 7|PREVARGTEQ:AdditionalHeads,7	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Dragon 8|PREVARGTEQ:AdditionalHeads,8	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Dragon 9|PREVARGTEQ:AdditionalHeads,9	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Dragon 10|PREVARGTEQ:AdditionalHeads,10	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Dragon 11|PREVARGTEQ:AdditionalHeads,11	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Dragon 12|PREVARGTEQ:AdditionalHeads,12	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Dragon 13|PREVARGTEQ:AdditionalHeads,13	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Dragon 14|PREVARGTEQ:AdditionalHeads,14	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Dragon 15|PREVARGTEQ:AdditionalHeads,15	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Dragon 16|PREVARGTEQ:AdditionalHeads,16	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Dragon 17|PREVARGTEQ:AdditionalHeads,17	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Dragon 18|PREVARGTEQ:AdditionalHeads,18	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Dragon 19|PREVARGTEQ:AdditionalHeads,19	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Dragon 20|PREVARGTEQ:AdditionalHeads,20	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Dragon 21|PREVARGTEQ:AdditionalHeads,21	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Dragon 22|PREVARGTEQ:AdditionalHeads,22	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Dragon 23|PREVARGTEQ:AdditionalHeads,23	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Dragon 24|PREVARGTEQ:AdditionalHeads,24	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Dragon 25|PREVARGTEQ:AdditionalHeads,25	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Dragon 26|PREVARGTEQ:AdditionalHeads,26	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Dragon 27|PREVARGTEQ:AdditionalHeads,27	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Dragon 28|PREVARGTEQ:AdditionalHeads,28	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Dragon 29|PREVARGTEQ:AdditionalHeads,29
+
+
+Multiheaded HD Dragon 1	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Dragon Head 1
+Multiheaded HD Dragon 2	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Dragon Head 2
+Multiheaded HD Dragon 3	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Dragon Head 3
+Multiheaded HD Dragon 4	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Dragon Head 4
+Multiheaded HD Dragon 5	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Dragon Head 5
+Multiheaded HD Dragon 6	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Dragon Head 6
+Multiheaded HD Dragon 7	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Dragon Head 7
+Multiheaded HD Dragon 8	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Dragon Head 8
+Multiheaded HD Dragon 9	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Dragon Head 9
+Multiheaded HD Dragon 10	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Dragon Head 10
+Multiheaded HD Dragon 11	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Dragon Head 11
+Multiheaded HD Dragon 12	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Dragon Head 12
+Multiheaded HD Dragon 13	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Dragon Head 13
+Multiheaded HD Dragon 14	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Dragon Head 14
+Multiheaded HD Dragon 15	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Dragon Head 15
+Multiheaded HD Dragon 16	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Dragon Head 16
+Multiheaded HD Dragon 17	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Dragon Head 17
+Multiheaded HD Dragon 18	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Dragon Head 18
+Multiheaded HD Dragon 19	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Dragon Head 19
+Multiheaded HD Dragon 20	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Dragon Head 20
+Multiheaded HD Dragon 21	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Dragon Head 21
+Multiheaded HD Dragon 22	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Dragon Head 22
+Multiheaded HD Dragon 23	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Dragon Head 23
+Multiheaded HD Dragon 24	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Dragon Head 24
+Multiheaded HD Dragon 25	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Dragon Head 25
+Multiheaded HD Dragon 26	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Dragon Head 26
+Multiheaded HD Dragon 27	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Dragon Head 27
+Multiheaded HD Dragon 28	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Dragon Head 28
+Multiheaded HD Dragon 29	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Dragon Head 29
+
+
+###BLOCK - Improve Construct with Multiheaded
+
+Multiheaded HD ~ Construct		CATEGORY:Special Ability		TYPE:Hidden		ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Construct 1|PREVARGTEQ:AdditionalHeads,1	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Construct 2|PREVARGTEQ:AdditionalHeads,2	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Construct 3|PREVARGTEQ:AdditionalHeads,3	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Construct 4|PREVARGTEQ:AdditionalHeads,4	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Construct 5|PREVARGTEQ:AdditionalHeads,5	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Construct 6|PREVARGTEQ:AdditionalHeads,6	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Construct 7|PREVARGTEQ:AdditionalHeads,7	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Construct 8|PREVARGTEQ:AdditionalHeads,8	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Construct 9|PREVARGTEQ:AdditionalHeads,9	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Construct 10|PREVARGTEQ:AdditionalHeads,10	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Construct 11|PREVARGTEQ:AdditionalHeads,11	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Construct 12|PREVARGTEQ:AdditionalHeads,12	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Construct 13|PREVARGTEQ:AdditionalHeads,13	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Construct 14|PREVARGTEQ:AdditionalHeads,14	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Construct 15|PREVARGTEQ:AdditionalHeads,15	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Construct 16|PREVARGTEQ:AdditionalHeads,16	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Construct 17|PREVARGTEQ:AdditionalHeads,17	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Construct 18|PREVARGTEQ:AdditionalHeads,18	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Construct 19|PREVARGTEQ:AdditionalHeads,19	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Construct 20|PREVARGTEQ:AdditionalHeads,20	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Construct 21|PREVARGTEQ:AdditionalHeads,21	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Construct 22|PREVARGTEQ:AdditionalHeads,22	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Construct 23|PREVARGTEQ:AdditionalHeads,23	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Construct 24|PREVARGTEQ:AdditionalHeads,24	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Construct 25|PREVARGTEQ:AdditionalHeads,25	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Construct 26|PREVARGTEQ:AdditionalHeads,26	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Construct 27|PREVARGTEQ:AdditionalHeads,27	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Construct 28|PREVARGTEQ:AdditionalHeads,28	ABILITY:Special Ability|AUTOMATIC|Multiheaded HD Construct 29|PREVARGTEQ:AdditionalHeads,29
+
+
+Multiheaded HD Construct 1	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Construct Head 1
+Multiheaded HD Construct 2	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Construct Head 2
+Multiheaded HD Construct 3	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Construct Head 3
+Multiheaded HD Construct 4	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Construct Head 4
+Multiheaded HD Construct 5	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Construct Head 5
+Multiheaded HD Construct 6	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Construct Head 6
+Multiheaded HD Construct 7	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Construct Head 7
+Multiheaded HD Construct 8	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Construct Head 8
+Multiheaded HD Construct 9	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Construct Head 9
+Multiheaded HD Construct 10	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Construct Head 10
+Multiheaded HD Construct 11	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Construct Head 11
+Multiheaded HD Construct 12	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Construct Head 12
+Multiheaded HD Construct 13	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Construct Head 13
+Multiheaded HD Construct 14	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Construct Head 14
+Multiheaded HD Construct 15	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Construct Head 15
+Multiheaded HD Construct 16	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Construct Head 16
+Multiheaded HD Construct 17	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Construct Head 17
+Multiheaded HD Construct 18	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Construct Head 18
+Multiheaded HD Construct 19	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Construct Head 19
+Multiheaded HD Construct 20	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Construct Head 20
+Multiheaded HD Construct 21	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Construct Head 21
+Multiheaded HD Construct 22	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Construct Head 22
+Multiheaded HD Construct 23	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Construct Head 23
+Multiheaded HD Construct 24	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Construct Head 24
+Multiheaded HD Construct 25	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Construct Head 25
+Multiheaded HD Construct 26	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Construct Head 26
+Multiheaded HD Construct 27	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Construct Head 27
+Multiheaded HD Construct 28	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Construct Head 28
+Multiheaded HD Construct 29	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Construct Head 29

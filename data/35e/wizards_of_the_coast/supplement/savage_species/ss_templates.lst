@@ -10,7 +10,53 @@ Ghost Brute			VISIBLE:NO	SOURCEPAGE:p.118
 Incarnate Construct	VISIBLE:NO	SOURCEPAGE:p.120
 Insectile Creature	VISIBLE:NO	SOURCEPAGE:p.121
 Monstrous Beast		VISIBLE:NO	SOURCEPAGE:p.122
-Multiheaded Creature	VISIBLE:NO	SOURCEPAGE:p.124
+Multiheaded Creature	VISIBLE:YES	SOURCEPAGE:p.124		DEFINE:MaxAdditionalHeads|0	BONUS:VAR|MaxAdditionalHeads|1		BONUS:VAR|MaxAdditionalHeads|2|PRESIZEGTEQ:L		BONUS:VAR|MaxAdditionalHeads|8|PRESIZEGTEQ:H		BONUS:VAR|MaxAdditionalHeads|8|PRESIZEGTEQ:G		BONUS:VAR|MaxAdditionalHeads|10|PRESIZEGTEQ:C		DEFINE:AdditionalHeads|0		BONUS:ABILITYPOOL|Number Of Heads|1			BONUS:COMBAT|AC|AdditionalHeads|TYPE=NaturalArmor.STACK		VISION:Darkvision (90)		BONUS:STAT|CON|AdditionalHeads*2|TYPE=Racial.STACK		BONUS:SKILL|Listen,Search,Spot|AdditionalHeads*2|TYPE=Racial.STACK	ABILITY:FEAT|AUTOMATIC|Improved Initiative		ABILITY:FEAT|AUTOMATIC|Combat Reflexes	DEFINE:MultiheadedCR|0	BONUS:VAR|MultiheadeCR|2		BONUS:VAR|MultiheadeCR|1|PREVARGTEQ:AdditionalHeads,2	BONUS:VAR|MultiheadeCR|1|PREVARGTEQ:AdditionalHeads,5			BONUS:VAR|MultiheadeCR|1|PREVARGTEQ:AdditionalHeads,8		BONUS:VAR|MultiheadeCR|1|PREVARGTEQ:AdditionalHeads,11	BONUS:VAR|MultiheadeCR|1|PREVARGTEQ:AdditionalHeads,16	BONUS:VAR|MultiheadeCR|1|PREVARGTEQ:AdditionalHeads,12	BONUS:VAR|MultiheadeCR|1|PREVARGTEQ:AdditionalHeads,26	SAB:Adjust Level Adjustment CR by +1 for every head-based special attack such as breath weapon or gaze, and by an additional %1|  MultiheadedCR
+Multiheaded HD				VISIBLE:NO																													ABILITY:Special Ability|AUTOMATIC|Multiheaded HD ~ Monstrous Humanoid|PRERACE:1,RACETYPE=Monstrous Humanoid,RACETYPE=Monstrous humanoid																		
+#	ADDLEVEL:Magical Beast|AdditionalHeads*2|PRERACE:1,RACETYPE=Magical Beast																						ADDLEVEL:Magical Beast|AdditionalHeads*2|PRERACE:1,RACETYPE=Animal			ADDLEVEL:Dragon|AdditionalHeads*2|PRERACE:1,RACETYPE=Dragon		ADDLEVEL:Aberration|AdditionalHeads*2|PRERACE:1,RACETYPE=Aberration			ADDLEVEL:Outsider|AdditionalHeads*2|PRERACE:1,RACETYPE=Outsider					ADDLEVEL:Elemental|AdditionalHeads*2|PRERACE:1,RACETYPE=Outsider					ADDLEVEL:Fey|AdditionalHeads*2|PRERACE:1,RACETYPE=Fey		
+MH LA 2		LEVELADJUSTMENT:2	CR:2	VISIBLE:NO
+MH LA 3		LEVELADJUSTMENT:3	CR:3	VISIBLE:NO
+MH LA 4		LEVELADJUSTMENT:4	CR:4	VISIBLE:NO
+MH LA 5		LEVELADJUSTMENT:5	CR:5	VISIBLE:NO
+MH LA 6		LEVELADJUSTMENT:6	CR:6	VISIBLE:NO
+MH LA 7		LEVELADJUSTMENT:7	CR:7	VISIBLE:NO
+MH LA 8		LEVELADJUSTMENT:8	CR:8	VISIBLE:NO
+MH LA 9 	LEVELADJUSTMENT:9	CR:9	VISIBLE:NO
+MH LA 10	LEVELADJUSTMENT:10	CR:10	VISIBLE:NO
+
+### BLOCK MULTIHEADEd Monstrous Humanoid
+Multiheaded HD Monstrous Humanoid Head 1	VISIBLE:NO	ADDLEVEL:Monstrous Humanoid|2
+Multiheaded HD Monstrous Humanoid Head 2	VISIBLE:NO	ADDLEVEL:Monstrous Humanoid|2
+Multiheaded HD Monstrous Humanoid Head 3	VISIBLE:NO	ADDLEVEL:Monstrous Humanoid|2
+Multiheaded HD Monstrous Humanoid Head 4	VISIBLE:NO	ADDLEVEL:Monstrous Humanoid|2
+Multiheaded HD Monstrous Humanoid Head 5	VISIBLE:NO	ADDLEVEL:Monstrous Humanoid|2
+Multiheaded HD Monstrous Humanoid Head 6	VISIBLE:NO	ADDLEVEL:Monstrous Humanoid|2
+Multiheaded HD Monstrous Humanoid Head 7	VISIBLE:NO	ADDLEVEL:Monstrous Humanoid|2
+Multiheaded HD Monstrous Humanoid Head 8	VISIBLE:NO	ADDLEVEL:Monstrous Humanoid|2
+Multiheaded HD Monstrous Humanoid Head 9	VISIBLE:NO	ADDLEVEL:Monstrous Humanoid|2
+Multiheaded HD Monstrous Humanoid Head 10	VISIBLE:NO	ADDLEVEL:Monstrous Humanoid|2
+Multiheaded HD Monstrous Humanoid Head 11	VISIBLE:NO	ADDLEVEL:Monstrous Humanoid|2
+Multiheaded HD Monstrous Humanoid Head 12	VISIBLE:NO	ADDLEVEL:Monstrous Humanoid|2
+Multiheaded HD Monstrous Humanoid Head 13	VISIBLE:NO	ADDLEVEL:Monstrous Humanoid|2
+Multiheaded HD Monstrous Humanoid Head 14	VISIBLE:NO	ADDLEVEL:Monstrous Humanoid|2
+Multiheaded HD Monstrous Humanoid Head 15	VISIBLE:NO	ADDLEVEL:Monstrous Humanoid|2
+Multiheaded HD Monstrous Humanoid Head 16	VISIBLE:NO	ADDLEVEL:Monstrous Humanoid|2
+Multiheaded HD Monstrous Humanoid Head 17	VISIBLE:NO	ADDLEVEL:Monstrous Humanoid|2
+Multiheaded HD Monstrous Humanoid Head 18	VISIBLE:NO	ADDLEVEL:Monstrous Humanoid|2
+Multiheaded HD Monstrous Humanoid Head 19	VISIBLE:NO	ADDLEVEL:Monstrous Humanoid|2
+Multiheaded HD Monstrous Humanoid Head 20	VISIBLE:NO	ADDLEVEL:Monstrous Humanoid|2
+Multiheaded HD Monstrous Humanoid Head 21	VISIBLE:NO	ADDLEVEL:Monstrous Humanoid|2
+Multiheaded HD Monstrous Humanoid Head 22	VISIBLE:NO	ADDLEVEL:Monstrous Humanoid|2
+Multiheaded HD Monstrous Humanoid Head 23	VISIBLE:NO	ADDLEVEL:Monstrous Humanoid|2
+Multiheaded HD Monstrous Humanoid Head 24	VISIBLE:NO	ADDLEVEL:Monstrous Humanoid|2
+Multiheaded HD Monstrous Humanoid Head 25	VISIBLE:NO	ADDLEVEL:Monstrous Humanoid|2
+Multiheaded HD Monstrous Humanoid Head 26	VISIBLE:NO	ADDLEVEL:Monstrous Humanoid|2
+Multiheaded HD Monstrous Humanoid Head 27	VISIBLE:NO	ADDLEVEL:Monstrous Humanoid|2
+Multiheaded HD Monstrous Humanoid Head 28	VISIBLE:NO	ADDLEVEL:Monstrous Humanoid|2
+Multiheaded HD Monstrous Humanoid Head 29	VISIBLE:NO	ADDLEVEL:Monstrous Humanoid|2
+
+MMH LA 9 	LEVELADJUSTMENT:9	CR:9	VISIBLE:NO
+
+
 Mummified Creature	VISIBLE:NO	SOURCEPAGE:p.126
 Reptilian Creature	VISIBLE:NO	SOURCEPAGE:p.128
 Spectral Creature		VISIBLE:NO	SOURCEPAGE:p.129
@@ -21,3 +67,305 @@ Wight				VISIBLE:NO	SOURCEPAGE:p.136
 Winged Creature		VISIBLE:NO	SOURCEPAGE:p.137
 Wraith			VISIBLE:NO	SOURCEPAGE:p.138
 Yuan-Ti			VISIBLE:NO	SOURCEPAGE:p.140
+
+
+
+### BLOCK MULTIHEADEd Outsider
+Multiheaded HD Outsider Head 1	VISIBLE:NO	ADDLEVEL:Outsider|2
+Multiheaded HD Outsider Head 2	VISIBLE:NO	ADDLEVEL:Outsider|2
+Multiheaded HD Outsider Head 3	VISIBLE:NO	ADDLEVEL:Outsider|2
+Multiheaded HD Outsider Head 4	VISIBLE:NO	ADDLEVEL:Outsider|2
+Multiheaded HD Outsider Head 5	VISIBLE:NO	ADDLEVEL:Outsider|2
+Multiheaded HD Outsider Head 6	VISIBLE:NO	ADDLEVEL:Outsider|2
+Multiheaded HD Outsider Head 7	VISIBLE:NO	ADDLEVEL:Outsider|2
+Multiheaded HD Outsider Head 8	VISIBLE:NO	ADDLEVEL:Outsider|2
+Multiheaded HD Outsider Head 9	VISIBLE:NO	ADDLEVEL:Outsider|2
+Multiheaded HD Outsider Head 10	VISIBLE:NO	ADDLEVEL:Outsider|2
+Multiheaded HD Outsider Head 11	VISIBLE:NO	ADDLEVEL:Outsider|2
+Multiheaded HD Outsider Head 12	VISIBLE:NO	ADDLEVEL:Outsider|2
+Multiheaded HD Outsider Head 13	VISIBLE:NO	ADDLEVEL:Outsider|2
+Multiheaded HD Outsider Head 14	VISIBLE:NO	ADDLEVEL:Outsider|2
+Multiheaded HD Outsider Head 15	VISIBLE:NO	ADDLEVEL:Outsider|2
+Multiheaded HD Outsider Head 16	VISIBLE:NO	ADDLEVEL:Outsider|2
+Multiheaded HD Outsider Head 17	VISIBLE:NO	ADDLEVEL:Outsider|2
+Multiheaded HD Outsider Head 18	VISIBLE:NO	ADDLEVEL:Outsider|2
+Multiheaded HD Outsider Head 19	VISIBLE:NO	ADDLEVEL:Outsider|2
+Multiheaded HD Outsider Head 20	VISIBLE:NO	ADDLEVEL:Outsider|2
+Multiheaded HD Outsider Head 21	VISIBLE:NO	ADDLEVEL:Outsider|2
+Multiheaded HD Outsider Head 22	VISIBLE:NO	ADDLEVEL:Outsider|2
+Multiheaded HD Outsider Head 23	VISIBLE:NO	ADDLEVEL:Outsider|2
+Multiheaded HD Outsider Head 24	VISIBLE:NO	ADDLEVEL:Outsider|2
+Multiheaded HD Outsider Head 25	VISIBLE:NO	ADDLEVEL:Outsider|2
+Multiheaded HD Outsider Head 26	VISIBLE:NO	ADDLEVEL:Outsider|2
+Multiheaded HD Outsider Head 27	VISIBLE:NO	ADDLEVEL:Outsider|2
+Multiheaded HD Outsider Head 28	VISIBLE:NO	ADDLEVEL:Outsider|2
+Multiheaded HD Outsider Head 29	VISIBLE:NO	ADDLEVEL:Outsider|2
+
+
+
+### BLOCK MULTIHEADEd Undead
+Multiheaded HD Undead Head 1	VISIBLE:NO	ADDLEVEL:Undead|2
+Multiheaded HD Undead Head 2	VISIBLE:NO	ADDLEVEL:Undead|2
+Multiheaded HD Undead Head 3	VISIBLE:NO	ADDLEVEL:Undead|2
+Multiheaded HD Undead Head 4	VISIBLE:NO	ADDLEVEL:Undead|2
+Multiheaded HD Undead Head 5	VISIBLE:NO	ADDLEVEL:Undead|2
+Multiheaded HD Undead Head 6	VISIBLE:NO	ADDLEVEL:Undead|2
+Multiheaded HD Undead Head 7	VISIBLE:NO	ADDLEVEL:Undead|2
+Multiheaded HD Undead Head 8	VISIBLE:NO	ADDLEVEL:Undead|2
+Multiheaded HD Undead Head 9	VISIBLE:NO	ADDLEVEL:Undead|2
+Multiheaded HD Undead Head 10	VISIBLE:NO	ADDLEVEL:Undead|2
+Multiheaded HD Undead Head 11	VISIBLE:NO	ADDLEVEL:Undead|2
+Multiheaded HD Undead Head 12	VISIBLE:NO	ADDLEVEL:Undead|2
+Multiheaded HD Undead Head 13	VISIBLE:NO	ADDLEVEL:Undead|2
+Multiheaded HD Undead Head 14	VISIBLE:NO	ADDLEVEL:Undead|2
+Multiheaded HD Undead Head 15	VISIBLE:NO	ADDLEVEL:Undead|2
+Multiheaded HD Undead Head 16	VISIBLE:NO	ADDLEVEL:Undead|2
+Multiheaded HD Undead Head 17	VISIBLE:NO	ADDLEVEL:Undead|2
+Multiheaded HD Undead Head 18	VISIBLE:NO	ADDLEVEL:Undead|2
+Multiheaded HD Undead Head 19	VISIBLE:NO	ADDLEVEL:Undead|2
+Multiheaded HD Undead Head 20	VISIBLE:NO	ADDLEVEL:Undead|2
+Multiheaded HD Undead Head 21	VISIBLE:NO	ADDLEVEL:Undead|2
+Multiheaded HD Undead Head 22	VISIBLE:NO	ADDLEVEL:Undead|2
+Multiheaded HD Undead Head 23	VISIBLE:NO	ADDLEVEL:Undead|2
+Multiheaded HD Undead Head 24	VISIBLE:NO	ADDLEVEL:Undead|2
+Multiheaded HD Undead Head 25	VISIBLE:NO	ADDLEVEL:Undead|2
+Multiheaded HD Undead Head 26	VISIBLE:NO	ADDLEVEL:Undead|2
+Multiheaded HD Undead Head 27	VISIBLE:NO	ADDLEVEL:Undead|2
+Multiheaded HD Undead Head 28	VISIBLE:NO	ADDLEVEL:Undead|2
+Multiheaded HD Undead Head 29	VISIBLE:NO	ADDLEVEL:Undead|2
+
+
+
+### BLOCK MULTIHEADEd Dragon
+Multiheaded HD Dragon Head 1	VISIBLE:NO	ADDLEVEL:Dragon|2
+Multiheaded HD Dragon Head 2	VISIBLE:NO	ADDLEVEL:Dragon|2
+Multiheaded HD Dragon Head 3	VISIBLE:NO	ADDLEVEL:Dragon|2
+Multiheaded HD Dragon Head 4	VISIBLE:NO	ADDLEVEL:Dragon|2
+Multiheaded HD Dragon Head 5	VISIBLE:NO	ADDLEVEL:Dragon|2
+Multiheaded HD Dragon Head 6	VISIBLE:NO	ADDLEVEL:Dragon|2
+Multiheaded HD Dragon Head 7	VISIBLE:NO	ADDLEVEL:Dragon|2
+Multiheaded HD Dragon Head 8	VISIBLE:NO	ADDLEVEL:Dragon|2
+Multiheaded HD Dragon Head 9	VISIBLE:NO	ADDLEVEL:Dragon|2
+Multiheaded HD Dragon Head 10	VISIBLE:NO	ADDLEVEL:Dragon|2
+Multiheaded HD Dragon Head 11	VISIBLE:NO	ADDLEVEL:Dragon|2
+Multiheaded HD Dragon Head 12	VISIBLE:NO	ADDLEVEL:Dragon|2
+Multiheaded HD Dragon Head 13	VISIBLE:NO	ADDLEVEL:Dragon|2
+Multiheaded HD Dragon Head 14	VISIBLE:NO	ADDLEVEL:Dragon|2
+Multiheaded HD Dragon Head 15	VISIBLE:NO	ADDLEVEL:Dragon|2
+Multiheaded HD Dragon Head 16	VISIBLE:NO	ADDLEVEL:Dragon|2
+Multiheaded HD Dragon Head 17	VISIBLE:NO	ADDLEVEL:Dragon|2
+Multiheaded HD Dragon Head 18	VISIBLE:NO	ADDLEVEL:Dragon|2
+Multiheaded HD Dragon Head 19	VISIBLE:NO	ADDLEVEL:Dragon|2
+Multiheaded HD Dragon Head 20	VISIBLE:NO	ADDLEVEL:Dragon|2
+Multiheaded HD Dragon Head 21	VISIBLE:NO	ADDLEVEL:Dragon|2
+Multiheaded HD Dragon Head 22	VISIBLE:NO	ADDLEVEL:Dragon|2
+Multiheaded HD Dragon Head 23	VISIBLE:NO	ADDLEVEL:Dragon|2
+Multiheaded HD Dragon Head 24	VISIBLE:NO	ADDLEVEL:Dragon|2
+Multiheaded HD Dragon Head 25	VISIBLE:NO	ADDLEVEL:Dragon|2
+Multiheaded HD Dragon Head 26	VISIBLE:NO	ADDLEVEL:Dragon|2
+Multiheaded HD Dragon Head 27	VISIBLE:NO	ADDLEVEL:Dragon|2
+Multiheaded HD Dragon Head 28	VISIBLE:NO	ADDLEVEL:Dragon|2
+Multiheaded HD Dragon Head 29	VISIBLE:NO	ADDLEVEL:Dragon|2
+
+
+### BLOCK MULTIHEADEd Giant
+Multiheaded HD Giant Head 1	VISIBLE:NO	ADDLEVEL:Giant|2
+Multiheaded HD Giant Head 2	VISIBLE:NO	ADDLEVEL:Giant|2
+Multiheaded HD Giant Head 3	VISIBLE:NO	ADDLEVEL:Giant|2
+Multiheaded HD Giant Head 4	VISIBLE:NO	ADDLEVEL:Giant|2
+Multiheaded HD Giant Head 5	VISIBLE:NO	ADDLEVEL:Giant|2
+Multiheaded HD Giant Head 6	VISIBLE:NO	ADDLEVEL:Giant|2
+Multiheaded HD Giant Head 7	VISIBLE:NO	ADDLEVEL:Giant|2
+Multiheaded HD Giant Head 8	VISIBLE:NO	ADDLEVEL:Giant|2
+Multiheaded HD Giant Head 9	VISIBLE:NO	ADDLEVEL:Giant|2
+Multiheaded HD Giant Head 10	VISIBLE:NO	ADDLEVEL:Giant|2
+Multiheaded HD Giant Head 11	VISIBLE:NO	ADDLEVEL:Giant|2
+Multiheaded HD Giant Head 12	VISIBLE:NO	ADDLEVEL:Giant|2
+Multiheaded HD Giant Head 13	VISIBLE:NO	ADDLEVEL:Giant|2
+Multiheaded HD Giant Head 14	VISIBLE:NO	ADDLEVEL:Giant|2
+Multiheaded HD Giant Head 15	VISIBLE:NO	ADDLEVEL:Giant|2
+Multiheaded HD Giant Head 16	VISIBLE:NO	ADDLEVEL:Giant|2
+Multiheaded HD Giant Head 17	VISIBLE:NO	ADDLEVEL:Giant|2
+Multiheaded HD Giant Head 18	VISIBLE:NO	ADDLEVEL:Giant|2
+Multiheaded HD Giant Head 19	VISIBLE:NO	ADDLEVEL:Giant|2
+Multiheaded HD Giant Head 20	VISIBLE:NO	ADDLEVEL:Giant|2
+Multiheaded HD Giant Head 21	VISIBLE:NO	ADDLEVEL:Giant|2
+Multiheaded HD Giant Head 22	VISIBLE:NO	ADDLEVEL:Giant|2
+Multiheaded HD Giant Head 23	VISIBLE:NO	ADDLEVEL:Giant|2
+Multiheaded HD Giant Head 24	VISIBLE:NO	ADDLEVEL:Giant|2
+Multiheaded HD Giant Head 25	VISIBLE:NO	ADDLEVEL:Giant|2
+Multiheaded HD Giant Head 26	VISIBLE:NO	ADDLEVEL:Giant|2
+Multiheaded HD Giant Head 27	VISIBLE:NO	ADDLEVEL:Giant|2
+Multiheaded HD Giant Head 28	VISIBLE:NO	ADDLEVEL:Giant|2
+Multiheaded HD Giant Head 29	VISIBLE:NO	ADDLEVEL:Giant|2
+
+
+
+
+
+### BLOCK MULTIHEADEd Elemental
+Multiheaded HD Elemental Head 1	VISIBLE:NO	ADDLEVEL:Elemental|2
+Multiheaded HD Elemental Head 2	VISIBLE:NO	ADDLEVEL:Elemental|2
+Multiheaded HD Elemental Head 3	VISIBLE:NO	ADDLEVEL:Elemental|2
+Multiheaded HD Elemental Head 4	VISIBLE:NO	ADDLEVEL:Elemental|2
+Multiheaded HD Elemental Head 5	VISIBLE:NO	ADDLEVEL:Elemental|2
+Multiheaded HD Elemental Head 6	VISIBLE:NO	ADDLEVEL:Elemental|2
+Multiheaded HD Elemental Head 7	VISIBLE:NO	ADDLEVEL:Elemental|2
+Multiheaded HD Elemental Head 8	VISIBLE:NO	ADDLEVEL:Elemental|2
+Multiheaded HD Elemental Head 9	VISIBLE:NO	ADDLEVEL:Elemental|2
+Multiheaded HD Elemental Head 10	VISIBLE:NO	ADDLEVEL:Elemental|2
+Multiheaded HD Elemental Head 11	VISIBLE:NO	ADDLEVEL:Elemental|2
+Multiheaded HD Elemental Head 12	VISIBLE:NO	ADDLEVEL:Elemental|2
+Multiheaded HD Elemental Head 13	VISIBLE:NO	ADDLEVEL:Elemental|2
+Multiheaded HD Elemental Head 14	VISIBLE:NO	ADDLEVEL:Elemental|2
+Multiheaded HD Elemental Head 15	VISIBLE:NO	ADDLEVEL:Elemental|2
+Multiheaded HD Elemental Head 16	VISIBLE:NO	ADDLEVEL:Elemental|2
+Multiheaded HD Elemental Head 17	VISIBLE:NO	ADDLEVEL:Elemental|2
+Multiheaded HD Elemental Head 18	VISIBLE:NO	ADDLEVEL:Elemental|2
+Multiheaded HD Elemental Head 19	VISIBLE:NO	ADDLEVEL:Elemental|2
+Multiheaded HD Elemental Head 20	VISIBLE:NO	ADDLEVEL:Elemental|2
+Multiheaded HD Elemental Head 21	VISIBLE:NO	ADDLEVEL:Elemental|2
+Multiheaded HD Elemental Head 22	VISIBLE:NO	ADDLEVEL:Elemental|2
+Multiheaded HD Elemental Head 23	VISIBLE:NO	ADDLEVEL:Elemental|2
+Multiheaded HD Elemental Head 24	VISIBLE:NO	ADDLEVEL:Elemental|2
+Multiheaded HD Elemental Head 25	VISIBLE:NO	ADDLEVEL:Elemental|2
+Multiheaded HD Elemental Head 26	VISIBLE:NO	ADDLEVEL:Elemental|2
+Multiheaded HD Elemental Head 27	VISIBLE:NO	ADDLEVEL:Elemental|2
+Multiheaded HD Elemental Head 28	VISIBLE:NO	ADDLEVEL:Elemental|2
+Multiheaded HD Elemental Head 29	VISIBLE:NO	ADDLEVEL:Elemental|2
+
+
+
+### BLOCK MULTIHEADEd Fey
+Multiheaded HD Fey Head 1	VISIBLE:NO	ADDLEVEL:Fey|2
+Multiheaded HD Fey Head 2	VISIBLE:NO	ADDLEVEL:Fey|2
+Multiheaded HD Fey Head 3	VISIBLE:NO	ADDLEVEL:Fey|2
+Multiheaded HD Fey Head 4	VISIBLE:NO	ADDLEVEL:Fey|2
+Multiheaded HD Fey Head 5	VISIBLE:NO	ADDLEVEL:Fey|2
+Multiheaded HD Fey Head 6	VISIBLE:NO	ADDLEVEL:Fey|2
+Multiheaded HD Fey Head 7	VISIBLE:NO	ADDLEVEL:Fey|2
+Multiheaded HD Fey Head 8	VISIBLE:NO	ADDLEVEL:Fey|2
+Multiheaded HD Fey Head 9	VISIBLE:NO	ADDLEVEL:Fey|2
+Multiheaded HD Fey Head 10	VISIBLE:NO	ADDLEVEL:Fey|2
+Multiheaded HD Fey Head 11	VISIBLE:NO	ADDLEVEL:Fey|2
+Multiheaded HD Fey Head 12	VISIBLE:NO	ADDLEVEL:Fey|2
+Multiheaded HD Fey Head 13	VISIBLE:NO	ADDLEVEL:Fey|2
+Multiheaded HD Fey Head 14	VISIBLE:NO	ADDLEVEL:Fey|2
+Multiheaded HD Fey Head 15	VISIBLE:NO	ADDLEVEL:Fey|2
+Multiheaded HD Fey Head 16	VISIBLE:NO	ADDLEVEL:Fey|2
+Multiheaded HD Fey Head 17	VISIBLE:NO	ADDLEVEL:Fey|2
+Multiheaded HD Fey Head 18	VISIBLE:NO	ADDLEVEL:Fey|2
+Multiheaded HD Fey Head 19	VISIBLE:NO	ADDLEVEL:Fey|2
+Multiheaded HD Fey Head 20	VISIBLE:NO	ADDLEVEL:Fey|2
+Multiheaded HD Fey Head 21	VISIBLE:NO	ADDLEVEL:Fey|2
+Multiheaded HD Fey Head 22	VISIBLE:NO	ADDLEVEL:Fey|2
+Multiheaded HD Fey Head 23	VISIBLE:NO	ADDLEVEL:Fey|2
+Multiheaded HD Fey Head 24	VISIBLE:NO	ADDLEVEL:Fey|2
+Multiheaded HD Fey Head 25	VISIBLE:NO	ADDLEVEL:Fey|2
+Multiheaded HD Fey Head 26	VISIBLE:NO	ADDLEVEL:Fey|2
+Multiheaded HD Fey Head 27	VISIBLE:NO	ADDLEVEL:Fey|2
+Multiheaded HD Fey Head 28	VISIBLE:NO	ADDLEVEL:Fey|2
+Multiheaded HD Fey Head 29	VISIBLE:NO	ADDLEVEL:Fey|2
+
+
+
+### BLOCK MULTIHEADEd Construct
+Multiheaded HD Construct Head 1	VISIBLE:NO	ADDLEVEL:Construct|2
+Multiheaded HD Construct Head 2	VISIBLE:NO	ADDLEVEL:Construct|2
+Multiheaded HD Construct Head 3	VISIBLE:NO	ADDLEVEL:Construct|2
+Multiheaded HD Construct Head 4	VISIBLE:NO	ADDLEVEL:Construct|2
+Multiheaded HD Construct Head 5	VISIBLE:NO	ADDLEVEL:Construct|2
+Multiheaded HD Construct Head 6	VISIBLE:NO	ADDLEVEL:Construct|2
+Multiheaded HD Construct Head 7	VISIBLE:NO	ADDLEVEL:Construct|2
+Multiheaded HD Construct Head 8	VISIBLE:NO	ADDLEVEL:Construct|2
+Multiheaded HD Construct Head 9	VISIBLE:NO	ADDLEVEL:Construct|2
+Multiheaded HD Construct Head 10	VISIBLE:NO	ADDLEVEL:Construct|2
+Multiheaded HD Construct Head 11	VISIBLE:NO	ADDLEVEL:Construct|2
+Multiheaded HD Construct Head 12	VISIBLE:NO	ADDLEVEL:Construct|2
+Multiheaded HD Construct Head 13	VISIBLE:NO	ADDLEVEL:Construct|2
+Multiheaded HD Construct Head 14	VISIBLE:NO	ADDLEVEL:Construct|2
+Multiheaded HD Construct Head 15	VISIBLE:NO	ADDLEVEL:Construct|2
+Multiheaded HD Construct Head 16	VISIBLE:NO	ADDLEVEL:Construct|2
+Multiheaded HD Construct Head 17	VISIBLE:NO	ADDLEVEL:Construct|2
+Multiheaded HD Construct Head 18	VISIBLE:NO	ADDLEVEL:Construct|2
+Multiheaded HD Construct Head 19	VISIBLE:NO	ADDLEVEL:Construct|2
+Multiheaded HD Construct Head 20	VISIBLE:NO	ADDLEVEL:Construct|2
+Multiheaded HD Construct Head 21	VISIBLE:NO	ADDLEVEL:Construct|2
+Multiheaded HD Construct Head 22	VISIBLE:NO	ADDLEVEL:Construct|2
+Multiheaded HD Construct Head 23	VISIBLE:NO	ADDLEVEL:Construct|2
+Multiheaded HD Construct Head 24	VISIBLE:NO	ADDLEVEL:Construct|2
+Multiheaded HD Construct Head 25	VISIBLE:NO	ADDLEVEL:Construct|2
+Multiheaded HD Construct Head 26	VISIBLE:NO	ADDLEVEL:Construct|2
+Multiheaded HD Construct Head 27	VISIBLE:NO	ADDLEVEL:Construct|2
+Multiheaded HD Construct Head 28	VISIBLE:NO	ADDLEVEL:Construct|2
+Multiheaded HD Construct Head 29	VISIBLE:NO	ADDLEVEL:Construct|2
+
+
+
+
+### BLOCK MULTIHEADEd Aberration
+Multiheaded HD Aberration Head 1	VISIBLE:NO	ADDLEVEL:Aberration|2
+Multiheaded HD Aberration Head 2	VISIBLE:NO	ADDLEVEL:Aberration|2
+Multiheaded HD Aberration Head 3	VISIBLE:NO	ADDLEVEL:Aberration|2
+Multiheaded HD Aberration Head 4	VISIBLE:NO	ADDLEVEL:Aberration|2
+Multiheaded HD Aberration Head 5	VISIBLE:NO	ADDLEVEL:Aberration|2
+Multiheaded HD Aberration Head 6	VISIBLE:NO	ADDLEVEL:Aberration|2
+Multiheaded HD Aberration Head 7	VISIBLE:NO	ADDLEVEL:Aberration|2
+Multiheaded HD Aberration Head 8	VISIBLE:NO	ADDLEVEL:Aberration|2
+Multiheaded HD Aberration Head 9	VISIBLE:NO	ADDLEVEL:Aberration|2
+Multiheaded HD Aberration Head 10	VISIBLE:NO	ADDLEVEL:Aberration|2
+Multiheaded HD Aberration Head 11	VISIBLE:NO	ADDLEVEL:Aberration|2
+Multiheaded HD Aberration Head 12	VISIBLE:NO	ADDLEVEL:Aberration|2
+Multiheaded HD Aberration Head 13	VISIBLE:NO	ADDLEVEL:Aberration|2
+Multiheaded HD Aberration Head 14	VISIBLE:NO	ADDLEVEL:Aberration|2
+Multiheaded HD Aberration Head 15	VISIBLE:NO	ADDLEVEL:Aberration|2
+Multiheaded HD Aberration Head 16	VISIBLE:NO	ADDLEVEL:Aberration|2
+Multiheaded HD Aberration Head 17	VISIBLE:NO	ADDLEVEL:Aberration|2
+Multiheaded HD Aberration Head 18	VISIBLE:NO	ADDLEVEL:Aberration|2
+Multiheaded HD Aberration Head 19	VISIBLE:NO	ADDLEVEL:Aberration|2
+Multiheaded HD Aberration Head 20	VISIBLE:NO	ADDLEVEL:Aberration|2
+Multiheaded HD Aberration Head 21	VISIBLE:NO	ADDLEVEL:Aberration|2
+Multiheaded HD Aberration Head 22	VISIBLE:NO	ADDLEVEL:Aberration|2
+Multiheaded HD Aberration Head 23	VISIBLE:NO	ADDLEVEL:Aberration|2
+Multiheaded HD Aberration Head 24	VISIBLE:NO	ADDLEVEL:Aberration|2
+Multiheaded HD Aberration Head 25	VISIBLE:NO	ADDLEVEL:Aberration|2
+Multiheaded HD Aberration Head 26	VISIBLE:NO	ADDLEVEL:Aberration|2
+Multiheaded HD Aberration Head 27	VISIBLE:NO	ADDLEVEL:Aberration|2
+Multiheaded HD Aberration Head 28	VISIBLE:NO	ADDLEVEL:Aberration|2
+Multiheaded HD Aberration Head 29	VISIBLE:NO	ADDLEVEL:Aberration|2
+
+
+
+
+### BLOCK MULTIHEADEd Magical Beast
+Multiheaded HD Magical Beast Head 1	VISIBLE:NO	ADDLEVEL:Magical Beast|2
+Multiheaded HD Magical Beast Head 2	VISIBLE:NO	ADDLEVEL:Magical Beast|2
+Multiheaded HD Magical Beast Head 3	VISIBLE:NO	ADDLEVEL:Magical Beast|2
+Multiheaded HD Magical Beast Head 4	VISIBLE:NO	ADDLEVEL:Magical Beast|2
+Multiheaded HD Magical Beast Head 5	VISIBLE:NO	ADDLEVEL:Magical Beast|2
+Multiheaded HD Magical Beast Head 6	VISIBLE:NO	ADDLEVEL:Magical Beast|2
+Multiheaded HD Magical Beast Head 7	VISIBLE:NO	ADDLEVEL:Magical Beast|2
+Multiheaded HD Magical Beast Head 8	VISIBLE:NO	ADDLEVEL:Magical Beast|2
+Multiheaded HD Magical Beast Head 9	VISIBLE:NO	ADDLEVEL:Magical Beast|2
+Multiheaded HD Magical Beast Head 10	VISIBLE:NO	ADDLEVEL:Magical Beast|2
+Multiheaded HD Magical Beast Head 11	VISIBLE:NO	ADDLEVEL:Magical Beast|2
+Multiheaded HD Magical Beast Head 12	VISIBLE:NO	ADDLEVEL:Magical Beast|2
+Multiheaded HD Magical Beast Head 13	VISIBLE:NO	ADDLEVEL:Magical Beast|2
+Multiheaded HD Magical Beast Head 14	VISIBLE:NO	ADDLEVEL:Magical Beast|2
+Multiheaded HD Magical Beast Head 15	VISIBLE:NO	ADDLEVEL:Magical Beast|2
+Multiheaded HD Magical Beast Head 16	VISIBLE:NO	ADDLEVEL:Magical Beast|2
+Multiheaded HD Magical Beast Head 17	VISIBLE:NO	ADDLEVEL:Magical Beast|2
+Multiheaded HD Magical Beast Head 18	VISIBLE:NO	ADDLEVEL:Magical Beast|2
+Multiheaded HD Magical Beast Head 19	VISIBLE:NO	ADDLEVEL:Magical Beast|2
+Multiheaded HD Magical Beast Head 20	VISIBLE:NO	ADDLEVEL:Magical Beast|2
+Multiheaded HD Magical Beast Head 21	VISIBLE:NO	ADDLEVEL:Magical Beast|2
+Multiheaded HD Magical Beast Head 22	VISIBLE:NO	ADDLEVEL:Magical Beast|2
+Multiheaded HD Magical Beast Head 23	VISIBLE:NO	ADDLEVEL:Magical Beast|2
+Multiheaded HD Magical Beast Head 24	VISIBLE:NO	ADDLEVEL:Magical Beast|2
+Multiheaded HD Magical Beast Head 25	VISIBLE:NO	ADDLEVEL:Magical Beast|2
+Multiheaded HD Magical Beast Head 26	VISIBLE:NO	ADDLEVEL:Magical Beast|2
+Multiheaded HD Magical Beast Head 27	VISIBLE:NO	ADDLEVEL:Magical Beast|2
+Multiheaded HD Magical Beast Head 28	VISIBLE:NO	ADDLEVEL:Magical Beast|2
+Multiheaded HD Magical Beast Head 29	VISIBLE:NO	ADDLEVEL:Magical Beast|2
+
+

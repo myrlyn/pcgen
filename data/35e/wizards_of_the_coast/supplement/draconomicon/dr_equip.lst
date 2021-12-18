@@ -119,7 +119,7 @@ Gemstone of Fortification (Light)		OUTPUTNAME:Gemstone of Light Fortification	TY
 Gemstone of Fortification (Medium)		OUTPUTNAME:Gemstone of Medium Fortification	TYPE:Magic.Wondrous					COST:15000	WT:0									SOURCEPAGE:p.										SPROP:Critical and Sneak Attack bonus damage negated(75%% of time)
 Gemstone of Fortification (Heavy)		OUTPUTNAME:Gemstone of Heavy Fortification	TYPE:Magic.Wondrous					COST:35000	WT:0									SOURCEPAGE:p.										SPROP:Critical and Sneak Attack bonus damage negated(100%% of time)
 Gorget of Tempest Breath											TYPE:Magic.Wondrous.Amulet				COST:10000	WT:10									SOURCEPAGE:p.	ABILITY:FEAT|VIRTUAL|Tempest Breath
-Jaws of the Dragon												TYPE:Magic.Wondrous					COST:40000	WT:8									SOURCEPAGE:p.										SPROP:gains the benefit of Sharptooth spells|PREWEAPONPROF:1,Bite
+Jaws of the Dragon												TYPE:Magic.Wondrous					COST:40000	WT:8									SOURCEPAGE:p.										SPROP:gains the benefit of Sharptooth spells|PREWEAPONPROF:1,Bite	BONUS:WEAPONPROF=Bite|DAMAGESIZE|1
 Pectoral of Maneuverability											TYPE:Magic.Wondrous.Robe				COST:12000	WT:5									SOURCEPAGE:p.					BONUS:VAR|Maneuverability|1
 Pectoral of Maneuverability (Greater)	OUTPUTNAME:Pectoral of Maneuverability, Greater	TYPE:Magic.Wondrous.Robe				COST:90000	WT:5									SOURCEPAGE:p.					BONUS:VAR|Maneuverability|2
 
