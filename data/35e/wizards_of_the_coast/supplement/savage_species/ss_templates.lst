@@ -369,3 +369,4 @@ Multiheaded HD Magical Beast Head 28	VISIBLE:NO	ADDLEVEL:Magical Beast|2
 Multiheaded HD Magical Beast Head 29	VISIBLE:NO	ADDLEVEL:Magical Beast|2
 
 
+Insectile		VISIBLE:YES		RACETYPE:Aberration		BONUS:COMBAT|AC|2|TYPE=NaturalArmor.REPLACE		
