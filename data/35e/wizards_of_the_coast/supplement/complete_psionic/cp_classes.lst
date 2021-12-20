@@ -132,13 +132,13 @@ CLASS:Lurk		STARTSKILLPTS:4	CSKILL:Autohypnosis|Bluff|Climb|Concentration|TYPE=C
 # Class Name	Spell Stat		Caster level			Use Spell List
 CLASS:Lurk		SPELLSTAT:INT	FACT:SpellType|Psionic	BONUS:CASTERLEVEL|Lurk|Caster_Level_BL_Stripped_Lurk	DEFINE:Caster_Level_BL_Stripped_Lurk|0	BONUS:VAR|Caster_Level_BL_Stripped_Lurk|Caster_Level_Lurk-CasterLevelBLLurk	BONUS:VAR|Caster_Level_Lurk|CL+Caster_Level_Bonus+CasterLevelBLLurk	DEFINE:CasterLevelBLLurk|0	BONUS:VAR|CasterLevelBL_x_Lurk|charbonusto("PCLEVEL","Lurk")	BONUS:VAR|Caster_Level_Highest__Psionic|Caster_Level_Lurk|TYPE=Base	SPELLLIST:2|Lurk|Mantle
 ###Block:
-1	ABILITY:Lurk Class Feature|AUTOMATIC|Lurk ~ Weapon and Armor Proficiency
-1	ABILITY:Lurk Class Feature|AUTOMATIC|Lurk ~ Power Points/Day|Lurk ~ Powers Known
-1	ABILITY:Lurk Class Feature|AUTOMATIC|Lurk ~ Lurk Augment
-2	ABILITY:Lurk Class Feature|AUTOMATIC|Lurk ~ Psionic Sneak Attack
-6	ABILITY:Lurk Class Feature|AUTOMATIC|Lurk ~ Initiative Boost
-9	ABILITY:Lurk Class Feature|AUTOMATIC|Lurk ~ Evasion
-15	ABILITY:Lurk Class Feature|AUTOMATIC|Lurk ~ Slippery Mind
+1	ABILITY:Special Ability|AUTOMATIC|Lurk ~ Weapon and Armor Proficiency
+1	ABILITY:Special Ability|AUTOMATIC|Lurk ~ Power Points/Day|Lurk ~ Powers Known
+1	ABILITY:Special Ability|AUTOMATIC|Lurk ~ Lurk Augment
+2	ABILITY:Special Ability|AUTOMATIC|Lurk ~ Psionic Sneak Attack
+6	ABILITY:Special Ability|AUTOMATIC|Lurk ~ Initiative Boost
+9	ABILITY:Special Ability|AUTOMATIC|Lurk ~ Evasion
+15	ABILITY:Special Ability|AUTOMATIC|Lurk ~ Slippery Mind
 ###Block: 
 1	TEMPLATE:Psionic
 ###Block:
