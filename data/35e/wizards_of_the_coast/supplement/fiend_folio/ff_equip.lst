@@ -1,2 +1,51 @@
-Rending Claw	COST:5000		ABILITY:Special Ability|AUTOMATIC|Rending Claw	BONUS:SLOTS|WEAPON|NumRendingClaws		BONUS:ABILITYPOOL|Rending Claws Total Hands|1		BONUS:ABILITYPOOL|Rending Claws Total Rending Claw Grafts|1		SPROP:Gain a claw attack, -4 on skill checks requiring fine manipulation with this limb.  A characther with an Illithidgraft of any kind takes a -4 penalty to saves vs all mind-affecting psionics, magic and spells.    TYPE:Graft.Illithid.Illithidgraft.Arm
+Aboleth Tentacle		NATURALATTACKS:Aboleth Tentacle,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*1,1d6,SPROP=Transformation		SPROP:Affected creatures must save vs 10+1/2 your HD+your CON modifier, or be transformed as if struck by an aboleth.  Aboleth grafts can only be applied to Skum, or creatures transformed by Aboleth.  	AUTO:WEAPONPROF|Tentacle		ABILITY:FEAT|AUTOMATIC|Improved Natural Attack (Aboleth Tentacle)|PREABILITY:1,CATEGORY=FEAT,Improved Natural Attack (Tentacle)			BONUS:WEAPONPROF=Claw|TOHIT,DAMAGE|2|TYPE=STAT.STACK	TYPE:Graft.AbolethGraft.Aboleth	SOURCEPAGE:208
 
+Mucus Sheath		TYPE:Graft.AbolethGraft.Aboleth	SOURCEPAGE:208		SPROP:Aboleth grafts can only be applied to Skum, or creatures transformed by Aboleth.  Swim and escape artist bonuses.  -4 on saves vs mind-affecting effects.  Doubles range at which an aboleth can control you.		BONUS:MOVEADD|TYPE.Swim|10	BONUS:SKILL|Escape Artist|10|TYPE=Circumstance		COST:5000
+
+Skum Eyes	TYPE:Graft.AbolethGraft.Aboleth	SOURCEPAGE:208		SPROP:Aboleth grafts can only be applied to Skum, or creatures transformed by Aboleth.  +2 to spot, +4 underwater.  		COST:600		BONUS:SKILL|Spot|2|TYPE=Racial
+
+Skum Tail		TYPE:Graft.AbolethGraft.Aboleth	SOURCEPAGE:208		SPROP:Aboleth grafts can only be applied to Skum, or creatures transformed by Aboleth.  Skum cannot take this graft.	COST:6000	MOVE:Swim,40	BONUS:SKILL|Swim|8|TYPE=Racial
+
+Crown Of Eyes	TYPE:Graft.BeholderGraft.Beholder	VISION:Darkvision (60')		BONUS:SKILL|Search,Spot|4|TYPE=Racial	SPROP:Darkvision, Spot and Search +4,You cannot be flanked.  COST:60000
+
+Eye Stalk		TYPE:Graft.BeholderGraft.Beholder	SPROP:Gain a beholder eye ray. Range 150'		BONUS:ABILITYPOOL|Grafted Eyestalk|1	COST:195000
+
+Gazing Eye		TYPE:Graft.BeholderGraft.Beholder	SPROP:Gain a gaze attack at the cost of one eye.		BONUS:ABILITYPOOL|Gazing Eye|1	COST:195000
+
+Plated Skin		TYPE:Graft.BeholderGraft.Beholder	BONUS:COMBAT|AC|TYPE=NaturalArmor.REPLACE	COST:64000	SPROP:+4 Natural Armor
+
+Replacement Eye		TYPE:Graft.BeholderGraft.Beholder	SPROP:Gain an eye ray attack at the cost of one eye.		BONUS:ABILITYPOOL|Replacement Eye|1	COST:195000
+Third Eye Graft		COST:165000	TYPE:Graft.BeholderGraft.Beholder	SPROP:Antimagic Cone 50', as Antimagic Field cast by a 13th Level sorcerer.  3/day.		
+
+
+
+Charming Eye	COST:120000	SPROP:See perfectly in all darkness, even magical.  Charming gaze (DC14 will save, or charmed for 1 day per HD you have).  Good hosts must save will(15) or take 1d3 Wisdom damage.  Nonevil hosts must save will(15) each day or perform an evil act. -6 on social rolls with NPCs.				TYPE:Graft.FiendishGraft.Fiendish
+Clawed Arm	SPROP:+4 Strength for this arm only.  Make a claw attack as a free action each round if holding nothing in this hand.		NATURALATTACKS:Clawed Arm,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*1,1d6,SPROP=Transformation			AUTO:WEAPONPROF|Claw		ABILITY:Special Ability|AUTOMATIC|Improved Natural Attack (Clawed Arm)|PREABILITY:1,CATEGORY=FEAT,Improved Natural Attack (Claw)		COST:50000
+
+Fast Leg		COST:4000	BONUS:MOVEADD|TYPE.Walk|10		SPROP:Good hosts must save will(15) or take 1d3 Wisdom damage.  Nonevil hosts must save will(15) each day or perform an evil act. -6 on social rolls with NPCs.				BONUS:MOVEADD|TYPE.Walk|10		BONUS:SKILL|Climb,Jump|5|TYPE=Competence
+
+Fearsome Eye	COST:120000		SPROP:Good hosts must save will(15) or take 1d3 Wisdom damage.  Nonevil hosts must save will(15) each day or perform an evil act. -6 on social rolls with NPCs. See Invisiblity as a 20th level caster continuously, and 30' Gaze attack save vs will(14) or be paralyzed for 1d4 rounds.  
+
+Feathered Wings	COST:10000	MOVECLONE:Walk,Fly,*2	SPROP:Good hosts must save will(15) or take 1d3 Wisdom damage.  Nonevil hosts must save will(15) each day or perform an evil act. -6 on social rolls with NPCs. See Invisiblity as a 20th level caster continuously, and 30' Gaze attack save vs will(14) or be paralyzed for 1d4 rounds. If not flying make a Bluff check opposed by enemy sense motive for +2 circumstance bonus on your next attack on them.
+
+Fiendish Ear	COST:2500		ABILITY:FEAT|AUTOMATIC|Blind-Fight	BONUS:SKILL|Listen|4|TYPE=Racial	SPROP:Deafened and Confused for 1d4 rounds on a natural 1 on a Listen Check.  Good hosts must save will(15) or take 1d3 Wisdom damage.  Nonevil hosts must save will(15) each day or perform an evil act. -6 on social rolls with NPCs. See Invisiblity as a 20th level caster continuously, and 30' Gaze attack save vs will(14) or be paralyzed for 1d4 rounds. If not flying make a Bluff check opposed by enemy sense motive for +2 circumstance bonus on your next attack on them.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Rending Claw	COST:5000		ABILITY:Special Ability|AUTOMATIC|Rending Claw	BONUS:SLOTS|WEAPON|NumRendingClaws		BONUS:ABILITYPOOL|Rending Claws Total Hands|1		BONUS:ABILITYPOOL|Rending Claws Total Rending Claw Grafts|1		SPROP:Gain a claw attack, -4 on skill checks requiring fine manipulation with this limb.  A characther with an Illithidgraft of any kind takes a -4 penalty to saves vs all mind-affecting psionics, magic and spells.    TYPE:Graft.Illithid.Illithidgraft.Arm		AUTO:WEAPONPROF|Claw	ABILITY:FEAT|VIRTUAL|Improved Natural Attack (Rending Claw)|PREABILITY:1,CATEGORY=FEAT,Improved Natural Attack (Claw)		SOURCEPAGE:208		ABILITY:FEAT|VIRTUAL|Weapon Focus (Rending Claw)|PREABILITY:1,CATEGORY=FEAT,Weapon Focus (Claw)		ABILITY:FEAT|VIRTUAL|Greater Weapon Focus (Rending Claw)|PREABILITY:1,CATEGORY=FEAT,Greater Weapon Focus (Claw)		ABILITY:FEAT|VIRTUAL|Epic Weapon Focus (Rending Claw)|PREABILITY:1,CATEGORY=FEAT,Epic Weapon Focus (Claw)	ABILITY:FEAT|VIRTUAL|Improved Critical (Rending Claw)|PREABILITY:1,CATEGORY=FEAT,Improved Critical (Claw)	
+
+Serpent Arm		COST:12000		BONUS:ABILITYPOOL|Serpent Arm|1		SPROP:This long flexible arm ends in a snake head that delivers poison (Fort(17) 1d6 con/1d6 con) and deals damage with a successful bite attack.		TYPE:Yuan-TiGraft.Graft.Yuan-Ti

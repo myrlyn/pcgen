@@ -2200,7 +2200,7 @@ Skills		KEY:Shark ~ Skills				CATEGORY:Special Ability	TYPE:SpecialQuality			VIS
 Skills		KEY:Snake Shared ~ Skills			CATEGORY:Special Ability	TYPE:SpecialQuality			VISIBLE:YES	DESC:Snakes have a +4 racial bonus on Hide, Listen, and Spot checks and a +8 racial bonus on Balance and Climb checks. A snake can always choose to take 10 on a Climb check, even if rushed or threatened. Snakes use either their Strength modifier or Dexterity modifier for Climb checks, whichever is higher. A snake has a +8 racial bonus on any Swim check to perform some special action or avoid a hazard. It can always choose to take 10 on a Swim check, even if distracted or endangered. It can use the run action while swimming, provided it swims in a straight line.
 
 # Constrictor Snake
-Constrict		KEY:Constrictor Snake ~ Constrict		CATEGORY:Special Ability	TYPE:SpecialAttack.Extraordinary	VISIBLE:YES	DESC:On a successful grapple check, a constrictor snake deals 1d3+4 points of damage.
+Constrict		KEY:Constrictor Snake ~ Constrict		CATEGORY:Special Ability	TYPE:SpecialAttack.Extraordinary	VISIBLE:YES	DESC:On a successful grapple check, a constrictor snake deals damage equal to its bite damage.
 Improved Grab	KEY:Constrictor Snake ~ Improved Grab	CATEGORY:Special Ability	TYPE:SpecialAttack.Extraordinary	VISIBLE:YES	DESC:To use this ability, a constrictor snake must hit with its bite attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity. If it wins the grapple check, it establishes a hold and can constrict.
 
 # Viper Snake

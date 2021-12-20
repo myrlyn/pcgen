@@ -86,3 +86,39 @@ Rending Claw	CATEGORY:Special Ability	TYPE:SpecialQuality	DEFINE:NumRendingClaws
 2 Colossal Rending Claw	PRESIZEEQ:C		TYPE:SpecialAttack.RendingClawAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending Claw,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*2,4d6	
 3 Colossal Rending Claw	PRESIZEEQ:C		TYPE:SpecialAttack.RendingClawAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending Claw,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*3,4d6	
 4 Colossal Rending Claw	PRESIZEEQ:C		TYPE:SpecialAttack.RendingClawAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending Claw,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*4,4d6	
+
+Charm Monster	CATEGORY:Special Ability		KEY:Grafted Eystalk ~ Charm Monster		TYPE:SpecialQuality.Supernatural.GraftedEyestalk.GraftedReplacementEye	SPELLS:Innate|TIMES=3|CASTERLEVEL=TL|Charm Monster,18
+
+Charm Person	CATEGORY:Special Ability		KEY:Grafted Eystalk ~ Charm Monster		TYPE:SpecialQuality.Supernatural.GraftedEyestalk.GraftedReplacementEye	SPELLS:Innate|TIMES=3|CASTERLEVEL=TL|Charm Person,18
+
+Disintegrate	CATEGORY:Special Ability		KEY:Grafted Eystalk ~ Disintegrate		TYPE:SpecialQuality.Supernatural.GraftedEyestalk.GraftedReplacementEye	SPELLS:Innate|TIMES=3|CASTERLEVEL=TL|Disintegrate,18
+
+Fear	CATEGORY:Special Ability		KEY:Grafted Eystalk ~ Fear		TYPE:SpecialQuality.Supernatural.GraftedEyestalk.GraftedReplacementEye	SPELLS:Innate|TIMES=3|CASTERLEVEL=TL|Fear,18
+
+Finger of Death	CATEGORY:Special Ability		KEY:Grafted Eystalk ~ Finger of Death		TYPE:SpecialQuality.Supernatural.GraftedEyestalk.GraftedReplacementEye	SPELLS:Innate|TIMES=3|CASTERLEVEL=TL|Finger of Death,18
+
+Flesh to Stone	CATEGORY:Special Ability		KEY:Grafted Eystalk ~ Flesh to Stone		TYPE:SpecialQuality.Supernatural.GraftedEyestalk.GraftedReplacementEye	SPELLS:Innate|TIMES=3|CASTERLEVEL=TL|Flesh to Stone,18
+
+Inflict Moderate Wounds	CATEGORY:Special Ability		KEY:Grafted Eystalk ~ Inflict Moderate Wounds		TYPE:SpecialQuality.Supernatural.GraftedEyestalk.GraftedReplacementEye	SPELLS:Innate|TIMES=3|CASTERLEVEL=TL|Inflict Moderate Wounds,18
+
+Sleep	CATEGORY:Special Ability		KEY:Grafted Eystalk ~ Sleep		TYPE:SpecialQuality.Supernatural.GraftedEyestalk.GraftedReplacementEye	SPELLS:Innate|TIMES=3|CASTERLEVEL=TL|Sleep,18
+
+Slow	CATEGORY:Special Ability		KEY:Grafted Eystalk ~ Slow		TYPE:SpecialQuality.Supernatural.GraftedEyestalk.GraftedReplacementEye	SPELLS:Innate|TIMES=3|CASTERLEVEL=TL|Slow,18
+
+Fear	CATEGORY:Special Ability		KEY:Grafted Eystalk ~ Fear		TYPE:SpecialQuality.Supernatural.GraftedEyestalk.GraftedReplacementEye	SPELLS:Innate|TIMES=3|CASTERLEVEL=TL|Fear,18
+
+
+Sleep	CATEGORY:Special Ability		KEY:Grafted Eystalk ~ Sleep		TYPE:SpecialQuality.Supernatural.GraftedGazingEye	SPELLS:Innate|TIMES=3|CASTERLEVEL=TL|Sleep,18
+
+Charm Monster	CATEGORY:Special Ability		KEY:Grafted Eystalk ~ Charm Monster		TYPE:SpecialQuality.Supernatural.GraftedGazingEye	SPELLS:Innate|TIMES=3|CASTERLEVEL=TL|Charm Monster,18
+Fear	CATEGORY:Special Ability		KEY:Grafted Eystalk ~ Fear		TYPE:SpecialQuality.Supernatural.GraftedGazingEye	SPELLS:Innate|TIMES=3|CASTERLEVEL=TL|Fear,18
+
+One Serpent Arm			TYPE:SpecialAttack.SerpentArmGraft	CATEGORY:Special Ability	NATURALATTACKS:Serpent Arm Bite,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Bite,*1,1d4,SPROP=Poison				AUTO:WEAPONPROF|Bite	ABILITY:FEAT|VIRTUAL|Improved Natural Attack (Serpent Arm Bite)|PREABILITY:1,CATEGORY=FEAT,Improved Natural Attack (Bite)		SOURCEPAGE:208		ABILITY:FEAT|VIRTUAL|Weapon Focus (Serpent Arm Bite)|PREABILITY:1,CATEGORY=FEAT,Weapon Focus (Bite)		ABILITY:FEAT|VIRTUAL|Greater Weapon Focus (Serpent Arm Bite)|PREABILITY:1,CATEGORY=FEAT,Greater Weapon Focus (Bite)		ABILITY:FEAT|VIRTUAL|Epic Weapon Focus (Serpent Arm Bite)|PREABILITY:1,CATEGORY=FEAT,Epic Weapon Focus (Bite)	ABILITY:FEAT|VIRTUAL|Improved Critical (Serpent Arm Bite)|PREABILITY:1,CATEGORY=FEAT,Improved Critical (Bite)		
+Two Serpent Arms			TYPE:SpecialAttack.SerpentArmGraft	CATEGORY:Special Ability	NATURALATTACKS:Serpent Arm Bite,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Bite,*2,1d4,SPROP=Poison				AUTO:WEAPONPROF|Bite	ABILITY:FEAT|VIRTUAL|Improved Natural Attack (Serpent Arm Bite)|PREABILITY:1,CATEGORY=FEAT,Improved Natural Attack (Bite)		SOURCEPAGE:208		ABILITY:FEAT|VIRTUAL|Weapon Focus (Serpent Arm Bite)|PREABILITY:1,CATEGORY=FEAT,Weapon Focus (Bite)		ABILITY:FEAT|VIRTUAL|Greater Weapon Focus (Serpent Arm Bite)|PREABILITY:1,CATEGORY=FEAT,Greater Weapon Focus (Bite)		ABILITY:FEAT|VIRTUAL|Epic Weapon Focus (Serpent Arm Bite)|PREABILITY:1,CATEGORY=FEAT,Epic Weapon Focus (Bite)	ABILITY:FEAT|VIRTUAL|Improved Critical (Serpent Arm Bite)|PREABILITY:1,CATEGORY=FEAT,Improved Critical (Bite)		
+
+Three Serpent Arms			TYPE:SpecialAttack.SerpentArmGraft	CATEGORY:Special Ability	NATURALATTACKS:Serpent Arm Bite,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Bite,*3,1d4,SPROP=Poison				AUTO:WEAPONPROF|Bite	ABILITY:FEAT|VIRTUAL|Improved Natural Attack (Serpent Arm Bite)|PREABILITY:1,CATEGORY=FEAT,Improved Natural Attack (Bite)		SOURCEPAGE:208		ABILITY:FEAT|VIRTUAL|Weapon Focus (Serpent Arm Bite)|PREABILITY:1,CATEGORY=FEAT,Weapon Focus (Bite)		ABILITY:FEAT|VIRTUAL|Greater Weapon Focus (Serpent Arm Bite)|PREABILITY:1,CATEGORY=FEAT,Greater Weapon Focus (Bite)		ABILITY:FEAT|VIRTUAL|Epic Weapon Focus (Serpent Arm Bite)|PREABILITY:1,CATEGORY=FEAT,Epic Weapon Focus (Bite)	ABILITY:FEAT|VIRTUAL|Improved Critical (Serpent Arm Bite)|PREABILITY:1,CATEGORY=FEAT,Improved Critical (Bite)		
+
+
+Four Serpent Arms			TYPE:SpecialAttack.SerpentArmGraft	CATEGORY:Special Ability	NATURALATTACKS:Serpent Arm Bite,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Bite,*4,1d4,SPROP=Poison				AUTO:WEAPONPROF|Bite	ABILITY:FEAT|VIRTUAL|Improved Natural Attack (Serpent Arm Bite)|PREABILITY:1,CATEGORY=FEAT,Improved Natural Attack (Bite)		SOURCEPAGE:208		ABILITY:FEAT|VIRTUAL|Weapon Focus (Serpent Arm Bite)|PREABILITY:1,CATEGORY=FEAT,Weapon Focus (Bite)		ABILITY:FEAT|VIRTUAL|Greater Weapon Focus (Serpent Arm Bite)|PREABILITY:1,CATEGORY=FEAT,Greater Weapon Focus (Bite)		ABILITY:FEAT|VIRTUAL|Epic Weapon Focus (Serpent Arm Bite)|PREABILITY:1,CATEGORY=FEAT,Epic Weapon Focus (Bite)	ABILITY:FEAT|VIRTUAL|Improved Critical (Serpent Arm Bite)|PREABILITY:1,CATEGORY=FEAT,Improved Critical (Bite)		
+
+Five Serpent Arms			TYPE:SpecialAttack.SerpentArmGraft	CATEGORY:Special Ability	NATURALATTACKS:Serpent Arm Bite,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Bite,*5,1d4,SPROP=Poison				AUTO:WEAPONPROF|Bite	ABILITY:FEAT|VIRTUAL|Improved Natural Attack (Serpent Arm Bite)|PREABILITY:1,CATEGORY=FEAT,Improved Natural Attack (Bite)		SOURCEPAGE:208		ABILITY:FEAT|VIRTUAL|Weapon Focus (Serpent Arm Bite)|PREABILITY:1,CATEGORY=FEAT,Weapon Focus (Bite)		ABILITY:FEAT|VIRTUAL|Greater Weapon Focus (Serpent Arm Bite)|PREABILITY:1,CATEGORY=FEAT,Greater Weapon Focus (Bite)		ABILITY:FEAT|VIRTUAL|Epic Weapon Focus (Serpent Arm Bite)|PREABILITY:1,CATEGORY=FEAT,Epic Weapon Focus (Bite)	ABILITY:FEAT|VIRTUAL|Improved Critical (Serpent Arm Bite)|PREABILITY:1,CATEGORY=FEAT,Improved Critical (Bite)		
