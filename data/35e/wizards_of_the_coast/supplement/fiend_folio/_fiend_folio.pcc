@@ -32,14 +32,14 @@ CLASS:ff_classes.lst
 #COMPANIONMOD:ff_companionmods.lst
 #DOMAIN:ff_domains.lst
 #KIT:ff_kits.lst
-#EQUIPMENT:ff_equip.lst
+EQUIPMENT:ff_equip.lst
 #EQUIPMOD:ff_equipmods.lst
 #ABILITY:ff_feats.lst
 #WEAPONPROF:ff_profs_weapon.lst
 RACE:ff_races.lst
 #SKILL:ff_skills.lst
 SPELL:ff_spells.lst
-
+TEMPLATE:ff_templates.lst
 INFOTEXT:Supports 6.4.1
 # ENTRY DATE: 2015-01 (Unknown)
 # LST MONKEY: Bahamut
