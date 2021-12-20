@@ -220,9 +220,9 @@ Multiheaded Attacks		KEY:Multiheaded ~ Attacks		CATEGORY:Special Ability		TYPE:S
 Can Use Weapons				KEY:Multiheaded ~ Can Use Weapons	CATEGORY:Special Ability	TYPE:Multiheaded Fighting Style		ABILITY:Special Ability|AUTOMATIC|Multiheaded ~ Superior Multiweapon Fighting			
 Has Only Natural Attacks	KEY:Multiheaded ~ Only Natural Attacks	CATEGORY:Special Ability	TYPE:Multiheaded Fighting Style		ABILITY:Special Ability|AUTOMATIC|Multiheaded ~ Superior Multiattack					
 
-Superior Multiweapon Fighting	CATEGORY:Special Ability	TYPE:Extraordinary	KEY:Multiheaded ~ Superior Multiweapon Fighting		BENEFIT:You do not suffer the normal penalties for wielding multiple weapons.	BONUS:COMBAT|TOHIT-PRIMARY|6|TYPE=Base	BONUS:COMBAT|TOHIT-SECONDARY|10|TYPE=Base	SERVESAS:ABILITY=FEAT|Two-Weapon Fighting	SERVESAS:ABILITY=FEAT|Multiweapon Fighting
+Superior Multiweapon Fighting	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	KEY:Multiheaded ~ Superior Multiweapon Fighting		BENEFIT:You do not suffer the normal penalties for wielding multiple weapons.	BONUS:COMBAT|TOHIT-PRIMARY|6|TYPE=Base	BONUS:COMBAT|TOHIT-SECONDARY|10|TYPE=Base	SERVESAS:ABILITY=FEAT|Two-Weapon Fighting	SERVESAS:ABILITY=FEAT|Multiweapon Fighting	DESC:You do not suffer the normal penalties for wielding multiple weapons.
 
-Superior Multiattack	CATEGORY:Special Ability	TYPE:Extraordinary			KEY:Multiheaded ~ Superior Multiattack				SERVESAS:ABILITY=FEAT|Multiattack	SERVESAS:ABILITY=FEAT|Improved Multiattack	BONUS:COMBAT|TOHIT-SECONDARY|5		BONUS:COMBAT|DAMAGE-SECONDARY|STR/2		BENEFIT:You do not suffer the normal penalties for your secondary attacks.
+Superior Multiattack	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality			KEY:Multiheaded ~ Superior Multiattack				SERVESAS:ABILITY=FEAT|Multiattack	SERVESAS:ABILITY=FEAT|Improved Multiattack	BONUS:COMBAT|TOHIT-SECONDARY|5		BONUS:COMBAT|DAMAGE-SECONDARY|STR/2		DESC:You do not suffer the normal penalties for your secondary attacks.	BENEFIT:You do not suffer the normal penalties for your secondary attacks.
 
 ###BLOCK - Improve Monstrous Humanoid with Multiheaded
 

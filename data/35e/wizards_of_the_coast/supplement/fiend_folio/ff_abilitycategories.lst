@@ -5,6 +5,9 @@ ABILITYCATEGORY:Fiend of Blasphemy Class Feature		VISIBLE:QUALIFY		EDITABLE:NO	E
 ABILITYCATEGORY:Fiend of Corruption Class Feature		VISIBLE:QUALIFY		EDITABLE:NO	EDITPOOL:NO		CATEGORY:Special Ability	TYPE:Fiend of Corruption Class Feature	PLURAL:Fiend of Corruption Class Features		DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Fiend of Possession Class Feature		VISIBLE:QUALIFY		EDITABLE:NO	EDITPOOL:NO		CATEGORY:Special Ability	TYPE:Fiend of Possession Class Feature	PLURAL:Fiend of Possession Class Features		DISPLAYLOCATION:Class Features
 
+ABILITYCATEGORY:Rending Claws Total Hands		VISIBLE:QUALIFY		EDITABLE:YES	EDITPOOL:NO		CATEGORY:Special Ability	TYPE:RendingClawChoice	PLURAL:Rending Claws Total Hands			DISPLAYLOCATION:Race Traits
+
+ABILITYCATEGORY:Rending Claws Total Rending Claw Grafts		VISIBLE:QUALIFY		EDITABLE:YES	EDITPOOL:NO		CATEGORY:Special Ability	TYPE:RendingClawAttack	PLURAL:Rending Claws Total Rending Claw Grafts					DISPLAYLOCATION:Race Traits	
 
 
 

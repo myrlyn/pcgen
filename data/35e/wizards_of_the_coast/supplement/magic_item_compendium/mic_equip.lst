@@ -333,7 +333,7 @@ Lockpicking Ring							TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Ring.Ring			C
 Lore Gem								TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Head.Headwear		COST:7500	WT:0										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:114
 Mantle of Second Chances					TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Shoulders.Cape		COST:12000	WT:0										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:115
 Mask of Blood							TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Face.Facewear		COST:3300	WT:1										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:115
-Mask of Lies							TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Face.Facewear		COST:4500	WT:1										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:115
+Mask of Lies							TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Face.Facewear		COST:4500	WT:1										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:115		BONUS:SKILL|Bluff|5|TYPE=Competence	SPROP:Bluff bonus, undetectable alignment
 Mask of Mental Armor						TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Face.Facewear		COST:4000	WT:0										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:115
 Mask of Silent Trickery						TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Face.Facewear		COST:5000	WT:0										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:116
 Mask of Sweet Air							TYPE:Wondrous.Magic.Group_Clothing.BodySlot_Face.Facewear		COST:2000	WT:0										SOURCELONG:Magic Item Compendium	SOURCESHORT:MIC		SOURCEPAGE:116

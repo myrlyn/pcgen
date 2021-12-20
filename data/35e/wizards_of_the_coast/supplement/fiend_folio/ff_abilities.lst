@@ -25,55 +25,64 @@ Skills				KEY:Ghostly Visage ~ Skills		CATEGORY:Special Ability	TYPE:Race Trait.
 
 ### BLOCK Graft Abilities
 ####Rending Claw Graft
-Rending Claw	CATEGORY:Special Ability	TYPE:SpecialQuality	DEFINE:NumRendingClaws|0	DESC:You have received a rending claw Illithid Graft				
+Rending Claw	CATEGORY:Special Ability	TYPE:SpecialQuality	DEFINE:NumRendingClaws|0	DESC:You have received a Rending Claw Illithid Graft	BENEFIT:You have received a Rending Claw graft.  You have an claw attack based on your size, but are at -4 on skill checks that require fine manipulation using the grafted-on limb.  	MULT:YES	STACK:YES		CHOOSE:NOCHOICE		BONUS:VAR|NumRendingClaws|1				
 #ABILITY:Special Ability|AUTOMATIC|1 Medium Rending Claw|PREMULT:2,[PRESIZEEQ:M],[PREVAREQ:NumRendingClaws,1]														ABILITY:Special Ability|AUTOMATIC|2 Medium Rending Claw|PREMULT:2,[PRESIZEEQ:M],[PREVAREQ:NumRendingClaws,2]														ABILITY:Special Ability|AUTOMATIC|3 Medium Rending Claw|PREMULT:2,[PRESIZEEQ:M],[PREVAREQ:NumRendingClaws,3]														ABILITY:Special Ability|AUTOMATIC|4 Medium Rending Claw|PREMULT:2,[PRESIZEEQ:M],[PREVAREQ:NumRendingClaws,4]																																																																										 ABILITY:Special Ability|AUTOMATIC|1 Small Rending Claw|PREMULT:2,[PRESIZEEQ:S],[PREVAREQ:NumRendingClaws,1]														ABILITY:Special Ability|AUTOMATIC|2 Small Rending Claw|PREMULT:2,[PRESIZEEQ:S],[PREVAREQ:NumRendingClaws,2]														ABILITY:Special Ability|AUTOMATIC|3 Small Rending Claw|PREMULT:2,[PRESIZEEQ:S],[PREVAREQ:NumRendingClaws,3]														ABILITY:Special Ability|AUTOMATIC|4 Small Rending Claw|PREMULT:2,[PRESIZEEQ:S],[PREVAREQ:NumRendingClaws,4]																																																																										 ABILITY:Special Ability|AUTOMATIC|1 Tiny Rending Claw|PREMULT:2,[PRESIZEEQ:T],[PREVAREQ:NumRendingClaws,1]														ABILITY:Special Ability|AUTOMATIC|2 Tiny Rending Claw|PREMULT:2,[PRESIZEEQ:T],[PREVAREQ:NumRendingClaws,2]														ABILITY:Special Ability|AUTOMATIC|3 Tiny Rending Claw|PREMULT:2,[PRESIZEEQ:T],[PREVAREQ:NumRendingClaws,3]														ABILITY:Special Ability|AUTOMATIC|4 Tiny Rending Claw|PREMULT:2,[PRESIZEEQ:T],[PREVAREQ:NumRendingClaws,4]																														ABILITY:Special Ability|AUTOMATIC|1 Diminutive Rending Claw|PREMULT:2,[PRESIZEEQ:D],[PREVAREQ:NumRendingClaws,1]														ABILITY:Special Ability|AUTOMATIC|2 Diminutive Rending Claw|PREMULT:2,[PRESIZEEQ:D],[PREVAREQ:NumRendingClaws,2]														ABILITY:Special Ability|AUTOMATIC|3 Diminutive Rending Claw|PREMULT:2,[PRESIZEEQ:D],[PREVAREQ:NumRendingClaws,3]														ABILITY:Special Ability|AUTOMATIC|4 Diminutive Rending Claw|PREMULT:2,[PRESIZEEQ:D],[PREVAREQ:NumRendingClaws,4]																														ABILITY:Special Ability|AUTOMATIC|1 Fine Rending Claw|PREMULT:2,[PRESIZEEQ:F],[PREVAREQ:NumRendingClaws,1]														ABILITY:Special Ability|AUTOMATIC|2 Fine Rending Claw|PREMULT:2,[PRESIZEEQ:F],[PREVAREQ:NumRendingClaws,2]														ABILITY:Special Ability|AUTOMATIC|3 Fine Rending Claw|PREMULT:2,[PRESIZEEQ:F],[PREVAREQ:NumRendingClaws,3]														ABILITY:Special Ability|AUTOMATIC|4 Fine Rending Claw|PREMULT:2,[PRESIZEEQ:F],[PREVAREQ:NumRendingClaws,4]																														ABILITY:Special Ability|AUTOMATIC|1 Large Rending Claw|PREMULT:2,[PRESIZEEQ:L],[PREVAREQ:NumRendingClaws,1]														ABILITY:Special Ability|AUTOMATIC|2 Large Rending Claw|PREMULT:2,[PRESIZEEQ:L],[PREVAREQ:NumRendingClaws,2]														ABILITY:Special Ability|AUTOMATIC|3 Large Rending Claw|PREMULT:2,[PRESIZEEQ:L],[PREVAREQ:NumRendingClaws,3]														ABILITY:Special Ability|AUTOMATIC|4 Large Rending Claw|PREMULT:2,[PRESIZEEQ:L],[PREVAREQ:NumRendingClaws,4]																														ABILITY:Special Ability|AUTOMATIC|1 Huge Rending Claw|PREMULT:2,[PRESIZEEQ:H],[PREVAREQ:NumRendingClaws,1]														ABILITY:Special Ability|AUTOMATIC|2 Huge Rending Claw|PREMULT:2,[PRESIZEEQ:H],[PREVAREQ:NumRendingClaws,2]														ABILITY:Special Ability|AUTOMATIC|3 Huge Rending Claw|PREMULT:2,[PRESIZEEQ:H],[PREVAREQ:NumRendingClaws,3]														ABILITY:Special Ability|AUTOMATIC|4 Huge Rending Claw|PREMULT:2,[PRESIZEEQ:H],[PREVAREQ:NumRendingClaws,4]																														ABILITY:Special Ability|AUTOMATIC|1 Gargantuan Rending Claw|PREMULT:2,[PRESIZEEQ:H],[PREVAREQ:NumRendingClaws,1]														ABILITY:Special Ability|AUTOMATIC|2 Gargantuan Rending Claw|PREMULT:2,[PRESIZEEQ:H],[PREVAREQ:NumRendingClaws,2]														ABILITY:Special Ability|AUTOMATIC|3 Gargantuan Rending Claw|PREMULT:2,[PRESIZEEQ:H],[PREVAREQ:NumRendingClaws,3]														ABILITY:Special Ability|AUTOMATIC|4 Gargantuan Rending Claw|PREMULT:2,[PRESIZEEQ:H],[PREVAREQ:NumRendingClaws,4]																														ABILITY:Special Ability|AUTOMATIC|1 Colossal Rending Claw|PREMULT:2,[PRESIZEEQ:H],[PREVAREQ:NumRendingClaws,1]														ABILITY:Special Ability|AUTOMATIC|2 Colossal Rending Claw|PREMULT:2,[PRESIZEEQ:H],[PREVAREQ:NumRendingClaws,2]														ABILITY:Special Ability|AUTOMATIC|3 Colossal Rending Claw|PREMULT:2,[PRESIZEEQ:H],[PREVAREQ:NumRendingClaws,3]														ABILITY:Special Ability|AUTOMATIC|4 Colossal Rending Claw|PREMULT:2,[PRESIZEEQ:H],[PREVAREQ:NumRendingClaws,4]																																																																										BENEFIT:You gain an arm with sharp claws.
 
+1 Hand		KEY:Rending Claw ~ One Hand			CATEGORY:Special Ability	TYPE:RendingClawChoice		TEMPLATE:1 Hand		VISIBLE:YES	DESC:You have one hand including all grafts. 
+2 Hands		KEY:Rending Claw ~ Two Hands		CATEGORY:Special Ability	TYPE:RendingClawChoice		TEMPLATE:2 Hand		VISIBLE:YES	DESC:You have one hand including all grafts. 
+3 Hands		KEY:Rending Claw ~ Three Hands		CATEGORY:Special Ability	TYPE:RendingClawChoice		TEMPLATE:3 Hand		VISIBLE:YES	DESC:You have one hand including all grafts. 
+4 Hands		KEY:Rending Claw ~ Four Hands		CATEGORY:Special Ability	TYPE:RendingClawChoice		TEMPLATE:4 Hand		VISIBLE:YES	DESC:You have one hand including all grafts. 
+5 Hands		KEY:Rending Claw ~ Five Hands		CATEGORY:Special Ability	TYPE:RendingClawChoice		TEMPLATE:5 Hand		VISIBLE:YES	DESC:You have one hand including all grafts. 
+6 Hands		KEY:Rending Claw ~ Six Hands		CATEGORY:Special Ability	TYPE:RendingClawChoice		TEMPLATE:6 Hand		VISIBLE:YES	DESC:You have one hand including all grafts. 
+7 Hands		KEY:Rending Claw ~ Seven Hands		CATEGORY:Special Ability	TYPE:RendingClawChoice		TEMPLATE:7 Hand		VISIBLE:YES	DESC:You have one hand including all grafts. 
+8 Hands		KEY:Rending Claw ~ Eight Hands		CATEGORY:Special Ability	TYPE:RendingClawChoice		TEMPLATE:8 Hand		VISIBLE:YES	DESC:You have one hand including all grafts. 
+9 Hands		KEY:Rending Claw ~ Nine Hands		CATEGORY:Special Ability	TYPE:RendingClawChoice		TEMPLATE:9 Hand		VISIBLE:YES	DESC:You have one hand including all grafts. 
+10 Hands	KEY:Rending Claw ~ Ten Hands		CATEGORY:Special Ability	TYPE:RendingClawChoice		TEMPLATE:10 Hand	VISIBLE:YES	DESC:You have one hand including all grafts. 
+
+1 Medium Rending Claw	PRESIZEEQ:M	TYPE:SpecialAttack.RendingClawAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending Claw,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*1,1d6
+2 Medium Rending Claw	PRESIZEEQ:M			TYPE:SpecialAttack.RendingClawAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending Claw,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*2,1d6	
+3 Medium Rending Claw	PRESIZEEQ:M		TYPE:SpecialAttack.RendingClawAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending Claw,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*3,1d6	
+4 Medium Rending Claw	PRESIZEEQ:M		TYPE:SpecialAttack.RendingClawAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending Claw,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*4,1d6	
+
+1 Small Rending Claw	PRESIZEEQ:S		TYPE:SpecialAttack.RendingClawAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending Claw,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*1,1d4	
+2 Small Rending Claw		PRESIZEEQ:S	TYPE:SpecialAttack.RendingClawAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending Claw,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*2,1d4	
+3 Small Rending Claw		PRESIZEEQ:S	TYPE:SpecialAttack.RendingClawAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending Claw,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*3,1d4	
+4 Small Rending Claw		PRESIZEEQ:S	TYPE:SpecialAttack.RendingClawAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending Claw,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*4,1d4	
 
 
-1 Medium Rending Claw	TYPE:SpecialAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*1,1d6
-2 Medium Rending Claw	TYPE:SpecialAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*2,1d6	
-3 Medium Rending Claw	TYPE:SpecialAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*3,1d6	
-4 Medium Rending Claw	TYPE:SpecialAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*4,1d6	
+1 Large Rending Claw		PRESIZEEQ:L	TYPE:SpecialAttack.RendingClawAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending Claw,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*1,1d8	
+2 Large Rending Claw		PRESIZEEQ:L	TYPE:SpecialAttack.RendingClawAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending Claw,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*2,1d8	
+3 Large Rending Claw		PRESIZEEQ:L	TYPE:SpecialAttack.RendingClawAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending Claw,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*3,1d8	
+4 Large Rending Claw		PRESIZEEQ:L	TYPE:SpecialAttack.RendingClawAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending Claw,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*4,1d8	
 
-1 Small Rending Claw	TYPE:SpecialAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*1,1d4	
-2 Small Rending Claw	TYPE:SpecialAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*2,1d4	
-3 Small Rending Claw	TYPE:SpecialAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*3,1d4	
-4 Small Rending Claw	TYPE:SpecialAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*4,1d4	
+1 Tiny Rending Claw	PRESIZEEQ:M		TYPE:SpecialAttack.RendingClawAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending Claw,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*1,1d3	
+2 Tiny Rending Claw		PRESIZEEQ:T	TYPE:SpecialAttack.RendingClawAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending Claw,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*2,1d3	
+3 Tiny Rending Claw		PRESIZEEQ:T	TYPE:SpecialAttack.RendingClawAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending Claw,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*3,1d3	
+4 Tiny Rending Claw		PRESIZEEQ:T	TYPE:SpecialAttack.RendingClawAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending Claw,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*4,1d3	
 
+1 Diminutive Rending Claw	PRESIZEEQ:D		TYPE:SpecialAttack.RendingClawAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending Claw,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*1,1d2	
+2 Diminutive Rending Claw	PRESIZEEQ:D		TYPE:SpecialAttack.RendingClawAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending Claw,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*2,1d2	
+3 Diminutive Rending Claw	PRESIZEEQ:D		TYPE:SpecialAttack.RendingClawAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending Claw,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*3,1d2	
+4 Diminutive Rending Claw		PRESIZEEQ:D	TYPE:SpecialAttack.RendingClawAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending Claw,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*4,1d2	
 
-1 Large Rending Claw	TYPE:SpecialAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*1,1d8	
-2 Large Rending Claw	TYPE:SpecialAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*2,1d8	
-3 Large Rending Claw	TYPE:SpecialAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*3,1d8	
-4 Large Rending Claw	TYPE:SpecialAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*4,1d8	
+1 Fine Rending Claw		PRESIZEEQ:F	TYPE:SpecialAttack.RendingClawAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending Claw,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*1,1	
+2 Fine Rending Claw		PRESIZEEQ:F	TYPE:SpecialAttack.RendingClawAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending Claw,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*2,1
+3 Fine Rending Claw		PRESIZEEQ:F	TYPE:SpecialAttack.RendingClawAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending Claw,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*3,1	
+4 Fine Rending Claw	PRESIZEEQ:F		TYPE:SpecialAttack.RendingClawAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending Claw,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*4,1	
 
-1 Tiny Rending Claw	TYPE:SpecialAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*1,1d3	
-2 Tiny Rending Claw	TYPE:SpecialAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*2,1d3	
-3 Tiny Rending Claw	TYPE:SpecialAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*3,1d3	
-4 Tiny Rending Claw	TYPE:SpecialAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*4,1d3	
-
-1 Diminutive Rending Claw	TYPE:SpecialAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*1,1d2	
-2 Diminutive Rending Claw	TYPE:SpecialAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*2,1d2	
-3 Diminutive Rending Claw	TYPE:SpecialAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*3,1d2	
-4 Diminutive Rending Claw	TYPE:SpecialAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*4,1d2	
-
-1 Fine Rending Claw	TYPE:SpecialAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*1,1	
-2 Fine Rending Claw	TYPE:SpecialAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*2,1
-3 Fine Rending Claw	TYPE:SpecialAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*3,1	
-4 Fine Rending Claw	TYPE:SpecialAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*4,1	
-
-1 Huge Rending Claw	TYPE:SpecialAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*1,2d6	
-2 Huge Rending Claw	TYPE:SpecialAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*2,2d6	
-3 Huge Rending Claw	TYPE:SpecialAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*3,2d6	
-4 Huge Rending Claw	TYPE:SpecialAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*4,2d6	
+1 Huge Rending Claw	PRESIZEEQ:H		TYPE:SpecialAttack.RendingClawAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending Claw,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*1,2d6	
+2 Huge Rending Claw		PRESIZEEQ:H	TYPE:SpecialAttack.RendingClawAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending Claw,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*2,2d6	
+3 Huge Rending Claw	PRESIZEEQ:H		TYPE:SpecialAttack.RendingClawAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending Claw,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*3,2d6	
+4 Huge Rending Claw		PRESIZEEQ:H	TYPE:SpecialAttack.RendingClawAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending Claw,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*4,2d6	
 
 
-1 Gargantuan Rending Claw	TYPE:SpecialAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*1,2d8	
-2 Gargantuan Rending Claw	TYPE:SpecialAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*2,2d8	
-3 Gargantuan Rending Claw	TYPE:SpecialAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*3,2d8	
-4 Gargantuan Rending Claw	TYPE:SpecialAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*4,2d8	
+1 Gargantuan Rending Claw	PRESIZEEQ:G		TYPE:SpecialAttack.RendingClawAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending Claw,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*1,2d8	
+2 Gargantuan Rending Claw	PRESIZEEQ:G		TYPE:SpecialAttack.RendingClawAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending Claw,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*2,2d8	
+3 Gargantuan Rending Claw	PRESIZEEQ:G		TYPE:SpecialAttack.RendingClawAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending Claw,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*3,2d8	
+4 Gargantuan Rending Claw	PRESIZEEQ:G		TYPE:SpecialAttack.RendingClawAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending Claw,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*4,2d8	
 
 
-1 Colossal Rending Claw	TYPE:SpecialAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*1,4d6	
-2 Colossal Rending Claw	TYPE:SpecialAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*2,4d6	
-3 Colossal Rending Claw	TYPE:SpecialAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*3,4d6	
-4 Colossal Rending Claw	TYPE:SpecialAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*4,4d6	
+1 Colossal Rending Claw	PRESIZEEQ:C		TYPE:SpecialAttack.RendingClawAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending Claw,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*1,4d6	
+2 Colossal Rending Claw	PRESIZEEQ:C		TYPE:SpecialAttack.RendingClawAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending Claw,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*2,4d6	
+3 Colossal Rending Claw	PRESIZEEQ:C		TYPE:SpecialAttack.RendingClawAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending Claw,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*3,4d6	
+4 Colossal Rending Claw	PRESIZEEQ:C		TYPE:SpecialAttack.RendingClawAttack	CATEGORY:Special Ability	NATURALATTACKS:Rending Claw,Weapon.Natural.Melee.Slashing.Piercing.Bludgeoning.Claw,*4,4d6	

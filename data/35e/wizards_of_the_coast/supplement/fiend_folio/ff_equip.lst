@@ -1,2 +1,2 @@
-Rending Claw	COST:5000		ABILITY:Special Ability|AUTOMATIC|Rending Claw	BONUS:VAR|NumRendingClaws|1	BONUS:SLOTS|WEAPON|NumRendingClaws	TEMPLATE:Rending Claw Hands
+Rending Claw	COST:5000		ABILITY:Special Ability|AUTOMATIC|Rending Claw	BONUS:SLOTS|WEAPON|NumRendingClaws		BONUS:ABILITYPOOL|Rending Claws Total Hands|1		BONUS:ABILITYPOOL|Rending Claws Total Rending Claw Grafts|1		SPROP:Gain a claw attack, -4 on skill checks requiring fine manipulation with this limb.  A characther with an Illithidgraft of any kind takes a -4 penalty to saves vs all mind-affecting psionics, magic and spells.    TYPE:Graft.Illithid.Illithidgraft.Arm
 
