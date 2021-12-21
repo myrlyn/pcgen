@@ -545,3 +545,20 @@ Multiheaded HD Construct 26	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multih
 Multiheaded HD Construct 27	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Construct Head 27
 Multiheaded HD Construct 28	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Construct Head 28
 Multiheaded HD Construct 29	CATEGORY:Special Ability	TYPE:Hidden	TEMPLATE:Multiheaded HD Construct Head 29
+Wide Vision		KEY:Insectile ~ Wide Vision		CATEGORY:Special Ability	TYPE:Extraordinary.SpecialQuality	DESC:+4 on spot, cannot be flanked		BONUS:SKILL|Spot|4|TYPE=Racial
+Claws		KEY:Reptilian ~ Claws		CATEGORY:Special Ability		TYPE:Hidden		ABILITY:Special Ability|AUTOMATIC|F Reptilian ~ Claws|PRESIZEEQ:F		ABILITY:Special Ability|AUTOMATIC|D Reptilian ~ Claws|PRESIZEEQ:D		ABILITY:Special Ability|AUTOMATIC|T Reptilian ~ Claws|PRESIZEEQ:T		ABILITY:Special Ability|AUTOMATIC|S Reptilian ~ Claws|PRESIZEEQ:S		ABILITY:Special Ability|AUTOMATIC|M Reptilian ~ Claws|PRESIZEEQ:M		ABILITY:Special Ability|AUTOMATIC|L Reptilian ~ Claws|PRESIZEEQ:L			ABILITY:Special Ability|AUTOMATIC|H Reptilian ~ Claws|PRESIZEEQ:H		ABILITY:Special Ability|AUTOMATIC|G Reptilian ~ Claws|PRESIZEEQ:G		ABILITY:Special Ability|AUTOMATIC|P Reptilian ~ Claws|PRESIZEEQ:P	
+
+
+F Claws		KEY:F Reptilian ~ Claws		CATEGORY:Special Ability		TYPE:Hidden		NATURALATTACKS:Claw,Claw.Slashing.Piercing.Weapon.Natural,*1,1
+D Claws		KEY:D Reptilian ~ Claws		CATEGORY:Special Ability		TYPE:Hidden		NATURALATTACKS:Claw,Claw.Slashing.Piercing.Weapon.Natural,*1,1d2
+T Claws		KEY:T Reptilian ~ Claws		CATEGORY:Special Ability		TYPE:Hidden		NATURALATTACKS:Claw,Claw.Slashing.Piercing.Weapon.Natural,*1,1d3
+S Claws		KEY:S Reptilian ~ Claws		CATEGORY:Special Ability		TYPE:Hidden		NATURALATTACKS:Claw,Claw.Slashing.Piercing.Weapon.Natural,*1,1d4
+M Claws		KEY:M Reptilian ~ Claws		CATEGORY:Special Ability		TYPE:Hidden		NATURALATTACKS:Claw,Claw.Slashing.Piercing.Weapon.Natural,*1,1d6
+L Claws		KEY:L Reptilian ~ Claws		CATEGORY:Special Ability		TYPE:Hidden		NATURALATTACKS:Claw,Claw.Slashing.Piercing.Weapon.Natural,*1,1d8
+H Claws		KEY:H Reptilian ~ Claws		CATEGORY:Special Ability		TYPE:Hidden		NATURALATTACKS:Claw,Claw.Slashing.Piercing.Weapon.Natural,*1,2d6
+G Claws		KEY:G Reptilian ~ Claws		CATEGORY:Special Ability		TYPE:Hidden		NATURALATTACKS:Claw,Claw.Slashing.Piercing.Weapon.Natural,*1,2d8
+C Claws		KEY:C Reptilian ~ Claws		CATEGORY:Special Ability		TYPE:Hidden		NATURALATTACKS:Claw,Claw.Slashing.Piercing.Weapon.Natural,*1,4d6
+P Claws		KEY:P Reptilian ~ Claws		CATEGORY:Special Ability		TYPE:Hidden		NATURALATTACKS:Claw,Claw.Slashing.Piercing.Weapon.Natural,*1,4d8
+
+Poison Bite		KEY:Tainted One ~ Poison Bite			CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack		DESC:Your saliva is toxic when ingetsted or introduced to the blood.  Fortitude DC is %1, 1d4 Constitution damage, and another save vs another 1d4 Constitution damage after one minute.  If delivered via kiss, the DC is reduced by 2.|10+(TL/2)+CON
+Rage		CATEGORY:Special Ability	KEY:Broodguard ~ Rage		DESC:Once per day, a broodguard can enter into a berserk state similar to a barbarian’s rage. In this state, the broodguard gains +4 to Strength, +4 to Constitution, and a +2 morale bonus on Will saves, but it takes a –2 penalty to Armor Class. The rage lasts for a number of rounds equal to 3 + the broodguard’s (newly improved) Constitution modifier.		TEMPBONUS:PC|STAT|STR|4			TEMPBONUS:PC|STAT|CON|4		TEMPBONUS:PC|COMBAT|AC|-2			TEMPDESC:Apply a +2 bonus to will save rolls		

@@ -36,8 +36,8 @@ Skill Synergy ~ Tumble						CATEGORY:Internal		BONUS:SKILL|Balance,Jump|SynergyS
 
 
 
-No Region				KEY:Region ~ None	SORTKEY:a	OUTPUTNAME:No Region	CATEGORY:Regional			TYPE:Region						VISIBLE:YES
-
+No Region				KEY:Region ~ None	SORTKEY:a	OUTPUTNAME:No Region	CATEGORY:Regional			TYPE:Region						VISIBLE:YES			ABILITY:Special Ability|AUTOMATIC|Default Human Languages|PRERACE:1,Human
+Default Human Languages			KEY:Region ~ Default Human Languages		TEMPLATE:Default Human Languages
 ###Block: Homebrew Samples
 Remove Default Auto Language										CATEGORY:Internal			TYPE:LanguageReplacement.AutoLangReplace																																																																																																									COST:0
 Remove Default Bonus Language										CATEGORY:Internal			TYPE:LanguageReplacement.BonusLangReplace																																																																																																									COST:0
