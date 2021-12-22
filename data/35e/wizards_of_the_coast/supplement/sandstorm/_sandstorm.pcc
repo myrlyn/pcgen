@@ -33,7 +33,7 @@ ABILITY:sa_feats.lst
 KIT:sa_kits.lst
 RACE:sa_races.lst
 SPELL:sa_spells.lst
-
+CLASS:sa_classes.lst
 INFOTEXT:Supports 6.4.1
 # ENTRY DATE: 2015-01 (Unknown)
 # LST MONKEY: Bahamut

@@ -1,5 +1,5 @@
 # CVS $Revision: $ $Author: $ -- Sun Aug 17 15:41:15 2014 -- reformated by prettylst.pl v1.51 (build 24906)
-Default Human Languages		LANGBONUS:ALL
+Default Human Languages		LANGBONUS:ALL	VISIBLE:NO
 # Favored Class
 Barbarian		KEY:Favored Class ~ Barbarian			VISIBLE:NO	TYPE:FavoredClass		FAVOREDCLASS:Barbarian
 Bard			KEY:Favored Class ~ Bard			VISIBLE:NO	TYPE:FavoredClass		FAVOREDCLASS:Bard
