@@ -577,7 +577,7 @@ CLASS:Battle Sorcerer	FACT:SpellType|Arcane
 CLASS:Battle Sorcerer	SPELLSTAT:CHA	MEMORIZE:NO	BONUS:CASTERLEVEL|Battle Sorcerer|Caster_Level_Battle_Sorcerer	DEFINE:Caster_Level_Battle_Sorcerer|0	BONUS:VAR|Caster_Level_Battle_Sorcerer|CL+Caster_Level_Bonus	DEFINE:CasterLevelBLBattle_Sorcerer|0	BONUS:VAR|CasterLevelBLBattle_Sorcerer|charbonusto("PCLEVEL","Battle Sorcerer")	BONUS:VAR|Caster_Level_Highest__Arcane|Caster_Level_Battle_Sorcerer+CasterLevelBLBattle_Sorcerer|TYPE=Base	SPELLLIST:1|Sorcerer
 ###Block:Proficiencies
 1	ABILITY:Sorcerer Class Feature|AUTOMATIC|Battle Sorcerer ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.SorcererProficiencies
-1	ABILITY:Sorcerer Class Feature|AUTOMATIC|Sorcerer ~ Familiar|!PREABILITY:1,CATEGORY=Special Ability,TYPE.SorcererSummonFamiliar
+1	ABILITY:Sorcerer Class Feature|AUTOMATIC|Sorcerer ~ Familiar|!PREABILITY:1,CATEGORY=Special Ability,TYPE.SorcererSummonFamiliar		SAB:You do not suffer a spell failure chance for light armor.  
 ###Block: Familiar
 1	BONUS:VAR|FamiliarLVL|CL|!PREABILITY:1,CATEGORY=Special Ability,TYPE.SorcererSummonFamiliar
 ###Block:
