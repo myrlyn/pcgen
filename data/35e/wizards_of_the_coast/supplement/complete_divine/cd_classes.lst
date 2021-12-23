@@ -570,12 +570,14 @@ CLASS:Rainbow Servant	PRETEXT:Alignment: Any nonevil and nonchaotic. Skill: Know
 CLASS:Rainbow Servant	STARTSKILLPTS:2	CSKILL:Concentration|TYPE=Craft|Diplomacy|Knowledge (arcana)|Knowledge (The Planes)|TYPE=Profession|Sense Motive|Spellcraft
 CLASS:Rainbow Servant	FACT:SpellType|Arcane	MEMORIZE:NO
 CLASS:Rainbow Servant	BONUS:CASTERLEVEL|Rainbow Servant|RainbowServantLVL
-2	ADD:SPELLCASTER|Arcane
-3	ADD:SPELLCASTER|Arcane
-5	ADD:SPELLCASTER|Arcane
-6	ADD:SPELLCASTER|Arcane
-8	ADD:SPELLCASTER|Arcane
-9	ADD:SPELLCASTER|Arcane
+####Text trumps table for class abilities, so Rainbow Servant should get full casting
+1:REPEATLEVEL:1		ADD:SPELLCASTER|Arcane
+#2	ADD:SPELLCASTER|Arcane
+#3	ADD:SPELLCASTER|Arcane
+#5	ADD:SPELLCASTER|Arcane
+#6	ADD:SPELLCASTER|Arcane
+#8	ADD:SPELLCASTER|Arcane
+#9	ADD:SPELLCASTER|Arcane
 ###Block
 11	PREPCLEVEL:MIN=20
 ###Block	
