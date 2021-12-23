@@ -8,7 +8,6 @@
 # Class Name	Hit Dice	Type												Max Level
 ###CLASS:Sand Shaper	HD:6	FACT:Abb|AH	FACT:ClassType|Prestige.PC.Arcane		MAXLEVLE:10
 # Class Name	Requirements
-###CLASS:Sand Shaper	PREALIGN:NG,NE,TN,CN,LN			PRESKILL:1,Knowledge (Nature)=4		PRESKILL:1,Survival=4	PREABILITY:1,CATEGORY=FEAT,Touchstone (City of the Dead)		PRETEXT:Spells or spell-like abilities at Arcane caster level 5th.		CSKILL:Climb|Concentration|TYPE.Craft|Diplomacy|Handle Animal|Heal|
-Intimidate|Jump|Knowledge (Nature)|Listen|TYPE.Profession|Ride
+###CLASS:Sand Shaper	PREALIGN:NG,NE,TN,CN,LN			PRESKILL:1,Knowledge (Nature)=4		PRESKILL:1,Survival=4	PREABILITY:1,CATEGORY=FEAT,Touchstone (City of the Dead)		PRETEXT:Spells or spell-like abilities at Arcane caster level 5th.		CSKILL:Climb|Concentration|TYPE.Craft|Diplomacy|Handle Animal|Heal|Intimidate|Jump|Knowledge (Nature)|Listen|TYPE.Profession|Ride
 # Class Name	Prohibited Class	Required Race
 # Class Name	Skill Pts/Lvl	Class Skill
