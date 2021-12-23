@@ -581,7 +581,7 @@ CLASS:Rainbow Servant	BONUS:CASTERLEVEL|Rainbow Servant|RainbowServantLVL
 ###Block
 11	PREPCLEVEL:MIN=20
 ###Block	
-1	ABILITY:Rainbow Servant Class Feature|AUTOMATIC|Rainbow Servant ~ Weapon and Armor Proficiency
+1	ABILITY:Rainbow Servant Class Feature|AUTOMATIC|Rainbow Servant ~ Weapon and Armor Proficiency		BONUS:VAR|TurnLevelAir|TL	BONUS:VAR|TurnLevelEarth|TL
 1	ABILITY:Rainbow Servant Class Feature|AUTOMATIC|Rainbow Servant ~ Detect Evil
 1	ABILITY:Rainbow Servant Class Feature|AUTOMATIC|Rainbow Servant ~ Extra Domain
 2	ABILITY:Rainbow Servant Class Feature|AUTOMATIC|Rainbow Servant ~ Spells per Day/Spells Known
