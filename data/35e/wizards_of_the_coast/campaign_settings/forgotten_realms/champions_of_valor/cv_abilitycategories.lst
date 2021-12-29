@@ -9,3 +9,4 @@ ABILITYCATEGORY:Ranger Natural Combat Style				VISIBLE:QUALIFY	EDITABLE:YES	EDIT
 ABILITYCATEGORY:Triadic Knight Class Feature		VISIBLE:QUALIFY		EDITABLE:NO	EDITPOOL:NO	CATEGORY:Special Ability	TYPE:Triadic Knight Class Feature	PLURAL:Triadic Knight Class Features		DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Fangshield Ranger Weapon Focus				VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO							CATEGORY:Special Ability	TYPE:Weapon Focus														PLURAL:Fangshield Ranger Weapon Foci			DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Fangshield Ranger Attack Option				VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO							CATEGORY:Special Ability	TYPE:FangshieldRangerAttackOption														PLURAL:Attack Options			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Fangshield Ranger Improved Combat	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	TYPE:FangshieldRangerImproved
