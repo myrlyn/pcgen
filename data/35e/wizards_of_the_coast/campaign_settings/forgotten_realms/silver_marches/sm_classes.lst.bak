@@ -7,10 +7,10 @@ CLASS:Peerless Archer	STARTSKILLPTS:2	CSKILL:Balance|Climb|TYPE.Craft|Hide|Jump|
 1	ABILITY:Special Ability|AUTOMATIC|Peerless Archer ~ Exper Bowyer	ABILITY:Special Ability|AUTOMATIC|Peerless Archer ~ Ranged Sneak Attack
 2	ABILITY:Special Ability|AUTOMATIC|Peerless Archer ~ Sharp Shooting	ABILITY:Special Ability|AUTOMATIC|Peerless Archer ~ Fletching	
 3	ABILITY:Special Ability|AUTOMATIC|Peerless Archer ~ Power Shot
-4	BONUS:VAR|RangedSneakAttackDice|1	BONUS|VAR|FletchingBonus|1	
+4	BONUS:VAR|RangedSneakAttackDice|1	BONUS:VAR|FletchingBonus|1	
 5	BONUS:VAR|SharpShooting|1
-6	BONUS|VAR|FletchingBonus|1	
+6	BONUS:VAR|FletchingBonus|1	
 7	BONUS:VAR|RangedSneakAttackDice|1
-8	BONUS|VAR|FletchingBonus|1	ABILITY:Special Ability|AUTOMATIC|Peerless Archer ~ Threaten
+8	BONUS:VAR|FletchingBonus|1	ABILITY:Special Ability|AUTOMATIC|Peerless Archer ~ Threaten
 9	BONUS:VAR|SharpShooting|1
-10	BONUS:VAR|RangedSneakAttackDice|1	BONUS|VAR|FletchingBonus|1	
+10	BONUS:VAR|RangedSneakAttackDice|1	BONUS:VAR|FletchingBonus|1	

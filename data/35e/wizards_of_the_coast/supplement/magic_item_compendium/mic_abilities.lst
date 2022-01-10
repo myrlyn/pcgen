@@ -89,3 +89,9 @@ Wraith's Woe			KEY:Equip ~ Wraith's Woe				CATEGORY:Special Ability					DEFINE:W
 
 
 Summon Manticore											CATEGORY:Spell-Like Ability					DEFINE:SummonManticoreTimes|0			SPELLS:Equipment|TIMES=SummonManticoreTimes|CASTERLEVEL=1|Summon Manticore
+#DM Ruling OPTIONS
+DM Ruling - Mantle Of The Predator Functions As Sudden Strike	COST:0	CATEGORY:Internal	TYPE:MiscOptions	DEFINE:MantleOfThePredatorSuddenStrike|0		BONUS:VAR|MantleOfThePredatorSuddenStrike|1
+DM Ruling - Rogue's Vest Applies To Each Ability Separately		COST:0	CATEGORY:Internal	TYPE:MiscOptions	DEFINE:RogueVestStacks|0			BONUS:VAR|RogueVestStacks|1
+Mantle Of The Predator +1d6						CATEGORY:Special Ability		TYPE:Extraordinary.SpecialAttack
+Rogue's Vest +1d6						CATEGORY:Special Ability		TYPE:Extraordinary.SpecialAttack
+Weapon Of Deadly Precision +1d6			CATEGORY:Special Ability		TYPE:Extraordinary.SpecialAttack

@@ -1,16 +1,16 @@
 # Class Name			Hit Dice	Type			Class Type			Abbreviation	Max Level	Source Page		Define		Save SAVE bonus											Combat bonus
 CLASS:Peerless Archer	HD:10		TYPE:PC.Prestige	FACT:ClassType|Prestige	FACT:Abb|PlsAr		MAXLEVEL:10	SOURCEPAGE:15	DEFINE:PeerlessArcherLVL|0	BONUS:VAR|PeerlessArcherLVL|CL	BONUS:SAVE|BASE.Will,BASE.Reflex|(classlevel("APPLIEDAS=NONEPIC")/2)+2	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE
 # Class Name			Required Ability					Required AL		Required Feat					Required Skill
-CLASS:Peerless Archer	PREATT:7	PREABILITY:4,CATEGORY=FEAT,Point Blank Shot,Far Shot,Precise Shot,Quick Draw	PRESKILL:1,Craft(bowmaking)=10
+CLASS:Peerless Archer	PREATT:7	PREABILITY:4,CATEGORY=FEAT,Point Blank Shot,Far Shot,Precise Shot,Quick Draw	PRESKILL:1,Craft (Bowmaking)=10
 # Class Name			Skill Pts/Lvl	Class Skill
 CLASS:Peerless Archer	STARTSKILLPTS:2	CSKILL:Balance|Climb|TYPE.Craft|Hide|Jump|Spot|Swim|Survival
 1	ABILITY:Special Ability|AUTOMATIC|Peerless Archer ~ Exper Bowyer	ABILITY:Special Ability|AUTOMATIC|Peerless Archer ~ Ranged Sneak Attack
 2	ABILITY:Special Ability|AUTOMATIC|Peerless Archer ~ Sharp Shooting	ABILITY:Special Ability|AUTOMATIC|Peerless Archer ~ Fletching	
 3	ABILITY:Special Ability|AUTOMATIC|Peerless Archer ~ Power Shot
-4	BONUS:VAR|RangedSneakAttackDice|1	BONUS|VAR|FletchingBonus|1	
+4	BONUS:VAR|RangedSneakAttackDice|1	BONUS:VAR|FletchingBonus|1	
 5	BONUS:VAR|SharpShooting|1
 6	BONUS:VAR|FletchingBonus|1	
 7	BONUS:VAR|RangedSneakAttackDice|1
 8	BONUS:VAR|FletchingBonus|1	ABILITY:Special Ability|AUTOMATIC|Peerless Archer ~ Threaten
 9	BONUS:VAR|SharpShooting|1
-10	BONUS:VAR|RangedSneakAttackDice|1	BONUS|VAR|FletchingBonus|1	
+10	BONUS:VAR|RangedSneakAttackDice|1	BONUS:VAR|FletchingBonus|1	

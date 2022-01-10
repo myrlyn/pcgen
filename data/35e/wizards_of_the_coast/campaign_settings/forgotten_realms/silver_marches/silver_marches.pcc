@@ -3,12 +3,12 @@ CAMPAIGN:Silver Marches
 GAMEMODE:35e|Bahamut35e
 TYPE:Wizards of the Coast.Campaign Setting.Forgotten Realms
 PRECAMPAIGN:1,INCLUDES=Player's Guide to Faerun
-PRECAMPAIGN:1,INCLUDES=Spell Compendium
+#PRECAMPAIGN:1,INCLUDES=Spell Compendium
 
 SOURCELONG:Silver Marches
-SOURCESHORT:CR
+SOURCESHORT:SM
 SOURCEDATE:2005-05
-RANK:200505
+RANK:202201
 ISOGL:NO
 COPYRIGHT:Silver Marches - Wizards of the Coast (November 2005)
 STATUS:ALPHA
