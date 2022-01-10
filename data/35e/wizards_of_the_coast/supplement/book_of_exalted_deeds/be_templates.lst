@@ -18,17 +18,7 @@ Vow of Poverty taken Tier Twenty	VISIBLE:NO																																					
 
 
 #Aleax		SOURCEPAGE:p.158	DESC:Template
-Sacred Watcher (Template)		SOURCEPAGE:p.182	DESC:“Sacred watcher” is an acquired template that can be added to any aberration, animal, dragon, giant, humanoid, magical beast, monstrous humanoid, or plant of good alignment (referred to hereafter as the “base creature”).
-	RACETYPE:Deathless
-	HITDIE:12
-	MOVE:Fly,30
-	BONUS:COMBAT|AC|max(1,CHA)|TYPE=Deflection
-	BONUS:STAT|CHA|4
-	BONUS:SKILL|Hide,Listen,Search,Spot|8|TYPE=Racial
-	BONUS:MISC|CR|2
-	LEVELADJUSTMENT:5
-	PREALIGN:LG,NG,CG
-	ABILITY:Special Ability|AUTOMATIC|TYPE=Sacred Watcher Race Trait
+Sacred Watcher (Template)		SOURCEPAGE:p.182	DESC:“Sacred watcher” is an acquired template that can be added to any aberration, animal, dragon, giant, humanoid, magical beast, monstrous humanoid, or plant of good alignment (referred to hereafter as the “base creature”).		RACETYPE:Deathless		HITDIE:12	MOVE:Fly,30	BONUS:COMBAT|AC|max(1,CHA)|TYPE=Deflection	BONUS:STAT|CHA|4	BONUS:SKILL|Hide,Listen,Search,Spot|8|TYPE=Racial	BONUS:MISC|CR|2	LEVELADJUSTMENT:5	PREALIGN:LG,NG,CG	ABILITY:Special Ability|AUTOMATIC|TYPE=Sacred Watcher Race Trait
 
 Saint			SOURCEPAGE:p.184		DESC:"Saint" is an acquired template that can be added to any living creature of good alignment that is not an outsider or an elemental (referred to hereafter as the "base creature"). See Sainthood in Chapter 2 for more information about becoming a saint. Size and Type: The creature's type changes to "outsider." The saint has the native subtype. Size is unchanged.	!PRERACE:1,RACETYPE=Outsider,RACETYPE=Elemental\	PREALIGN:LG,NG,CG	RACETYPE:Outsider	RACESUBTYPE:Native	BONUS:COMBAT|AC|max(0,WIS)|TYPE=Insight	ABILITY:Special Ability|AUTOMATIC|Template ~ Saint	BONUS:STAT|CON,WIS|2	BONUS:STAT|CHA|4	BONUS:MISC|CR|2	LEVELADJUSTMENT:2
 
@@ -39,3 +29,13 @@ Sanctified Creature (Template)	SOURCEPAGE:p.186
 	PREALIGN:LG,NG,CG
 	LEVELADJUSTMENT:2
 	ABILITY:Special Ability|AUTOMATIC|TYPE=Sanctified Creature Race Trait
+
+
+Assign Race Type ~ Deathless			RACETYPE:Undead		TEMPLATE:Deathless
+Deathless			VISIBLE:NO			HITDIE:12		DEFINESTAT:LOCK|CON|10			VISION:Darkvision(60')	ABILITY:Special Ability|AUTOMATIC|Race Traits ~ Deathless	
+Aleax	RACETYPE:Construct		HITDIE:10	BONUS:HP|CURRENTMAX|10|PRESIZEEQ:S		BONUS:HP|CURRENTMAX|20|PRESIZEEQ:M		BONUS:HP|CURRENTMAX|30|PRESIZEEQ:L		BONUS:HP|CURRENTMAX|40|PRESIZEEQ:H		BONUS:HP|CURRENTMAX|60|PRESIZEEQ:G		BONUS:HP|CURRENTMAX|80|PRESIZEGTEQ:C		BONUS:COMBAT|INITIATIVE|1|TYPE=Insight	BONUS:COMBAT|AC|2|TYPE=Perfection	SPELLS:Innate|TIMES=1|TIMEUNIT=ROUND|CASTERLEVEL=TL|Searing Light	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=20|Shapechange		SAB:Gain all extraordinary and spelllike abilities of forms taken with Shapechange		ABILITY:Special Ability|AUTOMATIC|Fast Healing		BONUS:VAR|FastHealingRate|5		ABILITY:Special Ability|AUTOMATIC|Aleax ~ Singular Enemy	SR:10+TL	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=20|True Seeing		SAB:True Seeing is a Free Action	CR:3	TEMPLATE:Construct
+
+#Sacred Watcher	RACETYPE:Deathless	RACESUBTYPE:Incorporeal	HITDIE:10		MOVE:Fly,30	BONUS:COMBAT|AC|max(1,CHA)|TYPE=Deflection	SAB:Reduce Natural Armor to 0	CR:2		
+Ghost.COPY=Sacred Watcher
+Sacred Watcher.MOD					RACESUBTYPE:Incorporeal	HITDIE:12		PREALIGN:CG,NG,LG		RACETYPE:Deathless		HITDIE:12	CR:2	LEVELADJUSTMENT:5	TEMPLATE:Deathless	ABILITY:Special Ability|AUTOMATIC|Race Traits ~ Deathless
+Undead.COPY=Deathless
