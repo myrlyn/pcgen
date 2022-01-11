@@ -548,18 +548,480 @@ Crystal Mask		KEY:Equipment ~ Crystal Mask			CATEGORY:Internal																		
 
 
 # Testing
-Psionic Power 1		KEY:Expanded Knowledge Feat ~ Level 1a	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat	PRECLASS:1,SPELLCASTER.Psionic=3	DESC:You learn %1|%LIST	STACK:NO	MULT:YES	CHOOSE:SPELLS|SPELLTYPE=Psionic[KNOWN=NO]
+Psionic Power 1		KEY:Expanded Knowledge Feat ~ Level 1a	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat	PRECLASS:1,SPELLCASTER.Psionic=3	DESC:You learn %1|%CHOICE	STACK:NO	MULT:YES	CHOOSE:SPELLS|SPELLTYPE=Psionic[KNOWN=NO]
 
-Psionic Power Level 1	KEY:Expanded Knowledge Feat ~ Level 1	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat	PRECLASS:1,SPELLCASTER.Psionic=3	DESC:You learn %1|%LIST	STACK:NO	MULT:YES	CHOOSE:SPELLS|SPELLTYPE=Psionic[LEVELMAX=1;LEVELMIN=1]
-Psionic Power Level 2	KEY:Expanded Knowledge Feat ~ Level 2	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat	PRECLASS:1,SPELLCASTER.Psionic=5	DESC:You learn %1|%LIST	STACK:NO	MULT:YES	CHOOSE:SPELLS|SPELLTYPE=Psionic[LEVELMAX=2;LEVELMIN=1]
-Psionic Power Level 3	KEY:Expanded Knowledge Feat ~ Level 3	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat	PRECLASS:1,SPELLCASTER.Psionic=7	DESC:You learn %1|%LIST	STACK:NO	MULT:YES	CHOOSE:SPELLS|SPELLTYPE=Psionic[LEVELMAX=3;LEVELMIN=1]
-Psionic Power Level 4	KEY:Expanded Knowledge Feat ~ Level 4	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat	PRECLASS:1,SPELLCASTER.Psionic=9	DESC:You learn %1|%LIST	STACK:NO	MULT:YES	CHOOSE:SPELLS|SPELLTYPE=Psionic[LEVELMAX=4;LEVELMIN=1]
-Psionic Power Level 5	KEY:Expanded Knowledge Feat ~ Level 5	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat	PRECLASS:1,SPELLCASTER.Psionic=11	DESC:You learn %1|%LIST	STACK:NO	MULT:YES	CHOOSE:SPELLS|SPELLTYPE=Psionic[LEVELMAX=5;LEVELMIN=1]
-Psionic Power Level 6	KEY:Expanded Knowledge Feat ~ Level 6	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat	PRECLASS:1,SPELLCASTER.Psionic=13	DESC:You learn %1|%LIST	STACK:NO	MULT:YES	CHOOSE:SPELLS|SPELLTYPE=Psionic[LEVELMAX=6;LEVELMIN=1]
-Psionic Power Level 7	KEY:Expanded Knowledge Feat ~ Level 7	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat	PRECLASS:1,SPELLCASTER.Psionic=15	DESC:You learn %1|%LIST	STACK:NO	MULT:YES	CHOOSE:SPELLS|SPELLTYPE=Psionic[LEVELMAX=7;LEVELMIN=1]
-Psionic Power Level 8	KEY:Expanded Knowledge Feat ~ Level 8	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat	PRECLASS:1,SPELLCASTER.Psionic=17	DESC:You learn %1|%LIST	STACK:NO	MULT:YES	CHOOSE:SPELLS|SPELLTYPE=Psionic[LEVELMAX=8;LEVELMIN=1]
+#Psion Power Level 1	KEY:Expanded Knowledge Feat ~ Level 1	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat	PRECLASS:1,SPELLCASTER.Psionic=3	DESC:You learn %1|%CHOICE	STACK:NO	MULT:YES	CHOOSE:SPELLS|CLASSLIST=Psion[LEVELMAX=1;LEVELMIN=1]	ABILITY:Expanded Knowledge|AUTOMATIC|Expanded Knowledge 1 (%CHOICE)
+#Psion Power Level 2	KEY:Expanded Knowledge Feat ~ Level 2	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat	PRECLASS:1,SPELLCASTER.Psionic=5	DESC:You learn %1|%CHOICE	STACK:NO	MULT:YES	CHOOSE:SPELLS|CLASSLIST=Psion[LEVELMAX=2;LEVELMIN=2]	ABILITY:Expanded Knowledge|AUTOMATIC|Expanded Knowledge 2 (%CHOICE)
+#Psion Power Level 3	KEY:Expanded Knowledge Feat ~ Level 3	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat	PRECLASS:1,SPELLCASTER.Psionic=7	DESC:You learn %1|%CHOICE	STACK:NO	MULT:YES	CHOOSE:SPELLS|CLASSLIST=Psion[LEVELMAX=3;LEVELMIN=3]	ABILITY:Expanded Knowledge|AUTOMATIC|Expanded Knowledge 3 (%CHOICE)
+#Psion Power Level 4	KEY:Expanded Knowledge Feat ~ Level 4	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat	PRECLASS:1,SPELLCASTER.Psionic=9	DESC:You learn %1|%CHOICE	STACK:NO	MULT:YES	CHOOSE:SPELLS|CLASSLIST=Psion[LEVELMAX=4;LEVELMIN=4]	ABILITY:Expanded Knowledge|AUTOMATIC|Expanded Knowledge 4 (%CHOICE)
+#Psion Power Level 5	KEY:Expanded Knowledge Feat ~ Level 5	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat	PRECLASS:1,SPELLCASTER.Psionic=11	DESC:You learn %1|%CHOICE	STACK:NO	MULT:YES	CHOOSE:SPELLS|CLASSLIST=Psion[LEVELMAX=5;LEVELMIN=5]	ABILITY:Expanded Knowledge|AUTOMATIC|Expanded Knowledge 5 (%CHOICE)
+#Psion Power Level 6	KEY:Expanded Knowledge Feat ~ Level 6	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat	PRECLASS:1,SPELLCASTER.Psionic=13	DESC:You learn %1|%CHOICE	STACK:NO	MULT:YES	CHOOSE:SPELLS|CLASSLIST=Psion[LEVELMAX=6;LEVELMIN=6]	ABILITY:Expanded Knowledge|AUTOMATIC|Expanded Knowledge 6 (%CHOICE)
+#Psion Power Level 7	KEY:Expanded Knowledge Feat ~ Level 7	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat	PRECLASS:1,SPELLCASTER.Psionic=15	DESC:You learn %1|%CHOICE	STACK:NO	MULT:YES	CHOOSE:SPELLS|CLASSLIST=Psion[LEVELMAX=7;LEVELMIN=7]	ABILITY:Expanded Knowledge|AUTOMATIC|Expanded Knowledge 7 (%CHOICE)
+#Psion Power Level 8	KEY:Expanded Knowledge Feat ~ Level 8	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat	PRECLASS:1,SPELLCASTER.Psionic=17	DESC:You learn %1|%CHOICE	STACK:NO	MULT:YES	CHOOSE:SPELLS|CLASSLIST=Psion[LEVELMAX=8;LEVELMIN=8]	ABILITY:Expanded Knowledge|AUTOMATIC|Expanded Knowledge 8 (%CHOICE)
+
+#Psychic Warrior Power Level 1	KEY:Expanded Knowledge Feat ~ Level 1	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat	PRECLASS:1,SPELLCASTER.Psionic=3	DESC:You learn %1|%CHOICE	STACK:NO	MULT:YES	CHOOSE:SPELLS|CLASSLIST=Psychic Warrior[LEVELMAX=1;LEVELMIN=1]	ABILITY:Expanded Knowledge|AUTOMATIC|Expanded Knowledge 1 (%CHOICE)
+#Psychic Warrior Power Level 2	KEY:Expanded Knowledge Feat ~ Level 2	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat	PRECLASS:1,SPELLCASTER.Psionic=5	DESC:You learn %1|%CHOICE	STACK:NO	MULT:YES	CHOOSE:SPELLS|CLASSLIST=Psychic Warrior[LEVELMAX=2;LEVELMIN=2]	ABILITY:Expanded Knowledge|AUTOMATIC|Expanded Knowledge 2 (%CHOICE)
+#Psychic Warrior Power Level 3	KEY:Expanded Knowledge Feat ~ Level 3	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat	PRECLASS:1,SPELLCASTER.Psionic=7	DESC:You learn %1|%CHOICE	STACK:NO	MULT:YES	CHOOSE:SPELLS|CLASSLIST=Psychic Warrior[LEVELMAX=3;LEVELMIN=3]	ABILITY:Expanded Knowledge|AUTOMATIC|Expanded Knowledge 3 (%CHOICE)
+#Psychic Warrior Power Level 4	KEY:Expanded Knowledge Feat ~ Level 4	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat	PRECLASS:1,SPELLCASTER.Psionic=9	DESC:You learn %1|%CHOICE	STACK:NO	MULT:YES	CHOOSE:SPELLS|CLASSLIST=Psychic Warrior[LEVELMAX=4;LEVELMIN=4]	ABILITY:Expanded Knowledge|AUTOMATIC|Expanded Knowledge 4 (%CHOICE)
+#Psychic Warrior Power Level 5	KEY:Expanded Knowledge Feat ~ Level 5	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat	PRECLASS:1,SPELLCASTER.Psionic=11	DESC:You learn %1|%CHOICE	STACK:NO	MULT:YES	CHOOSE:SPELLS|CLASSLIST=Psychic Warrior[LEVELMAX=5;LEVELMIN=5]	ABILITY:Expanded Knowledge|AUTOMATIC|Expanded Knowledge 5 (%CHOICE)
+#Psychic Warrior Power Level 6	KEY:Expanded Knowledge Feat ~ Level 6	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat	PRECLASS:1,SPELLCASTER.Psionic=13	DESC:You learn %1|%CHOICE	STACK:NO	MULT:YES	CHOOSE:SPELLS|CLASSLIST=Psychic Warrior[LEVELMAX=6;LEVELMIN=6]	ABILITY:Expanded Knowledge|AUTOMATIC|Expanded Knowledge 6 (%CHOICE)
+#Psychic Warrior Power Level 7	KEY:Expanded Knowledge Feat ~ Level 7	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat	PRECLASS:1,SPELLCASTER.Psionic=15	DESC:You learn %1|%CHOICE	STACK:NO	MULT:YES	CHOOSE:SPELLS|CLASSLIST=Psychic Warrior[LEVELMAX=7;LEVELMIN=7]	ABILITY:Expanded Knowledge|AUTOMATIC|Expanded Knowledge 7 (%CHOICE)
+#Psychic Warrior Power Level 8	KEY:Expanded Knowledge Feat ~ Level 8	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat	PRECLASS:1,SPELLCASTER.Psionic=17	DESC:You learn %1|%CHOICE	STACK:NO	MULT:YES	CHOOSE:SPELLS|CLASSLIST=Psychic Warrior[LEVELMAX=8;LEVELMIN=8]	ABILITY:Expanded Knowledge|AUTOMATIC|Expanded Knowledge 8 (%CHOICE)
+
+#Lurk Power Level 1	KEY:Expanded Knowledge Feat ~ Level 1	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat	PRECLASS:1,SPELLCASTER.Psionic=3	DESC:You learn %1|%CHOICE	STACK:NO	MULT:YES	CHOOSE:SPELLS|CLASSLIST=Lurk[LEVELMAX=1;LEVELMIN=1]		ABILITY:Expanded Knowledge|AUTOMATIC|Expanded Knowledge 1 (%CHOICE)
+#Lurk Power Level 2	KEY:Expanded Knowledge Feat ~ Level 2	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat	PRECLASS:1,SPELLCASTER.Psionic=5	DESC:You learn %1|%CHOICE	STACK:NO	MULT:YES	CHOOSE:SPELLS|CLASSLIST=Lurk[LEVELMAX=2;LEVELMIN=2]		ABILITY:Expanded Knowledge|AUTOMATIC|Expanded Knowledge 2 (%CHOICE)
+#Lurk Power Level 3	KEY:Expanded Knowledge Feat ~ Level 3	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat	PRECLASS:1,SPELLCASTER.Psionic=7	DESC:You learn %1|%CHOICE	STACK:NO	MULT:YES	CHOOSE:SPELLS|CLASSLIST=Lurk[LEVELMAX=3;LEVELMIN=3]		ABILITY:Expanded Knowledge|AUTOMATIC|Expanded Knowledge 2 (%CHOICE)
+#Lurk Power Level 4	KEY:Expanded Knowledge Feat ~ Level 4	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat	PRECLASS:1,SPELLCASTER.Psionic=9	DESC:You learn %1|%CHOICE	STACK:NO	MULT:YES	CHOOSE:SPELLS|CLASSLIST=Lurk[LEVELMAX=4;LEVELMIN=4]		ABILITY:Expanded Knowledge|AUTOMATIC|Expanded Knowledge 4 (%CHOICE)
+#Lurk Power Level 5	KEY:Expanded Knowledge Feat ~ Level 5	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat	PRECLASS:1,SPELLCASTER.Psionic=11	DESC:You learn %1|%CHOICE	STACK:NO	MULT:YES	CHOOSE:SPELLS|CLASSLIST=Lurk[LEVELMAX=5;LEVELMIN=5]		ABILITY:Expanded Knowledge|AUTOMATIC|Expanded Knowledge 5 (%CHOICE)
+#Lurk Power Level 6	KEY:Expanded Knowledge Feat ~ Level 6	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat	PRECLASS:1,SPELLCASTER.Psionic=13	DESC:You learn %1|%CHOICE	STACK:NO	MULT:YES	CHOOSE:SPELLS|CLASSLIST=Lurk[LEVELMAX=6;LEVELMIN=6]		ABILITY:Expanded Knowledge|AUTOMATIC|Expanded Knowledge 6 (%CHOICE)
+#Lurk Power Level 7	KEY:Expanded Knowledge Feat ~ Level 7	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat	PRECLASS:1,SPELLCASTER.Psionic=15	DESC:You learn %1|%CHOICE	STACK:NO	MULT:YES	CHOOSE:SPELLS|CLASSLIST=Lurk[LEVELMAX=7;LEVELMIN=7]		ABILITY:Expanded Knowledge|AUTOMATIC|Expanded Knowledge 7 (%CHOICE)
+#Lurk Power Level 8	KEY:Expanded Knowledge Feat ~ Level 8	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat	PRECLASS:1,SPELLCASTER.Psionic=17	DESC:You learn %1|%CHOICE	STACK:NO	MULT:YES	CHOOSE:SPELLS|CLASSLIST=Lurk[LEVELMAX=8;LEVELMIN=8]		ABILITY:Expanded Knowledge|AUTOMATIC|Expanded Knowledge 8 (%CHOICE)
 
 Frightful Presence	KEY:Form of Doom ~ Frightful Presence	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.FrightfulPresence.Frightful Presence	DESC:Takes effect automatically when you charge a foe. Opponents within 30 feet of you that have fewer Hit Dice or levels than you and that witness your charge become shaken for 5d6 rounds if they fail a Will save (DC %1). An opponent that succeeds on the saving throw is immune to your frightful presence for 24 hours. Frightful presence is a mind-affecting fear effect.|16+CHA
 
 Nonpsionic		CATEGORY:Internal		KEY:Thri-Kreen ~ Nonpsioninc			TYPE:ThriKreenSubrace
 Psionic			CATEGORY:Internal		KEY:Thri-Kreen ~ Psioninc				TYPE:ThriKreenSubrace				TEMPLATE:Psionic Thri-Kreen
+Expanded Knowledge 1 (Adrenaline Boost)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Adrenaline Boost		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Assimilate)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Assimilate		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Astral Construct)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Astral Construct		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Astral Traveler)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Astral Traveler		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Attraction)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Attraction		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Biofeedback)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Biofeedback		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Bite of the Wolf)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Bite of the Wolf		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Bolt)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Bolt		PRESPELLTYPE:1,PSIONIC=2
+#Expanded Knowledge 1 (Brain Mole)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Brain Mole		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Burst)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Burst		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Call Armor)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Call Armor		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Call Weaponry)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Call Weaponry		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Call to Mind)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Call to Mind		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Catfall)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Catfall		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Chameleon)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Chameleon		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Channel The Psychic Dragon)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Channel The Psychic Dragon		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Charm (Psionic))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Charm (Psionic)		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Claws of the Beast)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Claws of the Beast		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Compression)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Compression		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Conceal Thoughts)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Conceal Thoughts		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Control Flames)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Control Flames		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Control Light)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Control Light		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Control Object)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Control Object		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Create Sound)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Create Sound		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Crystal Shard)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Crystal Shard		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Daze (Psionic))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Daze (Psionic)		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Deaden Blow)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Deaden Blow		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Deceleration)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Deceleration		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Deflection Field)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Deflection Field		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Deja Vu)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Deja Vu		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Demoralize)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Demoralize		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Destiny Dissonance)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Destiny Dissonance		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Detect Psionics)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Detect Psionics		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Detect Teleportation)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Detect Teleportation		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Dimensional Pocket)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Dimensional Pocket		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Disable)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Disable		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Dissipating Touch)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Dissipating Touch		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Distract)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Distract		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Ecto Protection)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Ecto Protection		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Eidetic Lock)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Eidetic Lock		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Elfsight)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Elfsight		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Empathy)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Empathy		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Empty Mind)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Empty Mind		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Endure Elements (Psionic))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Endure Elements (Psionic)		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Energy Arc)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Energy Arc		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Energy Ray)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Energy Ray		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Entangling Ectoplasm)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Entangling Ectoplasm		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Expansion)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Expansion		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Extend Range)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Extend Range		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Far Hand)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Far Hand		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Float)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Float		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Force Screen)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Force Screen		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Form of Doom)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Form of Doom		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Grease (Psionic))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Grease (Psionic)		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Grip of Iron)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Grip of Iron		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Hammer)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Hammer		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Inertial Armor)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Inertial Armor		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Inspire Mount)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Inspire Mount		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Know Direction and Location)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Know Direction and Location		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Matter Agitation)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Matter Agitation		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Mental Barrier)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Mental Barrier		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Metaphysical Claw)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Metaphysical Claw		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Metaphysical Weapon)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Metaphysical Weapon		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Mighty Spring)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Mighty Spring		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Mind Thrust)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Mind Thrust		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Mindlink)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Mindlink		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Minor Creation (Psionic))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Minor Creation (Psionic)		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Missive)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Missive		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (My Light)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|My Light		PRESPELLTYPE:1,PSIONIC=2
+#Expanded Knowledge 1 (Neothelid)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Neothelid		PRESPELLTYPE:1,PSIONIC=2
+#Expanded Knowledge 1 (Phrenic)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Phrenic		PRESPELLTYPE:1,PSIONIC=2
+#Expanded Knowledge 1 (Phthisic)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Phthisic		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Precognition)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Precognition		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Precognition (Defensive))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Precognition (Defensive)		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Precognition (Offensive))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Precognition (Offensive)		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Prescience (Offensive))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Prescience (Offensive)		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Prevenom)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Prevenom		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Prevenom Weapon)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Prevenom Weapon		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Primal Fear)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Primal Fear		PRESPELLTYPE:1,PSIONIC=2
+#Expanded Knowledge 1 (Puppeteer)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Puppeteer		PRESPELLTYPE:1,PSIONIC=2
+#Expanded Knowledge 1 (Puppeteer (Flesh Harrower))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Puppeteer (Flesh Harrower)		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Sense Link)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Sense Link		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Sensory Gloom)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Sensory Gloom		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Skate)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Skate		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Slow Breathing)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Slow Breathing		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Stomp)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Stomp		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Stone Mind)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Stone Mind		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Strength of My Enemy)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Strength of My Enemy		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Stygian Discernment)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Stygian Discernment		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Synchronicity)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Synchronicity		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Synesthete)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Synesthete		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Telempathic Projection)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Telempathic Projection		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Thicken Skin)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Thicken Skin		PRESPELLTYPE:1,PSIONIC=2
+#Expanded Knowledge 1 (Thought Slayer)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Thought Slayer		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Urban Strider)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Urban Strider		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 1 (Vigor)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=1|Vigor		PRESPELLTYPE:1,PSIONIC=2
+Expanded Knowledge 2 (Amethyst Burst)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Amethyst Burst		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Animal Affinity)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Animal Affinity		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Aversion)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Aversion		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Bestow Power)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Bestow Power		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Biofeedback)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Biofeedback		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Body Adjustment)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Body Adjustment		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Body Equilibrium)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Body Equilibrium		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Body Purification)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Body Purification		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Brain Lock)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Brain Lock		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Chameleon)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Chameleon		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Clairvoyant Sense)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Clairvoyant Sense		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Cloud Mind)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Cloud Mind		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Concealing Amorpha)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Concealing Amorpha		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Concussion Blast)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Concussion Blast		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Control Air)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Control Air		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Control Sound)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Control Sound		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Crystalstorm)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Crystalstorm		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Damp Power)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Damp Power		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Darkvision (Psionic))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Darkvision (Psionic)		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Detect Hostile Intent)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Detect Hostile Intent		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Dimension Swap)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Dimension Swap		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Dissolving Touch)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Dissolving Touch		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Dissolving Weapon)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Dissolving Weapon		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Distracting Shout)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Distracting Shout		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Earth Walk)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Earth Walk		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Ego Whip)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Ego Whip		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Elemental Steward)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Elemental Steward		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Elfsight)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Elfsight		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Empathic Transfer)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Empathic Transfer		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Energy Adaptation (Specified))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Energy Adaptation (Specified)		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Energy Emanation)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Energy Emanation		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Energy Missile)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Energy Missile		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Energy Push)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Energy Push		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Energy Stun)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Energy Stun		PRESPELLTYPE:1,PSIONIC=3
+#Expanded Knowledge 2 (Epic Expanded Knowledge)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Epic Expanded Knowledge		PRESPELLTYPE:1,PSIONIC=3
+#Expanded Knowledge 2 (Epic Manifestation)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Epic Manifestation		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Ethereal Volley)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Ethereal Volley		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Evade Attack)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Evade Attack		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Evade Breath)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Evade Breath		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Expansion)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Expansion		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Extend Reach)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Extend Reach		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Feat Leech)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Feat Leech		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Hustle)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Hustle		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Id Insinuation)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Id Insinuation		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Identify (Psionic))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Identify (Psionic)		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Incite Bravery)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Incite Bravery		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Inflict Pain)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Inflict Pain		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Knock (Psionic))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Knock (Psionic)		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Larval Flayers)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Larval Flayers		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Levitate (Psionic))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Levitate (Psionic)		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Mental Disruption)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Mental Disruption		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Missive (Mass))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Missive (Mass)		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Moment of Insight)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Moment of Insight		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Object Reading)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Object Reading		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Painful Strike)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Painful Strike		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Perfect Archery)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Perfect Archery		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Power Claws)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Power Claws		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Power Weapon)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Power Weapon		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Prowess)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Prowess		PRESPELLTYPE:1,PSIONIC=3
+#Expanded Knowledge 2 (Psicrystal Power)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Psicrystal Power		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Psionic Lion's Charge)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Psionic Lion's Charge		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Psionic Lock)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Psionic Lock		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Psionic Repair Damage)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Psionic Repair Damage		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Psionic Scent)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Psionic Scent		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Psychic Scimitar)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Psychic Scimitar		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Psychoportive Shelter)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Psychoportive Shelter		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Read Thoughts)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Read Thoughts		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Recall Agony)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Recall Agony		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (See Invisibility (Psionic))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|See Invisibility (Psionic)		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Sense Link (Forced))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Sense Link (Forced)		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Sensitivity to Psychic Impressions)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Sensitivity to Psychic Impressions		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Serenity)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Serenity		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Share Pain)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Share Pain		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Strength of My Enemy)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Strength of My Enemy		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Stygian Erasure)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Stygian Erasure		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Stygian Ray)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Stygian Ray		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Stygian Weapon)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Stygian Weapon		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Suggestion (Psionic))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Suggestion (Psionic)		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Sustenance)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Sustenance		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Swarm of Crystals)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Swarm of Crystals		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Thought Shield)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Thought Shield		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Tongues (Psionic))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Tongues (Psionic)		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Vigor)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Vigor		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Wall Walker)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Wall Walker		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 2 (Zone of Alertness)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=2|Zone of Alertness		PRESPELLTYPE:1,PSIONIC=3
+Expanded Knowledge 3 (Astral Caravan)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Astral Caravan		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (Body Adjustment)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Body Adjustment		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (Body Purification)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Body Purification		PRESPELLTYPE:1,PSIONIC=4
+#Expanded Knowledge 3 (Brain Mole)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Brain Mole		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (Breath Barrier)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Breath Barrier		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (Cerebral Phantasm)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Cerebral Phantasm		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (Claws of the Vampire)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Claws of the Vampire		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (Concealing Amorpha (Greater))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Concealing Amorpha (Greater)		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (Crisis of Breath)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Crisis of Breath		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (Danger Sense)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Danger Sense		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (Darkvision (Psionic))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Darkvision (Psionic)		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (Dimension Slide)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Dimension Slide		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (Dimension Twister)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Dimension Twister		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (Dismiss Ectoplasm)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Dismiss Ectoplasm		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (Dispel Psionics)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Dispel Psionics		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (Duodimensional Claw)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Duodimensional Claw		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (Ectoplasmic Cocoon)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Ectoplasmic Cocoon		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (Ectoplasmic Form)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Ectoplasmic Form		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (Empathic Feedback)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Empathic Feedback		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (Empathic Transfer (Hostile))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Empathic Transfer (Hostile)		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (Energy Bolt)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Energy Bolt		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (Energy Burst)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Energy Burst		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (Energy Cone)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Energy Cone		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (Energy Lance)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Energy Lance		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (Energy Retort)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Energy Retort		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (Energy Wall)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Energy Wall		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (Eradicate Invisibility)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Eradicate Invisibility		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (Escape Detection)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Escape Detection		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (Evade Burst)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Evade Burst		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (Exhalation of the Black Dragon)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Exhalation of the Black Dragon		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (Exhalation of the Bronze Dragon)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Exhalation of the Bronze Dragon		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (False Sensory Input)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|False Sensory Input		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (Fate Link)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Fate Link		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (Glyph of Warding (Psionic))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Glyph of Warding (Psionic)		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (Graft Weapon)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Graft Weapon		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (Heavy Earth)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Heavy Earth		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (Hustle)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Hustle		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (Keen Edge (Psionic))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Keen Edge (Psionic)		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (Mental Barrier)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Mental Barrier		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (Microkinesis)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Microkinesis		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (Mind Trap)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Mind Trap		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (Mindfire)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Mindfire		PRESPELLTYPE:1,PSIONIC=4
+#Expanded Knowledge 3 (Neothelid)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Neothelid		PRESPELLTYPE:1,PSIONIC=4
+#Expanded Knowledge 3 (Phrenic)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Phrenic		PRESPELLTYPE:1,PSIONIC=4
+#Expanded Knowledge 3 (Phthisic)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Phthisic		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (Psionic Blast)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Psionic Blast		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (Psychic Containment)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Psychic Containment		PRESPELLTYPE:1,PSIONIC=4
+#Expanded Knowledge 3 (Puppeteer)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Puppeteer		PRESPELLTYPE:1,PSIONIC=4
+#Expanded Knowledge 3 (Puppeteer (Flesh Harrower))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Puppeteer (Flesh Harrower)		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (Realized Potential)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Realized Potential		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (Share Pain (Forced))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Share Pain (Forced)		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (Solicit Psicrystal)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Solicit Psicrystal		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (Speak with Dead (Psionic))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Speak with Dead (Psionic)		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (Stygian Bane)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Stygian Bane		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (Telekinetic Boomerang)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Telekinetic Boomerang		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (Telekinetic Force)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Telekinetic Force		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (Telekinetic Thrust)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Telekinetic Thrust		PRESPELLTYPE:1,PSIONIC=4
+#Expanded Knowledge 3 (Temporal Filcher)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Temporal Filcher		PRESPELLTYPE:1,PSIONIC=4
+#Expanded Knowledge 3 (Thought Eater)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Thought Eater		PRESPELLTYPE:1,PSIONIC=4
+#Expanded Knowledge 3 (Thought Slayer)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Thought Slayer		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (Time Hop)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Time Hop		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (Touchsight)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Touchsight		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (Ubiquitous Vision)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Ubiquitous Vision		PRESPELLTYPE:1,PSIONIC=4
+#Expanded Knowledge 3 (Udoroot)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Udoroot		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 3 (Vampiric Blade)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=3|Vampiric Blade		PRESPELLTYPE:1,PSIONIC=4
+Expanded Knowledge 4 (Anchored Navigation)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=4|Anchored Navigation		PRESPELLTYPE:1,PSIONIC=5
+Expanded Knowledge 4 (Aura Sight)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=4|Aura Sight		PRESPELLTYPE:1,PSIONIC=5
+Expanded Knowledge 4 (Burrowing Bonds)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=4|Burrowing Bonds		PRESPELLTYPE:1,PSIONIC=5
+Expanded Knowledge 4 (Claw of Energy)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=4|Claw of Energy		PRESPELLTYPE:1,PSIONIC=5
+Expanded Knowledge 4 (Control Body)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=4|Control Body		PRESPELLTYPE:1,PSIONIC=5
+Expanded Knowledge 4 (Correspond)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=4|Correspond		PRESPELLTYPE:1,PSIONIC=5
+Expanded Knowledge 4 (Death Urge)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=4|Death Urge		PRESPELLTYPE:1,PSIONIC=5
+Expanded Knowledge 4 (Detect Remote Viewing)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=4|Detect Remote Viewing		PRESPELLTYPE:1,PSIONIC=5
+Expanded Knowledge 4 (Dimension Door (Psionic))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=4|Dimension Door (Psionic)		PRESPELLTYPE:1,PSIONIC=5
+Expanded Knowledge 4 (Dimensional Anchor (Psionic))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=4|Dimensional Anchor (Psionic)		PRESPELLTYPE:1,PSIONIC=5
+Expanded Knowledge 4 (Dismissal (Psionic))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=4|Dismissal (Psionic)		PRESPELLTYPE:1,PSIONIC=5
+Expanded Knowledge 4 (Divination (Psionic))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=4|Divination (Psionic)		PRESPELLTYPE:1,PSIONIC=5
+Expanded Knowledge 4 (Dominate (Psionic))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=4|Dominate (Psionic)		PRESPELLTYPE:1,PSIONIC=5
+Expanded Knowledge 4 (Dragon Hearted)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=4|Dragon Hearted		PRESPELLTYPE:1,PSIONIC=5
+Expanded Knowledge 4 (Ectoplasmic Swarm)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=4|Ectoplasmic Swarm		PRESPELLTYPE:1,PSIONIC=5
+Expanded Knowledge 4 (Empathic Feedback)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=4|Empathic Feedback		PRESPELLTYPE:1,PSIONIC=5
+Expanded Knowledge 4 (Energy Adaptation)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=4|Energy Adaptation		PRESPELLTYPE:1,PSIONIC=5
+Expanded Knowledge 4 (Energy Ball)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=4|Energy Ball		PRESPELLTYPE:1,PSIONIC=5
+Expanded Knowledge 4 (Energy Flash)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=4|Energy Flash		PRESPELLTYPE:1,PSIONIC=5
+Expanded Knowledge 4 (Evade Breath)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=4|Evade Breath		PRESPELLTYPE:1,PSIONIC=5
+Expanded Knowledge 4 (Fabricate (Psionic))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=4|Fabricate (Psionic)		PRESPELLTYPE:1,PSIONIC=5
+Expanded Knowledge 4 (Fly (Psionic))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=4|Fly (Psionic)		PRESPELLTYPE:1,PSIONIC=5
+Expanded Knowledge 4 (Freedom of Movement (Psionic))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=4|Freedom of Movement (Psionic)		PRESPELLTYPE:1,PSIONIC=5
+Expanded Knowledge 4 (Gemstone Breath)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=4|Gemstone Breath		PRESPELLTYPE:1,PSIONIC=5
+Expanded Knowledge 4 (Immovability)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=4|Immovability		PRESPELLTYPE:1,PSIONIC=5
+Expanded Knowledge 4 (Inertial Barrier)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=4|Inertial Barrier		PRESPELLTYPE:1,PSIONIC=5
+Expanded Knowledge 4 (Intellect Fortress)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=4|Intellect Fortress		PRESPELLTYPE:1,PSIONIC=5
+Expanded Knowledge 4 (Metamorphosis)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=4|Metamorphosis		PRESPELLTYPE:1,PSIONIC=5
+Expanded Knowledge 4 (Mindlink (Thieving))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=4|Mindlink (Thieving)		PRESPELLTYPE:1,PSIONIC=5
+Expanded Knowledge 4 (Mindwipe)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=4|Mindwipe		PRESPELLTYPE:1,PSIONIC=5
+Expanded Knowledge 4 (Modify Memory (Psionic))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=4|Modify Memory (Psionic)		PRESPELLTYPE:1,PSIONIC=5
+Expanded Knowledge 4 (Personality Parasite)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=4|Personality Parasite		PRESPELLTYPE:1,PSIONIC=5
+#Expanded Knowledge 4 (Phthisic)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=4|Phthisic		PRESPELLTYPE:1,PSIONIC=5
+Expanded Knowledge 4 (Planar Apotheosis)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=4|Planar Apotheosis		PRESPELLTYPE:1,PSIONIC=5
+Expanded Knowledge 4 (Power Leech)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=4|Power Leech		PRESPELLTYPE:1,PSIONIC=5
+Expanded Knowledge 4 (Psychic Reformation)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=4|Psychic Reformation		PRESPELLTYPE:1,PSIONIC=5
+Expanded Knowledge 4 (Psychic Vampire)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=4|Psychic Vampire		PRESPELLTYPE:1,PSIONIC=5
+Expanded Knowledge 4 (Psychokinetic Weapon)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=4|Psychokinetic Weapon		PRESPELLTYPE:1,PSIONIC=5
+Expanded Knowledge 4 (Quintessence)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=4|Quintessence		PRESPELLTYPE:1,PSIONIC=5
+Expanded Knowledge 4 (Remote Viewing)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=4|Remote Viewing		PRESPELLTYPE:1,PSIONIC=5
+Expanded Knowledge 4 (Schism)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=4|Schism		PRESPELLTYPE:1,PSIONIC=5
+Expanded Knowledge 4 (Shadow Eft)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=4|Shadow Eft		PRESPELLTYPE:1,PSIONIC=5
+Expanded Knowledge 4 (Steadfast Perception)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=4|Steadfast Perception		PRESPELLTYPE:1,PSIONIC=5
+Expanded Knowledge 4 (Stygian Disruption)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=4|Stygian Disruption		PRESPELLTYPE:1,PSIONIC=5
+Expanded Knowledge 4 (Suggestion (Implanted))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=4|Suggestion (Implanted)		PRESPELLTYPE:1,PSIONIC=5
+Expanded Knowledge 4 (Telekinetic Maneuver)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=4|Telekinetic Maneuver		PRESPELLTYPE:1,PSIONIC=5
+Expanded Knowledge 4 (Trace Teleport)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=4|Trace Teleport		PRESPELLTYPE:1,PSIONIC=5
+Expanded Knowledge 4 (Truevenom)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=4|Truevenom		PRESPELLTYPE:1,PSIONIC=5
+Expanded Knowledge 4 (Truevenom Weapon)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=4|Truevenom Weapon		PRESPELLTYPE:1,PSIONIC=5
+#Expanded Knowledge 4 (Udoroot)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=4|Udoroot		PRESPELLTYPE:1,PSIONIC=5
+Expanded Knowledge 4 (Wall of Ectoplasm)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=4|Wall of Ectoplasm		PRESPELLTYPE:1,PSIONIC=5
+Expanded Knowledge 4 (Weapon of Energy)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=4|Weapon of Energy		PRESPELLTYPE:1,PSIONIC=5
+Expanded Knowledge 5 (Adapt Body)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=5|Adapt Body		PRESPELLTYPE:1,PSIONIC=6
+Expanded Knowledge 5 (Anticipatory Strike)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=5|Anticipatory Strike		PRESPELLTYPE:1,PSIONIC=6
+Expanded Knowledge 5 (Baleful Teleport)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=5|Baleful Teleport		PRESPELLTYPE:1,PSIONIC=6
+#Expanded Knowledge 5 (Brain Mole)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=5|Brain Mole		PRESPELLTYPE:1,PSIONIC=6
+Expanded Knowledge 5 (Catapsi)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=5|Catapsi		PRESPELLTYPE:1,PSIONIC=6
+Expanded Knowledge 5 (Celestial Conduit)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=5|Celestial Conduit		PRESPELLTYPE:1,PSIONIC=6
+Expanded Knowledge 5 (Clairtangent Hand)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=5|Clairtangent Hand		PRESPELLTYPE:1,PSIONIC=6
+Expanded Knowledge 5 (Cranial Deluge)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=5|Cranial Deluge		PRESPELLTYPE:1,PSIONIC=6
+Expanded Knowledge 5 (Crystal Body)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=5|Crystal Body		PRESPELLTYPE:1,PSIONIC=6
+Expanded Knowledge 5 (Detain Ectoplasm)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=5|Detain Ectoplasm		PRESPELLTYPE:1,PSIONIC=6
+Expanded Knowledge 5 (Ectoplasmic Shambler)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=5|Ectoplasmic Shambler		PRESPELLTYPE:1,PSIONIC=6
+Expanded Knowledge 5 (Empower Weapon)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=5|Empower Weapon		PRESPELLTYPE:1,PSIONIC=6
+Expanded Knowledge 5 (Energy Current)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=5|Energy Current		PRESPELLTYPE:1,PSIONIC=6
+Expanded Knowledge 5 (Energy Nullification Field)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=5|Energy Nullification Field		PRESPELLTYPE:1,PSIONIC=6
+Expanded Knowledge 5 (Ethereal Agent)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=5|Ethereal Agent		PRESPELLTYPE:1,PSIONIC=6
+Expanded Knowledge 5 (Fiery Discorporation)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=5|Fiery Discorporation		PRESPELLTYPE:1,PSIONIC=6
+Expanded Knowledge 5 (Hail of Crystals)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=5|Hail of Crystals		PRESPELLTYPE:1,PSIONIC=6
+Expanded Knowledge 5 (Incarnate)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=5|Incarnate		PRESPELLTYPE:1,PSIONIC=6
+Expanded Knowledge 5 (Leech Field)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=5|Leech Field		PRESPELLTYPE:1,PSIONIC=6
+Expanded Knowledge 5 (Living Arrow)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=5|Living Arrow		PRESPELLTYPE:1,PSIONIC=6
+Expanded Knowledge 5 (Major Creation (Psionic))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=5|Major Creation (Psionic)		PRESPELLTYPE:1,PSIONIC=6
+Expanded Knowledge 5 (Mental Barrier)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=5|Mental Barrier		PRESPELLTYPE:1,PSIONIC=6
+Expanded Knowledge 5 (Metaconcert)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=5|Metaconcert		PRESPELLTYPE:1,PSIONIC=6
+Expanded Knowledge 5 (Mind Probe)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=5|Mind Probe		PRESPELLTYPE:1,PSIONIC=6
+Expanded Knowledge 5 (Oak Body)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=5|Oak Body		PRESPELLTYPE:1,PSIONIC=6
+Expanded Knowledge 5 (Perfect Riposte)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=5|Perfect Riposte		PRESPELLTYPE:1,PSIONIC=6
+#Expanded Knowledge 5 (Phrenic)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=5|Phrenic		PRESPELLTYPE:1,PSIONIC=6
+Expanded Knowledge 5 (Plane Shift (Psionic))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=5|Plane Shift (Psionic)		PRESPELLTYPE:1,PSIONIC=6
+Expanded Knowledge 5 (Power Resistance)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=5|Power Resistance		PRESPELLTYPE:1,PSIONIC=6
+Expanded Knowledge 5 (Psionic Revivify)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=5|Psionic Revivify		PRESPELLTYPE:1,PSIONIC=6
+Expanded Knowledge 5 (Psychic Crush)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=5|Psychic Crush		PRESPELLTYPE:1,PSIONIC=6
+Expanded Knowledge 5 (Psychofeedback)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=5|Psychofeedback		PRESPELLTYPE:1,PSIONIC=6
+Expanded Knowledge 5 (Psychotic Break)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=5|Psychotic Break		PRESPELLTYPE:1,PSIONIC=6
+Expanded Knowledge 5 (Restore Extremity)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=5|Restore Extremity		PRESPELLTYPE:1,PSIONIC=6
+Expanded Knowledge 5 (Second Chance)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=5|Second Chance		PRESPELLTYPE:1,PSIONIC=6
+Expanded Knowledge 5 (Sense of the Dragon (Psionic))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=5|Sense of the Dragon (Psionic)		PRESPELLTYPE:1,PSIONIC=6
+Expanded Knowledge 5 (Shatter Mind Blank)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=5|Shatter Mind Blank		PRESPELLTYPE:1,PSIONIC=6
+Expanded Knowledge 5 (Stomp (Greater))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=5|Stomp (Greater)		PRESPELLTYPE:1,PSIONIC=6
+Expanded Knowledge 5 (Stygian Dominion)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=5|Stygian Dominion		PRESPELLTYPE:1,PSIONIC=6
+Expanded Knowledge 5 (Suppress Schism)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=5|Suppress Schism		PRESPELLTYPE:1,PSIONIC=6
+Expanded Knowledge 5 (Telekinetic Buffer)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=5|Telekinetic Buffer		PRESPELLTYPE:1,PSIONIC=6
+Expanded Knowledge 5 (Teleport Trigger)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=5|Teleport Trigger		PRESPELLTYPE:1,PSIONIC=6
+Expanded Knowledge 5 (Teleport (Psionic))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=5|Teleport (Psionic)		PRESPELLTYPE:1,PSIONIC=6
+Expanded Knowledge 5 (Temporal Reiteration)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=5|Temporal Reiteration		PRESPELLTYPE:1,PSIONIC=6
+Expanded Knowledge 5 (Tower of Iron Will)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=5|Tower of Iron Will		PRESPELLTYPE:1,PSIONIC=6
+Expanded Knowledge 5 (True Seeing (Psionic))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=5|True Seeing (Psionic)		PRESPELLTYPE:1,PSIONIC=6
+Expanded Knowledge 6 (Assimilate)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=6|Assimilate		PRESPELLTYPE:1,PSIONIC=7
+Expanded Knowledge 6 (Aura Alteration)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=6|Aura Alteration		PRESPELLTYPE:1,PSIONIC=7
+Expanded Knowledge 6 (Banishment (Psionic))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=6|Banishment (Psionic)		PRESPELLTYPE:1,PSIONIC=7
+Expanded Knowledge 6 (Blackstone Hammer)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=6|Blackstone Hammer		PRESPELLTYPE:1,PSIONIC=7
+Expanded Knowledge 6 (Breath of the Black Dragon)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=6|Breath of the Black Dragon		PRESPELLTYPE:1,PSIONIC=7
+Expanded Knowledge 6 (Cloud Mind (Mass))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=6|Cloud Mind (Mass)		PRESPELLTYPE:1,PSIONIC=7
+Expanded Knowledge 6 (Co-Opt Concentration)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=6|Co-Opt Concentration		PRESPELLTYPE:1,PSIONIC=7
+Expanded Knowledge 6 (Contingency (Psionic))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=6|Contingency (Psionic)		PRESPELLTYPE:1,PSIONIC=7
+Expanded Knowledge 6 (Crystallize)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=6|Crystallize		PRESPELLTYPE:1,PSIONIC=7
+Expanded Knowledge 6 (Disintegrate (Psionic))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=6|Disintegrate (Psionic)		PRESPELLTYPE:1,PSIONIC=7
+Expanded Knowledge 6 (Dispelling Buffer)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=6|Dispelling Buffer		PRESPELLTYPE:1,PSIONIC=7
+Expanded Knowledge 6 (Energy Barrage)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=6|Energy Barrage		PRESPELLTYPE:1,PSIONIC=7
+Expanded Knowledge 6 (Energy Nullification Field)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=6|Energy Nullification Field		PRESPELLTYPE:1,PSIONIC=7
+Expanded Knowledge 6 (Ethereal Abduction)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=6|Ethereal Abduction		PRESPELLTYPE:1,PSIONIC=7
+Expanded Knowledge 6 (Fabricate (Greater Psionic))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=6|Fabricate (Greater Psionic)		PRESPELLTYPE:1,PSIONIC=7
+Expanded Knowledge 6 (Form of Doom)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=6|Form of Doom		PRESPELLTYPE:1,PSIONIC=7
+Expanded Knowledge 6 (Fuse Flesh)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=6|Fuse Flesh		PRESPELLTYPE:1,PSIONIC=7
+Expanded Knowledge 6 (Inconstant Location)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=6|Inconstant Location		PRESPELLTYPE:1,PSIONIC=7
+Expanded Knowledge 6 (Mind Blank (Personal))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=6|Mind Blank (Personal)		PRESPELLTYPE:1,PSIONIC=7
+Expanded Knowledge 6 (Mind Over Energy)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=6|Mind Over Energy		PRESPELLTYPE:1,PSIONIC=7
+Expanded Knowledge 6 (Mind Switch)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=6|Mind Switch		PRESPELLTYPE:1,PSIONIC=7
+Expanded Knowledge 6 (Null Psionics Field)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=6|Null Psionics Field		PRESPELLTYPE:1,PSIONIC=7
+Expanded Knowledge 6 (Overland Flight (Psionic))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=6|Overland Flight (Psionic)		PRESPELLTYPE:1,PSIONIC=7
+#Expanded Knowledge 6 (Phrenic)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=6|Phrenic		PRESPELLTYPE:1,PSIONIC=7
+#Expanded Knowledge 6 (Phthisic)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=6|Phthisic		PRESPELLTYPE:1,PSIONIC=7
+Expanded Knowledge 6 (Precognition (Greater))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=6|Precognition (Greater)		PRESPELLTYPE:1,PSIONIC=7
+Expanded Knowledge 6 (Psychometry)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=6|Psychometry		PRESPELLTYPE:1,PSIONIC=7
+Expanded Knowledge 6 (Rage of the Remorhaz)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=6|Rage of the Remorhaz		PRESPELLTYPE:1,PSIONIC=7
+Expanded Knowledge 6 (Remote View Trap)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=6|Remote View Trap		PRESPELLTYPE:1,PSIONIC=7
+Expanded Knowledge 6 (Restoration (Psionic))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=6|Restoration (Psionic)		PRESPELLTYPE:1,PSIONIC=7
+Expanded Knowledge 6 (Retrieve)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=6|Retrieve		PRESPELLTYPE:1,PSIONIC=7
+Expanded Knowledge 6 (Stygian Bolt)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=6|Stygian Bolt		PRESPELLTYPE:1,PSIONIC=7
+Expanded Knowledge 6 (Stygian Touch)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=6|Stygian Touch		PRESPELLTYPE:1,PSIONIC=7
+Expanded Knowledge 6 (Suspend Life)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=6|Suspend Life		PRESPELLTYPE:1,PSIONIC=7
+Expanded Knowledge 6 (Temporal Acceleration)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=6|Temporal Acceleration		PRESPELLTYPE:1,PSIONIC=7
+#Expanded Knowledge 6 (Udoroot)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=6|Udoroot		PRESPELLTYPE:1,PSIONIC=7
+Expanded Knowledge 7 (Crisis of Life)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=7|Crisis of Life		PRESPELLTYPE:1,PSIONIC=8
+Expanded Knowledge 7 (Decerebrate)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=7|Decerebrate		PRESPELLTYPE:1,PSIONIC=8
+Expanded Knowledge 7 (Divert Teleport)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=7|Divert Teleport		PRESPELLTYPE:1,PSIONIC=8
+Expanded Knowledge 7 (Dream Travel)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=7|Dream Travel		PRESPELLTYPE:1,PSIONIC=8
+Expanded Knowledge 7 (Ectoplasmic Cocoon (Mass))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=7|Ectoplasmic Cocoon (Mass)		PRESPELLTYPE:1,PSIONIC=8
+Expanded Knowledge 7 (Energy Claw)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=7|Energy Claw		PRESPELLTYPE:1,PSIONIC=8
+Expanded Knowledge 7 (Energy Conversion)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=7|Energy Conversion		PRESPELLTYPE:1,PSIONIC=8
+Expanded Knowledge 7 (Energy Wave)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=7|Energy Wave		PRESPELLTYPE:1,PSIONIC=8
+Expanded Knowledge 7 (Ethereal Jaunt (Psionic))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=7|Ethereal Jaunt (Psionic)		PRESPELLTYPE:1,PSIONIC=8
+Expanded Knowledge 7 (Evade Burst)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=7|Evade Burst		PRESPELLTYPE:1,PSIONIC=8
+Expanded Knowledge 7 (Eyes of the Basilisk)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=7|Eyes of the Basilisk		PRESPELLTYPE:1,PSIONIC=8
+Expanded Knowledge 7 (Fate of One)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=7|Fate of One		PRESPELLTYPE:1,PSIONIC=8
+Expanded Knowledge 7 (Fission)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=7|Fission		PRESPELLTYPE:1,PSIONIC=8
+Expanded Knowledge 7 (Insanity (Psionic))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=7|Insanity (Psionic)		PRESPELLTYPE:1,PSIONIC=8
+Expanded Knowledge 7 (Mind Blank (Personal))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=7|Mind Blank (Personal)		PRESPELLTYPE:1,PSIONIC=8
+Expanded Knowledge 7 (Moment of Prescience (Psionic))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=7|Moment of Prescience (Psionic)		PRESPELLTYPE:1,PSIONIC=8
+Expanded Knowledge 7 (Oak Body)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=7|Oak Body		PRESPELLTYPE:1,PSIONIC=8
+Expanded Knowledge 7 (Phase Door (Psionic))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=7|Phase Door (Psionic)		PRESPELLTYPE:1,PSIONIC=8
+#Expanded Knowledge 7 (Phrenic)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=7|Phrenic		PRESPELLTYPE:1,PSIONIC=8
+Expanded Knowledge 7 (Planar Champion)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=7|Planar Champion		PRESPELLTYPE:1,PSIONIC=8
+Expanded Knowledge 7 (Reddopsi)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=7|Reddopsi		PRESPELLTYPE:1,PSIONIC=8
+Expanded Knowledge 7 (Sequester (Psionic))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=7|Sequester (Psionic)		PRESPELLTYPE:1,PSIONIC=8
+Expanded Knowledge 7 (Ultrablast)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=7|Ultrablast		PRESPELLTYPE:1,PSIONIC=8
+Expanded Knowledge 8 (Astral Seed)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=8|Astral Seed		PRESPELLTYPE:1,PSIONIC=9
+Expanded Knowledge 8 (Bend Reality)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=8|Bend Reality		PRESPELLTYPE:1,PSIONIC=9
+Expanded Knowledge 8 (Fusion)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=8|Fusion		PRESPELLTYPE:1,PSIONIC=9
+Expanded Knowledge 8 (Hypercognition)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=8|Hypercognition		PRESPELLTYPE:1,PSIONIC=9
+Expanded Knowledge 8 (Iron Body (Psionic))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=8|Iron Body (Psionic)		PRESPELLTYPE:1,PSIONIC=9
+Expanded Knowledge 8 (Matter Manipulation)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=8|Matter Manipulation		PRESPELLTYPE:1,PSIONIC=9
+Expanded Knowledge 8 (Mind Blank (Psionic))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=8|Mind Blank (Psionic)		PRESPELLTYPE:1,PSIONIC=9
+Expanded Knowledge 8 (Mind Seed)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=8|Mind Seed		PRESPELLTYPE:1,PSIONIC=9
+Expanded Knowledge 8 (Planar Embrace)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=8|Planar Embrace		PRESPELLTYPE:1,PSIONIC=9
+#Expanded Knowledge 8 (Psicrystal Power)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=8|Psicrystal Power		PRESPELLTYPE:1,PSIONIC=9
+Expanded Knowledge 8 (Recall Death)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=8|Recall Death		PRESPELLTYPE:1,PSIONIC=9
+Expanded Knowledge 8 (Shadow Body)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=8|Shadow Body		PRESPELLTYPE:1,PSIONIC=9
+Expanded Knowledge 8 (Strength of My Enemy)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=8|Strength of My Enemy		PRESPELLTYPE:1,PSIONIC=9
+Expanded Knowledge 8 (Stygian Veil)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=8|Stygian Veil		PRESPELLTYPE:1,PSIONIC=9
+Expanded Knowledge 8 (Telekinetic Sphere (Psionic))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=8|Telekinetic Sphere (Psionic)		PRESPELLTYPE:1,PSIONIC=9
+Expanded Knowledge 8 (Teleport (Greater Psionic)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=8|Teleport (Psionic Greater)		PRESPELLTYPE:1,PSIONIC=9
+#Expanded Knowledge 8 (Temporal Filcher)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=8|Temporal Filcher		PRESPELLTYPE:1,PSIONIC=9
+Expanded Knowledge 8 (Time Hop (Mass))	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=8|Time Hop (Mass)		PRESPELLTYPE:1,PSIONIC=9
+Expanded Knowledge 8 (True Metabolism)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=8|True Metabolism		PRESPELLTYPE:1,PSIONIC=9
+#Expanded Knowledge 9 (Affinity Field)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=9|Affinity Field
+#Expanded Knowledge 9 (Affinity Field, Pain)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=9|Affinity Field, Pain
+#Expanded Knowledge 9 (Apopsi)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=9|Apopsi
+#Expanded Knowledge 9 (Assimilate)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=9|Assimilate
+#Expanded Knowledge 9 (Epic Expanded Knowledge)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=9|Epic Expanded Knowledge
+#Expanded Knowledge 9 (Epic Manifestation)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=9|Epic Manifestation
+#Expanded Knowledge 9 (Etherealness, Psionic)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=9|Etherealness, Psionic
+#Expanded Knowledge 9 (Genesis)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=9|Genesis
+#Expanded Knowledge 9 (Metafaculty)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=9|Metafaculty
+#Expanded Knowledge 9 (Metamorphosis, Greater)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=9|Metamorphosis, Greater
+#Expanded Knowledge 9 (Microcosm)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=9|Microcosm
+#Expanded Knowledge 9 (Mind Switch, True)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=9|Mind Switch, True
+#Expanded Knowledge 9 (Phrenic)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=9|Phrenic
+#Expanded Knowledge 9 (Psychic Chirurgery)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=9|Psychic Chirurgery
+#Expanded Knowledge 9 (Reality Revision)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=9|Reality Revision
+#Expanded Knowledge 9 (Stygian Conflagration)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=9|Stygian Conflagration
+#Expanded Knowledge 9 (Teleportation Circle, Psionic)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=9|Teleportation Circle, Psionic
+#Expanded Knowledge 9 (Time Regression)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=9|Time Regression
+#Expanded Knowledge 9 (Timeless Body)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=9|Timeless Body
+#Expanded Knowledge 9 (Tornado Blast)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=9|Tornado Blast
+#Expanded Knowledge 9 (True Creation, Psionic)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=9|True Creation, Psionic
+#Expanded Knowledge 9 (Urge Extermination)	CATEGORY:Special Ability	TYPE:ExpandedKnowledgeFeat.SpecialQuality	SPELLKNOWN:CLASS|SPELLCASTER.Psionic=9|Urge Extermination

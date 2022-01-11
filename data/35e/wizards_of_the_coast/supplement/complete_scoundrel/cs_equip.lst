@@ -61,3 +61,4 @@ Planar mote (greater)	TYPE:LivingItem	COST:600	WT:1		SOURCEPAGE:p.119
 Rust monster wand		TYPE:LivingItem	COST:160	WT:2		SOURCEPAGE:p.120
 Torch bug paste		TYPE:LivingItem	COST:25			SOURCEPAGE:p.120
 Torch bug tube		TYPE:LivingItem	COST:30	WT:1		SOURCEPAGE:p.120
+###Block PHB
