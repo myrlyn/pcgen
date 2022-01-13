@@ -61,7 +61,7 @@ CLASS:Psychic Warrior	HD:8		TYPE:Base.Psionic.PC	FACT:ClassType|PC	SOURCEPAGE:p.
 # Class Name		Skill Pts/Lvl	Class Skill
 CLASS:Psychic Warrior	STARTSKILLPTS:2	CSKILL:Autohypnosis|Climb|Concentration|TYPE=Craft|Jump|Knowledge (psionics)|TYPE=Profession|Ride|Search|Swim
 # Class Name		Spell Stat		Spell Type		Memorize	Caster level
-CLASS:Psychic Warrior	SPELLSTAT:WIS	FACT:SpellType|Psionic	MEMORIZE:NO	BONUS:CASTERLEVEL|Psychic Warrior|PsychicWarriorLVL	BONUS:VAR|Caster_Level_Highest__Psionic|PsychicWarriorLVL|TYPE=Base
+CLASS:Psychic Warrior	SPELLSTAT:WIS	FACT:SpellType|Psionic	MEMORIZE:NO	BONUS:CASTERLEVEL|Psychic Warrior|PsychicWarriorML	BONUS:VAR|Caster_Level_Highest__Psionic|PsychicWarriorML|TYPE=Base
 ###Block:Proficiencies
 1	ABILITY:Special Ability|AUTOMATIC|Psychic Warrior ~ Weapon and Armor Proficiency
 ###Block: Psionic subtype, BasePowerPoints, BonusPowerPoints

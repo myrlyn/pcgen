@@ -23,3 +23,4 @@ ABILITYCATEGORY:Erudite Feat					VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		CATEG
 
 ABILITYCATEGORY:Illithid Feat					VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		CATEGORY:FEAT			TYPE:Illithid Heritage																																		DISPLAYLOCATION:Feats
 ABILITYCATEGORY:Soulbow Bonus Feat				VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		CATEGORY:FEAT											ABILITYLIST:Far Shot|Precise Shot|Psionic Shot|Greater Psionic Shot|Fell Shot|Rapid Shot|Manyshot|Greater Manyshot|Shot on the Run|Improved Precise Shot|Mounted Archery	DISPLAYLOCATION:Feats
+ABILITYCATEGORY:Practiced Manifester		VISIBLE:QUALIFY		EDITABLE:YES		EDITPOOL:NO		CATEGORY:Special Ability	TYPE:PracticedManifester		DISPLAYLOCATION:Feats	

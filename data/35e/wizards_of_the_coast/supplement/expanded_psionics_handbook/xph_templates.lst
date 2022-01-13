@@ -23,3 +23,7 @@ Form of Doom	BONUS:COMBAT|AC|5|TYPE=NaturalArmor	DR:5/-	BONUS:STAT|STR|4		BONUS:
 #
 # End
 #
+Uncarnate		TEMPLATE:Incorporeal		BONUS:VAR|IncorporealDeflectionBonus|min(0,-CHA)	VISIBLE:NO
+Uncarnate Attacks 1	VISIBLE:YES	NATURALATTACKS:Uncarnate Touch,Weapon.Natural.Melee.Uncarnate,*1,1d6,SPROP=Incorporeal
+Uncarnate Attacks 2	VISIBLE:YES	NATURALATTACKS:Uncarnate Touch,Weapon.Natural.Melee.Uncarnate,*1,2d6,SPROP=Incorporeal
+Uncarnate Attacks 3	VISIBLE:YES	NATURALATTACKS:Uncarnate Touch,Weapon.Natural.Melee.Uncarnate,*1,3d6,SPROP=Incorporeal

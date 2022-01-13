@@ -35,3 +35,5 @@ ABILITYCATEGORY:Jade Phoenix Mage Stance		POOL:POOL_Jade_Phoenix_Mage_Stance				
 
 ABILITYCATEGORY:Eternal Blade Maneuver			VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO		CATEGORY:Special Ability		TYPE:Eternal Blade Martial Maneuver		DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Eternal Blade Stance			VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO		CATEGORY:Special Ability		TYPE:Eternal Blade Martial Stance		DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Martial Study					VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	CATEGORY:Special Ability		TYPE:Martial Maneuver					DISPLAYLOCATION:Feats
+ABILITYCATEGORY:Martial Stance					VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	CATEGORY:Special Ability		TYPE:Martial Stance.Swordsage Martial Stance.Crusader Martial Stance.Warblade Martial Stance					DISPLAYLOCATION:Feats

@@ -249,14 +249,19 @@ Cognizance Psicrystal	CATEGORY:Special Ability	TYPE:Class Feature.Metamind Class
 ###Block: Psion Uncarnate abilities
 # Ability Name			Output Name				Category of Ability		Type													Visible	Define					Description																	Aspects
 Uncarnate Armor								CATEGORY:Special Ability	TYPE:Class Feature.Psion Uncarnate Class Feature.SpecialQuality.Supernatural	VISIBLE:YES
-Uncarnate Incorporeal Touch	OUTPUTNAME:Incorporeal Touch	CATEGORY:Special Ability	TYPE:Class Feature.Psion Uncarnate Class Feature.SpecialQuality.Supernatural	VISIBLE:YES	DEFINE:UncarnateIncorporealTouch|0	DESC:%1d6 (3x/day)|UncarnateIncorporealTouch											ASPECT:Ability Benefit|%1d6|UncarnateIncorporealTouch
+Uncarnate Incorporeal Touch	OUTPUTNAME:Incorporeal Touch	CATEGORY:Special Ability	TYPE:Class Feature.Psion Uncarnate Class Feature.SpecialAttack.Supernatural	VISIBLE:YES	DEFINE:UncarnateIncorporealTouch|0	DESC:%1d6 (3x/day when corporeal, unlimited when incorporeal)|UncarnateIncorporealTouch								ASPECT:NAME|Incorporeal Touch %1d6|UncarnateIncorporealTouch			ASPECT:Ability Benefit|%1d6|UncarnateIncorporealTouch		ABILITY:Special Ability|AUTOMATIC|Uncarnate Natural Attack 1|PREVAREQ:UncarnateIncorporealTouch,1		ABILITY:Special Ability|AUTOMATIC|Uncarnate Natural Attack 2|PREVAREQ:UncarnateIncorporealTouch,2		ABILITY:Special Ability|AUTOMATIC|Uncarnate Natural Attack 3|PREVARGTEQ:UncarnateIncorporealTouch,3		BONUS:WEAPONPROF=Uncorporeal Touch|TOHIT|DEX-STR
+Uncarnate Natural Attack 1		CATEGORY:Special Ability	TYPE:Class Feature.Psion Uncarnate Class Feature.Extraordinary.SpecialAttack		TEMPLATE:Uncarnate Attacks 1
+Uncarnate Natural Attack 2		CATEGORY:Special Ability	TYPE:Class Feature.Psion Uncarnate Class Feature.Extraordinary.SpecialAttack		TEMPLATE:Uncarnate Attacks 2
+Uncarnate Natural Attack 3		CATEGORY:Special Ability	TYPE:Class Feature.Psion Uncarnate Class Feature.Extraordinary.SpecialAttack		TEMPLATE:Uncarnate Attacks 3
+
 Shed Body									CATEGORY:Special Ability	TYPE:Class Feature.Psion Uncarnate Class Feature.SpecialQuality.Supernatural	VISIBLE:YES	DEFINE:ShedBody|0				DESC:%1x/day|ShedBody
 Assume Equipment								CATEGORY:Special Ability	TYPE:Class Feature.Psion Uncarnate Class Feature.SpecialQuality.Supernatural	VISIBLE:YES
 Assume Likeness								CATEGORY:Special Ability	TYPE:Class Feature.Psion Uncarnate Class Feature.SpecialQuality.Supernatural	VISIBLE:YES
 Telekinetic Force								CATEGORY:Special Ability	TYPE:Class Feature.Psion Uncarnate Class Feature.SpecialQuality.Supernatural	VISIBLE:YES	DEFINE:TelekineticForceDC|0		DESC:DC %1 (3x/day when Corporeal otherwise unlimited)|TelekineticForceDC|PREVARGT:TelekineticForceDC,0
 Uncarnate Bridge								CATEGORY:Special Ability	TYPE:Class Feature.Psion Uncarnate Class Feature.SpecialQuality.Supernatural	VISIBLE:YES
-Uncarnate									CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality.Extraordinary						VISIBLE:YES
-
+Uncarnate									CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality.Extraordinary						VISIBLE:YES			ABILITY:Special Ability|AUTOMATIC|Uncarnate Incorporeality
+Uncarnate Incorporeality					CATEGORY:Special Ability	TYPE:TypeOutput			VISIBLE:NO		ABILITY:Special Ability|AUTOMATIC|Uncarnate Template|PREVARGTEQ:UncarnateTemplate,1	DEFINE:UncarnateTemplate|0	TEMPBONUS:PC|VAR|UncarnateTemplate|1	TEMPDESC:Uncarnate Incorporeality
+Uncarnate Template							CATEGORY:Special Ability	TYPE:TempBonus			VISIBLE:NO		TEMPLATE:Uncarnate
 ###Block: Pyrokineticist abilities
 # Ability Name		Category of Ability		Type								Visible	Define				Description
 Fire Lash			CATEGORY:Special Ability	TYPE:ClassAbility.SpecialQuality.PsiLike		VISIBLE:YES				DESC:A pyrokineticist gains the ability to fashion a 15-foot-long whip of fire from unstable ectoplasm as a move-equivalent action. She takes no damage from a fire lash she creates, and if she releases her hold, it immediately dissipates. The lash deals 1d8 points of fire damage to a target within 15 feet on a successful ranged touch attack. A pyro can take Weapon Focus and Weapon Specialization (if she otherwise meets the prerequisites) in conjunction with the fire lash, as well as any feats that apply to the use of a standard whip. The whip remains in existence as long as the pyrokineticist holds it. 
