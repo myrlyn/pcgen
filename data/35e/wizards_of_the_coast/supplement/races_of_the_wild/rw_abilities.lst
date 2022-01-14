@@ -139,7 +139,7 @@ Cyclonic Doom		KEY:Skypledged ~ Cyclonic Doom				SOURCEPAGE:p.128	CATEGORY:Speci
 
 # Stormtalon
 Foot Talons			KEY:Stormtalon ~ Foot Talons					SOURCEPAGE:p.132	CATEGORY:Special Ability	TYPE:Stormtalon Class Feature.Class Feature.SpecialQuality.Extraordinary		DESC:The first lesson a stormtalon learns is how to sharpen his or her foot talons so they become weapons. Such sharpening takes an hour a day to maintain, but it turns your feet into claws that deal 1d6 points of damage plus your Strength modifi er. You are considered proficient with these attacks. When you make a full attack, you use your full base attack bonus with any weapons in hand and take a -5 penalty on your talon attack. The Multiattack feat (see page 304 of the Monster Manual) lessens this penalty to -2. You can use your foot talons only when you're airborne. They deal both piercing and slashing damage, so they'll do double damage when you make a dive attack (see page 68). The talons are useful as weapons, but they're not dexterous enough to wield weapons or perform any action requiring fine motor skills.
-Bonus Aerial Feat		KEY:Stormtalon ~ Bonus Aerial Feat				SOURCEPAGE:p.132	CATEGORY:Special Ability	TYPE:Stormtalon Class Feature.Class Feature.SpecialQuality					DESC:[Not Implemented] At every even-numbered level, you learn a new trick useful to aerial combat. Choose a feat from the following list: Aerial Reflexes†, Aerial Superiority†, Born Flyer†, Diving Charge†, Flyby Attack*, Hover*, Improved Flight†, Multiattack*, Wingover*. *Feat described on page 304 of the Monster Manual. †New feats described in Chapter 6 of this book.
+Bonus Aerial Feat		KEY:Stormtalon ~ Bonus Aerial Feat				SOURCEPAGE:p.132	CATEGORY:Special Ability	TYPE:Stormtalon Class Feature.Class Feature.SpecialQuality					DESC:[Not Implemented] At every even-numbered level, you learn a new trick useful to aerial combat. Choose a feat from the following list: Aerial Reflexes\86, Aerial Superiority\86, Born Flyer\86, Diving Charge\86, Flyby Attack*, Hover*, Improved Flight\86, Multiattack*, Wingover*. *Feat described on page 304 of the Monster Manual. \86New feats described in Chapter 6 of this book.
 Fast Flight			KEY:Stormtalon ~ Fast Flight					SOURCEPAGE:p.132	CATEGORY:Special Ability	TYPE:Stormtalon Class Feature.Class Feature.SpecialQuality.Extraordinary		DESC:Beginning at 3rd level, you gain a fly speed 10 feet faster than the norm for your race. At 5th level, it's 20 feet faster, and at 9th level, it's 40 feet faster. Except that this class feature applies to fly speed rather than land speed, it otherwise functions like the fast movement barbarian class feature described on page 25 of the Player's Handbook.
 Improved Foot Talons	KEY:Stormtalon ~ Improved Foot Talons			SOURCEPAGE:p.132	CATEGORY:Special Ability	TYPE:Stormtalon Class Feature.Class Feature.SpecialQuality.Extraordinary		DESC:When you reach 7th level, you have become more adept at dealing wicked cuts with your foot talons. Your talons now deal 1d8 points of damage and can be used even when you aren't flying.
 
@@ -172,6 +172,46 @@ Endure Elements			KEY:Wildrunner ~ Endure Elements					SOURCEPAGE:p.140	CATEGORY
 Hide in Plain Sight		KEY:Wildrunner ~ Hide in Plain Sight				SOURCEPAGE:p.140	CATEGORY:Special Ability	TYPE:Wildrunner Class Feature.Class Feature.SpecialQuality.Extraordinary					DESC:Beginning at 5th level, you can use the Hide skill in natural terrain even while being observed. See the ranger class feature, page 48 of the Player's Handbook.
 Unfettered Stride			KEY:Wildrunner ~ Unfettered Stride					SOURCEPAGE:p.141	CATEGORY:Special Ability	TYPE:Wildrunner Class Feature.Class Feature.SpecialQuality.Extraordinary					DESC:At 7th level, you gain the ability to move through or across a variety of terrain features without it affecting your movement or skill checks. This ability applies to bogs, rubble, undergrowth, ice sheets, and natural stone floors. See Chapter 3 of the Dungeon Master's Guide for the effect of terrain on movement and skill checks.
 Feyheart				KEY:Wildrunner ~ Feyheart						SOURCEPAGE:p.141	CATEGORY:Special Ability	TYPE:Wildrunner Class Feature.Class Feature.SpecialQuality					DESC:At 9th level, your mystic bond with nature changes your very being. Your type becomes fey (augmented humanoid), and you gain damage reduction 2/cold iron.
+
+
+
+CATEGORY=Special Ability|Paladin ~ Smite Evil.COPY=Elf Paladin ~ Ranged Smite Evil
+CATEGORY=Special Ability|Elf Paladin ~ Ranged Smite Evil.MOD	DESC:You can only apply your Paladin Smite Evil via longbow or shortbow.		TYPE:PaladinSmiteEvil.Supernatural.SpecialAttack
+Ranged Smite Evil	KEY:Ranged Smite Evil ~ Elf Paladin	CATEGORY:ACF		TYPE:PaladinSmiteEvil		ABILITY:Special Ability|AUTOMATIC|Elf Paladin ~ Ranged Smite Evil
+
+Aura of Freedom		KEY:Elf Paladin ~ Aura of Freedom	CATEGORY:ACF	TYPE:Supernatural.SpecialQuality.PaladinAuraOfGood		DESC:You and all allies within 10' gain a +4 morale bonus on saves vs Enchantment effects. 
+
+Unicorn Mount				KEY:Elf Paladin ~ Special Mount				CATEGORY:ACF	TYPE:SpellLike.Class Feature.Paladin Class Feature.SpecialQuality.SpecialMount.Special Mount																																									DESC:a paladin gains the service of an unusually intelligent, strong, and loyal steed to serve her in her crusade. Once per day, as a full-round action, a paladin may magically call her mount from the celestial realms in which it resides. The mount immediately appears adjacent to the paladin and remains for 2 hours per paladin level; it may be dismissed at any time as a free action. Each time the mount is called, it appears in full health, regardless of any damage it may have taken previously. The mount also appears wearing or carrying any gear it had when it was last dismissed (including barding, saddle, saddlebags, and the like). Should the paladin's mount die, it immediately disappears, leaving behind any equipment it was carrying.																																																																																																																																																																																																																							ABILITY:Special Ability|AUTOMATIC|Special Mount															BONUS:VAR|SpecialMountLVL|PaladinLVL|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinSpecialMount																																																																																				SOURCEPAGE:p.155
+
+Uniorn Mount	CATEGORY:Internal					DEFINE:SpecialMountLVL|0							ABILITY:Special Mount Selection|AUTOMATIC|Unicorn ~ Special Mount|!PREABILITY:1,CATEGORY=Internal,TYPE.SpecialMountAlternate																													FOLLOWERS:Special Mount|1	BENEFIT:Upon reaching 5th level, a paladin gains the service of an unusually intelligent, strong, and loyal steed to serve her in her crusade against evil. This mount is usually a heavy warhorse (for a Medium paladin) or a warpony (for a Small paladin). Once per day, as a full-round action, a paladin may magically call her mount from the celestial realms in which it resides. This ability is the equivalent of a spell of a level equal to one-third the paladin's level. The mount immediately appears adjacent to the paladin and remains for 2 hours per paladin level; it may be dismissed at any time as a free action. The mount is the same creature each time it is summoned, though the paladin may release a particular mount from service. Each time the mount is called, it appears in full health, regardless of any damage it may have taken previously. The mount also appears wearing or carrying any gear it had when it was last dismissed. Calling a mount is a conjuration (calling) effect. Should the paladin's mount die, it immediately disappears, leaving behind any equipment it was carrying. The paladin may not summon another mount for thirty days or until she gains a paladin level, whichever comes first, even if the mount is somehow returned from the dead. During this thirty-day period, the paladin takes a -1 penalty on attack and weapon damage rolls.		ABILITY:Internal|AUTOMATIC|Unicorn ~ Special Mount
+
+Special Mount (Default)			KEY:Unicorn ~ Special Mount			CATEGORY:Internal		TYPE:SpecialMountSelection					!PREABILITY:1,CATEGORY=Internal,TYPE.SpecialMountAlternate								COMPANIONLIST:Special Mount|Unicorn
+
+
+Ranged Sneak Attack	KEY:Halfling Rogue ~ Ranged Sneak Attack	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	DESC:Increase your sneak attack with thrown weapons or slings by %1d%2|HalfliingRangedSneakAttakDice|SneakAttackDieSize	ASPECT:NAME|Ranged Sneak Attack +%1d%2|HalflingRangedSneakAttackDice|SneakAttackDieSize		DEFINE:HalflingRangedSneakAttackDice|0	BONUS:VAR|HalflingRangedSneakAttackDice|2	BONUS:VAR|SneakAttackDice|-1
+Thief's Luck	KEY:Halfling Rogue ~ Luck	CATEGORY:ACF	TYPE:Extraordinary.SpecialQuality.RogueTrapfinding	DESC:re-roll a reflex save.
+Sniping Mastery		KEY:Halflig Rogue ~ Sniping Mastery	CATEGORY:ACF		TYPE:Extraordinary.SpecialQuality.RogueSpecialAbilities	DESC:Your hide penalty for sniping is -10 instead of -20	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

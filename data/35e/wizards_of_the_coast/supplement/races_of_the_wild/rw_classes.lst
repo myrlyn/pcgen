@@ -275,3 +275,18 @@ CLASS:Wildrunner	CSKILL:Balance|Climb|Handle Animal|Hide|Intimidate|Jump|Knowled
 7	ABILITY:Wildrunner Class Feature|AUTOMATIC|Wildrunner ~ Unfettered Stride			
 9	ABILITY:Wildrunner Class Feature|AUTOMATIC|Wildrunner ~ Feyheart				
 
+
+
+CLASS:Paladin.MOD
+SUBSTITUTIONCLASS:Elf Paladin
+SUBSTITUTIONLEVEL:1	ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Aura of Good|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinAuraOfGood	ABILITY:Special Ability|AUTOMATIC|Paladin ~ Aura of Good|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinAuraOfGood
+SUBSTITUTIONLEVEL:3	ABILITY:ACF|AUTOMATIC|Elf Paladin ~ Aura of Freedom
+SUBSTITUTIONLEVEL:5	ABILITY:ACF|AUTOMATIC|Elf Paladin ~ Special Mount
+
+CLASS:Rogue.MOD
+SUBSTITUTIONCLASS:Halfling Rogue	PRERACE:1,Halfling%
+SUBSTITUTIONLEVEL:1	ABILITY:Special Ability|AUTOMATIC|Halfling Rogue ~ Ranged Sneak Attack
+SUBSTITUTIONLEVEL:3	ABILITY:ACF|AUTOMATIC|Halfling Rogue ~ Luck
+SUBSTITUTIONLEVEL:10	ABILITY:ACF|AUTOMATIC|Halflig Rogue ~ Sniping Mastery
+
+
