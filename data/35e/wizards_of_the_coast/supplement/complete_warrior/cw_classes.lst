@@ -425,7 +425,7 @@ CLASS:Halfling Outrider	STARTSKILLPTS:4	CSKILL:Handle Animal|Listen|Ride|Spot|Su
 # Class Name		Hit Dice	Type			Abbreviation	Max Level	Source Page		Combat bonus										Bonus
 CLASS:Hulking Hurler	HD:10		TYPE:Prestige	FACT:Abb|Hul		MAXLEVEL:3	SOURCEPAGE:p.40	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3
 # Class Name		Required Feat													Minimum Size	PRETOTALAB
-CLASS:Hulking Hurler	PREABILITY:2,CATEGORY=FEAT,Point Blank Shot,Power Attack	PREABILITY:1,CHECKMULT,CATEGORY=FEAT,Weapon Focus (TYPE=Ranged)	PRESIZEGTEQ:L	PRETOTALAB:5
+CLASS:Hulking Hurler	PREABILITY:2,CATEGORY=FEAT,Point Blank Shot,Power Attack	PREABILITY:1,CHECKMULT,CATEGORY=FEAT,Weapon Focus (TYPE=Thrown)	PRESIZEGTEQ:L	PRETOTALAB:5
 # Class Name		Skill Pts/Lvl	Class Skill
 CLASS:Hulking Hurler	STARTSKILLPTS:2	CSKILL:Climb|Intimidate|Jump|Swim
 1	ABILITY:Hulking Hurler Class Feature|AUTOMATIC|Hulking Hurler ~ Weapon and Armor Proficiency

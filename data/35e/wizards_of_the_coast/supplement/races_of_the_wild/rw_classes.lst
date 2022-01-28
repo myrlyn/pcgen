@@ -285,8 +285,9 @@ SUBSTITUTIONLEVEL:5	ABILITY:ACF|AUTOMATIC|Elf Paladin ~ Special Mount
 
 CLASS:Rogue.MOD
 SUBSTITUTIONCLASS:Halfling Rogue	PRERACE:1,Halfling%
-SUBSTITUTIONLEVEL:1	ABILITY:Special Ability|AUTOMATIC|Halfling Rogue ~ Ranged Sneak Attack
-SUBSTITUTIONLEVEL:3	ABILITY:ACF|AUTOMATIC|Halfling Rogue ~ Luck
+SUBSTITUTIONLEVEL:1	ABILITY:Special Ability|AUTOMATIC|Halfling Rogue ~ Ranged Sneak Attack		ABILITY:Rogue Class Feature|AUTOMATIC|Rogue ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.RogueProficiencies		ABILITY:Rogue Class Feature|AUTOMATIC|Rogue ~ Sneak Attack|!PREABILITY:1,CATEGORY=ACF,TYPE.RogueSneakAttack			ABILITY:Rogue Class Feature|AUTOMATIC|Rogue ~ Trapfinding|!PREABILITY:1,CATEGORY=ACF,TYPE.RogueTrapfinding
+
+SUBSTITUTIONLEVEL:3	ABILITY:ACF|AUTOMATIC|Halfling Rogue ~ Luck			
 SUBSTITUTIONLEVEL:10	ABILITY:ACF|AUTOMATIC|Halflig Rogue ~ Sniping Mastery
 
 

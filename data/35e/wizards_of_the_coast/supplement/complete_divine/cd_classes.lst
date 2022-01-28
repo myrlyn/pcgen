@@ -569,15 +569,18 @@ CLASS:Rainbow Servant	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2
 CLASS:Rainbow Servant	PRETEXT:Alignment: Any nonevil and nonchaotic. Skill: Knowledge (arcana) 4 ranks. Spells: Able to cast 3rd-level arcane spells. Special: Must find the hidden jungle temples of the couatls.	PRESPELLTYPE:1,Arcane=3	!PREALIGN:LE,NE,CE,CN,CG	PRESKILL:1,Knowledge (Arcana)=4
 CLASS:Rainbow Servant	STARTSKILLPTS:2	CSKILL:Concentration|TYPE=Craft|Diplomacy|Knowledge (arcana)|Knowledge (The Planes)|TYPE=Profession|Sense Motive|Spellcraft
 CLASS:Rainbow Servant	FACT:SpellType|Arcane	MEMORIZE:NO
-CLASS:Rainbow Servant	BONUS:CASTERLEVEL|Rainbow Servant|RainbowServantLVL
+CLASS:Rainbow Servant	BONUS:CASTERLEVEL|Rainbow Servant|RainbowServantLVL		FACT:SpellType|Divine
 ####Text trumps table for class abilities, so Rainbow Servant should get full casting
-1:REPEATLEVEL:1		ADD:SPELLCASTER|Arcane
-#2	ADD:SPELLCASTER|Arcane
-#3	ADD:SPELLCASTER|Arcane
-#5	ADD:SPELLCASTER|Arcane
-#6	ADD:SPELLCASTER|Arcane
-#8	ADD:SPELLCASTER|Arcane
-#9	ADD:SPELLCASTER|Arcane
+#1:REPEATLEVEL:1		ADD:SPELLCASTER|Arcane
+1:REPEATLEVEL:1			ABILITY:Special Ability|AUTOMATIC|Rainbow Servant Optional Spellcasting Level|PREVARGTEQ:RainbowServantUseTable,1
+1		ABILITY:Special Ability|AUTOMATIC|Rainbow Servant Optional Spellcasting Level|PREVARLT:RainbowServantUseTable,1
+2		ABILITY:Special Ability|AUTOMATIC|Rainbow Servant Optional Spellcasting Level|PREVARLT:RainbowServantUseTable,1
+3		ABILITY:Special Ability|AUTOMATIC|Rainbow Servant Optional Spellcasting Level|PREVARLT:RainbowServantUseTable,1
+5		ABILITY:Special Ability|AUTOMATIC|Rainbow Servant Optional Spellcasting Level|PREVARLT:RainbowServantUseTable,1
+6		ABILITY:Special Ability|AUTOMATIC|Rainbow Servant Optional Spellcasting Level|PREVARLT:RainbowServantUseTable,1
+8		ABILITY:Special Ability|AUTOMATIC|Rainbow Servant Optional Spellcasting Level|PREVARLT:RainbowServantUseTable,1
+9		ABILITY:Special Ability|AUTOMATIC|Rainbow Servant Optional Spellcasting Level|PREVARLT:RainbowServantUseTable,1
+
 ###Block
 11	PREPCLEVEL:MIN=20
 ###Block	

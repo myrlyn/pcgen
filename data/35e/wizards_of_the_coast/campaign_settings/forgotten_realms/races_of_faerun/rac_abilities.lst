@@ -114,3 +114,4 @@ Seed Affinity / Transport		KEY:Elven High Mage ~ Seed Affinity / Transport		CATE
 Seed Affinity / Ward			KEY:Elven High Mage ~ Seed Affinity / Ward		CATEGORY:Special Ability		TYPE:Elven High Mage Seed Affinity.SpecialQuality		DESC:Seed affinity of Ward			
 
 
+Warsling Sneak Attack		CATEGORY:Special ABILITY		TYPE:SpecialAttack		ASPECT:NAME|Warsling Sneak Attack +%1d%2|WarslingSneakAttack|WarslingSneakAttackDieSize			DEFINE:WarslingSneakAttackDieSize|0	BONUS:VAR|WarslingSneakAttackDieSize|6		BONUS:VAR|WarslingSneakAttackDieSize|SneakAttackDieSize-6|PREVARGTEQ:SneakAttackDieSize,6

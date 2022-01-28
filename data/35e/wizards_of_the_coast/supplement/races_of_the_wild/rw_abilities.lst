@@ -188,7 +188,7 @@ Uniorn Mount	CATEGORY:Internal					DEFINE:SpecialMountLVL|0							ABILITY:Specia
 Special Mount (Default)			KEY:Unicorn ~ Special Mount			CATEGORY:Internal		TYPE:SpecialMountSelection					!PREABILITY:1,CATEGORY=Internal,TYPE.SpecialMountAlternate								COMPANIONLIST:Special Mount|Unicorn
 
 
-Ranged Sneak Attack	KEY:Halfling Rogue ~ Ranged Sneak Attack	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	DESC:Increase your sneak attack with thrown weapons or slings by %1d%2|HalfliingRangedSneakAttakDice|SneakAttackDieSize	ASPECT:NAME|Ranged Sneak Attack +%1d%2|HalflingRangedSneakAttackDice|SneakAttackDieSize		DEFINE:HalflingRangedSneakAttackDice|0	BONUS:VAR|HalflingRangedSneakAttackDice|2	BONUS:VAR|SneakAttackDice|-1
+Ranged Sneak Attack	KEY:Halfling Rogue ~ Ranged Sneak Attack	CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack	DESC:Increase your sneak attack with thrown weapons or slings by %1d%2|HalflingRangedSneakAttackDice|SneakAttackDieSize	ASPECT:NAME|Ranged Sneak Attack +%1d%2|HalflingRangedSneakAttackDice|SneakAttackDieSize		DEFINE:HalflingRangedSneakAttackDice|0	BONUS:VAR|HalflingRangedSneakAttackDice|2	BONUS:VAR|SneakAttackDice|-1	BONUS:VAR|SneakAttackDice|-1
 Thief's Luck	KEY:Halfling Rogue ~ Luck	CATEGORY:ACF	TYPE:Extraordinary.SpecialQuality.RogueTrapfinding	DESC:re-roll a reflex save.
 Sniping Mastery		KEY:Halflig Rogue ~ Sniping Mastery	CATEGORY:ACF		TYPE:Extraordinary.SpecialQuality.RogueSpecialAbilities	DESC:Your hide penalty for sniping is -10 instead of -20	
 
