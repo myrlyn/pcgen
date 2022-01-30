@@ -149,7 +149,23 @@ Nine Forms					KEY:Swarm Shifter ~ Nine Form			CATEGORY:Special Ability	TYPE:Swa
 Ten Forms					KEY:Swarm Shifter ~ Ten Form			CATEGORY:Special Ability	TYPE:SwarmShifterChoice		BONUS:ABILITYPOOL|Swarm Shifter Forms|10	SORTKEY:10-Forms		TEMPLATE:Swarm Shifter ~ Multiple Forms
 Eleven Forms				KEY:Swarm Shifter ~ Eleven Form			CATEGORY:Special Ability	TYPE:SwarmShifterChoice		BONUS:ABILITYPOOL|Swarm Shifter Forms|11	SORTKEY:11-Forms		TEMPLATE:Swarm Shifter ~ Multiple Forms
 #Twelve Forms				KEY:Swarm Shifter ~ Twelve Form			CATEGORY:Special Ability	TYPE:SwarmShifterChoice		BONUS:ABILITYPOOL|Swarm Shifter Forms|12	SORTKEY:12-Forms		TEMPLATE:Swarm Shifter ~ Multiple Forms
-Swarm of Undead Bats		KEY:Swarm Shifter ~ Swarm of Undead Bats			CATEGORY:Special Ability	TYPE:SwarmShifterForm.SpecialQuality		ABILITY:Special Ability|AUTOMATIC|Swarm of Undead Bats ~ Wounding	ABILITY:Special Ability|AUTOMATIC|Swarm of Undead Bats ~ Blindsense			ABILITY:Special Ability|AUTOMATIC|Swarm of Undead Bats ~ Immune to Weapon Damage	DESC:Diminutive.  Walk 5, Fly 40(Good)
+
+Medium Swarm Shifter		CATEGORY:Special Ability	TYPE:SwarmShifterSize			DESC:This is used to calculate size modifiers for swarm forms.  Select the size of your native form.		DEFINE:SwarmShifterSizeOffset|0
+Small Swarm Shifter		CATEGORY:Special Ability	TYPE:SwarmShifterSize			DESC:This is used to calculate size modifiers for swarm forms.  Select the size of your native form.		DEFINE:SwarmShifterSizeOffset|0	BONUS:VAR|SwarmShifterSizeOffset|1
+Tiny Swarm Shifter		CATEGORY:Special Ability	TYPE:SwarmShifterSize			DESC:This is used to calculate size modifiers for swarm forms.  Select the size of your native form.		DEFINE:SwarmShifterSizeOffset|0	BONUS:VAR|SwarmShifterSizeOffset|2
+Diminutive Swarm Shifter		CATEGORY:Special Ability	TYPE:SwarmShifterSize			DESC:This is used to calculate size modifiers for swarm forms.  Select the size of your native form.		DEFINE:SwarmShifterSizeOffset|0	BONUS:VAR|SwarmShifterSizeOffset|3
+Fine Swarm Shifter		CATEGORY:Special Ability	TYPE:SwarmShifterSize			DESC:This is used to calculate size modifiers for swarm forms.  Select the size of your native form.		DEFINE:SwarmShifterSizeOffset|0	BONUS:VAR|SwarmShifterSizeOffset|4
+Large Swarm Shifter		CATEGORY:Special Ability	TYPE:SwarmShifterSize			DESC:This is used to calculate size modifiers for swarm forms.  Select the size of your native form.		DEFINE:SwarmShifterSizeOffset|0	BONUS:VAR|SwarmShifterSizeOffset|-1
+Huge Swarm Shifter		CATEGORY:Special Ability	TYPE:SwarmShifterSize			DESC:This is used to calculate size modifiers for swarm forms.  Select the size of your native form.		DEFINE:SwarmShifterSizeOffset|0	BONUS:VAR|SwarmShifterSizeOffset|-2
+Gargantuan Swarm Shifter		CATEGORY:Special Ability	TYPE:SwarmShifterSize			DESC:This is used to calculate size modifiers for swarm forms.  Select the size of your native form.		DEFINE:SwarmShifterSizeOffset|0	BONUS:VAR|SwarmShifterSizeOffset|-3
+Colossal Swarm Shifter		CATEGORY:Special Ability	TYPE:SwarmShifterSize			DESC:This is used to calculate size modifiers for swarm forms.  Select the size of your native form.		DEFINE:SwarmShifterSizeOffset|0	BONUS:VAR|SwarmShifterSizeOffset|-4
+Colossal+ Swarm Shifter		CATEGORY:Special Ability	TYPE:SwarmShifterSize			DESC:This is used to calculate size modifiers for swarm forms.  Select the size of your native form.		DEFINE:SwarmShifterSizeOffset|0	BONUS:VAR|SwarmShifterSizeOffset|-5
+
+
+
+
+
+Swarm of Undead Bats		KEY:Swarm Shifter ~ Swarm of Undead Bats			CATEGORY:Special Ability	TYPE:SwarmShifterForm.SpecialQuality		ABILITY:Special Ability|AUTOMATIC|Swarm of Undead Bats ~ Wounding	ABILITY:Special Ability|AUTOMATIC|Swarm of Undead Bats ~ Blindsense			ABILITY:Special Ability|AUTOMATIC|Swarm of Undead Bats ~ Immune to Weapon Damage	DESC:Diminutive.  Walk 5, Fly 40(Good)		TEMPBONUS:PC|SIZEMOD|NUMBER|SwarmShifterSizeOffset-3		TEMPDESC:Size Modifiers for Bat Swarm Form
 
 CATEGORY=Special Ability|Bat Swarm ~ Wounding.COPY=Swarm of Undead Bats ~ Wounding		ABILITY:Special Ability|AUTOMATIC|Swarm of Undead Bats ~ Immune to Weapon Damage
 CATEGORY=Special Ability|Swarm of Undead Bats ~ Wounding.MOD		OUTPUTNAME:Wounding
@@ -157,35 +173,35 @@ Blindsense		KEY:Swarm of Undead Bats ~ Blindsense	CATEGORY:Special Ability	TYPE:
 
 Immune to Weapon Damage	KEY:Swarm of Undead Bats ~ Immune to Weapon Damage	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary		DESC:While in bat swarm form, you are immune to weapon damage.  (Weapon attacks are useless against swarms of Diminutive creatures).  
 
-Swarm of Undead Beetles		KEY:Swarm Shifter ~ Swarm of Undead Beetles			CATEGORY:Special Ability	TYPE:SwarmShifterForm.SpecialQuality		ABILITY:Special Ability|AUTOMATIC|Swarm of Undead Beetles ~ Tremorsense			ABILITY:Special Ability|AUTOMATIC|Swarm of Undead Beetles ~ Immune to Weapon Damage	DESC:Diminutive.  Walk 30, Fly 10(Good), Burrow 20
+Swarm of Undead Beetles		KEY:Swarm Shifter ~ Swarm of Undead Beetles			CATEGORY:Special Ability	TYPE:SwarmShifterForm.SpecialQuality		ABILITY:Special Ability|AUTOMATIC|Swarm of Undead Beetles ~ Tremorsense			ABILITY:Special Ability|AUTOMATIC|Swarm of Undead Beetles ~ Immune to Weapon Damage	DESC:Diminutive.  Walk 30, Fly 10(Good), Burrow 20			TEMPBONUS:PC|SIZEMOD|NUMBER|SwarmShifterSizeOffset-3		TEMPDESC:Size Modifiers for Beetle Swarm Form
 
 Tremorsense		KEY:Swarm of Undead Beetles ~ Tremorsense	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary		DESC:While in beetle swarm form, you gain tremorsense out to 60', and can pinpoint anything touching the ground.
 
 Immune to Weapon Damage	KEY:Swarm of Undead Beetles ~ Immune to Weapon Damage	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary		DESC:While in beetle swarm form, you are immune to weapon damage.  (Weapon attacks are useless against swarms of Diminutive creatures).  
 
-Swarm of Undead Centipedes		KEY:Swarm Shifter ~ Swarm of Undead Centipedes			CATEGORY:Special Ability	TYPE:SwarmShifterForm.SpecialQuality					ABILITY:Special Ability|AUTOMATIC|Swarm of Undead Centipedes ~ Immune to Weapon Damage	DESC:Diminutive.  Walk 20, Climb 20
+Swarm of Undead Centipedes		KEY:Swarm Shifter ~ Swarm of Undead Centipedes			CATEGORY:Special Ability	TYPE:SwarmShifterForm.SpecialQuality					ABILITY:Special Ability|AUTOMATIC|Swarm of Undead Centipedes ~ Immune to Weapon Damage	DESC:Diminutive.  Walk 20, Climb 20			TEMPBONUS:PC|SIZEMOD|NUMBER|SwarmShifterSizeOffset-3		TEMPDESC:Size Modifiers for Centipede Swarm Form
 
 Immune to Weapon Damage	KEY:Swarm of Undead Centipedes ~ Immune to Weapon Damage	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary		DESC:While in Centipede swarm form, you are immune to weapon damage.  (Weapon attacks are useless against swarms of Diminutive creatures).  
 
-Swarm of Undead Flies		KEY:Swarm Shifter ~ Swarm of Undead Flies			CATEGORY:Special Ability	TYPE:SwarmShifterForm.SpecialQuality					ABILITY:Special Ability|AUTOMATIC|Swarm of Undead Flies ~ Immune to Weapon Damage	DESC:Fine.  Fly 40(Perfect)	ABILITY:Special Ability|AUTOMATIC|Swarm of Undead Flies ~ Disease	
+Swarm of Undead Flies		KEY:Swarm Shifter ~ Swarm of Undead Flies			CATEGORY:Special Ability	TYPE:SwarmShifterForm.SpecialQuality					ABILITY:Special Ability|AUTOMATIC|Swarm of Undead Flies ~ Immune to Weapon Damage	DESC:Fine.  Fly 40(Perfect)	ABILITY:Special Ability|AUTOMATIC|Swarm of Undead Flies ~ Disease				TEMPBONUS:PC|SIZEMOD|NUMBER|SwarmShifterSizeOffset-4		TEMPDESC:Size Modifiers for Fly Swarm Form
 
 Immune to Weapon Damage	KEY:Swarm of Undead Flies ~ Immune to Weapon Damage	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary		DESC:While in Fly Swarm form, you are immune to weapon damage.  (Weapon attacks are useless against swarms of Fine creatures).  
 
 Disease		KEY:Swarm of Undead Flies ~ Disease		CATEGORY:Special Ability		TYPE:Extraordinary.SpecialAttack		DESC:Red Ache - Swarm Attack(Flies), DC 10+1/2 HD+CHA (%1), 1d3 days incubation, damage 1d8 Dex.|(TL/2)+10+CHA
 
-Swarm of Undead Leeches		KEY:Swarm Shifter ~ Swarm of Undead Leeches		CATEGORY:Special Ability		TYPE:SwarmShifterForm.SpecialQuality	DESC:Diminutive.  Walk 5, Swim 30.		ABILITY:Special Ability|AUTOMATIC|Swarm of Undead Leeches ~ Immune to Weapon Damage		ABILITY:Special Ability|AUTOMATIC|Swarm of Undead Leeches ~ Wounding
+Swarm of Undead Leeches		KEY:Swarm Shifter ~ Swarm of Undead Leeches		CATEGORY:Special Ability		TYPE:SwarmShifterForm.SpecialQuality	DESC:Diminutive.  Walk 5, Swim 30.		ABILITY:Special Ability|AUTOMATIC|Swarm of Undead Leeches ~ Immune to Weapon Damage		ABILITY:Special Ability|AUTOMATIC|Swarm of Undead Leeches ~ Wounding			TEMPBONUS:PC|SIZEMOD|NUMBER|SwarmShifterSizeOffset-3		TEMPDESC:Size Modifiers for Leech Swarm Form
 
 Immune to Weapon Damage	KEY:Swarm of Undead Leeches ~ Immune to Weapon Damage	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary		DESC:While in Leech Swarm form, you are immune to weapon damage.  (Weapon attacks are useless against swarms of Fine creatures).  
 
 Wounding	KEY:Swarm of Undead Leeches ~ Wounding		CATEGORY:Special Ability		TYPE:SpecialAttack.Extraordinary			DESC:(Leech Swarm) A living creature damaged by the swarm attack continues to bleed, losing 1 hit point per round thereafter. Multiple wounds do not result in cumulative bleeding loss.  The bleeding can be stopped with a DC 10 Heal check or the application of a cure spell or some other healing magic.  
 
-Swarm of Undead Maggots Or Worms		KEY:Swarm Shifter ~ Swarm of Undead Maggots Or Worms		CATEGORY:Special Ability	TYPE:SwarmShifterForm.SpecialQuality	DESC:Fine.  Walk 20.		ABILITY:Special Ability|AUTOMATIC|Swarm of Undead Maggots Or Worms ~ Immune to Weapon Damage|Swarm of Undead Maggots Or Worms ~ Extended Nausea
+Swarm of Undead Maggots Or Worms		KEY:Swarm Shifter ~ Swarm of Undead Maggots Or Worms		CATEGORY:Special Ability	TYPE:SwarmShifterForm.SpecialQuality	DESC:Fine.  Walk 20.		ABILITY:Special Ability|AUTOMATIC|Swarm of Undead Maggots Or Worms ~ Immune to Weapon Damage|Swarm of Undead Maggots Or Worms ~ Extended Nausea				TEMPBONUS:PC|SIZEMOD|NUMBER|SwarmShifterSizeOffset-4		TEMPDESC:Size Modifiers for Worm/Maggot Swarm Form
 
 Immune to Weapon Damage		KEY:Swarm of Undead Maggots Or Worms ~ Immune to Weapon Damage		CATEGORY:Special Ability		TYPE:Extaordinary.SpecialQuality		DESC:While in maggot/worm swarm form, you are immune to weapon damage.  (Weapon attacks are useless against swarms of Fine creatures).  
 
 Extended Nausea		KEY:Swarm of Undead Maggots Or Worms ~ Extended Nausea		CATEGORY:Special Ability	TYPE:Extraordinary.SpecialAttack			DESC:(Worms or Maggots) Victims nauseated by your swarm attack remain nauseated for 2d4 rounds.  
 
-Swarm of Undead Parts				KEY:Swarm Shifter ~ Swarm of Undead Parts		CATEGORY:Special Ability		TYPE:SwarmShifterForm.SpecialQuality	DESC:Tiny.  Walk 20, Fly 20 (Poor).			ABILITY:Special Ability|AUTOMATIC|Swarm of Undead Parts ~ Fear|Swarm of Undead Parts ~ Parts|Swarm of Undead Parts ~ Weapon Resistance
+Swarm of Undead Parts				KEY:Swarm Shifter ~ Swarm of Undead Parts		CATEGORY:Special Ability		TYPE:SwarmShifterForm.SpecialQuality	DESC:Tiny.  Walk 20, Fly 20 (Poor).			ABILITY:Special Ability|AUTOMATIC|Swarm of Undead Parts ~ Fear|Swarm of Undead Parts ~ Parts|Swarm of Undead Parts ~ Weapon Resistance			TEMPBONUS:PC|SIZEMOD|NUMBER|SwarmShifterSizeOffset-2		TEMPDESC:Size Modifiers for Undead Parts Swarm Form
 
 Fear	KEY:Swarm of Undead Parts ~ Fear		TYPE:SpecialAttack.Supernatural	CATEGORY:Special Ability		DESC:A creature damaged by a Swarm of Undead Parts must make a successful Will save (DC 10 + 1/2 the swarm's HD + Cha modifier) or be frightened for 1d4 rounds(DC%1).|10+(TL/2)+CHA
 
@@ -193,27 +209,27 @@ Parts	KEY:Swarm of Undead Parts ~ Parts		TYPE:SpecialAttack.Supernatural	CATEGOR
 
 Half Damage From Slashing and Piercing		KEY:Swarm of Undead Parts ~ Weapon Resistance		CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary		DESC:Slashing and piercing attacks deal half damage to a swarm of Tiny creatures.  You take reduce damage as a Swarm Of Undead Parts.  
 
-Swarm of Undead Rats				KEY:Swarm Shifter ~ Swarm of Undead Rats	CATEGORY:Special Ability		TYPE:SwarmShifterForm.SpecialQuality	DESC:Tiny. Walk 15, Climb 15.		ABILITY:Special Ability|AUTOMATIC|Swarm of Undead Rats ~ Disease|Swarm of Undead Rats ~ Weapon Resistance
+Swarm of Undead Rats				KEY:Swarm Shifter ~ Swarm of Undead Rats	CATEGORY:Special Ability		TYPE:SwarmShifterForm.SpecialQuality	DESC:Tiny. Walk 15, Climb 15.		ABILITY:Special Ability|AUTOMATIC|Swarm of Undead Rats ~ Disease|Swarm of Undead Rats ~ Weapon Resistance			TEMPBONUS:PC|SIZEMOD|NUMBER|SwarmShifterSizeOffset-2		TEMPDESC:Size Modifiers for Rat Swarm Form
 
 Half Damage From Slashing and Piercing		KEY:Swarm of Undead Rats ~ Weapon Resistance		CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary		DESC:Slashing and piercing attacks deal half damage to a swarm of Tiny creatures.  You take reduce damage as a Swarm Of Undead Rats.  
 
 Disease		KEY:Swarm of Undead Rats ~ Disease		CATEGORY:Special Ability		TYPE:Extraordinary.SpecialAttack		DESC:Filth Fever - Swarm Attack(Rats), DC 10+1/2 HD+CHA (%1), 1d3 days incubation, damage 1d3 Dex and 1d3 Con.|(TL/2)+10+CHA
 
-Swarm of Undead Sand or Tomb Dust or Grave Dirt		KEY:Swarm Shifter ~ Swarm of Undead Sand			CATEGORY:Special Ability		TYPE:SwarmShifterForm.SpecialQuality	DESC:Fine.  Fly 60 (Perfect)		ABILITY:Special Ability|AUTOMATIC|Swarm of Undead Sand ~ Immune to Weapon Damage
+Swarm of Undead Sand or Tomb Dust or Grave Dirt		KEY:Swarm Shifter ~ Swarm of Undead Sand			CATEGORY:Special Ability		TYPE:SwarmShifterForm.SpecialQuality	DESC:Fine.  Fly 60 (Perfect)		ABILITY:Special Ability|AUTOMATIC|Swarm of Undead Sand ~ Immune to Weapon Damage			TEMPBONUS:PC|SIZEMOD|NUMBER|SwarmShifterSizeOffset-4		TEMPDESC:Size Modifiers for Sand/Dust/Dirt Swarm Form
 
 Immune to Weapon Damage	KEY:Swarm of Undead Sand ~ Immune to Weapon Damage	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary		DESC:While in Sand/Dust/Dirt Swarm form, you are immune to weapon damage.  (Weapon attacks are useless against swarms of Fine creatures).  
 
-Swarm of Undead Scorpions		KEY:Swarm Shifter ~ Swarm of Undead Scorpions					CATEGORY:Special Ability		TYPE:SwarmShifterForm.SpecialQuality	DESC:Diminutive.  Walk 20.		ABILITY:Special Ability|AUTOMATIC|Swarm of Undead Scorpions ~ Poison|Swarm of Undead Scorpions ~ Immune to Weapon Damage|Swarm of Undead Scorpions ~ Tremorsense
+Swarm of Undead Scorpions		KEY:Swarm Shifter ~ Swarm of Undead Scorpions					CATEGORY:Special Ability		TYPE:SwarmShifterForm.SpecialQuality	DESC:Diminutive.  Walk 20.		ABILITY:Special Ability|AUTOMATIC|Swarm of Undead Scorpions ~ Poison|Swarm of Undead Scorpions ~ Immune to Weapon Damage|Swarm of Undead Scorpions ~ Tremorsense			TEMPBONUS:PC|SIZEMOD|NUMBER|SwarmShifterSizeOffset-3		TEMPDESC:Size Modifiers for Scorpion Swarm Form
 
-Poison		KEY:Swarm of Undead Scorpions ~ Poison		CATEGORY:Special Ability		TYPE:Extraordinary.SpecialAttack		DESC:Swarm attack(Scorpions), Fortitude DC 10 + 1/2 swarm HD + Cha modifier(%1), initial and secondary damage 1d2 Con.|10+CHA+(TL/2)+DC_Poison_scorp  	SERVESAS:ABILITY=Special Ability|Poison		DEFINE:DC_Poison_scorp|0		BONUS:VAR|DC_Poison_scorp|2|PREABILITY:1,CATEGORY=FEAT,Ability Focus (Poison)	ABILITY:Ability Focus|AUTOMATIC|Poison
+Poison		KEY:Swarm of Undead Scorpions ~ Poison		CATEGORY:Special Ability		TYPE:Extraordinary.SpecialAttack		DESC:Swarm attack(Scorpions), Fortitude DC 10 + 1/2 swarm HD + Cha modifier(%1), initial and secondary damage 1d2 Con.|10+CHA+(TL/2)+DC_Poison_scorp  	SERVESAS:ABILITY=Special Ability|Poison		DEFINE:DC_Poison_scorp|0		BONUS:VAR|DC_Poison_scorp|2|PREABILITY:1,CATEGORY=FEAT,Ability Focus (Poison)	ABILITY:Ability Focus|AUTOMATIC|Poison			BONUS:VAR|DC_Poison_scorp|2|PREABILITY:1,CATEGORY=FEAT,Virulent Poison
 
 Immune to Weapon Damage		KEY:Swarm of Undead Scorpions ~ Immune to Weapon Damage		CATEGORY:Special Ability		TYPE:Extaordinary.SpecialQuality		DESC:While in scorpion swarm form, you are immune to weapon damage.  (Weapon attacks are useless against swarms of Diminutive creatures).  
 
 Tremorsense		KEY:Swarm of Undead Scorpions ~ Tremorsense	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary		DESC:While in scorpion swarm form, you gain tremorsense out to 60', and can pinpoint anything touching the ground.
 
-Swam of Undead Spiders		KEY:Swarm Shifter ~ Swarm of Undead Spiders						CATEGORY:Special Ability		TYPE:SwarmShifterForm.SpecialQuality	DESC:Diminutive.  Walk 20, Climb 20		ABILITY:Special Ability|AUTOMATIC|Swarm of Undead Spiders ~ Poison|Swarm of Undead Spiders ~ Immune to Weapon Damage|Swarm of Undead Spiders ~ Tremorsense
+Swarm of Undead Spiders		KEY:Swarm Shifter ~ Swarm of Undead Spiders						CATEGORY:Special Ability		TYPE:SwarmShifterForm.SpecialQuality	DESC:Diminutive.  Walk 20, Climb 20		ABILITY:Special Ability|AUTOMATIC|Swarm of Undead Spiders ~ Poison|Swarm of Undead Spiders ~ Immune to Weapon Damage|Swarm of Undead Spiders ~ Tremorsense			TEMPBONUS:PC|SIZEMOD|NUMBER|SwarmShifterSizeOffset-3		TEMPDESC:Size Modifiers for Spider Swarm Form
 
-Poison		KEY:Swarm of Undead Spiders ~ Poison		CATEGORY:Special Ability		TYPE:Extraordinary.SpecialAttack		DESC:Swarm attack(Spider), Fortitude DC 10 + 1/2 swarm HD + Cha modifier(%1), initial and secondary damage 1d3 Str.|10+CHA+(TL/2)+DC_Poison_spid  	SERVESAS:ABILITY=Special Ability|Poison		DEFINE:DC_Poison_spid|0		BONUS:VAR|DC_Poison_scorp|2|PREABILITY:1,CATEGORY=FEAT,Ability Focus (Poison)	ABILITY:Ability Focus|AUTOMATIC|Poison
+Poison		KEY:Swarm of Undead Spiders ~ Poison		CATEGORY:Special Ability		TYPE:Extraordinary.SpecialAttack		DESC:Swarm attack(Spider), Fortitude DC 10 + 1/2 swarm HD + Cha modifier(%1), initial and secondary damage 1d3 Str.|10+CHA+(TL/2)+DC_Poison_spid  	SERVESAS:ABILITY=Special Ability|Poison		DEFINE:DC_Poison_spid|0		BONUS:VAR|DC_Poison_scorp|2|PREABILITY:1,CATEGORY=FEAT,Ability Focus (Poison)	ABILITY:Ability Focus|AUTOMATIC|Poison	BONUS:VAR|DC_Poison_spid|2|PREABILITY:1,CATEGORY=FEAT,Virulent Poison
 
 Immune to Weapon Damage		KEY:Swarm of Undead Spiders ~ Immune to Weapon Damage		CATEGORY:Special Ability		TYPE:Extaordinary.SpecialQuality		DESC:While in Spider swarm form, you are immune to weapon damage.  (Weapon attacks are useless against swarms of Diminutive creatures).  
 

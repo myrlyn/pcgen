@@ -327,3 +327,6 @@ Eleven Headed					KEY:Hydra ~ Eleven Headed	VISIBLE:NO														SUBRACE:Elev
 Twelve Headed					KEY:Hydra ~ Twelve Headed	VISIBLE:NO														SUBRACE:Twelve Headed	ADDLEVEL:Magical Beast|7
 Standard Tiefling				KEY:Tiefling ~ LevelAdjustment	VISIBLE:NO	LEVELADJUSTMENT:1
 Stanard Aasimar					KEY:Aasimar ~ LevelAdjustment	VISIBLE:NO	LEVELADJUSTMENT:1
+
+
+CR_INCREASE_1					VISIBLE:NO					CR:1

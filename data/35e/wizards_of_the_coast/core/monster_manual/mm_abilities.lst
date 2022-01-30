@@ -2607,3 +2607,9 @@ Telepathy		KEY:Asperi ~ Telepathy		CATEGORY:Special Ability	TYPE:Asperi Race Tra
 Uncanny Dodge	KEY:Asperi ~ Uncanny Dodge	CATEGORY:Special Ability	TYPE:Asperi Race Trait.SpecialQuality.Extraordinary	VISIBLE:YES										DESC:Because of its preternatural alertness, an Asperi retains its Dex bonus to AC even when flat-footed, and cannot be flanked.																								BONUS:VAR|UncannyDodgeFlankingLevel|HD|TYPE=EachClass.STACK	BONUS:VAR|UncannyDodgeLevel|2	SOURCEPAGE:MM2
 Wind Immunity	KEY:Asperi ~ Wind Immunity	CATEGORY:Special Ability	TYPE:Asperi Race Trait.SpecialQuality.Extraordinary	VISIBLE:YES										DESC:Winds have no effect on an asperi unless it chooses to ride them for additional movement (see Ride the Wind)																																										SOURCEPAGE:MM2
 Training		KEY:Asperi ~ Training		CATEGORY:Special Ability	TYPE:Asperi Race Trait.SpecialQuality			VISIBLE:YES										DESC:Training DC 22 (young) or 29 (adult) Handle Animal check. Require a normal saddle. Professional trainers charge 2000 gp to rear or train.																																					SOURCEPAGE:MM2
+
+
+
+
+CR Increase        CATEGORY:Special Ability        TYPE:GM_Award   MULT:YES        STACK:YES       CHOOSE:USERINPUT|1|TITLE=Reason For CR Increase         BONUS:ABILITYPOOL|CR Increase|1
+CRF  +1	CATEGORY:Special Ability			TYPE:CR_Increase		TEMPLATE:CR_INCREASE_1
