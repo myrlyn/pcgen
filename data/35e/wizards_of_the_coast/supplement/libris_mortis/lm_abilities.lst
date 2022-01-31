@@ -235,10 +235,11 @@ Immune to Weapon Damage		KEY:Swarm of Undead Spiders ~ Immune to Weapon Damage		
 
 Tremorsense		KEY:Swarm of Undead Spiders ~ Tremorsense	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary		DESC:While in Spider swarm form, you gain tremorsense out to 60', and can pinpoint anything touching the ground.
 
+Pale Aura	CATEGORY:Special Ability		KEY:Slaymate ~ Pale Aura		TYPE:SpecialQuality.Supernatural	DESC:A slaymate produces an invisible aura in a 10-foot radius around itself. Any creature within the aura that uses a metamagic feat on a spell from the school of necromancy can prepare or use the spell as if it took up a spell slot one level lower than what the metamagic necromancy spell would normally require 
 
+Pale Wasting	CATEGORY:Special Ability	KEY:Slaymate ~ Pale Wasting		TYPE:SpecialAttack.Disease.Supernatural.AbilityFocus		DESC:Supernatural disease - bite, fortitude %1 [10+HD/2+CHA].  Incubation 1 day.  1d6 Con and 1d6 Str.|10+(TL/2)+CHA+Pale_Wasting_DC			DEFINE:Pale_Wasting_DC|0		BONUS:VAR|Pale_Wasting_DC|2|PREABILITY:1,CATEGORY=FEAT,Ability Focus (Pale Wasting)
 
-
-
+Pale Wasting	CATEGORY:Ability Focus		TYPE:Ability Focus		
 
 #UNDEAD SWARMS AND TURNING
 #Because undead swarms are made up of many weak undead
