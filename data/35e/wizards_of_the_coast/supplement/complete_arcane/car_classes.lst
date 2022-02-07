@@ -483,7 +483,7 @@ CLASS:Master Transmogrifist	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|TYPE=Craf
 # Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page		Combat bonus												Modify VAR													Bonus
 CLASS:Mindbender	HD:4		TYPE:PC.Prestige	FACT:Abb|Mnd		MAXLEVEL:10	SOURCEPAGE:p.54	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*1/2|PREVAREQ:UseAlternateBABProgression,0	BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalBAB,1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2
 # Class Name	Required AL				Required Skill								Req. Known Spell		Required Casting Type		Req. Spell Type
-CLASS:Mindbender	PREALIGN:LN,LE,TN,NE,CN,CE	PRESKILL:4,Bluff=4,Diplomacy=4,Intimidate=4,Sense Motive=4	PRESPELL:1,Charm Person	PRESPELLCAST:TYPE=Arcane	PRESPELLTYPE:1,Arcane=5
+CLASS:Mindbender	PREALIGN:LN,LE,TN,NE,CN,CE	PRESKILL:4,Bluff=4,Diplomacy=4,Intimidate=4,Sense Motive=4	PRESPELL:1,Charm Person	PRESPELLCAST:TYPE=Arcane	PRETEXT:Arcane Caster Level 5
 # Class Name	Skill Pts/Lvl	Class Skill
 CLASS:Mindbender	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|Diplomacy|Intimidate|TYPE=Knowledge|TYPE=Profession|Sense Motive|Spellcraft
 1								BONUS:VAR|TelepathyRange|100										ADD:SPELLCASTER|Arcane	AUTO:LANG|Telepathy
@@ -507,6 +507,39 @@ CLASS:Mindbender	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|Diplomacy|Intimidate
 6	ABILITY:Mindbender Class Feature|AUTOMATIC|Mindbender ~ Enchantment Spell Power
 7	ABILITY:Mindbender Class Feature|AUTOMATIC|Mindbender ~ Dominate
 10	ABILITY:Mindbender Class Feature|AUTOMATIC|Mindbender ~ Thrall
+
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page		Combat bonus												Modify VAR													Bonus
+CLASS:Mindbender(Psionic)	HD:4		TYPE:PC.Prestige	FACT:Abb|Mnd		MAXLEVEL:10	SOURCEPAGE:p.54	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*1/2|PREVAREQ:UseAlternateBABProgression,0	BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalBAB,1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2
+# Class Name	Required AL				Required Skill								Req. Known Spell		Required Casting Type		Req. Spell Type
+CLASS:Mindbender(Psionic)	PREALIGN:LN,LE,TN,NE,CN,CE	PRESKILL:4,Bluff=4,Diplomacy=4,Intimidate=4,Sense Motive=4	PRESPELLSCHOOL:1,Telepathy=3	PRESPELLCAST:TYPE=Psionic
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Mindbender(Psionic)	STARTSKILLPTS:2	CSKILL:Bluff|Concentration|Diplomacy|Intimidate|TYPE=Knowledge|TYPE=Profession|Sense Motive|Spellcraft
+1								BONUS:VAR|TelepathyRange|100										ADD:SPELLCASTER|Psionic	AUTO:LANG|Telepathy
+2								BONUS:VAR|MindbenderSkillBoostLVL|CL	BONUS:VAR|MindbenderPushTheWeakMindLVL|CL
+3								BONUS:VAR|MindbenderMindreadLVL|CL									ADD:SPELLCASTER|Psionic
+4								BONUS:VAR|MindbenderEternalCharmLVL|CL
+5																						ADD:SPELLCASTER|Psionic
+6	BONUS:ABILITYPOOL|Improved Caster Level|2
+7								BONUS:VAR|DominatePerDay|1										ADD:SPELLCASTER|Psionic
+9																						ADD:SPELLCASTER|Psionic
+10	BONUS:ABILITYPOOL|Improved Caster Level|2
+###TODO CONTIGUOUS:Bard
+###Block
+1	ABILITY:Mindbender Class Feature|AUTOMATIC|Mindbender ~ Weapon and Armor Proficiency
+1	ABILITY:Mindbender Class Feature|AUTOMATIC|Mindbender ~ Spells per Day/Spells Known
+1	ABILITY:Mindbender Class Feature|AUTOMATIC|Mindbender ~ Telepathy
+2	ABILITY:Mindbender Class Feature|AUTOMATIC|Mindbender ~ Skill Boost
+2	ABILITY:Mindbender Class Feature|AUTOMATIC|Mindbender ~ Push the Weak Mind
+3	ABILITY:Mindbender Class Feature|AUTOMATIC|Mindbender ~ Mindread
+4	ABILITY:Mindbender Class Feature|AUTOMATIC|Mindbender ~ Eternal Charm
+6	ABILITY:Mindbender Class Feature|AUTOMATIC|Mindbender ~ Enchantment Spell Power
+7	ABILITY:Mindbender Class Feature|AUTOMATIC|Mindbender ~ Dominate
+10	ABILITY:Mindbender Class Feature|AUTOMATIC|Mindbender ~ Thrall
+
+
+
+
 
 # Class Name			Hit Dice	Type			Abbreviation	Max Level	Ex Class				Source Page		Combat bonus												Modify VAR														Bonus
 CLASS:Seeker of the Song	HD:6		TYPE:PC.Prestige	FACT:Abb|Ses		MAXLEVEL:10	EXCLASS:Ex Seeker of the Song	SOURCEPAGE:p.56	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|PREVAREQ:UseAlternateBABProgression,0	BONUS:VAR|ClassBABModerate|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalBAB,1	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2

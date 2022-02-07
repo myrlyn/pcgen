@@ -84,7 +84,7 @@ Wight Monster Class 5		VISIBLE:NO	BONUS:FEAT|POOL|1
 #
 # Modifications to undead through the Corpsecraft feat tree
 #
-Corpsecrafted				VISIBLE:YES	PRETEMPLATE:1,Undead						BONUS:STAT|STR|4	BONUS:HP|CURRENTMAX|(TL*2)											SOURCEPAGE:25	DESC:Purposefully created to have greater Strength and Hit Points.
+Corpsecrafted				VISIBLE:YES	PRERACE:1,RACETYPE=Undead						BONUS:STAT|STR|4	BONUS:HP|CURRENTMAX|(TL*2)											SOURCEPAGE:25	DESC:Purposefully created to have greater Strength and Hit Points.
 # SRD handles Turn Resistance as a template, Bahumat core rules handles it as an ability
 Corpsecrafted Bolstered Resistance	VISIBLE:YES	PRETEMPLATE:1,Corpsecrafted	SAB:Bolstered Resistance	ABILITY:Special Ability|AUTOMATIC|Turn Resistance	ADD:TEMPLATE|1|Turn Resistance	BONUS:VAR|TurnResistBonus|4			SOURCEPAGE:25	DESC:More resistant to turning.
 Corpsecrafted Deadly Chill		VISIBLE:YES	PRETEMPLATE:1,Corpsecrafted	SAB:Deadly Chill		ABILITY:Special Ability|AUTOMATIC|Corpsecrafted ~ Deadly Chill Natural Attacks								SOURCEPAGE:25	DESC:+1d6 cold damage on natural attacks.

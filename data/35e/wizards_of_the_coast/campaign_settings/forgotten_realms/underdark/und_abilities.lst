@@ -167,14 +167,14 @@ Infused Power	KEY:Faerzress-Infused Creature ~ Infused Power			SOURCEPAGE:p.87	C
 Saving Throws	KEY:Faerzress-Infused Creature ~ Saving Throws			SOURCEPAGE:p.87	CATEGORY:Special Ability	TYPE:Faerzress-Infused Creature.SpecialQuality							DESC:A faerzress-infused creature receives a +4 bonus on Will saves against all divination spells and effects.	ASPECT:SaveInfo|+4 bonus on Will saves against all divination spells and effects.
 
 # Half-Illithid
-Half-Illithid ~ D	CATEGORY:Internal	NATURALATTACKS:Tentacles,Natural.Melee.Bludgeoning,*4,1
-Half-Illithid ~ T	CATEGORY:Internal	NATURALATTACKS:Tentacles,Natural.Melee.Bludgeoning,*4,1d2
-Half-Illithid ~ S	CATEGORY:Internal	NATURALATTACKS:Tentacles,Natural.Melee.Bludgeoning,*4,1d3
-Half-Illithid ~ M	CATEGORY:Internal	NATURALATTACKS:Tentacles,Natural.Melee.Bludgeoning,*4,1d4
-Half-Illithid ~ L	CATEGORY:Internal	NATURALATTACKS:Tentacles,Natural.Melee.Bludgeoning,*4,1d6
-Half-Illithid ~ H	CATEGORY:Internal	NATURALATTACKS:Tentacles,Natural.Melee.Bludgeoning,*4,1d8
-Half-Illithid ~ G	CATEGORY:Internal	NATURALATTACKS:Tentacles,Natural.Melee.Bludgeoning,*4,2d6
-Half-Illithid ~ C	CATEGORY:Internal	NATURALATTACKS:Tentacles,Natural.Melee.Bludgeoning,*4,2d8
+Half-Illithid ~ D	CATEGORY:Special Ability	TEMPLATE:Diminutive Half-Illithid Attacks		TYPE:Extraordinary.SpecialQuality		DESC:A half-illithid loses any bite attack it has and gains 4 tentacles.		OUTPUTNAME:Tentacles
+Half-Illithid ~ T	CATEGORY:Special Ability	TEMPLATE:Tiny Half-Illithid Attacks				TYPE:Extraordinary.SpecialQuality		DESC:A half-illithid loses any bite attack it has and gains 4 tentacles.		OUTPUTNAME:Tentacles
+Half-Illithid ~ S	CATEGORY:Special Ability	TEMPLATE:Small Half-Illithid Attacks			TYPE:Extraordinary.SpecialQuality		DESC:A half-illithid loses any bite attack it has and gains 4 tentacles.		OUTPUTNAME:Tentacles
+Half-Illithid ~ M	CATEGORY:Special Ability	TEMPLATE:Medium Half-Illithid Attacks			TYPE:Extraordinary.SpecialQuality		DESC:A half-illithid loses any bite attack it has and gains 4 tentacles.		OUTPUTNAME:Tentacles
+Half-Illithid ~ L	CATEGORY:Special Ability	TEMPLATE:Large Half-Illithid Attacks			TYPE:Extraordinary.SpecialQuality		DESC:A half-illithid loses any bite attack it has and gains 4 tentacles.		OUTPUTNAME:Tentacles
+Half-Illithid ~ H	CATEGORY:Special Ability	TEMPLATE:Huge Half-Illithid Attacks				TYPE:Extraordinary.SpecialQuality		DESC:A half-illithid loses any bite attack it has and gains 4 tentacles.		OUTPUTNAME:Tentacles
+Half-Illithid ~ G	CATEGORY:Special Ability	TEMPLATE:Gargantuan Half-Illithid Attacks		TYPE:Extraordinary.SpecialQuality		DESC:A half-illithid loses any bite attack it has and gains 4 tentacles.		OUTPUTNAME:Tentacles
+Half-Illithid ~ C	CATEGORY:Special Ability	TEMPLATE:Colossal Half-Illithid Attacks			TYPE:Extraordinary.SpecialQuality		DESC:A half-illithid loses any bite attack it has and gains 4 tentacles.		OUTPUTNAME:Tentacles
 #
 Extract		KEY:Half-Illithid ~ Extract				SOURCEPAGE:p.91	CATEGORY:Special Ability	TYPE:Half-Illithid.SpecialQuality.Extraordinary					DESC:A half-illithid that begins its turn with all four tentacles attached and wins a grapple check automatically extracts the opponent's brain, instantly killing that creature. This power is useless against constructs, elementals, oozes, plants, and undead. Extraction is not instantly fatal to foes with multiple heads, such as ettins and hydras.
 Improved Grab	KEY:Half-Illithid ~ Improved Grab			SOURCEPAGE:p.91	CATEGORY:Special Ability	TYPE:Half-Illithid.SpecialQuality.Extraordinary					DESC:To use this ability, a half-illithid must hit a Small, Medium, or Large creature with its tentacle attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity. If it wins the grapple check, it establishes a hold and attaches the tentacle to the opponent's head. A half-illithid can grab a Huge or larger creature, but only if it can somehow reach the foe's head. If a half-illithid begins its turn with at least one tentacle attached, it can try to attach its remaining tentacles with a single grapple check. The opponent can escape with a single successful grapple check or an Escape Artist check, but the halfillithid gets a +2 circumstance bonus for every tentacle that was attached at the beginning of the opponent's turn.
