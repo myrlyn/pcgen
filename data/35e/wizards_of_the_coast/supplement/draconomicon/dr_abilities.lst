@@ -697,15 +697,15 @@ Ethereal Vision		CATEGORY:Special Ability	TYPE:SpecialQuality
 Force Resistant		CATEGORY:Special Ability	TYPE:SpecialQuality
 Freedom of Movement (Su)		CATEGORY:Special Ability	TYPE:SpecialQuality
 Ghost ~ Withering		CATEGORY:Special Ability	TYPE:SpecialQuality
-Half-Dragon Breath Weapon ~ Cone of Brilliant Light		CATEGORY:Special Ability	TYPE:SpecialQuality
-Half-Dragon Breath Weapon ~ Cone of Dehydratation		CATEGORY:Special Ability	TYPE:SpecialQuality
-Half-Dragon Breath Weapon ~ Cone of Fire and Sonic		CATEGORY:Special Ability	TYPE:SpecialQuality
-Half-Dragon Breath Weapon ~ Cone of Force		CATEGORY:Special Ability	TYPE:SpecialQuality
-Half-Dragon Breath Weapon ~ Cone of Shadows		CATEGORY:Special Ability	TYPE:SpecialQuality
-Half-Dragon Breath Weapon ~ Cone of Sonic Energy		CATEGORY:Special Ability	TYPE:SpecialQuality
-Half-Dragon Breath Weapon ~ Line of Concussive Force		CATEGORY:Special Ability	TYPE:SpecialQuality
-Half-Dragon Breath Weapon ~ Line of Random Energy		CATEGORY:Special Ability	TYPE:SpecialQuality
-Half-Dragon Withering		CATEGORY:Special Ability	TYPE:SpecialQuality
+Half-Dragon Breath Weapon ~ Cone of Brilliant Light		CATEGORY:Special Ability	TYPE:SpecialQuality			VISIBLE:NO		ABILITY:Special Ability|AUTOMATIC|Half-Dragon ~ Breath Weapon (Cone of Brilliant Light)
+Half-Dragon Breath Weapon ~ Cone of Dehydratation		CATEGORY:Special Ability	TYPE:SpecialQuality			VISIBLE:NO		ABILITY:Special Ability|AUTOMATIC|Half-Dragon ~ Breath Weapon (Cone of Dehydration)
+Half-Dragon Breath Weapon ~ Cone of Fire and Sonic		CATEGORY:Special Ability	TYPE:SpecialQuality			VISIBLE:NO		ABILITY:Special Ability|AUTOMATIC|Half-Dragon ~ Breath Weapon (Cone of Fire and Sonic Energy)
+Half-Dragon Breath Weapon ~ Cone of Force		CATEGORY:Special Ability	TYPE:SpecialQuality			VISIBLE:NO		ABILITY:Special Ability|AUTOMATIC|Half-Dragon ~ Breath Weapon (Cone of Force)
+Half-Dragon Breath Weapon ~ Cone of Shadows		CATEGORY:Special Ability	TYPE:SpecialQuality			VISIBLE:NO		ABILITY:Special Ability|AUTOMATIC|Half-Dragon ~ Breath Weapon (Cone of Shadows)
+Half-Dragon Breath Weapon ~ Cone of Sonic Energy		CATEGORY:Special Ability	TYPE:SpecialQuality			VISIBLE:NO		ABILITY:Special Ability|AUTOMATIC|Half-Dragon ~ Breath Weapon (Cone of Sonic Energy)
+Half-Dragon Breath Weapon ~ Line of Concussive Force		CATEGORY:Special Ability	TYPE:SpecialQuality			VISIBLE:NO		ABILITY:Special Ability|AUTOMATIC|Half-Dragon ~ Breath Weapon (Cone of Concussive Force)
+Half-Dragon Breath Weapon ~ Line of Random Energy		CATEGORY:Special Ability	TYPE:SpecialQuality			VISIBLE:NO		ABILITY:Special Ability|AUTOMATIC|Half-Dragon ~ Breath Weapon (Cone of Random Energy)
+Half-Dragon Withering		CATEGORY:Special Ability	TYPE:SpecialQuality			DESC:3/day you may inflict 1d4 Constitution Drain with your bite.  Fortitude save vs DC 14 negates.
 Healing Touch		CATEGORY:Special Ability	TYPE:SpecialQuality
 Immunity to Compulsion Effects		CATEGORY:Special Ability	TYPE:SpecialQuality
 Immunity To Ether Cyclones		CATEGORY:Special Ability	TYPE:SpecialQuality

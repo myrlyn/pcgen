@@ -864,7 +864,7 @@ Rake																					CATEGORY:Special Ability	TYPE:SpecialAttack.Extraordina
 
 Martial Weapons		KEY:Outsider House Rule ~ Martial Weapons											CATEGORY:Special Ability	TYPE:SpecialQuality																		DESC:0 HD Outsider gains all Martial Weapon Proficiencies																									AUTO:WEAPONPROF|TYPE=Martial|PREHD:MAX=0
 
-Frightful Presence																		CATEGORY:Special Ability	TYPE:SpecialAttack.Frightful Presence																		DESC:Range %1, DC %2|FrightfulPresenceRange|FrightfulPresenceDC
+Frightful Presence																		CATEGORY:Special Ability	TYPE:SpecialAttack.Frightful Presence																		DESC:Your very presence unsettling to foes. This takes effect automatically when you perform some sort of dramatic action (such as charging, attacking, or snarling). Opponents within range who witness the action may become frightened or shaken.  The duration is %3 d%4 rounds. This ability affects only opponents with fewer Hit Dice or levels than you. An affected opponent can resist the effects with a successful Will save.  An opponent that succeeds on the saving throw is immune your frightful presence for 24 hours.       Range %1, DC %2|FrightfulPresenceRange|FrightfulPresenceDC|FrightfulPresenceDice|FrightfulPresenceDieSize
 
 Hide in Plain Sight	KEY:Hide in Plain Sight	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary		DESC:Use the Hide skill even while being observed (except in natural daylight, the area of a daylight spell, or a similar effect).
 #Block: Universal Defines

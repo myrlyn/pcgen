@@ -427,6 +427,38 @@ H			SIZE:H
 G			SIZE:G
 C			SIZE:C
 C+			SIZE:P
+###Block: Generic Face Chart
+Space 1/2	FACE:0.5
+Space 1		FACE:1
+Space 2.5		FACE:2.5
+Space 5 	FACE:5
+Space 10		FACE:5
+Space 15		FACE:15
+Space 20	FACE:20
+Space 30		FACE:30
+
+Reach 0 ~ Fine-Diminutive-Tiny	REACH:0
+Reach 5 ~ Small-Medium-Large_Long		REACH:5
+Reach 10 ~ Large-Huge_Long		REACH:10
+Reach 15 ~ Huge-Gargantuan_Long	REACH:15
+Reach 20 ~ Gargantuan-Colossal_Long	REACH:20
+Reach 30 ~ Colossal		REACH:30
+
+Assign Size ~ Fine				SIZE:F		FACE:0.5	REACH:0
+Assign Size ~ Diminutive		SIZE:D		FACE:1		REACH:0
+Assign Size ~ Tiny				SIZE:T		FACE:2.5	REACH:0
+Assign Size ~ Small				SIZE:S		FACE:5		REACH:5
+Assign Size ~ Medium			SIZE:M		FACE:5		REACH:5
+Assign Size ~ Large				SIZE:L		FACE:10		REACH:10
+Assign Size ~ Large-Long		SIZE:L		FACE:10		REACH:5
+Assign Size ~ Huge				SIZE:H		FACE:15		REACH:15
+Assign Size ~ Huge-Long			SIZE:H		FACE:15		REACH:10
+Assign Size ~ Gargantuan		SIZE:G		FACE:20		REACH:20
+Assign Size ~ Gargantuan-Long	SIZE:G		FACE:20		REACH:15
+Assign Size ~ Colossal			SIZE:C		FACE:30		REACH:30
+Assign Size ~ Colossal-Long		SIZE:C		FACE:30		REACH:20
+
+
 
 ###Block: Dragon Age
 # Template Name	Subrace

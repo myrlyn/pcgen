@@ -59,3 +59,14 @@ ABILITYCATEGORY:Elemental Savant Elemental Specialty	POOL:POOL_ElementalSavantEl
 
 ABILITYCATEGORY:Precocious Apprentice	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		CATEGORY:Internal	TYPE:Precocious Apprentice				PLURAL:Precocious Apprentice					DISPLAYLOCATION:Feats
 
+ABILITYCATEGORY:Spellstitched First Level Spell	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		CATEGORY:Special Ability	TYPE:SpellstitchedSpell_L1				PLURAL:Spellstitched First Level Spells					DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Spellstitched Second Level Spell	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		CATEGORY:Special Ability	TYPE:SpellstitchedSpell_L2				PLURAL:Spellstitched Second Level Spells					DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Spellstitched Third Level Spell	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		CATEGORY:Special Ability	TYPE:SpellstitchedSpell_L3				PLURAL:Spellstitched Third Level Spells					DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Spellstitched Fourth Level Spell	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		CATEGORY:Special Ability	TYPE:SpellstitchedSpell_L4				PLURAL:Spellstitched Fourth Level Spells					DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Spellstitched Fifth Level Spell	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		CATEGORY:Special Ability	TYPE:SpellstitchedSpell_L5				PLURAL:Spellstitched Fifth Level Spells					DISPLAYLOCATION:Race Traits
+ABILITYCATEGORY:Spellstitched Sixth Level Spell	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		CATEGORY:Special Ability	TYPE:SpellstitchedSpell_L6				PLURAL:Spellstitched Sixth Level Spells					DISPLAYLOCATION:Race Traits
+
+
+
+
+
