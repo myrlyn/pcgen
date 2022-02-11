@@ -2813,3 +2813,19 @@ CR-97	CATEGORY:Special Ability	TYPE:CR_Decrease	TEMPLATE:CR_DECREASE_97	VISIBLE:
 CR-98	CATEGORY:Special Ability	TYPE:CR_Decrease	TEMPLATE:CR_DECREASE_98	VISIBLE:DISPLAY
 CR-99	CATEGORY:Special Ability	TYPE:CR_Decrease	TEMPLATE:CR_DECREASE_99	VISIBLE:DISPLAY
 CR-100	CATEGORY:Special Ability	TYPE:CR_Decrease	TEMPLATE:CR_DECREASE_100	VISIBLE:DISPLAY
+Wereboar		CATEGORY:Special Ability	TYPE:LycanthropeAnimal		TEMPLATE:Wereboar
+Werebear		CATEGORY:Special Ability	TYPE:LycanthropeAnimal		TEMPLATE:Werebear
+Wererat		CATEGORY:Special Ability	TYPE:LycanthropeAnimal		TEMPLATE:Wererat
+Weretiger		CATEGORY:Special Ability	TYPE:LycanthropeAnimal		TEMPLATE:Weretiger
+Werewolf		CATEGORY:Special Ability	TYPE:LycanthropeAnimal		TEMPLATE:Werewolf
+Dire Wereboar		CATEGORY:Special Ability	TYPE:LycanthropeAnimal		TEMPLATE:Dire Wereboar
+Wereboar		CATEGORY:Special Ability	TYPE:LycanthropeAnimal		TEMPLATE:Wereboar
+Dire Werewolf		CATEGORY:Special Ability	TYPE:LycanthropeAnimal		TEMPLATE:Dire Werewolf
+Natural					CATEGORY:Special Ability	KEY:Lycantrope ~ Natural		TYPE:LycanthropeType		TEMPLATE:Natural Lycanthrope	
+Afflicted				CATEGORY:Special Ability		KEY:Lycantrope ~ Afflicted		TYPE:LycanthropeType		TEMPLATE:Afflicted Lycanthrope	
+
+
+
+
+
+
