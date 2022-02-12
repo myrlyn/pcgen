@@ -2823,9 +2823,12 @@ Wereboar		CATEGORY:Special Ability	TYPE:LycanthropeAnimal		TEMPLATE:Wereboar
 Dire Werewolf		CATEGORY:Special Ability	TYPE:LycanthropeAnimal		TEMPLATE:Dire Werewolf
 Natural					CATEGORY:Special Ability	KEY:Lycantrope ~ Natural		TYPE:LycanthropeType		TEMPLATE:Natural Lycanthrope	
 Afflicted				CATEGORY:Special Ability		KEY:Lycantrope ~ Afflicted		TYPE:LycanthropeType		TEMPLATE:Afflicted Lycanthrope	
+Hybrid Form				CATEGORY:Special Ability		KEY:Lycantrope ~ Hybrid Form			TEMPLATE:Lycanthrope (Hybrid Form)		TYPE:SpecialQuality			DESC:You are in your hybrid form
+Animal Form				CATEGORY:Special Ability		KEY:Lycantrope ~ Animal Form			TEMPLATE:Lycanthrope (Animal Form)			TYPE:SpecialQuality		DESC:You are in your animal form
 
 
+#	DEFINE:LycanthropeAnimalForm|0		ABILITY:Special Ability|AUTOMATIC|Lycanthrope ~ Assume Hybrid Form	ABILITY:Special Ability|AUTOMATIC|Lycanthrope ~ Assume Animal Form								ABILITY:Special Ability|AUTOMATIC|Lycantrope ~ Animal Form|PREVARGTEQ:LycanthropeAnimalForm,1
 
+Assume Hybrid Form		KEY:Lycantrope ~ Hybrid Form	CATEGORY:Special Ability	DEFINE:LycanthropeHybridForm|0	ABILITY:Special Ability|AUTOMATIC|Lycantrope ~ Hybrid Form|PREVARGTEQ:LycanthropeHybridForm,1			TEMPDESC:You have assumed your animal form.				TEMPBONUS:PC|VAR|LycanthropeHybridForm|1	
 
-
-
+Assume Animal Form		KEY:Lycantrope ~ Animal Form		CATEGORY:Special Ability	DEFINE:LycanthropeAnimalForm|0	ABILITY:Special Ability|AUTOMATIC|Lycantrope ~ Animal Form|PREVARGTEQ:LycanthropeAnimalForm,1			TEMPDESC:You have assumed your animal form.				TEMPBONUS:PC|VAR|LycanthropeAnimalForm|1	
