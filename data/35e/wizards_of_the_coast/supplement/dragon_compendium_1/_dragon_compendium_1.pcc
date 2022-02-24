@@ -1,0 +1,40 @@
+# CVS $Revision$ $Author$ -- Sun Sep  7 00:12:26 2014 -- reformated by prettylst.pl v1.51 (build 24947)
+CAMPAIGN:Dragon Compendium: Volume 1
+KEY:Dragon Compendium Volume 1 (WotC)
+
+GAMEMODE:35e|Bahamut35e
+GENRE:Fantasy
+BOOKTYPE:Supplement
+SETTING:Fantasy
+TYPE:Wizards of the Coast.Supplement.Supplement
+STATUS:ALPHA
+PRECAMPAIGN:1,INCLUDESBOOKTYPE=Core35e
+#PRECAMPAIGN:1,INCLUDES=Tome of Magic
+PUBNAMELONG:Wizards of the Coast
+PUBNAMESHORT:WotC
+PUBNAMEWEB:www.wizards.com
+SOURCELONG:Dragon Compendium Volume 1
+SOURCESHORT:dc1
+SOURCEDATE:2007-8
+RANK:200699
+SOURCEWEB:www.wizards.com
+ISOGL:NO
+ISLICENSED:NO
+COPYRIGHT:Wizards of the Coast
+# COVER should be cover_gameMode_pub_book.file
+#COVER:../../../../_artwork/cover_35e_wotc_ci.jpg
+# LOGO should be logo_pub.file
+LOGO:../../../../_artwork/logo_wotc.png
+
+ABILITY:dc1_abilities.lst
+#ABILITYCATEGORY:ci_abilitycategories.lst
+CLASS:dc1_classes.lst
+#COMPANIONMOD:ci_companionmods.lst
+#EQUIPMENT:ci_equip.lst
+#EQUIPMOD:ci_equipmods.lst
+#ABILITY:ci_feats.lst
+#SKILL:ci_skills.lst
+SPELL:dc1_spells.lst
+
+INFOTEXT:Supports 6.4.1
+

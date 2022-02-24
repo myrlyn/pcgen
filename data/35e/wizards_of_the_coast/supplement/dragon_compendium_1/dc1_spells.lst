@@ -1,0 +1,9 @@
+# CVS $Revision: $ $Author: $ -- Sun Sep  7 00:12:26 2014 -- reformated by prettylst.pl v1.51 (build 24947)
+SOURCELONG:Cityscape: An Essential Guide to Urban Adventuring	SOURCESHORT:Ci	SOURCEWEB:www.wizards.com	SOURCEDATE:2006-11
+#SPELL NAME					CLASSES:																								SCHOOL:					SUBSCHOOL:				DESCRIPTORS:															TYPE:						SOURCEPAGE:p.					COMPS:			CASTTIME:1 standard action		RANGE:			TARGETAREA:																					DURATION:																	SAVEINFO:							SPELLRES:				DESC:
+# Spell Name				Type				Classes of caster											School			Sub-School			Descriptor									Components		Casting Time			Range			Target Area or Effect									Duration									Save Info				Spell Resistance		Source Page			Description
+#Black Labyrinth				TYPE:Shadowmagic		CLASSES:Shadowcaster=9										SCHOOL:Conjuration	SUBSCHOOL:Creation	DESCRIPTOR:Shadowscape							COMPS:S		CASTTIME:1 standard action	RANGE:Long		TARGETAREA:One-mile-radius spread, centered on a point in space		DURATION:(CASTERLEVEL/2) days [D]					SAVEINFO:Will partial		SPELLRES:No			SOURCEPAGE:p.WebEn 17	DESC:Shift portions of the real world in Shadow and vice-versa, creating a bewildering array of effects.
+Summon Monster VIII.COPY=Summon Monster VIII (elementals and outsiders with the air subtype only)
+Summon Monster VIII (elementals and outsiders with the air subtype only).MOD			CLASSES:.CLEARALL
+Summon Monster IX.COPY=Summon Monster IX (good outsiders only)
+Summon Monster IX (good outsiders only).MOD			CLASSES:.CLEARALL
