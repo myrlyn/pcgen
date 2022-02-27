@@ -2106,7 +2106,7 @@ Skills		KEY:Donkey ~ Skills				CATEGORY:Special Ability	TYPE:SpecialQuality			VI
 Skills		KEY:Eagle ~ Skills				CATEGORY:Special Ability	TYPE:SpecialQuality			VISIBLE:YES	DESC:Eagles have a +8 racial bonus on Spot checks.
 
 # Elephant
-Trample		KEY:Elephant ~ Trample				CATEGORY:Special Ability	TYPE:SpecialAttack.Extraordinary	VISIBLE:YES	DESC:Reflex half DC %1. The save DC is Strength-based.|DC_Trample	DEFINE:DC_Stampede|0	BONUS:VAR|DC_Trample|DC_STR	BONUS:VAR|DC_Trample|2|PREABILITY:1,CATEGORY=FEAT,Ability Focus (Trample)	ABILITY:Ability Focus|AUTOMATIC|Trample
+Trample		KEY:Elephant ~ Trample				CATEGORY:Special Ability	TYPE:SpecialAttack.Extraordinary	VISIBLE:YES	DESC:Reflex half DC %1. The save DC is Strength-based.|DC_Trample	DEFINE:DC_Trample|0	BONUS:VAR|DC_Trample|DC_STR	BONUS:VAR|DC_Trample|2|PREABILITY:1,CATEGORY=FEAT,Ability Focus (Trample)	ABILITY:Ability Focus|AUTOMATIC|Trample
 
 # Hawk
 Skills		KEY:Hawk ~ Skills					CATEGORY:Special Ability	TYPE:SpecialQuality			VISIBLE:YES	DESC:Hawks have a +8 racial bonus on Spot checks.

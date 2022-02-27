@@ -122,35 +122,37 @@ CLASS:Disciple of Thrym	BONUS:VAR|Caster_Level_Highest__Divine|DiscipleOfThrymLV
 
 
 #		Frost Mage
-#		CLASS:Frost Mage	MAXLEVEL:10
-#		CLASS:Frost Mage	HD:	TYPE:PC.Prestige
-#		CLASS:Frost Mage	FACT:Abb|	FACT:ClassType|
-#		CLASS:Frost Mage	DEFINE:FrostMageLVL|0	BONUS:VAR|FrostMageLVL|CL
-#		CLASS:Frost Mage	SOURCEPAGE:p.	
-#		CLASS:Frost Mage	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0
-#		CLASS:Frost Mage	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0
-#		CLASS:Frost Mage	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*1/2|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0
-#		CLASS:Frost Mage	BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalBAB,1
-#		CLASS:Frost Mage	BONUS:VAR|ClassBABModerate|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalBAB,1
-#		CLASS:Frost Mage	BONUS:VAR|ClassBABFull|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalBAB,1
-#		CLASS:Frost Mage	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2|PREVAREQ:UseAlternateSaveProgression,0
-#		CLASS:Frost Mage	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3|PREVAREQ:UseAlternateSaveProgression,0
-#		CLASS:Frost Mage	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2|PREVAREQ:UseAlternateSaveProgression,0
-#		CLASS:Frost Mage	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3|PREVAREQ:UseAlternateSaveProgression,0
-#		CLASS:Frost Mage	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2|PREVAREQ:UseAlternateSaveProgression,0
-#		CLASS:Frost Mage	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3|PREVAREQ:UseAlternateSaveProgression,0
-#		CLASS:Frost Mage	BONUS:VAR|ClassSaveGood_Fortitude|classlevel()|PREVAREQ:UseFractionalSave,1
-#		CLASS:Frost Mage	BONUS:VAR|ClassSavePoor_Fortitude|classlevel()|PREVAREQ:UseFractionalSave,1
-#		CLASS:Frost Mage	BONUS:VAR|ClassSaveGood_Reflex|classlevel()|PREVAREQ:UseFractionalSave,1
-#		CLASS:Frost Mage	BONUS:VAR|ClassSavePoor_Reflex|classlevel()|PREVAREQ:UseFractionalSave,1
-#		CLASS:Frost Mage	BONUS:VAR|ClassSaveGood_Will|classlevel()|PREVAREQ:UseFractionalSave,1
-#		CLASS:Frost Mage	BONUS:VAR|ClassSavePoor_Will|classlevel()|PREVAREQ:UseFractionalSave,1
-#		CLASS:Frost Mage	PRETEXT:
-#		CLASS:Frost Mage	STARTSKILLPTS:	CSKILL:
-#		CLASS:Frost Mage	FACT:SpellType|
-#		CLASS:Frost Mage	SPELLSTAT:	MEMORIZE:
-#		CLASS:Frost Mage	BONUS:CASTERLEVEL|Frost Mage|Caster_Level_BL_Stripped_FrostMage	DEFINE:Caster_Level_BL_Stripped_FrostMage|0	BONUS:VAR|Caster_Level_BL_Stripped_FrostMage|Caster_Level_FrostMage-CasterLevelBLFrostMage	BONUS:VAR|Caster_Level_FrostMage|CL+Caster_Level_Bonus+CasterLevelBLFrostMage	DEFINE:CasterLevelBLFrostMage|0	BONUS:VAR|CasterLevelBL_FrostMage|charbonusto("PCLEVEL","Frost Mage")	
-#		CLASS:Frost Mage	BONUS:VAR|Caster_Level_Highest__Arcane|Caster_Level_FrostMage|TYPE=Base
+CLASS:Frost Mage	MAXLEVEL:10
+CLASS:Frost Mage	HD:	TYPE:PC.Prestige
+CLASS:Frost Mage	FACT:Abb|FrMg	FACT:ClassType|PC.Prestige
+CLASS:Frost Mage	DEFINE:FrostMageLVL|0	BONUS:VAR|FrostMageLVL|CL
+CLASS:Frost Mage	SOURCEPAGE:p.58	
+CLASS:Frost Mage	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0
+CLASS:Frost Mage	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0
+CLASS:Frost Mage	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*1/2|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0
+CLASS:Frost Mage	BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalBAB,1
+CLASS:Frost Mage	BONUS:VAR|ClassBABModerate|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalBAB,1
+CLASS:Frost Mage	BONUS:VAR|ClassBABFull|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalBAB,1
+CLASS:Frost Mage	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3|PREVAREQ:UseAlternateSaveProgression,0
+CLASS:Frost Mage	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3|PREVAREQ:UseAlternateSaveProgression,0
+CLASS:Frost Mage	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2|PREVAREQ:UseAlternateSaveProgression,0
+CLASS:Frost Mage	BONUS:VAR|ClassSavePoor_Fortitude|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalSave,1
+CLASS:Frost Mage	BONUS:VAR|ClassSavePoor_Reflex|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalSave,1
+CLASS:Frost Mage	BONUS:VAR|ClassSaveGood_Will|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalSave,1
+CLASS:Frost Mage	PRETEXT:Must have spent 24 hours unprotected in a blizzrd		PREABILITY:1,CATEGORY=FEAT,Frozen Magic
+CLASS:Frost Mage	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Knowledge|TYPE.Craft|TYPE.Profession|Search|Spellcraft
+#CLASS:Frost Mage	FACT:SpellType|Arcane
+#CLASS:Frost Mage	SPELLSTAT:	MEMORIZE:
+#BONUS:CASTERLEVEL|Frost Mage|Caster_Level_BL_Stripped_FrostMage	DEFINE:Caster_Level_BL_Stripped_FrostMage|0	BONUS:VAR|Caster_Level_BL_Stripped_FrostMage|Caster_Level_FrostMage-CasterLevelBLFrostMage	BONUS:VAR|Caster_Level_FrostMage|CL+Caster_Level_Bonus+CasterLevelBLFrostMage	DEFINE:CasterLevelBLFrostMage|0	BONUS:VAR|CasterLevelBL_FrostMage|charbonusto("PCLEVEL","Frost Mage")	
+CLASS:Frost Mage	BONUS:VAR|Caster_Level_Highest__Arcane|Caster_Level_FrostMage|TYPE=Base
+1:REPEATLEVEL:1	ADD:SPELLCASTER|ANY
+1	BONUS:COMBAT|AC|(CL+2)/3|TYPE=NaturalArmor.REPLACE
+2	ABILITY:Special Ability|AUTOMATIC|Resistance to Cold	DEFINE:ColdResistanceBonus|0	BONUS:VAR|ColdResistanceBonus|10
+3	ABILITY:Special Ability|AUTOMATIC|Frost Mage ~ Gain Knowledge		
+3:REPEATLEVEL:2		BONUS:VAR|FrostMageGainKnowlege|1
+4	ABILITY:Special Ability|AUTOMATIC|Piercing Cold
+10	One With Cold
+
 #		
 #		#	ADD:SPELLCASTER|
 #		###Block
