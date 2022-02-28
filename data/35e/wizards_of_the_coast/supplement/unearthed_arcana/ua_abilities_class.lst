@@ -126,7 +126,8 @@ Favored Enemy Bonus ~ Organization	CATEGORY:Special Ability	TYPE:FavoredEnemyBon
 # Ability Name				Category of Ability		Type					Visible		Required Class		List of Class Spells by Level
 Add Bard Spellcasting to Wizard	CATEGORY:Special Ability	TYPE:AddBardSpellCasting	VISIBLE:DISPLAY	PRECLASS:1,Wizard=1	SPELLLEVEL:CLASS|Wizard=0|Lullaby,Summon Instrument|Wizard=1|Confusion (Lesser)|Wizard=3|Glibness,Good Hope,Sculpt Sound|Wizard=4|Modify Memory,Zone of Silence|Wizard=5|Song of Discord|Wizard=6|Sympathetic Vibration
 Add Bard Spellcasting to Sorcerer	CATEGORY:Special Ability	TYPE:AddBardSpellCasting	VISIBLE:DISPLAY	PRECLASS:1,Sorcerer=1	SPELLLEVEL:CLASS|Sorcerer=0|Lullaby,Summon Instrument|Sorcerer=1|Confusion (Lesser)|Sorcerer=3|Glibness,Good Hope,Sculpt Sound|Sorcerer=4|Modify Memory,Zone of Silence|Sorcerer=5|Song of Discord|Sorcerer=6|Sympathetic Vibration
-
+#add bard spells to all of your arcane classes - works fine if you only have one arcaen base class
+Add Bard Spellcasting to SPELLCASTER.Arcane				CATEGORY:Special Ability	TYPE:AddBardSpellCasting	VISIBLE:DISPLAY	PRECLASS:1,SPELLCASTER.Arcane=1	SPELLLEVEL:CLASS|SPELLCASTER.Arcane=0|Lullaby,Summon Instrument|SPELLCASTER.Arcane=1|Confusion (Lesser)|SPELLCASTER.Arcane=3|Glibness,Good Hope,Sculpt Sound|SPELLCASTER.Arcane=4|Modify Memory,Zone of Silence|SPELLCASTER.Arcane=5|Song of Discord|SPELLCASTER.Arcane=6|Sympathetic Vibration
 # Original Entry by: Jasper-Spaans
 
 ###Block: Prestige Ranger Abilities, Page 72.

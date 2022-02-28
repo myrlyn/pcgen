@@ -789,7 +789,7 @@ Holy Word.MOD		CLASSES:TYPE.Arcane=7[PREABILITY:1,CATEGORY=Special Ability,Rainb
 Holy Aura.MOD		CLASSES:TYPE.Arcane=8[PREABILITY:1,CATEGORY=Special Ability,Rainbow Servant Good Spells]
 Summon Monster IX.MOD		CLASSES:TYPE.Arcane=9[PREABILITY:1,CATEGORY=Special Ability,Rainbow Servant Good Spells]
 
-#Rainbow Servant Law Spells|Protection from Chaos
+#Rainbow Servant Law Spells
 Protection from Chaos.MOD		CLASSES:TYPE.Arcane=1[PREABILITY:1,CATEGORY=Special Ability,Rainbow Servant Law Spells]
 Calm Emotions.MOD		CLASSES:TYPE.Arcane=2[PREABILITY:1,CATEGORY=Special Ability,Rainbow Servant Law Spells]
 Magic Circle against Chaos.MOD		CLASSES:TYPE.Arcane=3[PREABILITY:1,CATEGORY=Special Ability,Rainbow Servant Law Spells]

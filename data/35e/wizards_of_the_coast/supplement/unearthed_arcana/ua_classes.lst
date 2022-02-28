@@ -177,7 +177,7 @@ CLASS:Savage Bard	BONUS:CASTERLEVEL|Savage Bard|Caster_Level_BL_Stripped_Savage_
 20	CAST:4,4,4,4,4,4,4	KNOWN:6,5,5,5,5,5,4
 
 
-# From Page 58, "Other class variants.
+# From Page 58, "Other class variants".
 #Since this is an option, and not subclass, I'm NOT changing the SOURCE info.
 
 # Class Name	Bonus Ability Pool
@@ -803,8 +803,9 @@ CLASS:Druid (Spontaneous)	SPELLSTAT:WIS	BONUS:CASTERLEVEL|Druid (Spontaneous)|Ca
 # Original Entry by: Jasper-Spaans
 
 # Class Name		Hit Dice	Type			Abbreviation	Max Level	Source Page		Combat bonus															Modify VAR														Bonus
-CLASS:Prestige Bard	HD:6		TYPE:PC.Prestige	FACT:Abb|PBrd		SERVESAS:CLASS|Bard	MAXLEVEL:15	SOURCEPAGE:p.69	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:VAR|ClassBABModerate|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalBAB,1	BONUS:SAVE|BASE.Reflex,BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3
+CLASS:Prestige Bard	HD:6		TYPE:PC.Prestige	FACT:Abb|PBrd		MAXLEVEL:15	SOURCEPAGE:p.69	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:VAR|ClassBABModerate|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalBAB,1	BONUS:SAVE|BASE.Reflex,BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3
 # Class Name		Restricted AL		Prohibited Class		Required Skill						Required Spell School													PRETOTALAB
+#SERVESAS:CLASS|Bard	
 CLASS:Prestige Bard	!PREALIGN:LG,LN,LE	!PRECLASS:1,Bard=1	PRESKILL:2,TYPE.Knowledge=4,TYPE.Perform=8	PRESPELLSCHOOL:1,Divination=1	PRESPELLSCHOOL:1,Enchantment=1	PRESPELLSCHOOL:1,Illusion=1	PRETOTALAB:3
 # Class Name		Skill Pts/Lvl	Class Skill
 CLASS:Prestige Bard	STARTSKILLPTS:6	CSKILL:Appraise|Balance|Bluff|Climb|Concentration|TYPE=Craft|Decipher Script|Diplomacy|Disguise|Escape Artist|Gather Information|Hide|Jump|TYPE=Knowledge|Listen|Move Silently|TYPE=Perform|TYPE=Profession|Sense Motive|Sleight of Hand|Speak Language|Spellcraft|Swim|Tumble|Use Magic Device

@@ -298,3 +298,48 @@ Reverse Gravity.MOD		DESCRIPTOR:Transmutation Domain
 Iron Body.MOD		DESCRIPTOR:Transmutation Domain
 Shapechange.MOD		DESCRIPTOR:Transmutation Domain
 
+#SPELLCASTER.Arcane=4|Modify Memory,Zone of Silence|SPELLCASTER.Arcane=5|Song of Discord|SPELLCASTER.Arcane=6|Sympathetic Vibration
+Lullaby.MOD		CLASSES:TYPE.Arcane=0[PRECLASS:1,Prestige Bard=1]
+Summon Instrument.MOD		CLASSES:TYPE.Arcane=0[PRECLASS:1,Prestige Bard=1]
+Glibness.MOD		CLASSES:TYPE.Arcane=3[PRECLASS:1,Prestige Bard=1]
+Good Hope.MOD		CLASSES:TYPE.Arcane=3[PRECLASS:1,Prestige Bard=1]
+Sculpt Sound.MOD		CLASSES:TYPE.Arcane=3[PRECLASS:1,Prestige Bard=1]
+Modify Memory.MOD		CLASSES:TYPE.Arcane=4[PRECLASS:1,Prestige Bard=1]
+Zone of Silence.MOD		CLASSES:TYPE.Arcane=4[PRECLASS:1,Prestige Bard=1]
+Song of Discord.MOD		CLASSES:TYPE.Arcane=5[PRECLASS:1,Prestige Bard=1]
+Sympathetic Vibration.MOD		CLASSES:TYPE.Arcane=6[PRECLASS:1,Prestige Bard=1]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
