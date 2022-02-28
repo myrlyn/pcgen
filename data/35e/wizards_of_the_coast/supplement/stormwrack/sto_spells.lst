@@ -1,0 +1,5 @@
+Quickswim					CLASSES:TYPE.Arcane=1[PREVARGTEQ:AllowBardSpells,1]		CLASSES:Bard=1			DESC:Not Finished
+Jig of the Waves			CLASSES:TYPE.Arcane=2[PREVARGTEQ:AllowBardSpells,1]		CLASSES:Bard=2			DESC:Not Finished
+Detect Ship					CLASSES:Bard=3	CLASSES:TYPE.Arcane=3[PREVARGTEQ:AllowBardSpells,1]				DESC:Not Finished
+Roar of the Waves					CLASSES:Bard=3	CLASSES:TYPE.Arcane=3[PREVARGTEQ:AllowBardSpells,1]				DESC:Not Finished
+Flowsight					CLASSES:Bard=3	CLASSES:TYPE.Arcane=3[PREVARGTEQ:AllowBardSpells,1]					DESC:Not Finished

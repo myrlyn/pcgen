@@ -88,7 +88,7 @@ CLASS:Divine Bard		SPELLSTAT:WIS	BONUSSPELLSTAT:CHA	FACT:SpellType|Divine	BONUS:
 #	BONUS:DC|CLASS.Divine Bard|CHA-WIS
 ###Block:
 1	ABILITY:Bard Class Feature|AUTOMATIC|Bard ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.BardProficiencies
-1	ABILITY:Bard Class Feature|AUTOMATIC|Bard ~ Spells
+1	ABILITY:Bard Class Feature|AUTOMATIC|Bard ~ Spells			DEFINE:AllowBardSpells|0		BONUS:VAR|AllowBardSpells|0	
 1	ABILITY:Bard Class Feature|AUTOMATIC|Bard ~ Bardic Knowledge|!PREABILITY:1,CATEGORY=ACF,TYPE.BardBardicKnowledge
 1	ABILITY:Bard Class Feature|AUTOMATIC|Bard ~ Bardic Music|!PREABILITY:1,CATEGORY=ACF,TYPE.BardBardicMusic
 ###Block: Expanded spell list options
@@ -801,12 +801,11 @@ CLASS:Druid (Spontaneous)	SPELLSTAT:WIS	BONUS:CASTERLEVEL|Druid (Spontaneous)|Ca
 1	SPELLKNOWN:CLASS|Druid (Spontaneous)=1|Summon Nature's Ally I|Druid (Spontaneous)=2|Summon Nature's Ally II|Druid (Spontaneous)=3|Summon Nature's Ally III|Druid (Spontaneous)=4|Summon Nature's Ally IV|Druid (Spontaneous)=5|Summon Nature's Ally V|Druid (Spontaneous)=6|Summon Nature's Ally VI|Druid (Spontaneous)=7|Summon Nature's Ally VII|Druid (Spontaneous)=8|Summon Nature's Ally VIII|Druid (Spontaneous)=9|Summon Nature's Ally IX
 
 # Original Entry by: Jasper-Spaans
-
+CLASS:Bard.MOD		TYPE:BaseBard
 # Class Name		Hit Dice	Type			Abbreviation	Max Level	Source Page		Combat bonus															Modify VAR														Bonus
 CLASS:Prestige Bard	HD:6		TYPE:PC.Prestige	FACT:Abb|PBrd		MAXLEVEL:15	SOURCEPAGE:p.69	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:VAR|ClassBABModerate|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalBAB,1	BONUS:SAVE|BASE.Reflex,BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/3
-# Class Name		Restricted AL		Prohibited Class		Required Skill						Required Spell School													PRETOTALAB
-#SERVESAS:CLASS|Bard	
-CLASS:Prestige Bard	!PREALIGN:LG,LN,LE	!PRECLASS:1,Bard=1	PRESKILL:2,TYPE.Knowledge=4,TYPE.Perform=8	PRESPELLSCHOOL:1,Divination=1	PRESPELLSCHOOL:1,Enchantment=1	PRESPELLSCHOOL:1,Illusion=1	PRETOTALAB:3
+# Class Name		Restricted AL		Prohibited Class		Required Skill						Required Spell School													PRETOTALAB		SERVESAS:CLASS|Bard	
+CLASS:Prestige Bard	!PREALIGN:LG,LN,LE	!PRECLASS:1,TYPE.BaseBard=1	PRESKILL:2,TYPE.Knowledge=4,TYPE.Perform=8	PRESPELLSCHOOL:1,Divination=1	PRESPELLSCHOOL:1,Enchantment=1	PRESPELLSCHOOL:1,Illusion=1	PRETOTALAB:3
 # Class Name		Skill Pts/Lvl	Class Skill
 CLASS:Prestige Bard	STARTSKILLPTS:6	CSKILL:Appraise|Balance|Bluff|Climb|Concentration|TYPE=Craft|Decipher Script|Diplomacy|Disguise|Escape Artist|Gather Information|Hide|Jump|TYPE=Knowledge|Listen|Move Silently|TYPE=Perform|TYPE=Profession|Sense Motive|Sleight of Hand|Speak Language|Spellcraft|Swim|Tumble|Use Magic Device
 ###Block:Proficiencies
