@@ -581,9 +581,12 @@ CLASS:Rainbow Servant	BONUS:CASTERLEVEL|Rainbow Servant|RainbowServantLVL		FACT:
 #9		ADD:SPELLCASTER|Arcane	ABILITY:Special Ability|AUTOMATIC|Rainbow Servant Optional Spellcasting Level
 #10		ADD:SPELLCASTER|Arcane	ABILITY:Special Ability|AUTOMATIC|Rainbow Servant Optional Spellcasting Level|PREVARLT:RainbowServantUseTable,1
 ###Block
-1:REPEATLEVEL:3		ABILITY:Special Ability|AUTOMATIC|Rainbow Servant Optional Spellcasting Level|PREVARLT:RainbowServantUseTable,1
-2:REPEATLEVEL:3		ADD:SPELLCASTER|Arcane	
-3:REPEATLEVEL:3		ADD:SPELLCASTER|Arcane
+#
+1:REPEATLEVEL:1		ADD:SPELLCASTER|Arcane
+1:REPEATLEVEL:3		BONUS:PCLEVEL|TYPE.Arcane|-1|PREVARGTEQ:RainbowServantUseTable,1
+#1:REPEATLEVEL:3		ADD:SPELLCASTER|Arcane	ABILITY:Special Ability|AUTOMATIC|Rainbow Servant Optional Spellcasting Level|PREVARLT:RainbowServantUseTable,1
+#2:REPEATLEVEL:3		ADD:SPELLCASTER|Arcane	
+#3:REPEATLEVEL:3		ADD:SPELLCASTER|Arcane
 ###Block	
 1	ABILITY:Rainbow Servant Class Feature|AUTOMATIC|Rainbow Servant ~ Weapon and Armor Proficiency		BONUS:VAR|TurnLevelAir|TL	BONUS:VAR|TurnLevelEarth|TL	DOMAIN:Good	BONUS:DOMAIN|NUMBER|1			ABILITY:Special Ability|AUTOMATIC|Rainbow Servant Good Spells|PREDOMAIN:1,Good
 1	ABILITY:Rainbow Servant Class Feature|AUTOMATIC|Rainbow Servant ~ Detect Evil

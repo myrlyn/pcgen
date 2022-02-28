@@ -122,8 +122,8 @@ CLASS:Disciple of Thrym	BONUS:VAR|Caster_Level_Highest__Divine|DiscipleOfThrymLV
 
 
 #		Frost Mage
-CLASS:Frost Mage	MAXLEVEL:10
-CLASS:Frost Mage	HD:	TYPE:PC.Prestige
+CLASS:Frost Mage	MAXLEVEL:10		PRESKILL:1,Knowledge (Arcana)=8		PREABILITY:1,CATEGORY=FEAT,Frozen Magic
+CLASS:Frost Mage	HD:4	TYPE:PC.Prestige
 CLASS:Frost Mage	FACT:Abb|FrMg	FACT:ClassType|PC.Prestige
 CLASS:Frost Mage	DEFINE:FrostMageLVL|0	BONUS:VAR|FrostMageLVL|CL
 CLASS:Frost Mage	SOURCEPAGE:p.58	
@@ -145,13 +145,13 @@ CLASS:Frost Mage	STARTSKILLPTS:2	CSKILL:Concentration|TYPE.Knowledge|TYPE.Craft|
 #CLASS:Frost Mage	SPELLSTAT:	MEMORIZE:
 #BONUS:CASTERLEVEL|Frost Mage|Caster_Level_BL_Stripped_FrostMage	DEFINE:Caster_Level_BL_Stripped_FrostMage|0	BONUS:VAR|Caster_Level_BL_Stripped_FrostMage|Caster_Level_FrostMage-CasterLevelBLFrostMage	BONUS:VAR|Caster_Level_FrostMage|CL+Caster_Level_Bonus+CasterLevelBLFrostMage	DEFINE:CasterLevelBLFrostMage|0	BONUS:VAR|CasterLevelBL_FrostMage|charbonusto("PCLEVEL","Frost Mage")	
 CLASS:Frost Mage	BONUS:VAR|Caster_Level_Highest__Arcane|Caster_Level_FrostMage|TYPE=Base
-1:REPEATLEVEL:1	ADD:SPELLCASTER|ANY
-1	BONUS:COMBAT|AC|(CL+2)/3|TYPE=NaturalArmor.REPLACE
+1:REPEATLEVEL:1	ADD:SPELLCASTER|ANY		ABILITY:Special Ability|AUTOMATIC|Frost Mage ~ Gain Knowledge I|PREVARGTEQ:FrostMageGainKnowlege,1			ABILITY:Special Ability|AUTOMATIC|Frost Mage ~ Gain Knowledge II|PREVARGTEQ:FrostMageGainKnowlege,2			ABILITY:Special Ability|AUTOMATIC|Frost Mage ~ Gain Knowledge III|PREVARGTEQ:FrostMageGainKnowlege,3			ABILITY:Special Ability|AUTOMATIC|Frost Mage ~ Gain Knowledge IV|PREVARGTEQ:FrostMageGainKnowlege,4		ABILITY:Special Ability|AUTOMATIC|Frost Mage ~ Gain Knowledge V|PREVARGTEQ:FrostMageGainKnowlege,5		ABILITY:Special Ability|AUTOMATIC|Frost Mage ~ Gain Knowledge VI|PREVARGTEQ:FrostMageGainKnowlege,6		ABILITY:Special Ability|AUTOMATIC|Frost Mage ~ Gain Knowledge VII|PREVARGTEQ:FrostMageGainKnowlege,7		ABILITY:Special Ability|AUTOMATIC|Frost Mage ~ Gain Knowledge VIII|PREVARGTEQ:FrostMageGainKnowlege,8		ABILITY:Special Ability|AUTOMATIC|Frost Mage ~ Gain Knowledge IX|PREVARGTEQ:FrostMageGainKnowlege,9		
+1	BONUS:COMBAT|AC|FrostMageAC|TYPE=NaturalArmor.STACK		DEFINE:FrostMageAC|0	BONUS:VAR|FrostMageAC|(CL+2)/3		ABILITY:Special Ability|AUTOMATIC|Frost Mage ~ Natural Armor	
 2	ABILITY:Special Ability|AUTOMATIC|Resistance to Cold	DEFINE:ColdResistanceBonus|0	BONUS:VAR|ColdResistanceBonus|10
 3	ABILITY:Special Ability|AUTOMATIC|Frost Mage ~ Gain Knowledge		
 3:REPEATLEVEL:2		BONUS:VAR|FrostMageGainKnowlege|1
-4	ABILITY:Special Ability|AUTOMATIC|Piercing Cold
-10	One With Cold
+4	ABILITY:FEAT|AUTOMATIC|Piercing Cold
+10	ABILITY:Special Ability|AUTOMATIC|Frost Mage ~ One With Cold
 
 #		
 #		#	ADD:SPELLCASTER|
