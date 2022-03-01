@@ -354,10 +354,10 @@ CLASS:Loremaster	PREABILITY:1,CATEGORY=FEAT,Skill Focus (Knowledge%)	PREABILITY:
 # Class Name	Skill Pts/Lvl	Class Skill
 CLASS:Loremaster	STARTSKILLPTS:4	CSKILL:Appraise|Concentration|Craft (Alchemy)|Decipher Script|Gather Information|Handle Animal|Heal|TYPE=Knowledge|TYPE=Perform|TYPE=Profession|Speak Language|Spellcraft|Use Magic Device
 ###Block:
-1	ABILITY:Loremaster Class Feature|AUTOMATIC|Loremaster ~ Weapon and Armor Proficiency
+1	ABILITY:Loremaster Class Feature|AUTOMATIC|Loremaster ~ Weapon and Armor Proficiency		DEFINE:LoremasterSecretsLVL|0	BONUS:VAR|LoremasterSecretsLVL|CL+INT
 1	ABILITY:Loremaster Class Feature|AUTOMATIC|Loremaster ~ Spells per Day/Spells Known
 1	ABILITY:Loremaster Class Feature|AUTOMATIC|Loremaster ~ Secret
-2	ABILITY:Loremaster Class Feature|AUTOMATIC|Loremaster ~ Lore
+2	ABILITY:Loremaster Class Feature|AUTOMATIC|Loremaster ~ Lore|!PREABILITY:1,CATEGORY=ACF,TYPE.BardBardicKnowledge
 4	ABILITY:Loremaster Class Feature|AUTOMATIC|Loremaster ~ Bonus Languages
 6	ABILITY:Loremaster Class Feature|AUTOMATIC|Loremaster ~ Greater Lore
 10	ABILITY:Loremaster Class Feature|AUTOMATIC|Loremaster ~ True Lore

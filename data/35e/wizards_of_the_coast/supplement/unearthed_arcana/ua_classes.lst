@@ -199,7 +199,7 @@ CLASS:Cleric (Cloistered Cleric)	SPELLSTAT:WIS	FACT:SpellType|Divine	KNOWNSPELLS
 
 ###Block:Proficiencies
 1								ABILITY:Internal|AUTOMATIC|TYPE=ArmorProfLight|TYPE=WeaponProfSimple
-1								ABILITY:Special Ability|AUTOMATIC|Cloistered Cleric ~ Lore
+1								ABILITY:Special Ability|AUTOMATIC|Cloistered Cleric ~ Lore|!PREABILITY:1,CATEGORY=ACF,TYPE.BardBardicKnowledge
 1	DOMAIN:Knowledge	BONUS:VAR|DomainCount|1
 # This is Phase I of the Turn abilities improvement (for 5.6).  Futher enhancements are planned,
 #	both OS and data to include modifications for differences in Turning ability for Undead,
