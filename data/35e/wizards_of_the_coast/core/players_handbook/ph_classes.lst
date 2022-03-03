@@ -48,7 +48,7 @@ SUBCLASS:Bard (Standard)	COST:0	SPELLLIST:1|Bard	CSKILL:Appraise|Balance|Bluff|C
 ###Block:
 SUBCLASSLEVEL:1	ABILITY:Bard Class Feature|AUTOMATIC|Bard ~ Weapon and Armor Proficiency|!PREABILITY:1,CATEGORY=ACF,TYPE.BardProficiencies
 SUBCLASSLEVEL:1	ABILITY:Bard Class Feature|AUTOMATIC|Bard ~ Bardic Knowledge|!PREABILITY:1,CATEGORY=ACF,TYPE.BardBardicKnowledge
-SUBCLASSLEVEL:1	ABILITY:Bard Class Feature|AUTOMATIC|Bard ~ Bardic Music|!PREABILITY:1,CATEGORY=ACF,TYPE.BardBardicMusic
+SUBCLASSLEVEL:1	ABILITY:Bard Class Feature|AUTOMATIC|Bard ~ Bardic Music|!PREABILITY:1,CATEGORY=ACF,TYPE.BardBardicMusic		
 ###Block: Level progression
 SUBCLASSLEVEL:1	CAST:2			KNOWN:4
 SUBCLASSLEVEL:2	CAST:3,0			KNOWN:5,2

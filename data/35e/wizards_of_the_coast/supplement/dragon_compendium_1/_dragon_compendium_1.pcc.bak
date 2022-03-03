@@ -34,7 +34,7 @@ CLASS:dc1_classes.lst
 #EQUIPMOD:ci_equipmods.lst
 #ABILITY:ci_feats.lst
 #SKILL:ci_skills.lst
-#SPELL:ci_spells.lst
+SPELL:dc1_spells.lst
 
 INFOTEXT:Supports 6.4.1
 
