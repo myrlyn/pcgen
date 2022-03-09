@@ -29,6 +29,7 @@ LOGO:../../../../_artwork/logo_wotc.png
 ABILITY:dc1_abilities.lst
 ABILITYCATEGORY:dc1_abilitycategories.lst
 CLASS:dc1_classes.lst
+TEMPLATE:dc1_templates.lst
 #COMPANIONMOD:ci_companionmods.lst
 #EQUIPMENT:ci_equip.lst
 #EQUIPMOD:ci_equipmods.lst

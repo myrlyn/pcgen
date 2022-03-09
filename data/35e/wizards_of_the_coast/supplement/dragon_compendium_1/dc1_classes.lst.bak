@@ -65,7 +65,7 @@ CLASS:Battle Dancer	PREALIGN:CG,CN,CE
 CLASS:Battle Dancer	STARTSKILLPTS:4	CSKILL:Balance|Climb|Escape Artist|Hide|Jump|Listen|Move Silently|Open Lock|TYPE.Perform|Sleight of Hand|Swim|Tumble		DEFINE:BattleDancerDancesLevel|0	BONUS:VAR|BattleDancerDancesLevel|BattleDancerLVL
 1	ABILITY:Special Ability|AUTOMATIC|Battle Dancer ~ AC Bonus
 1	ABILITY:Special Ability|AUTOMATIC|Battle Dancer ~ Fast Movement
-1	ABILITY:Special Ability|AUTOMATIC||Battle Dancer ~ Unarmed Strike		
+1	ABILITY:Special Ability|AUTOMATIC|Battle Dancer ~ Unarmed Strike		
 1	ABILITY:Internal|AUTOMATIC|Battle Dancer ~ Unarmed Damage	
 2	ABILITY:Special Ability|AUTOMATIC|Dance of Reckess Bravery
 5	ABILITY:Special Ability|AUTOMATIC|Dance of The Vexing Snake	

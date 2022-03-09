@@ -62,7 +62,7 @@ CLASS:Battle Dancer	BONUS:VAR|ClassSavePoor_Fortitude|classlevel()|PREVAREQ:UseF
 CLASS:Battle Dancer	BONUS:VAR|ClassSaveGood_Reflex|classlevel()|PREVAREQ:UseFractionalSave,1
 CLASS:Battle Dancer	BONUS:VAR|ClassSavePoor_Will|classlevel()|PREVAREQ:UseFractionalSave,1
 CLASS:Battle Dancer	PREALIGN:CG,CN,CE
-CLASS:Battle Dancer	STARTSKILLPTS:4	CSKILL:Balance|Climb|Escape Artist|Hide|Jump|Listen|Move Silently|Open Lock|TYPE.Perform|Sleight of Hand|Swim|Tumble		DEFINE:BattleDancerDancesLevel|0	BONUS:VAR|BattleDancerDancesLevel|BattleDancerLVL
+CLASS:Battle Dancer	STARTSKILLPTS:4	CSKILL:Balance|Climb|Escape Artist|Hide|Jump|Listen|Move Silently|Open Lock|TYPE.Perform|Sleight of Hand|Swim|Tumble	ABILITY:FEAT|AUTOMATIC|Improved Unarmed Strike	DEFINE:BattleDancerDancesLevel|0	BONUS:VAR|BattleDancerDancesLevel|BattleDancerLVL
 1	ABILITY:Special Ability|AUTOMATIC|Battle Dancer ~ AC Bonus
 1	ABILITY:Special Ability|AUTOMATIC|Battle Dancer ~ Fast Movement
 1	ABILITY:Special Ability|AUTOMATIC|Battle Dancer ~ Unarmed Strike		
