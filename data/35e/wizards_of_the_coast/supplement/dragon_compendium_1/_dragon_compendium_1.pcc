@@ -31,11 +31,11 @@ ABILITYCATEGORY:dc1_abilitycategories.lst
 CLASS:dc1_classes.lst
 TEMPLATE:dc1_templates.lst
 #COMPANIONMOD:ci_companionmods.lst
-#EQUIPMENT:ci_equip.lst
+EQUIPMENT:dc1_equip.lst
 #EQUIPMOD:ci_equipmods.lst
 #ABILITY:ci_feats.lst
 #SKILL:ci_skills.lst
 SPELL:dc1_spells.lst
-
+RACE:dc1_races.lst
 INFOTEXT:Supports 6.4.1
 
