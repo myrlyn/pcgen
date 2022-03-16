@@ -19,7 +19,7 @@ Feat Attuned Gauntlet Of The Talon		KEY:Gauntlet Of the Talon ~ Feat Attuned	CAT
 
 Unattuned Gauntlet Of The Talon		CATEGORY:Special Ability	TYPE:GauntletOfTheTalonAttunement
 
-Attuned Gauntlet Of The Talon		CATEGORY:Special Ability	BONUS:UDAM|CLASS.Monk|5	BONUS:COMBAT|AC|1	
+Attuned Gauntlet Of The Talon		CATEGORY:Special Ability	BONUS:VAR|MonkUnarmedDamageLVL|5		BONUS:VAR|BattleDancerUnarmedDamageLVL|5			BONUS:COMBAT|AC|1	
 
 Greater Spell Attuned Gauntlet Of The Talon	KEY:Gauntlet Of The Talon Attuned	CATEGORY:Special Ability		PRESPELLTYPE:1,Divine=5		BONUS:SPELLCAST|TYPE=Divine;LEVEL=5|-1	TYPE:GauntletOfTheTalonAttunement	ABILITY:Special Ability|AUTOMATIC|Greater Gauntlet Of The Talon Attunement
 
