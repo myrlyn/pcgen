@@ -1,5 +1,5 @@
 # CVS $Revision: $ $Author: $ -- Sun Aug 17 15:41:15 2014 -- reformated by prettylst.pl v1.51 (build 24906)
-Amphibious		CATEGORY:Special Ability			KEY:Amphibious ~ Amphibious				DESC:You can breathe water and air equally well. You get a +8 racial bonus on any swim check to perform a special action or avoid a hazard.  You can always take 10 on a swim check.  You can use the run action when swimming in a straight line.  You can move your swim speed without making a swim check.  
+Amphibious		CATEGORY:Special Ability			KEY:Amphibious ~ Amphibious		TYPE:SpecialQuality		DESC:You can breathe water and air equally well. You get a +8 racial bonus on any swim check to perform a special action or avoid a hazard.  You can always take 10 on a swim check.  You can use the run action when swimming in a straight line.  You can move your swim speed without making a swim check.  		MOVECLONE:Walk,Swim,/2
 # Disease
 # Ability Name	Category of Ability	Type					Description										Source Page
 Coral Scratch	CATEGORY:Internal		TYPE:Disease.Placeholder	DESC:Injury DC 12 Incubation 1d4 hours, Damage 1d3 Dex		SOURCEPAGE:p.12

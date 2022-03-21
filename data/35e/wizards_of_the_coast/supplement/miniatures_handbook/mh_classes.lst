@@ -396,7 +396,7 @@ CLASS:Marshal	STARTSKILLPTS:4	CSKILL:Bluff|Diplomacy|Handle Animal|Intimidate|TY
 ####Block 	ABILITY:xxx Class Feature|AUTOMATIC|
 
 
-CLASS:War Hulk	FACT:Abb|WrHk	MAXLEVEL:10	PREABILITY:1,CATEGORY=Feat,Cleave	PRESIZEGTEQ:L
+CLASS:War Hulk	FACT:Abb|WrHk	MAXLEVEL:10	PREABILITY:1,CATEGORY=Feat,Cleave	PRESIZEGTEQ:L	PRETOTALAB:5
 CLASS:War Hulk	BONUS:SAVE|BASE.Fortitude|(CL/2)+2	BONUS:SAVE|BASE.Will|(CL/3)		BONUS:SAVE|BASE.Reflex|(CL/3)	
 CLASS:War Hulk	STARTSKILLPTS:2		HD:12		TYPE:PC.Prestige		CSKILL:Climb|Swim|Jump
 1	SAB:War Hulks Increase Strength Every Level		BONUS:STAT|STR|CL*2		ABILITY:War Hulk Class Feature|AUTOMATIC|War Hulk ~ No Time To Think	PREATT:5

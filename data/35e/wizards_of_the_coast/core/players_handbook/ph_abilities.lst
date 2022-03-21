@@ -415,7 +415,7 @@ Mass Suggestion			KEY:Bardic Music ~ Mass Suggestion			CATEGORY:Special Ability	
 #Mass Suggestion			KEY:Bardic Music ~ Mass Suggestion			CATEGORY:Special Ability	TYPE:SpellLike.Bard Class Feature.Class Feature.SpecialQuality															DESC:This ability functions like suggestion, above, except that a bard of 18th level or higher with 21 or more ranks in a Perform skill can make the suggestion simultaneously to any number of creatures that he has already fascinated (see above). Mass suggestion is an enchantment (compulsion), mind-affecting, language-dependent ability.																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																													SOURCEPAGE:p.30
 
 ###Block:
-CATEGORY=Special Ability|Bard ~ Bardic Music.MOD	DEFINE:BardicMusicLvl|0
+CATEGORY=Special Ability|Bard ~ Bardic Music.MOD	DEFINE:BardicMusicLVL|0
 CATEGORY=Special Ability|Bard ~ Bardic Music.MOD	DEFINE:BardicMusicTimes|0
 CATEGORY=Special Ability|Bard ~ Bardic Music.MOD	DEFINE:InspireDurationBase|0
 CATEGORY=Special Ability|Bard ~ Bardic Music.MOD	BONUS:VAR|BardicMusicLVL|BardLVL
