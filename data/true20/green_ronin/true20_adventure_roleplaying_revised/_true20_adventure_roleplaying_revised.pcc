@@ -1,4 +1,4 @@
-# CVS $Revision$ $Author$ -- Sun Dec  8 22:17:49 2013 -- reformated by prettylst.pl v1.50 (build 22352)
+
 CAMPAIGN:Green Ronin - True20 Adventure Roleplaying Revised
 GAMEMODE:True20
 RANK:1
@@ -18,12 +18,23 @@ RACE:*/_universal/races.lst
 ABILITY:t20arr_abilities.lst
 ABILITYCATEGORY:t20arr_abilitycategories.lst
 CLASS:t20arr_classes.lst
+COMPANIONMOD:t20arr_companionmods.lst
 EQUIPMENT:t20arr_equip.lst
 ABILITY:t20arr_feats.lst
 LANGUAGE:t20arr_languages.lst
 RACE:t20arr_races.lst
 SKILL:t20arr_skills.lst
 TEMPLATE:t20arr_templates.lst
+
+ARMORPROF:t20arr_profs_armor.lst
+WEAPONPROF:t20arr_profs_weapon.lst
+SHIELDPROF:t20arr_profs_shield.lst
+
+# Supporting Files: Note, Deity not found, but to avoid errors, putting in to overcome the default character sheet preload items.
+#DEITY:support/deity.lst
+
+
+
 
 # COVER should be cover_gameMode_pub_book.file
 COVER:../../../_artwork/cover_t20_grp_arre.jpg
