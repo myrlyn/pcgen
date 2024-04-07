@@ -54,7 +54,7 @@ CLASS:Alchemist Savant	HD:4		TYPE:PC.Prestige	FACT:ClassType|Prestige	FACT:Abb|A
 # Class Name		Required Feat															Required Race		Req. Spell Type		PRETOTALAB
 CLASS:Alchemist Savant	PRESKILL:1,Craft (Alchemy)=8	PREABILITY:1,CATEGORY=FEAT,Craft Potion	
 # Class Name		Skill Pts/Lvl	Class Skill
-CLASS:Alchemist Savant	STARTSKILLPTS:2	CSKILL:TYPE=Appraise|Concentration|Craft|Decipher Script|Heal|Knowledge (Arcana)|Profession|Spellcraft
+CLASS:Alchemist Savant	STARTSKILLPTS:2	CSKILL:TYPE=Appraise|Concentration|TYPE=Craft|Decipher Script|Heal|Knowledge (Arcana)|TYPE=Profession|Spellcraft
 ###Block:
 1	ABILITY:Alchemist Savant Class Feature|AUTOMATIC|Alchemist Savant ~ Efficient Alchemy
 1	ABILITY:Alchemist Savant Class Feature|AUTOMATIC|Alchemist Savant ~ Poison Use
