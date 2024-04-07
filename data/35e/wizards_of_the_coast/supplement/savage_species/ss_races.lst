@@ -105,65 +105,126 @@ Half-Ogre											FAVCLASS:Barbarian				STARTFEATS:1	FACT:HasFirstLevelFeat|Tr
 #
 
 ###Block - Anthro Races
-#Ape Med 2d8 +0 2 +2 +6 +0 +0 +4 +0 (2 + Int mod) x 5 +3 +0 Druid 30 -
-#Baboon Med 2d8 +1 3 +4 +4 +2 +0 +4 -2 (2 + Int mod) x 5 +1 +0 Ranger 30 -
-#Badger Small 1d8 +3 4 +2 +4 +4 +0 +4 +0 (2 + Int mod) x 4 +0 +1 Barbarian 30 -
-#Bat Small 1d8 +0 1 -4 +0 +0 +0 +6 -2 (2 + Int mod) x 4 +0 +1 Druid 5 20 (average)
-#Bear, black Med 2d8 +2 4 +8 +2 +4 +0 +4 +0 (2 + Int mod) x 5 +2 +0 Barbarian 30 -
-#Bear, brown Med 2d8 +3 5 +8 +4 +4 +0 +4 +0 (2 + Int mod) x 5 +5 +0 Ranger 30 -
-#Bear, polar Med 2d8 +3 5 +8 +4 +4 +0 +4 +0 (2 + Int mod) x 5 +5 +0 Ranger 30 -
-#Bison Med 2d8 +2 4 +0 +2 +2 +0 +2 -2 (2 + Int mod) x 5 +4 +0 Druid 30 -
-#Boar Med 2d8 +2 4 +4 +0 +6 +0 +4 -2 (2 + Int mod) x 5 +6 +0 Barbarian 30 -
-#Camel, bactrian Med 2d8 +1 3 +0 +4 +2 +0 +2 -2 (2 + Int mod) x 5 +1 +0 Ranger 30 -
-#Camel, dromedary Med 2d8 +0 2 +0 +4 +0 +0 +2 -2 (2 + Int mod) x 5 +1 +0 Druid 40 -
-#Cat Small 1d8 +1 2 -4 +2 +0 +0 +2 +0 (2 + Int mod) x 4 +0 +1 Rogue 30 -
-#Cheetah Med 2d8 +2 4 +6 +8 +4 +0 +4 +0 (2 + Int mod) x 5 +1 +0 Ranger 40 -
-#Crocodile Med 2d8 +1 3 +8 +2 +6 +0 +4 -4 (2 + Int mod) x 5 +4 +0 Barbarian 20 -
-#Crocodile, giant Large 3d8 +2 5 +8 +4 +4 +0 +4 -4 (2 + Int mod) x 6 +7 -1 Ranger 20 -
-#Dog Med 2d8 +2 4 +6 +4 +2 +0 +4 +0 (2 + Int mod) x 5 +1 +0 Ranger 30 -
-#Dog, riding 7 Med 2d8 +2 4 +4 +4 +4 +0 +4 +0 (2 + Int mod) x 5 +1 +0 Ranger 30 -
-Onager (Anthropomorphic Donkey)		OUTPUTNAME:Onager													SIZE:M	MOVE:Walk,30		FACE:5	REACH:5	VISION:Darkvision (60')|Low-Light Vision																																				BONUS:SKILL|Balance|2|TYPE=Racial																		BONUS:STAT|DEX,CON,WIS|2	BONUS:STAT|CHA|-2						MONCSKILL:Balance|Listen|Spot																										LEGS:2	HANDS:2	NATURALATTACKS:Bite,Weapon.Natural.Melee.Piercing.Slashing.Bludgeoning,*1,1d2																															MONSTERCLASS:Monstrous Humanoid:2		RACETYPE:Monstrous Humanoid	TEMPLATE:Monstrous Humanoid										CR:1			SOURCEPAGE:p.214
-#Donkey Med 2d8 +1 3 +0 +2 +2 +0 +2 -2 (2 + Int mod) x 5 +2 +0 Druid 30 -
-#Eagle Med 2d8 +1 3 +2 +2 +2 +0 +6 +0 (2 + Int mod) x 5 +1 +0 Cleric 10 40 (poor)
-#Elephant, African Large 3d8 +2 5 +12 +2 +6 +0 +4 +0 (2 + Int mod) x 6 +7 -1 Barbarian 30 -
-#Elephant, Indian Large 3d8 +2 5 +10 +2 +6 +0 +6 +0 (2 + Int mod) x 6 +7 -1 Barbarian 30 -
-#Hawk Small 1d8 +2 3 +0 +4 +0 +0 +6 +0 (2 + Int mod) x 4 +2 +1 Cleric 10 30 (poor)
-#Horse, heavy Med 2d8 +0 2 -4 +4 +0 +0 +4 +0 (2 + Int mod) x 5 +3 +0 Druid 40 -
-#Horse, heavy war Med 2d8 +1 3 +0 +4 +2 +0 +4 +0 (2 + Int mod) x 5 +4 +0 Ranger 40 -
-#Horse, light Med 2d8 +0 2 -6 +4 +0 +0 +4 +0 (2 + Int mod) x 5 +3 +0 Druid 50 -
-#Horse, light war Med 2d8 +1 3 -2 +4 +2 +0 +4 +0 (2 + Int mod) x 5 +4 +0 Ranger 50 -
-#Leopard Med 2d8 +2 4 +6 +8 +4 +0 +4 +0 (2 + Int mod) x 5 +1 +0 Ranger 30 -
-#Lion Med 2d8 +1 3 +2 +6 +0 +0 +4 +0 (2 + Int mod) x 5 +3 +0 Ranger 30 -
-#Lizard Small 1d8 +0 1 -4 +2 +0 +0 +4 -4 (2 + Int mod) x 4 +0 +1 Druid 20 -
-#Lizard, giant Med 2d8 +2 4 +6 +4 +6 +0 +4 -4 (2 + Int mod) x 5 +3 +0 Barbarian 30 -
-#Monkey Small 1d8 +0 1 -4 +2 +0 +0 +4 -2 (2 + Int mod) x 4 +0 +1 Druid 30 -
-#Mule Med 2d8 +0 2 -2 +4 +2 +0 +2 +0 (2 + Int mod) x 5 +3 +0 Druid 30 -
-#Octopus 2 Med 2d8 +1 3 +6 +4 +2 +0 +4 -4 (2 + Int mod) x 5 +2 +0 Barbarian 20 -
-#Octopus, giant 2 Med 2d8 +0 2 +2 +6 -2 +0 +4 -4 (2 + Int mod) x 5 +2 +0 Barbarian 20 -
-#Owl Small 1d8 +1 2 +0 +4 +0 +0 +6 -2 (2 + Int mod) x 4 +2 +1 Ranger 10 20 (poor)
-#Pony Med 2d8 +1 3 +2 +2 +2 +0 +4 -2 (2 + Int mod) x 5 +2 +0 Druid 30 -
-#Pony, war Med 2d8 +2 4 +4 +2 +4 +0 +4 -2 (2 + Int mod) x 5 +2 +0 Ranger 30 -
-#Porpoise 3 Med 2d8 +2 4 +0 +6 +2 +0 +4 +0 (2 + Int mod) x 5 +2 +0 Ranger 30 -
-#Rat Small 1d8 +0 1 -4 +2 +0 +0 +4 -4 (2 + Int mod) x 4 +0 +1 Rogue 15 -
-#Raven Small 1d8 +0 1 -6 +2 +0 +0 +4 -4 (2 + Int mod) x 4 +0 +1 Rogue 10 30 (poor)
-#Rhinoceros Med 2d8 +2 4 +8 -2 +6 +0 +4 -4 (2 + Int mod) x 5 +7 +0 Barbarian 30 -
-#Shark, Med. 4 Med 2d8 +1 3 +2 +4 +2 +0 +4 -4 (2 + Int mod) x 5 +3 +0 Ranger 30 -
-#Shark, Large 4 Med 2d8 +0 2 -2 +6 -2 +0 +4 -4 (2 + Int mod) x 5 +4 +0 Rogue 30 -
-#Shark, Huge 4 Large 3d8 +1 3 +2 +2 +0 +0 +4 -4 (2 + Int mod) x 6 +5 -1 Ranger 30 -
-#Snake, constrictor 5 Med 2d8 +1 3 +6 +6 +2 +0 +4 -4 (2 + Int mod) x 5 +2 +0 Barbarian 20 -
-#Snake, giant const. 5 Large 3d8 +1 4 +6 +8 -2 +0 +4 -4 (2 + Int mod) x 6 +4 -1 Ranger 20 -
-#Snake, Tiny viper 6 Small 1d8 +2 3 +0 +4 +0 +0 +4 -4 (2 + Int mod) x 4 +2 +1 Rogue 15 -
-#Snake, Small viper 6 Med 2d8 +1 3 +0 +4 +0 +0 +4 -4 (2 + Int mod) x 5 +3 +0 Rogue 20 -
-#Snake, Med. viper 6 Med 2d8 +1 3 -2 +6 +0 +0 +4 -4 (2 + Int mod) x 5 +3 +0 Rogue 20 -
-#Snake, Large viper 6 Med 2d8 +0 2 -8 +8 -4 +0 +4 -4 (2 + Int mod) x 5 +3 +0 Rogue 20 -
-#Snake, Huge viper 6 Large 3d8 +0 3 -8 +10 -2 +0 +4 -4 (2 + Int mod) x 6 +3 -1 Rogue 20 -
-#Squid 2 Med 2d8 +1 3 +4 +6 +0 +0 +4 -4 (2 + Int mod) x 5 +3 +0 Ranger 30 -
-#Squid, giant 2 Large 3d8 +1 4 +8 +8 -2 +0 +4 -4 (2 + Int mod) x 6 +6 -1 Ranger 30 -
-#Tiger Med 2d8 +1 3 +4 +6 +2 +0 +4 +0 (2 + Int mod) x 5 +3 +0 Ranger 30 -
-#Toad Small 1d8 +0 1 -4 -2 +0 +0 +6 -2 (2 + Int mod) x 4 +0 +1 Cleric 5 -
-#Weasel 8 Small 1d8 +0 1 -4 +2 +0 +0 +4 -4 (2 + Int mod) x 4 +0 +1 Druid 20 -
-#Whale, baleen Large 3d8 +0 3 +8 +4 +4 +0 +4 +0 (2 + Int mod) x 6 +9 -1 Barbarian 30 -
-#Whale, cachalot Large 3d8 +1 4 +8 +4 +6 +0 +6 +0 (2 + Int mod) x 6 +9 -1 Barbarian 30 -
-#Whale, orca Large 3d8 +2 5 +8 +6 +6 +0 +6 +0 (2 + Int mod) x 6 +6 -1 Barbarian 30 -
+#NAME	SZ	HD	LA	ECL	ST	DX	CON	INT	WIS	CHA	SKILLS						ARMR	Sm	FC	WALK	FLY	
+#Squid	Med	2d8	+1	3	+4	+6	+0	+0	+4	-4	(2	+	Int	mod)	x	5	+3	+	0	Ranger	30	-
+Anthropomorphic Squid	RACETYPE:Monstrous Humanoid		MONSTERCLASS:Monstrous Humanoid:2		LEVELADJUSTMENT:1	TYPE:PC.Monstrous Humanoid	RACESUBTYPE:Squid		MOVE:Walk,30	VISION:Darkvision (60')		BONUS:VAR|AC_Natural_Armor|3|TYPE=Base	SAB:Ink Cloud and Jet abilities only work in water.		SAB:You can hold your breath on land for twice as long as a human can in water.	HANDS:8	LEGS:2	FACE:5	REACH:5	SIZE:M	FAVCLASS:Ranger	MOVE:Walk,30,Swim,60	ABILITY:Internal|AUTOMATIC|Race Traits ~ Squid	BONUS:STAT|STR|4	BONUS:STAT|DEX|6	BONUS:STAT|WIS|4		BONUS:STAT|CHA|-4	TEMPLATE:Monstrous Humanoid	FACT:HasFirstLevelFeat|True		LANGBONUS:TYPE=Spoken	FACT:IsPC|True	AUTO:LANG|Common	
+
+#Ape			Med		2d8	+0	2	+2	+6	+0	+0	+4	+0	(2	+	Int	mod)	x	5	+3	+0	Druid	30	-
+Anthropomorphic Ape		SIZE:M	RACETYPE:Monstrous Humanoid	RACESUBTYPE:Ape	MONSTERCLASS:Monstrous Humanoid:2	LEVELADJUSTMENT:0	BONUS:STAT|STR|2	BONUS:STAT|DEX|6	BONUS:STAT|WIS|4	BONUS:VAR|AC_Natural_Armor|3|TYPE=Base	FAVCLASS:Druid	MOVE:Walk,30	ABILITY:Internal|AUTOMATIC|Race Traits ~ Ape	TEMPLATE:Monstrous Humanoid		FACT:HasFirstLevelFeat|True		LANGBONUS:TYPE=Spoken	FACT:IsPC|True		AUTO:LANG|Common	VISION:Darkvision (60')	BONUS:VAR|AC_Natural_Armor|3|TYPE=Base
+
+#Baboon			Med		2d8	+1	3	+4	+4	+2	+0	+4	-2	(2	+	Int	mod)	x	5	+1	+0	Ranger	30	-
+Anthropomorphic Baboon	SIZE:M	RACETYPE:Monstrous Humanoid	RACESUBTYPE:Baboon	MONSTERCLASS:Monstrous Humanoid:2	LEVELADJUSTMENT:1	BONUS:STAT|STR|4	BONUS:STAT|DEX|4	BONUS:STAT|CON|2	BONUS:STAT|WIS|4	BONUS:STAT|CHA|-2	FAVCLASS:Ranger		MOVE:Walk,30	ABILITY:Internal|AUTOMATIC|Race Traits ~ Baboon	TEMPLATE:Monstrous Humanoid	FACT:HasFirstLevelFeat|True	LANGBONUS:TYPE=Spoken	FACT:IsPC|True		AUTO:LANG|Common	VISION:Darkvision (60')		BONUS:VAR|AC_Natural_Armor|1|TYPE=Base
+
+#Badger			Small	1d8	+3	4	+2	+4	+4	+0	+4	+0	(2	+	Int	mod)	x	4	+0	+1	Barbarian	30	-
+Anthropomorphic Badger	SIZE:S	RACETYPE:Monstrous Humanoid	RACESUBTYPE:Badger	MONSTERCLASS:Monstrous Humanoid:1	LEVELADJUSTMENT:3	BONUS:STAT|STR|2	BONUS:STAT|DEX|4	BONUS:STAT|CON|4	BONUS:STAT|INT|0	BONUS:STAT|WIS|4	BONUS:STAT|CHA|0	FAVCLASS:Barbarian		MOVE:Walk,30	ABILITY:Internal|AUTOMATIC|Race Traits ~ Badger	TEMPLATE:Monstrous Humanoid	FACT:HasFirstLevelFeat|True	LANGBONUS:TYPE=Spoken	FACT:IsPC|True		AUTO:LANG|Common	VISION:Darkvision (60')	BONUS:VAR|AC_Natural_Armor|1|TYPE=Base
+
+
+#Bat			Small	1d8	+0	1	-4	+0	+0	+0	+6	-2	(2	+	Int	mod)	x	4	+0	+1	Druid	5	20	(average)
+Anthropomorphic Bat	SIZE:S	RACETYPE:Monstrous Humanoid	RACESUBTYPE:Bat	MONSTERCLASS:Monstrous Humanoid:1	LEVELADJUSTMENT:0	BONUS:STAT|STR|-4	BONUS:STAT|DEX|0	BONUS:STAT|CON|0	BONUS:STAT|INT|0	BONUS:STAT|WIS|4	BONUS:STAT|CHA|-2	FAVCLASS:Druid		MOVE:Walk,5,Fly,20 	ABILITY:Internal|AUTOMATIC|Race Traits ~ Bat	TEMPLATE:Monstrous Humanoid	FACT:HasFirstLevelFeat|True	LANGBONUS:TYPE=Spoken	FACT:IsPC|True		AUTO:LANG|Common	VISION:Darkvision (60')	VISION:Blindsight (60')			BONUS:VAR|Maneuverability|5	ABILITY:Special Ability|AUTOMATIC|Aerial Maneuverability	SAB:TODO:CORRECT FLIGHT AND BLINDSIGHT VALUES	BONUS:VAR|AC_Natural_Armor|1|TYPE=Base
+
+
+#Bear,black		Med		2d8	+2	4	+8	+2	+4	+0	+4	+0	(2	+	Int	mod)	x	5	+2	+0	Barbarian	30	-
+Anthropomorphic Black Bear	SIZE:M	RACETYPE:Monstrous Humanoid	RACESUBTYPE:Bear	MONSTERCLASS:Monstrous Humanoid:2	LEVELADJUSTMENT:2	BONUS:STAT|STR|8	BONUS:STAT|DEX|2	BONUS:STAT|CON|4	BONUS:STAT|INT|0	BONUS:STAT|WIS|4	BONUS:STAT|CHA|0	FAVCLASS:Barbarian		MOVE:Walk,30 	ABILITY:Internal|AUTOMATIC|Race Traits ~ Bear (Black)	TEMPLATE:Monstrous Humanoid	FACT:HasFirstLevelFeat|True	LANGBONUS:TYPE=Spoken	FACT:IsPC|True		AUTO:LANG|Common	VISION:Darkvision (60')			BONUS:VAR|AC_Natural_Armor|2|TYPE=Base
+
+#Bear,brown		Med		2d8	+3	5	+8	+4	+4	+0	+4	+0	(2	+	Int	mod)	x	5	+5	+0	Ranger	30	-
+Anthropomorphic Brown Bear	SIZE:M	RACETYPE:Monstrous Humanoid	RACESUBTYPE:Bear	MONSTERCLASS:Monstrous Humanoid:2	LEVELADJUSTMENT:3	BONUS:STAT|STR|8	BONUS:STAT|DEX|4	BONUS:STAT|CON|4	BONUS:STAT|INT|0	BONUS:STAT|WIS|4	BONUS:STAT|CHA|0	FAVCLASS:Ranger		MOVE:Walk,30 	ABILITY:Internal|AUTOMATIC|Race Traits ~ Bear (Brown)	TEMPLATE:Monstrous Humanoid	FACT:HasFirstLevelFeat|True	LANGBONUS:TYPE=Spoken	FACT:IsPC|True		AUTO:LANG|Common	VISION:Darkvision (60')			BONUS:VAR|AC_Natural_Armor|5|TYPE=Base
+
+#Bear,polar		Med		2d8	+3	5	+8	+4	+4	+0	+4	+0	(2	+	Int	mod)	x	5	+5	+0	Ranger	30	-
+Anthropomorphic Polar Bear	SIZE:M	RACETYPE:Monstrous Humanoid	RACESUBTYPE:Bear	MONSTERCLASS:Monstrous Humanoid:2	LEVELADJUSTMENT:3	BONUS:STAT|STR|8	BONUS:STAT|DEX|4	BONUS:STAT|CON|4	BONUS:STAT|INT|0	BONUS:STAT|WIS|4	BONUS:STAT|CHA|0	FAVCLASS:Barbarian		MOVE:Walk,30 	ABILITY:Internal|AUTOMATIC|Race Traits ~ Bear (Polar)	TEMPLATE:Monstrous Humanoid	FACT:HasFirstLevelFeat|True	LANGBONUS:TYPE=Spoken	FACT:IsPC|True		AUTO:LANG|Common	VISION:Darkvision (60')			BONUS:VAR|AC_Natural_Armor|5|TYPE=Base
+
+
+#Bison			Med		2d8	+2	4	+0	+2	+2	+0	+2	-2	(2	+	Int	mod)	x	5	+4	+0	Druid	30	-
+Anthropomorphic Bison`	SIZE:M	RACETYPE:Monstrous Humanoid	RACESUBTYPE:Bison	MONSTERCLASS:Monstrous Humanoid:2	LEVELADJUSTMENT:2	BONUS:STAT|STR|0	BONUS:STAT|DEX|2	BONUS:STAT|CON|2	BONUS:STAT|INT|0	BONUS:STAT|WIS|4	BONUS:STAT|CHA|0	FAVCLASS:Druid		MOVE:Walk,30 	ABILITY:Internal|AUTOMATIC|Race Traits ~ Bison	TEMPLATE:Monstrous Humanoid	FACT:HasFirstLevelFeat|True	LANGBONUS:TYPE=Spoken	FACT:IsPC|True		AUTO:LANG|Common	VISION:Darkvision (60')			BONUS:VAR|AC_Natural_Armor|4|TYPE=Base
+
+
+
+#Boar			Med		2d8	+2	4	+4	+0	+6	+0	+4	-2	(2	+	Int	mod)	x	5	+6	+0	Barbarian	30	-
+Anthropomorphic Boar	SIZE:M	RACETYPE:Monstrous Humanoid	RACESUBTYPE:Boar	MONSTERCLASS:Monstrous Humanoid:2	LEVELADJUSTMENT:2	BONUS:STAT|STR|4	BONUS:STAT|DEX|0	BONUS:STAT|CON|6	BONUS:STAT|INT|0	BONUS:STAT|WIS|4	BONUS:STAT|CHA|-2	FAVCLASS:Barbarian		MOVE:Walk,30 	ABILITY:Internal|AUTOMATIC|Race Traits ~ Boar	TEMPLATE:Monstrous Humanoid	FACT:HasFirstLevelFeat|True	LANGBONUS:TYPE=Spoken	FACT:IsPC|True		AUTO:LANG|Common	VISION:Darkvision (60')			BONUS:VAR|AC_Natural_Armor|6|TYPE=Base
+
+#Camel,bactrian	Med	2d8	+1	3	+0	+4	+2	+0	+2	-2	(2	+	Int	mod)	x	5	+1	+0	Ranger	30	-
+Anthropomorphic Bactrian Camel	SIZE:M	RACETYPE:Monstrous Humanoid	RACESUBTYPE:Bactrian Camel	MONSTERCLASS:Monstrous Humanoid:2	LEVELADJUSTMENT:1	BONUS:STAT|STR|4	BONUS:STAT|DEX|0	BONUS:STAT|CON|6	BONUS:STAT|INT|0	BONUS:STAT|WIS|4	BONUS:STAT|CHA|-2	FAVCLASS:Barbarian		MOVE:Walk,30 	ABILITY:Internal|AUTOMATIC|Race Traits ~ Camel (Bactrian)	TEMPLATE:Monstrous Humanoid	FACT:HasFirstLevelFeat|True	LANGBONUS:TYPE=Spoken	FACT:IsPC|True		AUTO:LANG|Common	VISION:Darkvision (60')			BONUS:VAR|AC_Natural_Armor|6|TYPE=Base
+
+#Camel,dromedary	Med	2d8	+0	2	+0	+4	+0	+0	+2	-2	(2	+	Int	mod)	x	5	+1	+0	Druid	40	-
+Anthropomorphic Dromedary Camel	SIZE:M	RACETYPE:Monstrous Humanoid	RACESUBTYPE:Dromedary Camel	MONSTERCLASS:Monstrous Humanoid:2	LEVELADJUSTMENT:0	BONUS:STAT|STR|0	BONUS:STAT|DEX|4	BONUS:STAT|CON|0	BONUS:STAT|INT|0	BONUS:STAT|WIS|2	BONUS:STAT|CHA|-2	FAVCLASS:Druid		MOVE:Walk,40 	ABILITY:Internal|AUTOMATIC|Race Traits ~ Camel	TEMPLATE:Monstrous Humanoid	FACT:HasFirstLevelFeat|True	LANGBONUS:TYPE=Spoken	FACT:IsPC|True		AUTO:LANG|Common	VISION:Darkvision (60')			BONUS:VAR|AC_Natural_Armor|1|TYPE=Base
+
+#Cat	Small	1d8	+1	2	-4	+2	+0	+0	+2	+0	(2	+	Int	mod)	x	4	+0	+1	Rogue	30	-
+Anthropomorphic Cat	SIZE:S	RACETYPE:Monstrous Humanoid	RACESUBTYPE:Cat	MONSTERCLASS:Monstrous Humanoid:1	LEVELADJUSTMENT:1	BONUS:STAT|STR|-4	BONUS:STAT|DEX|2	BONUS:STAT|CON|0	BONUS:STAT|INT|0	BONUS:STAT|WIS|0	BONUS:STAT|CHA|2	FAVCLASS:Rogue		MOVE:Walk,30 	ABILITY:Internal|AUTOMATIC|Race Traits ~ Cat	TEMPLATE:Monstrous Humanoid	FACT:HasFirstLevelFeat|True	LANGBONUS:TYPE=Spoken	FACT:IsPC|True		AUTO:LANG|Common	VISION:Darkvision (60')			BONUS:VAR|AC_Natural_Armor|6|TYPE=Base
+
+#Cheetah	Med	2d8	+2	4	+6	+8	+4	+0	+4	+0	(2	+	Int	mod)	x	5	+1	+0	Ranger	40	-
+Anthropomorphic Cheetah	SIZE:M	RACETYPE:Monstrous Humanoid	RACESUBTYPE:Cheetah	MONSTERCLASS:Monstrous Humanoid:2	LEVELADJUSTMENT:2	BONUS:STAT|STR|6	BONUS:STAT|DEX|8	BONUS:STAT|CON|4	BONUS:STAT|INT|0	BONUS:STAT|WIS|4	BONUS:STAT|CHA|0	FAVCLASS:Ranger		MOVE:Walk,40 	ABILITY:Internal|AUTOMATIC|Race Traits ~ Cheetah	TEMPLATE:Monstrous Humanoid	FACT:HasFirstLevelFeat|True	LANGBONUS:TYPE=Spoken	FACT:IsPC|True		AUTO:LANG|Common	VISION:Darkvision (60')			BONUS:VAR|AC_Natural_Armor|1|TYPE=Base
+
+
+
+#Crocodile	Med	2d8	+1	3	+8	+2	+6	+0	+4	-4	(2	+	Int	mod)	x	5	+4	+0	Barbarian	20	-
+Anthropomorphic Crocodile	SIZE:M	RACETYPE:Monstrous Humanoid	RACESUBTYPE:Crocodile	MONSTERCLASS:Monstrous Humanoid:2	LEVELADJUSTMENT:1	BONUS:STAT|STR|8	BONUS:STAT|DEX|2	BONUS:STAT|CON|6	BONUS:STAT|INT|0	BONUS:STAT|WIS|4	BONUS:STAT|CHA|-4	FAVCLASS:Barbarian		MOVE:Walk,20 	ABILITY:Internal|AUTOMATIC|Race Traits ~ Crocodile	TEMPLATE:Monstrous Humanoid	FACT:HasFirstLevelFeat|True	LANGBONUS:TYPE=Spoken	FACT:IsPC|True		AUTO:LANG|Common	VISION:Darkvision (60')			BONUS:VAR|AC_Natural_Armor|4|TYPE=Base
+
+
+
+#Crocodile,	giant	Large	3d8	+2	5	+8	+4	+4	+0	+4	-4	(2	+	Int	mod)	x	6	+7	-1	Ranger	20	-
+Anthropomorphic Giant Crocodile	SIZE:L	RACETYPE:Monstrous Humanoid	RACESUBTYPE:Giant Crocodile	MONSTERCLASS:Monstrous Humanoid:3	LEVELADJUSTMENT:2	BONUS:STAT|STR|8	BONUS:STAT|DEX|4	BONUS:STAT|CON|4	BONUS:STAT|INT|0	BONUS:STAT|WIS|4	BONUS:STAT|CHA|-4	FAVCLASS:Ranger		MOVE:Walk,20 	ABILITY:Internal|AUTOMATIC|Race Traits ~ Crocodile (Giant)	TEMPLATE:Monstrous Humanoid	FACT:HasFirstLevelFeat|True	LANGBONUS:TYPE=Spoken	FACT:IsPC|True		AUTO:LANG|Common	VISION:Darkvision (60')			BONUS:VAR|AC_Natural_Armor|7|TYPE=Base
+
+#Dog	Med	2d8	+2	4	+6	+4	+2	+0	+4	+0	(2	+	Int	mod)	x	5	+1	+0	Ranger	30	-
+Anthropomorphic Giant Crocodile	SIZE:M	RACETYPE:Monstrous Humanoid	RACESUBTYPE:Dog	MONSTERCLASS:Monstrous Humanoid:2	LEVELADJUSTMENT:2	BONUS:STAT|STR|6	BONUS:STAT|DEX|4	BONUS:STAT|CON|2	BONUS:STAT|INT|0	BONUS:STAT|WIS|4	BONUS:STAT|CHA|0	FAVCLASS:Ranger		MOVE:Walk,30 	ABILITY:Internal|AUTOMATIC|Race Traits ~ Dog	TEMPLATE:Monstrous Humanoid	FACT:HasFirstLevelFeat|True	LANGBONUS:TYPE=Spoken	FACT:IsPC|True		AUTO:LANG|Common	VISION:Darkvision (60')			BONUS:VAR|AC_Natural_Armor|1|TYPE=Base
+
+#Dog,	riding	7	Med	2d8	+2	4	+4	+4	+4	+0	+4	+0	(2	+	Int	mod)	x	5	+1	+0	Ranger	30	-
+Anthropomorphic Riding Dog	SIZE:M	RACETYPE:Monstrous Humanoid	RACESUBTYPE:Riding Dog	MONSTERCLASS:Monstrous Humanoid:2	LEVELADJUSTMENT:2	BONUS:STAT|STR|4	BONUS:STAT|DEX|4	BONUS:STAT|CON|4	BONUS:STAT|INT|0	BONUS:STAT|WIS|4	BONUS:STAT|CHA|0	FAVCLASS:Ranger		MOVE:Walk,20 	ABILITY:Internal|AUTOMATIC|Race Traits ~ Dog (Riding)	TEMPLATE:Monstrous Humanoid	FACT:HasFirstLevelFeat|True	LANGBONUS:TYPE=Spoken	FACT:IsPC|True		AUTO:LANG|Common	VISION:Darkvision (60')			BONUS:VAR|AC_Natural_Armor|1|TYPE=Base	SAB:You are not "Trained for war"
+
+#Mule	Med	2d8	+0	2	-2	+4	+2	+0	+2	+0	(2	+	Int	mod)	x	5	+3	+0	Druid	30	-
+Onager(Anthropomorphic Donkey)		OUTPUTNAME:Onager													SIZE:M	MOVE:Walk,30		FACE:5	REACH:5	VISION:Darkvision (60')|Low-Light Vision	BONUS:SKILL|Balance|2|TYPE=Racial	BONUS:STAT|DEX,CON,WIS|2	BONUS:STAT|CHA|-2						MONCSKILL:Balance|Listen|Spot																										LEGS:2	HANDS:2	NATURALATTACKS:Bite,Weapon.Natural.Melee.Piercing.Slashing.Bludgeoning,*1,1d2																															MONSTERCLASS:Monstrous Humanoid:2		RACETYPE:Monstrous Humanoid	TEMPLATE:Monstrous Humanoid										CR:1			SOURCEPAGE:p.214
+#Donkey	Med	2d8	+1	3	+0	+2	+2	+0	+2	-2	(2	+	Int	mod)	x	5	+2	+0	Druid	30	-
+#Eagle	Med	2d8	+1	3	+2	+2	+2	+0	+6	+0	(2	+	Int	mod)	x	5	+1	+0	Cleric	10	40	(poor)
+Anthropomorphic Eagle	SIZE:M	RACETYPE:Monstrous Humanoid	RACESUBTYPE:Dog	MONSTERCLASS:Monstrous Humanoid:2	LEVELADJUSTMENT:3	BONUS:STAT|STR|2	BONUS:STAT|DEX|2	BONUS:STAT|CON|2	BONUS:STAT|INT|0	BONUS:STAT|WIS|6	BONUS:STAT|CHA|0	FAVCLASS:Cleric		MOVE:Walk,10,Fly,40 	ABILITY:Internal|AUTOMATIC|Race Traits ~ Eagle	TEMPLATE:Monstrous Humanoid	FACT:HasFirstLevelFeat|True	LANGBONUS:TYPE=Spoken	FACT:IsPC|True		AUTO:LANG|Common	VISION:Darkvision (60')			BONUS:VAR|AC_Natural_Armor|1|TYPE=Base
+
+#Elephant,	African	Large	3d8	+2	5	+12	+2	+6	+0	+4	+0	(2	+	Int	mod)	x	6	+7	-1	Barbarian	30	-
+Anthropomorphic African Elephant	SIZE:L	RACETYPE:Monstrous Humanoid	RACESUBTYPE:African Elephant	MONSTERCLASS:Monstrous Humanoid:3	LEVELADJUSTMENT:2	BONUS:STAT|STR|12	BONUS:STAT|DEX|2	BONUS:STAT|CON|6	BONUS:STAT|INT|0	BONUS:STAT|WIS|4	BONUS:STAT|CHA|0	FAVCLASS:Barbarian		MOVE:Walk,30 	ABILITY:Internal|AUTOMATIC|Race Traits ~ Elephant	TEMPLATE:Monstrous Humanoid	FACT:HasFirstLevelFeat|True	LANGBONUS:TYPE=Spoken	FACT:IsPC|True		AUTO:LANG|Common	VISION:Darkvision (60')			BONUS:VAR|AC_Natural_Armor|7|TYPE=Base
+
+#Elephant,	Indian	Large	3d8	+2	5	+10	+2	+6	+0	+6	+0	(2	+	Int	mod)	x	6	+7	-1	Barbarian	30	-
+Anthropomorphic African Elephant	SIZE:L	RACETYPE:Monstrous Humanoid	RACESUBTYPE:Indian Elephant	MONSTERCLASS:Monstrous Humanoid:3	LEVELADJUSTMENT:2	BONUS:STAT|STR|10	BONUS:STAT|DEX|2	BONUS:STAT|CON|6	BONUS:STAT|INT|0	BONUS:STAT|WIS|6	BONUS:STAT|CHA|0	FAVCLASS:Barbarian		MOVE:Walk,30 	ABILITY:Internal|AUTOMATIC|Race Traits ~ Elephant (Indian)	TEMPLATE:Monstrous Humanoid	FACT:HasFirstLevelFeat|True	LANGBONUS:TYPE=Spoken	FACT:IsPC|True		AUTO:LANG|Common	VISION:Darkvision (60')			BONUS:VAR|AC_Natural_Armor|7|TYPE=Base
+
+#Hawk	Small	1d8	+2	3	+0	+4	+0	+0	+6	+0	(2	+	Int	mod)	x	4	+2	+1	Cleric	10	30	(poor)
+#Horse,	heavy	Med	2d8	+0	2	-4	+4	+0	+0	+4	+0	(2	+	Int	mod)	x	5	+3	+0	Druid	40	-
+#Horse,	heavy	war	Med	2d8	+1	3	+0	+4	+2	+0	+4	+0	(2	+	Int	mod)	x	5	+4	+0	Ranger	40	-
+#Horse,	light	Med	2d8	+0	2	-6	+4	+0	+0	+4	+0	(2	+	Int	mod)	x	5	+3	+0	Druid	50	-
+#Horse,	light	war	Med	2d8	+1	3	-2	+4	+2	+0	+4	+0	(2	+	Int	mod)	x	5	+4	+0	Ranger	50	-
+#Leopard	Med	2d8	+2	4	+6	+8	+4	+0	+4	+0	(2	+	Int	mod)	x	5	+1	+0	Ranger	30	-
+#Lion	Med	2d8	+1	3	+2	+6	+0	+0	+4	+0	(2	+	Int	mod)	x	5	+3	+0	Ranger	30	-
+#Lizard	Small	1d8	+0	1	-4	+2	+0	+0	+4	-4	(2	+	Int	mod)	x	4	+0	+1	Druid	20	-
+#Lizard,	giant	Med	2d8	+2	4	+6	+4	+6	+0	+4	-4	(2	+	Int	mod)	x	5	+3	+0	Barbarian	30	-
+#Monkey	Small	1d8	+0	1	-4	+2	+0	+0	+4	-2	(2	+	Int	mod)	x	4	+0	+1	Druid	30	-
+#Octopus	2	Med	2d8	+1	3	+6	+4	+2	+0	+4	-4	(2	+	Int	mod)	x	5	+2	+0	Barbarian	20	-
+#Octopus,	giant	2	Med	2d8	+0	2	+2	+6	-2	+0	+4	-4	(2	+	Int	mod)	x	5	+2	+0	Barbarian	20	-
+#Owl	Small	1d8	+1	2	+0	+4	+0	+0	+6	-2	(2	+	Int	mod)	x	4	+2	+1	Ranger	10	20	(poor)
+#Pony	Med	2d8	+1	3	+2	+2	+2	+0	+4	-2	(2	+	Int	mod)	x	5	+2	+0	Druid	30	-
+#Pony,	war	Med	2d8	+2	4	+4	+2	+4	+0	+4	-2	(2	+	Int	mod)	x	5	+2	+0	Ranger	30	-
+#Porpoise	3	Med	2d8	+2	4	+0	+6	+2	+0	+4	+0	(2	+	Int	mod)	x	5	+2	+0	Ranger	30	-
+#Rat	Small	1d8	+0	1	-4	+2	+0	+0	+4	-4	(2	+	Int	mod)	x	4	+0	+1	Rogue	15	-
+#Raven	Small	1d8	+0	1	-6	+2	+0	+0	+4	-4	(2	+	Int	mod)	x	4	+0	+1	Rogue	10	30	(poor)
+#Rhinoceros	Med	2d8	+2	4	+8	-2	+6	+0	+4	-4	(2	+	Int	mod)	x	5	+7	+0	Barbarian	30	-
+#Shark,	Med.	4	Med	2d8	+1	3	+2	+4	+2	+0	+4	-4	(2	+	Int	mod)	x	5	+3	+0	Ranger	30	-
+#Shark,	Large	4	Med	2d8	+0	2	-2	+6	-2	+0	+4	-4	(2	+	Int	mod)	x	5	+4	+0	Rogue	30	-
+#Shark,	Huge	4	Large	3d8	+1	3	+2	+2	+0	+0	+4	-4	(2	+	Int	mod)	x	6	+5	-1	Ranger	30	-
+#Snake,	constrictor	5	Med	2d8	+1	3	+6	+6	+2	+0	+4	-4	(2	+	Int	mod)	x	5	+2	+0	Barbarian	20	-
+Anthropomorphic Constrictor	SIZE:M	RACETYPE:Monstrous Humanoid	RACESUBTYPE:Constrictor	MONSTERCLASS:Monstrous Humanoid:2	LEVELADJUSTMENT:1	BONUS:STAT|STR|6	BONUS:STAT|DEX|6	BONUS:STAT|CON|2	BONUS:STAT|INT|0	BONUS:STAT|WIS|4	BONUS:STAT|CHA|-4	FAVCLASS:Barbarian		MOVE:Walk,20 	ABILITY:Internal|AUTOMATIC|Race Traits ~ Snake (Constrictor)	TEMPLATE:Monstrous Humanoid	FACT:HasFirstLevelFeat|True	LANGBONUS:TYPE=Spoken	FACT:IsPC|True		AUTO:LANG|Common	VISION:Darkvision (60')			BONUS:VAR|AC_Natural_Armor|2|TYPE=Base
+#Snake,	giant	const.	5	Large	3d8	+1	4	+6	+8	-2	+0	+4	-4	(2	+	Int	mod)	x	6	+4	-1	Ranger	20	-
+Anthropomorphic Giant Constrictor	SIZE:L	RACETYPE:Monstrous Humanoid	RACESUBTYPE:Giant Constrictor	MONSTERCLASS:Monstrous Humanoid:2	LEVELADJUSTMENT:1	BONUS:STAT|STR|6	BONUS:STAT|DEX|8	BONUS:STAT|CON|-2	BONUS:STAT|INT|0	BONUS:STAT|WIS|4	BONUS:STAT|CHA|-4	FAVCLASS:Ranger		MOVE:Walk,20 	ABILITY:Internal|AUTOMATIC|Race Traits ~ Snake (Constrictor/Giant)	TEMPLATE:Monstrous Humanoid	FACT:HasFirstLevelFeat|True	LANGBONUS:TYPE=Spoken	FACT:IsPC|True		AUTO:LANG|Common	VISION:Darkvision (60')			BONUS:VAR|AC_Natural_Armor|4|TYPE=Base
+#Snake,	Tiny	viper	6	Small	1d8	+2	3	+0	+4	+0	+0	+4	-4	(2	+	Int	mod)	x	4	+2	+1	Rogue	15	-
+Anthropomorphic Tiny Viper	SIZE:S	RACETYPE:Monstrous Humanoid	RACESUBTYPE:African Elephant	MONSTERCLASS:Monstrous Humanoid:1	LEVELADJUSTMENT:2	BONUS:STAT|STR|0	BONUS:STAT|DEX|4	BONUS:STAT|CON|0	BONUS:STAT|INT|0	BONUS:STAT|WIS|4	BONUS:STAT|CHA|-4	FAVCLASS:Rogue		MOVE:Walk,15 	ABILITY:Internal|AUTOMATIC|Race Traits ~ Snake (Viper/Tiny)	TEMPLATE:Monstrous Humanoid	FACT:HasFirstLevelFeat|True	LANGBONUS:TYPE=Spoken	FACT:IsPC|True		AUTO:LANG|Common	VISION:Darkvision (60')			BONUS:VAR|AC_Natural_Armor|2|TYPE=Base
+
+#Snake,	Small	viper	6	Med	2d8	+1	3	+0	+4	+0	+0	+4	-4	(2	+	Int	mod)	x	5	+3	+0	Rogue	20	-
+Anthropomorphic Small Viper	SIZE:S	RACETYPE:Monstrous Humanoid	RACESUBTYPE:Small Viper	MONSTERCLASS:Monstrous Humanoid:2	LEVELADJUSTMENT:1	BONUS:STAT|STR|0	BONUS:STAT|DEX|4	BONUS:STAT|CON|0	BONUS:STAT|INT|0	BONUS:STAT|WIS|4	BONUS:STAT|CHA|-4	FAVCLASS:Rogue		MOVE:Walk,20 	ABILITY:Internal|AUTOMATIC|Race Traits ~ Snake (Viper/Small)	TEMPLATE:Monstrous Humanoid	FACT:HasFirstLevelFeat|True	LANGBONUS:TYPE=Spoken	FACT:IsPC|True		AUTO:LANG|Common	VISION:Darkvision (60')			BONUS:VAR|AC_Natural_Armor|2|TYPE=Base
+#Snake,	Med.	viper	6	Med	2d8	+1	3	-2	+6	+0	+0	+4	-4	(2	+	Int	mod)	x	5	+3	+0	Rogue	20	-
+#Snake,	Large	viper	6	Med	2d8	+0	2	-8	+8	-4	+0	+4	-4	(2	+	Int	mod)	x	5	+3	+0	Rogue	20	-
+#Snake,	Huge	viper	6	Large	3d8	+0	3	-8	+10	-2	+0	+4	-4	(2	+	Int	mod)	x	6	+3	-1	Rogue	20	-
+#Squid,	giant	2	Large	3d8	+1	4	+8	+8	-2	+0	+4	-4	(2	+	Int	mod)	x	6	+6	-1	Ranger	30	-
+#Tiger	Med	2d8	+1	3	+4	+6	+2	+0	+4	+0	(2	+	Int	mod)	x	5	+3	+0	Ranger	30	-
+#Toad	Small	1d8	+0	1	-4	-2	+0	+0	+6	-2	(2	+	Int	mod)	x	4	+0	+1	Cleric	5	-
+#Weasel	8	Small	1d8	+0	1	-4	+2	+0	+0	+4	-4	(2	+	Int	mod)	x	4	+0	+1	Druid	20	-
+#Whale,	baleen	Large	3d8	+0	3	+8	+4	+4	+0	+4	+0	(2	+	Int	mod)	x	6	+9	-1	Barbarian	30	-
+#Whale,	cachalot	Large	3d8	+1	4	+8	+4	+6	+0	+6	+0	(2	+	Int	mod)	x	6	+9	-1	Barbarian	30	-
+#Whale,	orca	Large	3d8	+2	5	+8	+6	+6	+0	+6	+0	(2	+	Int	mod)	x	6	+6	-1	Barbarian	30	-
+
+Anthropomorphic Orca	SIZE:L	RACETYPE:Monstrous Humanoid	RACESUBTYPE:Orca	MONSTERCLASS:Monstrous Humanoid:3	LEVELADJUSTMENT:2	BONUS:STAT|STR|8	BONUS:STAT|DEX|6	BONUS:STAT|CON|6	BONUS:STAT|INT|0	BONUS:STAT|WIS|6	BONUS:STAT|CHA|0	FAVCLASS:Barbarian		MOVE:Walk,30 	ABILITY:Internal|AUTOMATIC|Race Traits ~ Whale (Orca)	TEMPLATE:Monstrous Humanoid	FACT:HasFirstLevelFeat|True	LANGBONUS:TYPE=Spoken	FACT:IsPC|True		AUTO:LANG|Common	VISION:Darkvision (60')			BONUS:VAR|AC_Natural_Armor|6|TYPE=Base
+
+
 Anthropomorphic Wolf	KEY:Anthropomorphic Wolf	SORTKEY:Anthropomorphic Wolf		SIZE:M				SOURCEPAGE:p.217	RACETYPE:Monstrous Humanoid	MONSTERCLASS:Monstrous Humanoid:2	TYPE:PC.Monstrous Humanoid	RACESUBTYPE:Wolf		MOVE:Walk,40	VISION:Darkvision (60')	BONUS:VAR|AC_Natural_Armor|2|TYPE=Base	FACE:5	REACH:5	LEGS:2	HANDS:2	STARTFEATS:1	NATURALATTACKS:Bite,Natural.Melee.Weapon,*1,1d6	BONUS:STAT|STR|2	BONUS:STAT|DEX|4	BONUS:STAT|CON|4	BONUS:STAT|WIS|4	ABILITY:Internal|AUTOMATIC|Racial Traits ~ Anthropomorphic Wolf	CR:2	LEVELADJUSTMENT:2	FACT:IsPC|True	AUTO:LANG|Common	FAVCLASS:Ranger	
 #Wolverine			KEY:Anthropomorphic Wolverine	SORTKEY:Anthropomorphic Wolverine	SIZE:M	FACT:BaseSize|M	SOURCEPAGE:p.217	RACETYPE:Monstrous Humanoid	MONSTERCLASS:Monstrous Humanoid:2	TYPE:PC.Monstrous Humanoid	RACESUBTYPE:Wolverine	MOVE:Walk,30	+2 4 +4 +4 +8 +0 +4 +2 (2 + Int mod) x 5 +2 +0 Barbarian 30 -
