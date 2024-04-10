@@ -2409,3 +2409,12 @@ Telepathy		KEY:Asperi ~ Telepathy		SOURCEPAGE:MM2	CATEGORY:Special Ability	TYPE:
 Uncanny Dodge	KEY:Asperi ~ Uncanny Dodge	SOURCEPAGE:MM2	CATEGORY:Special Ability	TYPE:Asperi Race Trait.SpecialQuality.Extraordinary	VISIBLE:YES										DESC:Because of its preternatural alertness, an Asperi retains its Dex bonus to AC even when flat-footed, and cannot be flanked.																								BONUS:VAR|UncannyDodgeFlankingLevel|HD|TYPE=EachClass.STACK	BONUS:VAR|UncannyDodgeLevel|2
 Wind Immunity	KEY:Asperi ~ Wind Immunity	SOURCEPAGE:MM2	CATEGORY:Special Ability	TYPE:Asperi Race Trait.SpecialQuality.Extraordinary	VISIBLE:YES										DESC:Winds have no effect on an asperi unless it chooses to ride them for additional movement (see Ride the Wind)
 Training		KEY:Asperi ~ Training		SOURCEPAGE:MM2	CATEGORY:Special Ability	TYPE:Asperi Race Trait.SpecialQuality			VISIBLE:YES										DESC:Training DC 22 (young) or 29 (adult) Handle Animal check. Require a normal saddle. Professional trainers charge 2000 gp to rear or train.
+
+
+#Some prestige classes aren't calculating Sneak Attack dice correctly when compbined with other prestige classes
+#Adding these options to manually adjust values until I can figure out the issues
++1 Sneak Attack Dice	KEY:BonusSneakAttackDice		SORTKEY:Z_Award	CATEGORY:Special Ability	TYPE:GM_Award.SpecialQuality				DESC:-2 all saving throws																		STACK:YES	MULT:YES	CHOOSE:NOCHOICE																																			BONUS:VAR|SneakAttackDice|1																																COST:0
+
+
++1 Sneak Attack Dice	KEY:BonusSneakAttackDice		SORTKEY:Z_Award	CATEGORY:Special Ability	TYPE:GM_Award.SpecialQuality				DESC:-2 all saving throws																		STACK:YES	MULT:YES	CHOOSE:NOCHOICE																																			BONUS:VAR|SneakAttackDice|-1																																COST:0
+

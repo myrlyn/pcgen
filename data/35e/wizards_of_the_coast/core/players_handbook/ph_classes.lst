@@ -423,3 +423,9 @@ CLASS:Wizard.MOD	ABILITY:Class|AUTOMATIC|Wizard	BONUS:VAR|ClassBABPoor|classleve
 
 # Class Name		Ability					Modify VAR
 CLASS:Sorcerer.MOD	ABILITY:Class|AUTOMATIC|Sorcerer	BONUS:VAR|ClassBABPoor|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalBAB,1
+
+CLASS:Fighter.MOD	BONUS:VAR|ClassBABFull|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalBAB,1
+CLASS:Barbarian.MOD	BONUS:VAR|ClassBABFull|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalBAB,1
+CLASS:Ranger.MOD	BONUS:VAR|ClassBABFull|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalBAB,1
+
+CLASS:Paladin.MOD	BONUS:VAR|ClassBABFull|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalBAB,1
