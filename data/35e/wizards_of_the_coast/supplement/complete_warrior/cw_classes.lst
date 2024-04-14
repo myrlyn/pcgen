@@ -917,3 +917,4 @@ CLASS:Warshaper	STARTSKILLPTS:2	CSKILL:Balance|Climb|Concentration|TYPE=Craft|Di
 4	ABILITY:Warshaper Class Feature|AUTOMATIC|Warshaper ~ Morphic Healing
 5	ABILITY:Warshaper Class Feature|AUTOMATIC|Warshaper ~ Flashmorph/Multimorph
 
+CLASS:Invisible Blade.MOD	BONUS:VAR|ClassBABFull|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalBAB,1
