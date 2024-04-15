@@ -351,7 +351,9 @@ CLASS:Paladin of Freedom	SPELLSTAT:WIS	FACT:SpellType|Divine	KNOWNSPELLS:LEVEL=0
 ###Block: Level progression
 1	BONUS:VAR|AllowHolyAvenger|1	DEFINE:AllowHolyAvenger|0	
 ###Block: Class Features
-1	ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Aura of Good|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinAuraOfGood	ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Aura of GoodPaladin ~ Detect Evil|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinDetectEvil	ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Aura of GoodPaladin ~ Smite Evil|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinSmiteEvil
+1	ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Aura of Good|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinAuraOfGood
+1	ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Detect Evil|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinDetectEvil
+1	ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Smite Evil|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinSmiteEvil
 2	ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Divine Grace|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinDivineGrace	ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Lay on Hands|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinLayOnHands
 3	ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Divine Health|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinDivineHealth	ABILITY:Paladin Class Feature|AUTOMATIC|Paladin of Freedom ~ Aura of Resolve|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinAuraOfResolve
 4	ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Turn Undead|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinTurnUndead
