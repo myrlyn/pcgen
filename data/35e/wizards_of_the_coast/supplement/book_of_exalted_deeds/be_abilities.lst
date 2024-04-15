@@ -12,7 +12,7 @@ Haunting conscience	CATEGORY:Affliction	TYPE:Affliction	DESC:Inhaled 16 1d3 days
 ###Block:
 # Ability Name				Ability
 CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Deathless Type|PRERACE:1,RACETYPE=Deathless
-CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Type Output ~ Aberration|PREMULT:2,[PREVAREQ:NoTypeTraits,0],[PRERACE:1,RACETYPE=Deathless]
+CATEGORY=Internal|Creature Type.MOD	ABILITY:Special Ability|AUTOMATIC|Type Output ~ Deathless|PREMULT:2,[PREVAREQ:NoTypeTraits,0],[PRERACE:1,RACETYPE=Deathless]
 
 ###Block: New RACETYPE
 # Ability Name	Category of Ability		Type			Define Stat			Bonus to skill			Modify VAR
