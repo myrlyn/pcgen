@@ -351,14 +351,14 @@ CLASS:Paladin of Freedom	SPELLSTAT:WIS	FACT:SpellType|Divine	KNOWNSPELLS:LEVEL=0
 ###Block: Level progression
 1	BONUS:VAR|AllowHolyAvenger|1	DEFINE:AllowHolyAvenger|0	
 ###Block: Class Features
-1	ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Aura of Good|Paladin ~ Detect Evil|Paladin ~ Smite Evil
-2	ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Divine Grace|Paladin ~ Lay on Hands
-3	ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Divine Health|Paladin of Freedom ~ Aura of Resolve
-4	ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Turn Undead
-5	ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Special Mount
-6	ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Remove Disease
+1	ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Aura of Good|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinAuraOfGood	ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Aura of GoodPaladin ~ Detect Evil|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinDetectEvil	ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Aura of GoodPaladin ~ Smite Evil|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinSmiteEvil
+2	ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Divine Grace|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinDivineGrace	ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Lay on Hands|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinLayOnHands
+3	ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Divine Health|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinDivineHealth	ABILITY:Paladin Class Feature|AUTOMATIC|Paladin of Freedom ~ Aura of Resolve|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinAuraOfResolve
+4	ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Turn Undead|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinTurnUndead
+5	ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Special Mount|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinSpecialMount
+6	ABILITY:Paladin Class Feature|AUTOMATIC|Paladin ~ Remove Disease|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinRemoveDisease
 ###Block: Class Spellcasting Progression
-4	CAST:0,0
+4	CAST:0,0			BONUS:PCLEVEL|Paladin Of Freedom|0-CasterLevelBLPaladin|!PREABILITY:1,CATEGORY=ACF,TYPE.PaladinSpellcasting
 5	CAST:0,0
 6	CAST:0,1
 7	CAST:0,1

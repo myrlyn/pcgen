@@ -75,7 +75,7 @@ CLASS:Alchemist Savant	STARTSKILLPTS:2	CSKILL:TYPE=Appraise|Concentration|TYPE=C
 # Class Name		Hit Dice	Type			Class Type			Abbreviation	Source Page		Define				Combat bonus										Modify VAR				Bonus
 CLASS:Deadgrim	HD:8		TYPE:PC.Prestige	FACT:ClassType|Prestige	FACT:Abb|Dgm		SOURCEPAGE:p.53		DEFINE:DeadgrimLVL|0	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:VAR|DeadgrimLVL|CL	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Fortitude,BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2
 # Class Name		Required Feat															Required Race		Req. Spell Type		PRETOTALAB
-CLASS:Deadgrim		PREALIGN:LG,CG,NG,LN,CN,NN	PREABILITY:1,CATEGORY=ABILITY,Turn Undead	PRESKILL:1,Knowledge (Religion)=4	PRETOTALAB:5	PRESPELLCAST:TYPE=Divine
+CLASS:Deadgrim		PREALIGN:LG,CG,NG,LN,CN,TN	PREABILITY:1,CATEGORY=ABILITY,Turn Undead	PRESKILL:1,Knowledge (Religion)=4	PRETOTALAB:5	PRESPELLCAST:TYPE=Divine
 # Class Name		Skill Pts/Lvl	Class Skill
 CLASS:Deadgrim	STARTSKILLPTS:2	CSKILL:TYPE=Appraise|Concentration|TYPE=Craft|Decipher Script|Heal|Knowledge (Arcana)|TYPE=Profession|Spellcraft
 ###Block:
