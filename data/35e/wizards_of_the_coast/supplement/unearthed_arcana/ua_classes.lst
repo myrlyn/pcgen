@@ -574,7 +574,7 @@ CLASS:Ranger (Urban Ranger).MOD	BONUS:VAR|ClassBABFull|classlevel("APPLIEDAS=NON
 # Variant Rogue -
 
 # Class Name				Hit Dice	Type			Class Type		Abbreviation	Max Level	Source Page				Combat bonus															Modify VAR														Monster Role	Bonus
-CLASS:Rogue (Wilderness Rogue)	HD:6		TYPE:Base.PC	FACT:ClassType|PC	SERVESAS:CLASS|Rogue	FACT:Abb|Rog		MAXLEVEL:20	SOURCEPAGE:p.56	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:VAR|ClassBABModerate|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalBAB,1	ROLE:Skill		BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Fortitude,BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3
+CLASS:Rogue (Wilderness Rogue)	HD:6	DEFINE:WildernessRogueLVL|0	BONUS:VAR|WildernessRogueLVL|CL		TYPE:Base.PC	FACT:ClassType|PC	SERVESAS:CLASS|Rogue	FACT:Abb|Rog		MAXLEVEL:20	SOURCEPAGE:p.56	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE|PREVAREQ:UseAlternateBABProgression,0	BONUS:VAR|ClassBABModerate|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalBAB,1	ROLE:Skill		BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Fortitude,BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3
 # Class Name				Skill Pts/Lvl	Class Skill
 CLASS:Rogue (Wilderness Rogue)	STARTSKILLPTS:8	CSKILL:Balance|Bluff|Climb|TYPE=Craft|Disable Device|Disguise|Escape Artist|Hide|Intimidate|Jump|Knowledge (Local)|Listen|Move Silently|Open Lock|TYPE=Perform|TYPE=Profession|Search|Sense Motive|Sleight of Hand|Spot|Swim|Tumble|Use Magic Device|Use Rope|Handle Animal|Knowledge (Geography)|Knowledge (Nature)|Ride|Survival
 ###Block:Proficiencies
