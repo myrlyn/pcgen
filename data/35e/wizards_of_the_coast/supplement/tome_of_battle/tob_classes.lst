@@ -204,4 +204,3 @@ CLASS:Shadow Sun Ninja	STARTSKILLPTS:4	CSKILL:Balance|Climb|Concentration|TYPE=C
 10	ABILITY:Shadow Sun Ninja Class Feature|AUTOMATIC|Shadow Sun Ninja ~ Balance of Light and Dark
 ###Block:
 11	PREPCLEVEL:MIN=20
-CLASS:Swordsage.MOD	BONUS:VAR|ClassBABModerate|classlevel("APPLIEDAS=NONEPIC")|PREVAREQ:UseFractionalBAB,1
