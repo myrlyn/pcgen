@@ -58,11 +58,11 @@ ABILITYCATEGORY:Order of the Bow Initiate Greater Weapon Focus	VISIBLE:QUALIFY	E
 ###Block: Prestige Section
 # Ability Category				Visible		Editable?		Change Pool?	Category of Object		Type of Object			Specific choices list		Display Location
 ABILITYCATEGORY:Kensai Signature Weapon	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		CATEGORY:Special Ability						ABILITYLIST:Signature Weapon
-ABILITYCATEGORY:Thrown Weapon Trick		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		CATEGORY:Special Ability	TYPE:ThrownWeaponTrick							DISPLAYLOCATION:Class Feature
-ABILITYCATEGORY:Two Handed Hurl Trick	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		CATEGORY:Special Ability	TYPE:TwoHandedHurlTrick							DISPLAYLOCATION:Class Feature
-ABILITYCATEGORY:Exotic Weapon Stunt		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		CATEGORY:Special Ability	TYPE:Exotic Weapon Stunt						DISPLAYLOCATION:Class Feature
+ABILITYCATEGORY:Thrown Weapon Trick		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		CATEGORY:Special Ability	TYPE:ThrownWeaponTrick							DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Two Handed Hurl Trick	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		CATEGORY:Special Ability	TYPE:TwoHandedHurlTrick							DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Exotic Weapon Stunt		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		CATEGORY:Special Ability	TYPE:Exotic Weapon Stunt						DISPLAYLOCATION:Class Features
 
-#ABILITYCATEGORY:Warshaper Morph		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		CATEGORY:Special Ability	TYPE:Warshaper Morph							DISPLAYLOCATION:Class Feature
+#ABILITYCATEGORY:Warshaper Morph		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		CATEGORY:Special Ability	TYPE:Warshaper Morph							DISPLAYLOCATION:Class Features
 
 
 
