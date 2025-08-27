@@ -63,10 +63,10 @@ CLASS:Psychic Warrior	STARTSKILLPTS:2	CSKILL:Autohypnosis|Climb|Concentration|TY
 # Class Name		Spell Stat		Spell Type		Memorize	Caster level
 CLASS:Psychic Warrior	SPELLSTAT:WIS	FACT:SpellType|Psionic	MEMORIZE:NO	BONUS:CASTERLEVEL|Psychic Warrior|PsychicWarriorLVL	BONUS:VAR|Caster_Level_Highest__Psionic|PsychicWarriorLVL|TYPE=Base
 ###Block:Proficiencies
-1	ABILITY:Special Ability|AUTOMATIC|Psychic Warrior ~ Weapon and Armor Proficiency
+1	DEFINE:PsychicWarriorML|0		ABILITY:Special Ability|AUTOMATIC|Psychic Warrior ~ Weapon and Armor Proficiency
 ###Block: Psionic subtype, BasePowerPoints, BonusPowerPoints
-1	BONUS:VAR|PsychicWarriorML|CL	BONUS:VAR|PsychicWarriorML|var("BL=Psychic Warrior")																											DEFINE:PsychicWarriorML|0	TEMPLATE:Psionic
-1	BONUS:VAR|BasePowerPoints|0	BONUS:VAR|BasePowerPoints|1|PREVARGTEQ:PsychicWarriorML,2	BONUS:VAR|BasePowerPoints|2|PREVARGTEQ:PsychicWarriorML,3	BONUS:VAR|BasePowerPoints|2|PREVARGTEQ:PsychicWarriorML,4
+1	BONUS:VAR|PsychicWarriorML|CL	BONUS:VAR|PsychicWarriorML|var("BL=Psychic Warrior")																												TEMPLATE:Psionic
+1	DEFINE:BasePowerPoints|0	BONUS:VAR|BasePowerPoints|0	BONUS:VAR|BasePowerPoints|1|PREVARGTEQ:PsychicWarriorML,2	BONUS:VAR|BasePowerPoints|2|PREVARGTEQ:PsychicWarriorML,3	BONUS:VAR|BasePowerPoints|2|PREVARGTEQ:PsychicWarriorML,4
 1	BONUS:VAR|BasePowerPoints|2|PREVARGTEQ:PsychicWarriorML,5	BONUS:VAR|BasePowerPoints|4|PREVARGTEQ:PsychicWarriorML,6	BONUS:VAR|BasePowerPoints|4|PREVARGTEQ:PsychicWarriorML,7	BONUS:VAR|BasePowerPoints|4|PREVARGTEQ:PsychicWarriorML,8
 1	BONUS:VAR|BasePowerPoints|4|PREVARGTEQ:PsychicWarriorML,9	BONUS:VAR|BasePowerPoints|4|PREVARGTEQ:PsychicWarriorML,10	BONUS:VAR|BasePowerPoints|8|PREVARGTEQ:PsychicWarriorML,11	BONUS:VAR|BasePowerPoints|8|PREVARGTEQ:PsychicWarriorML,12
 1	BONUS:VAR|BasePowerPoints|8|PREVARGTEQ:PsychicWarriorML,13	BONUS:VAR|BasePowerPoints|8|PREVARGTEQ:PsychicWarriorML,14	BONUS:VAR|BasePowerPoints|8|PREVARGTEQ:PsychicWarriorML,15	BONUS:VAR|BasePowerPoints|12|PREVARGTEQ:PsychicWarriorML,16
